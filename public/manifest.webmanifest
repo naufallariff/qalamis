@@ -1,0 +1,19 @@
+{
+    "name": "Qalamis — Belajar Bahasa Arab Interaktif",
+    "short_name": "Qalamis",
+    "description": "Platform belajar bahasa Arab dasar interaktif untuk siswa SD kelas 6.",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#f8fafc",
+    "theme_color": "#059669",
+    "lang": "id",
+    "icons": [
+        {
+            "src": "/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ]
+}

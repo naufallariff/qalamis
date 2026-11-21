@@ -1,0 +1,263 @@
+{
+    "appName": "Qalamis",
+    "cefrLevel": "Pre-A1 to A1+",
+    "zones": [
+        {
+            "id": "zone-1",
+            "order": 1,
+            "title": "Zona 1: Gerbang Perkenalan & Benda",
+            "subtitle": "Sapaan hangat, menunjuk benda, dan rahasia huruf perempuan",
+            "theme": "emerald"
+        },
+        {
+            "id": "zone-2",
+            "order": 2,
+            "title": "Zona 2: Peta Kata Ganti & Kepemilikan",
+            "subtitle": "Menguasai 14 Dhamir serta menyatakan barang milik siapa",
+            "theme": "sky"
+        },
+        {
+            "id": "zone-3",
+            "order": 3,
+            "title": "Zona 3: Lembah Warna, Sifat & Waktu",
+            "subtitle": "Mendeskripsikan benda, menghitung harga, dan membaca jam",
+            "theme": "amber"
+        },
+        {
+            "id": "zone-4",
+            "order": 4,
+            "title": "Zona 4: Mesin Waktu Kata Kerja",
+            "subtitle": "Membedakan kejadian kemarin (Madhi) dan sekarang (Mudhari')",
+            "theme": "violet"
+        },
+        {
+            "id": "zone-5",
+            "order": 5,
+            "title": "Zona 5: Benteng Master Kalimat",
+            "subtitle": "Merangkai kalimat lengkap S-P-O dan membaca cerita utuh",
+            "theme": "rose"
+        }
+    ],
+    "modules": [
+        {
+            "id": 1,
+            "zoneId": "zone-1",
+            "slug": "salam-dan-kenalan",
+            "title": "Salam & Kenalan Yuk!",
+            "shortDesc": "Sapaan waktu dan memperkenalkan diri",
+            "icon": "Hand",
+            "badgeName": "Duta Sapa",
+            "xpReward": 50
+        },
+        {
+            "id": 2,
+            "zoneId": "zone-1",
+            "slug": "hadza-dan-hadzihi",
+            "title": "Ini Milik Siapa? (Hadza & Hadzihi)",
+            "shortDesc": "Menunjuk benda cowok vs. cewek",
+            "icon": "Compass",
+            "badgeName": "Penunjuk Jitu",
+            "xpReward": 50
+        },
+        {
+            "id": 3,
+            "zoneId": "zone-1",
+            "slug": "rahasia-ta-marbuthah",
+            "title": "Rahasia Huruf ة (Ta Marbuthah)",
+            "shortDesc": "Mengubah kata benda & profesi cowok/cewek",
+            "icon": "Sparkles",
+            "badgeName": "Detektif Huruf",
+            "xpReward": 60
+        },
+        {
+            "id": 4,
+            "zoneId": "zone-1",
+            "slug": "angka-dan-benda-kelas",
+            "title": "Angka & Benda di Kelasku",
+            "shortDesc": "Angka 1–10 dan kata tunjuk jauh (Dzalika/Tilka)",
+            "icon": "Backpack",
+            "badgeName": "Jagoan Kelas",
+            "xpReward": 60
+        },
+        {
+            "id": 5,
+            "zoneId": "zone-1",
+            "slug": "di-mana-benda-itu",
+            "title": "Di Mana Benda Itu?",
+            "shortDesc": "Kata tanya Aina dan posisi benda (di atas/bawah/dalam)",
+            "icon": "MapPin",
+            "badgeName": "Navigator Ruangan",
+            "xpReward": 70
+        },
+        {
+            "id": 6,
+            "zoneId": "zone-2",
+            "slug": "lima-dhamir-inti",
+            "title": "Aku, Kamu, Dia (5 Dhamir Inti)",
+            "shortDesc": "Kata ganti tunggal Ana, Anta, Anti, Huwa, Hiya",
+            "icon": "User",
+            "badgeName": "Kapten Diri",
+            "xpReward": 70
+        },
+        {
+            "id": 7,
+            "zoneId": "zone-2",
+            "slug": "kami-dan-kalian-jamak",
+            "title": "Kami & Kalian (Dhamir Jamak)",
+            "shortDesc": "Kata ganti kelompok Nahnu, Antum, Antunna, Hum, Hunna",
+            "icon": "Users",
+            "badgeName": "Pemimpin Regu",
+            "xpReward": 80
+        },
+        {
+            "id": 8,
+            "zoneId": "zone-2",
+            "slug": "tim-berdua-mutsanna",
+            "title": "Tim Berdua! (Dhamir Ganda)",
+            "shortDesc": "Pola akhiran berdua (-ani) dengan Antuma & Huma",
+            "icon": "UserPlus",
+            "badgeName": "Duo Kompak",
+            "xpReward": 80
+        },
+        {
+            "id": 9,
+            "zoneId": "zone-2",
+            "slug": "kepemilikan-inti",
+            "title": "Bukuku, Bukumu! (Milik Pribadi)",
+            "shortDesc": "Akhiran kepemilikan -i, -ka, -ki, -hu, -ha",
+            "icon": "BookMarked",
+            "badgeName": "Penjaga Harta",
+            "xpReward": 85
+        },
+        {
+            "id": 10,
+            "zoneId": "zone-2",
+            "slug": "kepemilikan-kelompok",
+            "title": "Kelas Kami & Tim Mereka",
+            "shortDesc": "Akhiran kepemilikan bersama -na, -kum, -hum",
+            "icon": "Shield",
+            "badgeName": "Ksatria Koleksi",
+            "xpReward": 90
+        },
+        {
+            "id": 11,
+            "zoneId": "zone-3",
+            "slug": "serunya-dunia-warna",
+            "title": "Serunya Dunia Warna!",
+            "shortDesc": "Warna maskulin vs. feminin pada pakaian dan alam",
+            "icon": "Palette",
+            "badgeName": "Pelukis Kata",
+            "xpReward": 90
+        },
+        {
+            "id": 12,
+            "zoneId": "zone-3",
+            "slug": "kata-sifat-deskripsi",
+            "title": "Besar, Kecil, Cepat! (Kata Sifat)",
+            "shortDesc": "Hukum urutan Benda + Sifat dan kecocokan jenis",
+            "icon": "Zap",
+            "badgeName": "Pengamat Ulung",
+            "xpReward": 95
+        },
+        {
+            "id": 13,
+            "zoneId": "zone-3",
+            "slug": "jajan-di-kantin",
+            "title": "Jajan di Kantin (Angka 11–100)",
+            "shortDesc": "Bertanya harga (Kam) dan bertransaksi sederhana",
+            "icon": "Coins",
+            "badgeName": "Saudagar Cilik",
+            "xpReward": 100
+        },
+        {
+            "id": 14,
+            "zoneId": "zone-3",
+            "slug": "jam-berapa-sekarang",
+            "title": "Jam Berapa Sekarang? (As-Sa'ah)",
+            "shortDesc": "Membaca jam dan keterangan pagi, siang, malam",
+            "icon": "Clock",
+            "badgeName": "Penjaga Waktu",
+            "xpReward": 100
+        },
+        {
+            "id": 15,
+            "zoneId": "zone-4",
+            "slug": "isim-vs-fiil",
+            "title": "Benda vs. Gerakan (Isim vs. Fi'il)",
+            "shortDesc": "Membedakan kata benda dan kata kerja berwaktu",
+            "icon": "Layers",
+            "badgeName": "Ahli Struktur",
+            "xpReward": 110
+        },
+        {
+            "id": 16,
+            "zoneId": "zone-4",
+            "slug": "fiil-madhi-tunggal",
+            "title": "Kisah Kemarin: Aku & Dia (Madhi)",
+            "shortDesc": "Kata kerja lampau untuk 5 pelaku tunggal",
+            "icon": "History",
+            "badgeName": "Penjelajah Masa Lalu",
+            "xpReward": 110
+        },
+        {
+            "id": 17,
+            "zoneId": "zone-4",
+            "slug": "fiil-madhi-jamak",
+            "title": "Kisah Kemarin: Kami & Mereka",
+            "shortDesc": "Kata kerja lampau untuk pelaku jamak dan ganda",
+            "icon": "ScrollText",
+            "badgeName": "Penulis Sejarah",
+            "xpReward": 120
+        },
+        {
+            "id": 18,
+            "zoneId": "zone-4",
+            "slug": "fiil-mudhari-tunggal",
+            "title": "Sedang Terjadi! (Mudhari' Tunggal)",
+            "shortDesc": "Pola huruf depan A-Na-Ya-Ta untuk kegiatan rutin",
+            "icon": "Flame",
+            "badgeName": "Aktor Masa Kini",
+            "xpReward": 120
+        },
+        {
+            "id": 19,
+            "zoneId": "zone-4",
+            "slug": "fiil-mudhari-jamak",
+            "title": "Aksi Bersama! (Mudhari' Jamak)",
+            "shortDesc": "Kombinasi awalan dan akhiran saat beraksi bersama",
+            "icon": "Rocket",
+            "badgeName": "Komandan Aksi",
+            "xpReward": 130
+        },
+        {
+            "id": 20,
+            "zoneId": "zone-5",
+            "slug": "suka-vs-tidak-suka",
+            "title": "Suka vs. Tidak Suka",
+            "shortDesc": "Kalimat positif dan negatif (Uhibbu / La Uhibbu)",
+            "icon": "Heart",
+            "badgeName": "Ekspresif Juara",
+            "xpReward": 130
+        },
+        {
+            "id": 21,
+            "zoneId": "zone-5",
+            "slug": "kalimat-lengkap-spo",
+            "title": "Merangkai Kalimat Lengkap (S-P-O)",
+            "shortDesc": "Pelaku + Kata Kerja + Objek + Keterangan Tempat",
+            "icon": "Puzzle",
+            "badgeName": "Arsitek Kalimat",
+            "xpReward": 140
+        },
+        {
+            "id": 22,
+            "zoneId": "zone-5",
+            "slug": "ujian-akhir-petualang",
+            "title": "Ujian Akhir: Cerita Sehariku!",
+            "shortDesc": "Tantangan terpadu memahami & menyusun cerita A1",
+            "icon": "Crown",
+            "badgeName": "Grandmaster Qalamis",
+            "xpReward": 200
+        }
+    ]
+}

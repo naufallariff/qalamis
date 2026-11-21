@@ -1,0 +1,520 @@
+{
+    "id": 5,
+    "zoneId": "zone-1",
+    "slug": "di-mana-benda-itu",
+    "title": "Di Mana Benda Itu?",
+    "canDo": "Aku bisa menanyakan lokasi suatu benda menggunakan kata 'Aina' dan menjawab posisinya (di dalam, di atas, atau di bawah).",
+    "storyHook": {
+        "title": "Misi Mencari Kunci Loker Perpustakaan",
+        "setting": "Pukul 10.00 di ruang baca, Tariq dan Salma mencari kunci yang terselip",
+        "lines": [
+            {
+                "speaker": "Tariq",
+                "avatarRole": "boy",
+                "arabic": "أَيْنَ الْمِفْتَاحُ يَا سَلْمَى؟ هَلْ هُوَ فِي الْحَقِيبَةِ؟",
+                "transliteration": "Ai-nal-mif-tā-ḥu yā Sal-mā? Hal hu-wa fil-ḥa-qī-bah?",
+                "translation": "Di mana kunci itu wahai Salma? Apakah dia di dalam tas?"
+            },
+            {
+                "speaker": "Salma",
+                "avatarRole": "girl",
+                "arabic": "لَا، الْحَقِيبَةُ عَلَى الْكُرْسِيِّ، وَلَيْسَ الْمِفْتَاحُ فِيهَا.",
+                "transliteration": "Lā, al-ḥa-qī-ba-tu 'a-lal-kur-siy-yi, wa lai-sal-mif-tā-ḥu fī-hā.",
+                "translation": "Bukan, tas itu ada di atas kursi, dan kuncinya tidak ada di dalamnya."
+            },
+            {
+                "speaker": "Tariq",
+                "avatarRole": "boy",
+                "arabic": "اُنْظُرِي تَحْتَ الْمَكْتَبِ! هَلْ هُوَ هُنَاكَ؟",
+                "transliteration": "Un-ẓu-rī taḥ-tal-mak-tab! Hal hu-wa hu-nāk?",
+                "translation": "Lihat di bawah meja! Apakah dia di sana?"
+            },
+            {
+                "speaker": "Salma",
+                "avatarRole": "girl",
+                "arabic": "نَعَمْ! الْمِفْتَاحُ تَحْتَ الْكِتَابِ عَلَى الْمَكْتَبِ!",
+                "transliteration": "Na-'am! Al-mif-tā-ḥu taḥ-tal-ki-tā-bi 'a-lal-mak-tab!",
+                "translation": "Ya! Kuncinya ada di bawah buku di atas meja!"
+            }
+        ]
+    },
+    "explanation": "Untuk menanyakan lokasi benda atau orang, gunakan kata tanya 'Aina' (أَيْنَ = Di mana). Saat menjawab, gunakan kata depan posisi seperti 'Fī' (فِي = di dalam), ''Alā' (عَلَى = di atas menempel), atau 'Taḥta' (تَحْتَ = di bawah). Perhatikan satu efek magnet ajaib: kata benda yang berada SETELAH kata posisi ini harakat akhirnya berubah menjadi Kasrah (-i)!",
+    "patternTable": {
+        "title": "Kompas Posisi Benda & Efek Harakat Kasrah (-i)",
+        "filters": [
+            "Semua",
+            "Kata Posisi",
+            "Tanya & Jawab Lokasi"
+        ],
+        "headers": [
+            "Kata Posisi",
+            "Cara Baca & Arti",
+            "Contoh Gabungan",
+            "Perubahan Harakat Akhir"
+        ],
+        "rows": [
+            {
+                "id": "m5-r1",
+                "category": "Kata Posisi",
+                "cells": [
+                    "فِي",
+                    "Fī (Di dalam)",
+                    "فِي الْفَصْلِ (fil-faṣ-li)",
+                    "الْفَصْلُ → الْفَصْلِ (ujungnya jadi -i)"
+                ],
+                "arabicResult": "الْكِتَابُ فِي الْحَقِيبَةِ",
+                "transliteration": "Al-ki-tā-bu fil-ḥa-qī-ba-ti",
+                "meaning": "Buku itu di dalam tas",
+                "breakdown": "Kata فِي menarik harakat akhir الْحَقِيبَةُ menjadi kasrah: الْحَقِيبَةِ."
+            },
+            {
+                "id": "m5-r2",
+                "category": "Kata Posisi",
+                "cells": [
+                    "عَلَى",
+                    "'A-lā (Di atas)",
+                    "عَلَى الْمَكْتَبِ ('a-lal-mak-ta-bi)",
+                    "الْمَكْتَبُ → الْمَكْتَبِ (ujungnya jadi -i)"
+                ],
+                "arabicResult": "الْقَلَمُ عَلَى الْمَكْتَبِ",
+                "transliteration": "Al-qa-la-mu 'a-lal-mak-ta-bi",
+                "meaning": "Pulpen itu di atas meja",
+                "breakdown": "Kata عَلَى membuat kata الْمَكْتَبُ berharakat akhir kasrah (-bi)."
+            },
+            {
+                "id": "m5-r3",
+                "category": "Kata Posisi",
+                "cells": [
+                    "تَحْتَ",
+                    "Taḥ-ta (Di bawah)",
+                    "تَحْتَ الْكُرْسِيِّ (taḥ-tal-kur-siy-yi)",
+                    "الْكُرْسِيُّ → الْكُرْسِيِّ (ujungnya jadi -i)"
+                ],
+                "arabicResult": "الْحَقِيبَةُ تَحْتَ الْكُرْسِيِّ",
+                "transliteration": "Al-ḥa-qī-ba-tu taḥ-tal-kur-siy-yi",
+                "meaning": "Tas itu di bawah kursi",
+                "breakdown": "Kata تَحْتَ membuat kata setelahnya berakhiran kasrah (-yi)."
+            },
+            {
+                "id": "m5-r4",
+                "category": "Kata Posisi",
+                "cells": [
+                    "أَمَامَ / وَرَاءَ",
+                    "A-mā-ma (Di depan) / Wa-rā-a (Di belakang)",
+                    "أَمَامَ السَّبُّورَةِ (a-mā-mas-sab-bū-ra-ti)",
+                    "السَّبُّورَةُ → السَّبُّورَةِ (ujungnya jadi -i)"
+                ],
+                "arabicResult": "الْأُسْتَاذُ أَمَامَ السَّبُّورَةِ",
+                "transliteration": "Al-us-tā-dzu a-mā-mas-sab-bū-ra-ti",
+                "meaning": "Pak Guru di depan papan tulis",
+                "breakdown": "Semua kata penunjuk tempat (Zharaf) membuat kata benda setelahnya berakhiran kasrah."
+            },
+            {
+                "id": "m5-r5",
+                "category": "Tanya & Jawab Lokasi",
+                "cells": [
+                    "أَيْنَ + البندة؟",
+                    "Ai-na ...? (Di mana ...?)",
+                    "أَيْنَ الْمِفْتَاحُ؟",
+                    "Ai-nal-mif-tā-ḥu? (Di mana kunci itu?)"
+                ],
+                "arabicResult": "أَيْنَ الْمِفْتَاحُ؟ ← عَلَى الْمَكْتَبِ",
+                "transliteration": "Ai-nal-mif-tā-ḥu? → 'A-lal-mak-ta-bi",
+                "meaning": "Di mana kunci itu? → Di atas meja",
+                "breakdown": "Gunakan الـ (Al-) pada benda yang sudah diketahui pembicara."
+            }
+        ]
+    },
+    "highlightedExamples": [
+        {
+            "segments": [
+                {
+                    "text": "أَيْنَ ",
+                    "role": "focus",
+                    "label": "Kata Tanya"
+                },
+                {
+                    "text": "الْكِتَابُ؟ — الْكِتَابُ ",
+                    "role": "base"
+                },
+                {
+                    "text": "فِي ",
+                    "role": "prefix",
+                    "label": "Posisi"
+                },
+                {
+                    "text": "الْحَقِيبَ",
+                    "role": "base"
+                },
+                {
+                    "text": "ةِ",
+                    "role": "suffix",
+                    "label": "Harakat Kasrah (-i)"
+                }
+            ],
+            "transliteration": "Ai-nal-ki-tā-bu? — Al-ki-tā-bu fil-ḥa-qī-ba-ti.",
+            "translation": "Di mana buku itu? — Buku itu di dalam tas."
+        },
+        {
+            "segments": [
+                {
+                    "text": "الْقِطُّ ",
+                    "role": "base"
+                },
+                {
+                    "text": "تَحْتَ ",
+                    "role": "prefix",
+                    "label": "Di bawah"
+                },
+                {
+                    "text": "الشَّجَرَ",
+                    "role": "base"
+                },
+                {
+                    "text": "ةِ",
+                    "role": "suffix",
+                    "label": "Harakat Kasrah (-i)"
+                }
+            ],
+            "transliteration": "Al-qiṭ-ṭu taḥ-tash-sha-ja-ra-ti.",
+            "translation": "Kucing itu di bawah pohon."
+        }
+    ],
+    "quickTrick": "Aturan Magnet Posisi: Kata-kata posisi (فِي، عَلَى، تَحْتَ، أَمَامَ) punya magnet bawah! Kata benda tepat setelahnya wajib berharakat Kasrah (-i) di huruf terakhirnya.",
+    "vocabulary": [
+        {
+            "arabic": "أَيْنَ",
+            "transliteration": "ai-na",
+            "meaning": "Di mana"
+        },
+        {
+            "arabic": "فِي",
+            "transliteration": "fī",
+            "meaning": "Di dalam / di"
+        },
+        {
+            "arabic": "عَلَى",
+            "transliteration": "'a-lā",
+            "meaning": "Di atas"
+        },
+        {
+            "arabic": "تَحْتَ",
+            "transliteration": "taḥ-ta",
+            "meaning": "Di bawah"
+        },
+        {
+            "arabic": "مِفْتَاحٌ",
+            "transliteration": "mif-tā-ḥun",
+            "meaning": "Kunci",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "قِطٌّ",
+            "transliteration": "qiṭ-ṭun",
+            "meaning": "Kucing",
+            "gender": "mudzakkar"
+        }
+    ],
+    "quizBank": [
+        {
+            "id": "m05-q01",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kamu tidak menemukan tempat pensilmu dan ingin bertanya kepada temanmu 'Di mana tempat pensil itu?'. Kata tanya yang dipakai adalah...",
+            "options": [
+                "مَا (Mā)",
+                "مَنْ (Man)",
+                "أَيْنَ (Ai-na)",
+                "كَمْ (Kam)"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Ingat fungsi 4 kata tanya: Mā (Apa), Man (Siapa), Kam (Berapa), dan satu lagi khusus untuk menanyakan TEMPAT!",
+            "feedbackCorrect": "Mumtaz! 'Aina' (أَيْنَ) digunakan untuk menanyakan tempat atau posisi."
+        },
+        {
+            "id": "m05-q02",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Perhatikan harakat akhir kata setelah 'عَلَى':\n'الْكِتَابُ عَلَى _____.'\nPenulisan yang paling tepat sesuai aturan magnet posisi adalah...",
+            "options": [
+                "الْمَكْتَبُ (al-mak-ta-bu)",
+                "الْمَكْتَبَ (al-mak-ta-ba)",
+                "الْمَكْتَبِ (al-mak-ta-bi)",
+                "مَكْتَبٌ (mak-ta-bun)"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Cek kotak 'Trik Cepat'! Kata posisi 'عَلَى' menarik harakat akhir kata setelahnya menjadi kasrah (-i).",
+            "feedbackCorrect": "Ahsanta! Karena didahului 'عَلَى', huruf terakhir pada 'الْمَكْتَبِ' wajib berharakat kasrah (-bi)."
+        },
+        {
+            "id": "m05-q03",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Sepatu diletakkan di bagian kolong/bawah kursi. Kalimat yang paling sesuai adalah...",
+            "options": [
+                "الْحِذَاءُ عَلَى الْكُرْسِيِّ",
+                "الْحِذَاءُ تَحْتَ الْكُرْسِيِّ",
+                "الْحِذَاءُ فِي الْكُرْسِيِّ",
+                "الْحِذَاءُ أَمَامَ الْكُرْسِيِّ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Bandingkan arti tiga kata posisi utama di tabel: 'عَلَى' (di atas), 'فِي' (di dalam), dan 'تَحْتَ' (di bawah).",
+            "feedbackCorrect": "Tepat sekali! 'Taḥta' (تَحْتَ) berarti di bawah."
+        },
+        {
+            "id": "m05-q04",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Rani menulis kalimat: 'الْقَلَمُ فِي الْحَقِيبَةُ'. Kesalahan kecil namun penting pada kalimat tersebut adalah...",
+            "options": [
+                "Kata 'فِي' tidak boleh dipakai untuk tas",
+                "Harakat akhir pada 'الْحَقِيبَةُ' seharusnya kasrah (الْحَقِيبَةِ)",
+                "Seharusnya memakai 'تَحْتَ' bukan 'فِي'",
+                "Kata 'الْقَلَمُ' seharusnya berharakat kasrah"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Lihat huruf Ta Marbuthah di ujung kata 'الْحَقِيبَةُ'! Ia berada tepat setelah kata posisi 'فِي'.",
+            "feedbackCorrect": "Jeli sekali! Setelah 'فِي', kata benda wajib berakhiran kasrah: 'fil-ḥaqībati'."
+        },
+        {
+            "id": "m05-q05",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca dialog berikut:\nA: 'أَيْنَ الْقِطُّ؟ هَلْ هُوَ عَلَى الدُّولَابِ؟'\nB: 'لَا، هُوَ تَحْتَ الدُّولَابِ.'\nDi mana posisi kucing itu sebenarnya?",
+            "options": [
+                "Di atas lemari",
+                "Di dalam lemari",
+                "Di bawah lemari",
+                "Di depan lemari"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "B menolak tebakan A ('لَا') dan menyebutkan posisi baru dengan kata 'تَحْتَ'. Cek arti 'تَحْتَ' di tabel!",
+            "feedbackCorrect": "Mumtaz! Kucing itu berada di bawah lemari ('taḥtad-dūlābi')."
+        },
+        {
+            "id": "m05-q06",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Pak Guru berdiri menghadap murid-murid di depan papan tulis. Kalimat yang tepat adalah...",
+            "options": [
+                "الْأُسْتَاذُ وَرَاءَ السَّبُّورَةِ",
+                "الْأُسْتَاذُ أَمَامَ السَّبُّورَةِ",
+                "الْأُسْتَاذُ تَحْتَ السَّبُّورَةِ",
+                "الْأُسْتَاذُ فِي السَّبُّورَةِ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris ke-4 pada tabel untuk perbedaan antara 'أَمَامَ' (di depan) dan 'وَرَاءَ' (di belakang)!",
+            "feedbackCorrect": "Benar! 'Amāma' berarti di depan."
+        },
+        {
+            "id": "m05-q07",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Dalam cerita pembuka, Salma berkata: 'وَلَيْسَ الْمِفْتَاحُ فِيهَا' (dan kuncinya tidak ada di dalamnya). Huruf 'ـهَا' pada kata 'فِيهَا' merujuk kepada benda apa?",
+            "options": [
+                "الْكُرْسِيُّ (kursi — mudzakkar)",
+                "الْحَقِيبَةُ (tas — muannats)",
+                "الْمَكْتَبُ (meja — mudzakkar)",
+                "الْكِتَابُ (buku — mudzakkar)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Akhiran 'ـهَا' (-hā) adalah kata ganti untuk benda atau orang PEREMPUAN. Dari keempat benda di cerita, mana yang berakhiran ة?",
+            "feedbackCorrect": "Cerdas luar biasa! Karena 'al-ḥaqībatu' (tas) berjenis muannats, kata 'di dalamnya' menjadi 'فِيهَا' (fī-hā)!"
+        },
+        {
+            "id": "m05-q08",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Arti dari kata 'مِفْتَاحٌ' dalam daftar kosakata adalah...",
+            "options": [
+                "Pintu",
+                "Kunci",
+                "Kucing",
+                "Jendela"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ingat judul cerita pembuka Modul 5: 'Misi Mencari _____ Loker Perpustakaan'!",
+            "feedbackCorrect": "Tepat! 'Miftāḥun' berarti kunci."
+        },
+        {
+            "id": "m05-q09",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Perhatikan susunan posisi benda berikut:\n'الْقَلَمُ عَلَى الْكِتَابِ، وَالْكِتَابُ عَلَى الْمَكْتَبِ.'\nBenda manakah yang posisinya berada PALING BAWAH?",
+            "options": [
+                "الْقَلَمُ (Pulpen)",
+                "الْكِتَابُ (Buku)",
+                "الْمَكْتَبُ (Meja)",
+                "Semuanya sejajar"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Bayangkan tumpukannya dari atas ke bawah: Pulpen di atas buku, dan buku di atas meja!",
+            "feedbackCorrect": "Logika spasial yang hebat! Meja ('al-maktabu') menopang buku dan pulpen di atasnya."
+        },
+        {
+            "id": "m05-q10",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Bagaimana cara membaca gabungan 'فِي الْفَصْلِ' dengan lancar?",
+            "options": [
+                "Fī al-faṣ-lu",
+                "Fil-faṣ-li",
+                "Fal-faṣ-la",
+                "Fī-hal-faṣ-li"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Bunyi 'Fī' langsung melompat menyambung ke huruf Lam pada 'الْـ', dan harakat akhirnya kasrah (-li)!",
+            "feedbackCorrect": "Akurat! 'Fil-faṣ-li'."
+        },
+        {
+            "id": "m05-q11",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Temukan satu kalimat yang BENAR secara tata bahasa dari empat pilihan ini:",
+            "options": [
+                "أَيْنَ الطَّالِبُ؟ هُوَ فِي الْفَصْلُ.",
+                "أَيْنَ السَّاعَةُ؟ هِيَ عَلَى الْجِدَارِ.",
+                "أَيْنَ الْكِتَابُ؟ هُوَ تَحْتَ الْمَكْتَبُ.",
+                "أَيْنَ الْمِسْطَرَةُ؟ هِيَ فِي الْحَقِيبَةَ."
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Periksa huruf terakhir kata benda setelah 'فِي', 'عَلَى', dan 'تَحْتَ'! Hanya satu kalimat yang memakai harakat kasrah (-i) dengan benar.",
+            "feedbackCorrect": "Mumtaz! 'Hiya 'alal-jidāri' (Dia di atas dinding) memakai harakat kasrah yang tepat."
+        },
+        {
+            "id": "m05-q12",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Lawan kata dari posisi 'أَمَامَ' (di depan) adalah...",
+            "options": [
+                "فِي (di dalam)",
+                "وَرَاءَ (di belakang)",
+                "عَلَى (di atas)",
+                "تَحْتَ (di bawah)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris keempat di tabel rumus untuk pasangan 'di depan' dan 'di belakang'!",
+            "feedbackCorrect": "Ahsanta! 'Amāma' (di depan) berlawanan dengan 'Warā-a' (di belakang)."
+        },
+        {
+            "id": "m05-q13",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Jika kamu bertanya 'أَيْنَ الْمِسْطَرَةُ؟' (Di mana penggaris itu?), kata ganti yang tepat untuk mengawali jawabannya adalah...",
+            "options": [
+                "هُوَ (Huwa)",
+                "هِيَ (Hiya)",
+                "أَنْتَ (Anta)",
+                "ذٰلِكَ (Dzālika)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Lihat kata 'الْمِسْطَرَةُ'—ia memiliki huruf ة (perempuan). Jadi kata ganti 'dia'-nya harus bentuk perempuan!",
+            "feedbackCorrect": "Tepat! Karena 'al-misṭaratu' adalah muannats, jawabannya diawali 'هِيَ...' (Hiya...)."
+        },
+        {
+            "id": "m05-q14",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Dalam kalimat 'الْقِطُّ تَحْتَ الشَّجَرَةِ', kata 'الشَّجَرَةِ' berarti...",
+            "options": [
+                "Pohon",
+                "Kursi",
+                "Pintu",
+                "Rumah"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cek terjemahan contoh kedua pada bagian 'Contoh Kalimat Berwarna'!",
+            "feedbackCorrect": "Benar! 'Asy-syajaratu' berarti pohon."
+        },
+        {
+            "id": "m05-q15",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Susunlah kata-kata acak berikut menjadi kalimat tanya yang benar:\n(1) الْحَقِيبَةُ  (2) أَيْنَ  (3) الْجَدِيدَةُ",
+            "options": [
+                "1 - 2 - 3",
+                "2 - 1 - 3",
+                "3 - 1 - 2",
+                "2 - 3 - 1"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ingat dua aturan: kata tanya 'أَيْنَ' selalu di paling depan, dan kata sifat 'الْجَدِيدَةُ' selalu diletakkan SETELAH kata bendanya!",
+            "feedbackCorrect": "Sempurna! 'Ainal-ḥaqībatul-jadīdah?' (Di mana tas baru itu?)."
+        },
+        {
+            "id": "m05-q16",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Manakah ungkapan yang berarti 'Di dalam kelas'?",
+            "options": [
+                "عَلَى الْفَصْلِ",
+                "فِي الْفَصْلِ",
+                "تَحْتَ الْفَصْلِ",
+                "وَرَاءَ الْفَصْلِ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Untuk menyatakan berada di dalam sebuah ruangan, gunakan kata depan 'فِي'!",
+            "feedbackCorrect": "Ahsanta! 'Fil-faṣli' berarti di dalam kelas."
+        },
+        {
+            "id": "m05-q17",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Perhatikan perubahan berikut:\n'الْبَيْتُ' (rumah) → 'فِي الْبَيْتِ' (di dalam rumah).\nJika 'الْمَدْرَسَةُ' (sekolah) didahului kata 'فِي', maka penulisannya menjadi...",
+            "options": [
+                "فِي الْمَدْرَسَةُ",
+                "فِي الْمَدْرَسَةِ",
+                "فِي الْمَدْرَسَةَ",
+                "عَلَى الْمَدْرَسَةُ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Terapkan aturan magnet posisi pada huruf ة di akhir 'الْمَدْرَسَةُ'!",
+            "feedbackCorrect": "Akurat! 'Fil-madrasati' dengan harakat kasrah di bawah ة."
+        },
+        {
+            "id": "m05-q18",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari kalimat 'أَيْنَ أَنْتَ يَا طَارِقُ؟'?",
+            "options": [
+                "Siapa namamu wahai Tariq?",
+                "Di mana kamu wahai Tariq?",
+                "Dari mana asalmu wahai Tariq?",
+                "Bagaimana kabarmu wahai Tariq?"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Fokus pada kata pertama 'أَيْنَ' (Aina)!",
+            "feedbackCorrect": "Tepat! 'Di mana kamu wahai Tariq?'."
+        },
+        {
+            "id": "m05-q19",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Dalam cerita pembuka, Salma berkata: 'الْحَقِيبَةُ عَلَى الْكُرْسِيِّ'. Jika Tariq melihat dari jauh ke arah kursi itu dan ingin menunjuk tas tersebut, kata tunjuk apa yang harus dipakai Tariq?",
+            "options": [
+                "ذٰلِكَ (Dzālika)",
+                "تِلْكَ (Tilka)",
+                "هٰذَا (Hādzā)",
+                "مَنْ (Man)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Gabungkan ilmu Modul 4 dan Modul 5! Benda yang ditunjuk adalah 'الْحَقِيبَةُ' (tas — muannats) dan letaknya JAUH.",
+            "feedbackCorrect": "Brilian! 'Tilkal-ḥaqībatu 'alal-kursiyyi' (Tas itu ada di atas kursi)."
+        },
+        {
+            "id": "m05-q20",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Guru bertanya: 'أَيْنَ السَّبُّورَةُ؟'. Murid menjawab: 'هُوَ أَمَامَ الْفَصْلِ.' Mengapa jawaban murid kurang tepat?",
+            "options": [
+                "Kata 'السَّبُّورَةُ' adalah muannats, sehingga kata gantinya seharusnya 'هِيَ' bukan 'هُوَ'",
+                "Kata 'أَمَامَ' tidak boleh dipakai untuk papan tulis",
+                "Pertanyaannya seharusnya memakai 'مَا'",
+                "Tidak ada kesalahan"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Periksa jenis kelamin kata 'السَّبُّورَةُ' (papan tulis)! Ada huruf ة di ujungnya.",
+            "feedbackCorrect": "Selamat! Kamu telah menaklukkan seluruh Zona 1 dengan sempurna!"
+        }
+    ]
+}

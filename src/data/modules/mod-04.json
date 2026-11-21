@@ -1,0 +1,534 @@
+{
+    "id": 4,
+    "zoneId": "zone-1",
+    "slug": "angka-dan-benda-kelas",
+    "title": "Angka & Benda di Kelasku",
+    "canDo": "Aku bisa menghitung benda-benda di kelas dari angka 1 sampai 10 serta menunjuk benda yang letaknya jauh dengan kata Dzalika atau Tilka.",
+    "storyHook": {
+        "title": "Inspeksi Piket Pagi Kelas 6B",
+        "setting": "Pukul 06.45 pagi, ketua kelas mengecek kelengkapan peralatan ruang kelas",
+        "lines": [
+            {
+                "speaker": "Daffa",
+                "avatarRole": "boy",
+                "arabic": "كَمْ سَبُّورَةً فِي الْفَصْلِ يَا حَنَانُ؟",
+                "transliteration": "Kam sab-bū-ra-tan fil-faṣ-li yā Ḥa-nān?",
+                "translation": "Berapa banyak papan tulis di dalam kelas wahai Hanan?"
+            },
+            {
+                "speaker": "Hanan",
+                "avatarRole": "girl",
+                "arabic": "فِي الْفَصْلِ سَبُّورَةٌ وَاحِدَةٌ، وَتِلْكَ خَرِيطَةٌ كَبِيرَةٌ.",
+                "transliteration": "Fil-faṣ-li sab-bū-ra-tun wā-ḥi-dah, wa til-ka kha-rī-ṭa-tun ka-bī-rah.",
+                "translation": "Di kelas ada satu papan tulis, dan itu (jauh) sebuah peta besar."
+            },
+            {
+                "speaker": "Daffa",
+                "avatarRole": "boy",
+                "arabic": "وَذٰلِكَ الدُّولَابُ؟ كَمْ كِتَابًا فِيهِ؟",
+                "transliteration": "Wa dzā-li-kad-dū-lāb? Kam ki-tā-ban fī-hi?",
+                "translation": "Dan lemari itu (jauh)? Berapa banyak buku di dalamnya?"
+            },
+            {
+                "speaker": "Hanan",
+                "avatarRole": "girl",
+                "arabic": "فِيهِ عَشَرَةُ كُتُبٍ جَدِيدَةٍ!",
+                "transliteration": "Fī-hi 'a-sha-ra-tu ku-tu-bin ja-dī-dah!",
+                "translation": "Di dalamnya ada sepuluh buku baru!"
+            }
+        ]
+    },
+    "explanation": "Setelah menguasai kata tunjuk dekat 'Ini' (Hādzā / Hādzihi), sekarang kita pakai teropong untuk menunjuk benda yang letaknya JAUH ('Itu'): gunakan 'Dzālika' (ذٰلِكَ) untuk benda laki-laki dan 'Tilka' (تِلْكَ) untuk benda perempuan (berakhiran ة). Kita juga akan mengenal angka 1–10 untuk menghitung peralatan kelas!",
+    "patternTable": {
+        "title": "Teropong Kata Tunjuk Jauh & Angka 1–10",
+        "filters": [
+            "Semua",
+            "Kata Tunjuk Jauh",
+            "Angka 1–5",
+            "Angka 6–10"
+        ],
+        "headers": [
+            "Kategori / Angka",
+            "Bahasa Arab",
+            "Cara Baca",
+            "Keterangan & Contoh"
+        ],
+        "rows": [
+            {
+                "id": "m4-r1",
+                "category": "Kata Tunjuk Jauh",
+                "cells": [
+                    "Itu (Benda Cowok)",
+                    "ذٰلِكَ (Dzā-li-ka)",
+                    "Dzā-li-ka bā-bun",
+                    "Untuk benda jauh tanpa ة (Itu pintu)"
+                ],
+                "arabicResult": "ذٰلِكَ بَابٌ",
+                "transliteration": "Dzā-li-ka bā-bun",
+                "meaning": "Itu sebuah pintu (jauh)",
+                "breakdown": "بَابٌ tidak berakhiran ة → pasangan jauhnya adalah ذٰلِكَ."
+            },
+            {
+                "id": "m4-r2",
+                "category": "Kata Tunjuk Jauh",
+                "cells": [
+                    "Itu (Benda Cewek)",
+                    "تِلْكَ (Til-ka)",
+                    "Til-ka nā-fi-dza-tun",
+                    "Untuk benda jauh berakhiran ة (Itu jendela)"
+                ],
+                "arabicResult": "تِلْكَ نَافِذَةٌ",
+                "transliteration": "Til-ka nā-fi-dza-tun",
+                "meaning": "Itu sebuah jendela (jauh)",
+                "breakdown": "نَافِذَةٌ berakhiran ة → pasangan jauhnya adalah تِلْكَ."
+            },
+            {
+                "id": "m4-r3",
+                "category": "Angka 1–5",
+                "cells": [
+                    "1 — 2 — 3",
+                    "وَاحِدٌ • اِثْنَانِ • ثَلَاثَةٌ",
+                    "wā-ḥid • its-nān • tsa-lā-tsah",
+                    "Angka dasar 1 sampai 3"
+                ],
+                "arabicResult": "١ وَاحِدٌ | ٢ اِثْنَانِ | ٣ ثَلَاثَةٌ",
+                "transliteration": "wā-ḥi-dun | its-nā-ni | tsa-lā-tsa-tun",
+                "meaning": "Satu | Dua | Tiga",
+                "breakdown": "Ingat: angka 3–10 bentuk dasarnya memakai akhiran ة."
+            },
+            {
+                "id": "m4-r4",
+                "category": "Angka 1–5",
+                "cells": [
+                    "4 — 5",
+                    "أَرْبَعَةٌ • خَمْسَةٌ",
+                    "ar-ba-'ah • kham-sah",
+                    "Angka 4 dan 5"
+                ],
+                "arabicResult": "٤ أَرْبَعَةٌ | ٥ خَمْسَةٌ",
+                "transliteration": "ar-ba-'a-tun | kham-sa-tun",
+                "meaning": "Empat | Lima",
+                "breakdown": "خَمْسَةُ أَقْلَامٍ (kham-sa-tu aq-lā-min) = lima pulpen."
+            },
+            {
+                "id": "m4-r5",
+                "category": "Angka 6–10",
+                "cells": [
+                    "6 — 7 — 8",
+                    "سِتَّةٌ • سَبْعَةٌ • ثَمَانِيَةٌ",
+                    "sit-tah • sab-'ah • tsa-mā-ni-yah",
+                    "Angka 6 sampai 8"
+                ],
+                "arabicResult": "٦ سِتَّةٌ | ٧ سَبْعَةٌ | ٨ ثَمَانِيَةٌ",
+                "transliteration": "sit-ta-tun | sab-'a-tun | tsa-mā-ni-ya-tun",
+                "meaning": "Enam | Tujuh | Delapan",
+                "breakdown": "Bedakan سِتَّةٌ (6, huruf Sin) dengan سَبْعَةٌ (7, huruf Sin + Ba + 'Ain)."
+            },
+            {
+                "id": "m4-r6",
+                "category": "Angka 6–10",
+                "cells": [
+                    "9 — 10",
+                    "تِسْعَةٌ • عَشَرَةٌ",
+                    "tis-'ah • 'a-sha-rah",
+                    "Angka 9 dan 10"
+                ],
+                "arabicResult": "٩ تِسْعَةٌ | ١٠ عَشَرَةٌ",
+                "transliteration": "tis-'a-tun | 'a-sha-ra-tun",
+                "meaning": "Sembilan | Sepuluh",
+                "breakdown": "عَشَرَةُ كُتُبٍ ('a-sha-ra-tu ku-tu-bin) = sepuluh buku."
+            }
+        ]
+    },
+    "highlightedExamples": [
+        {
+            "segments": [
+                {
+                    "text": "ذٰلِكَ ",
+                    "role": "focus",
+                    "label": "Itu Jauh (Cowok)"
+                },
+                {
+                    "text": "بَابٌ، وَ",
+                    "role": "base"
+                },
+                {
+                    "text": "تِلْكَ ",
+                    "role": "focus",
+                    "label": "Itu Jauh (Cewek)"
+                },
+                {
+                    "text": "خَرِيط",
+                    "role": "base"
+                },
+                {
+                    "text": "َةٌ",
+                    "role": "suffix",
+                    "label": "Penanda Cewek"
+                }
+            ],
+            "transliteration": "Dzā-li-ka bā-bun, wa til-ka kha-rī-ṭa-tun.",
+            "translation": "Itu sebuah pintu, dan itu sebuah peta."
+        },
+        {
+            "segments": [
+                {
+                    "text": "فِي الْحَقِيبَةِ ",
+                    "role": "base"
+                },
+                {
+                    "text": "خَمْسَةُ",
+                    "role": "focus",
+                    "label": "Angka 5"
+                },
+                {
+                    "text": " أَقْلَامٍ.",
+                    "role": "base"
+                }
+            ],
+            "transliteration": "Fil-ḥa-qī-ba-ti kham-sa-tu aq-lā-min.",
+            "translation": "Di dalam tas ada lima buah pulpen."
+        }
+    ],
+    "quickTrick": "Jembatan Keledai 4 Kata Tunjuk: 'Hādzā – Dzālika' (sama-sama ada bunyi DZĀ untuk cowok), dan 'Hādzihi – Tilka' (untuk cewek yang berakhiran ة)!",
+    "vocabulary": [
+        {
+            "arabic": "بَابٌ",
+            "transliteration": "bā-bun",
+            "meaning": "Pintu",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "دُولَابٌ",
+            "transliteration": "dū-lā-bun",
+            "meaning": "Lemari",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "فَصْلٌ",
+            "transliteration": "faṣ-lun",
+            "meaning": "Kelas",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "نَافِذَةٌ",
+            "transliteration": "nā-fi-dza-tun",
+            "meaning": "Jendela",
+            "gender": "muannats"
+        },
+        {
+            "arabic": "خَرِيطَةٌ",
+            "transliteration": "kha-rī-ṭa-tun",
+            "meaning": "Peta",
+            "gender": "muannats"
+        },
+        {
+            "arabic": "سَاعَةٌ",
+            "transliteration": "sā-'a-tun",
+            "meaning": "Jam dinding",
+            "gender": "muannats"
+        }
+    ],
+    "quizBank": [
+        {
+            "id": "m04-q01",
+            "difficulty": "medium",
+            "type": "agreement-trap",
+            "question": "Kamu menunjuk jam dinding yang tergantung jauh di atas papan tulis ('سَاعَةٌ'). Kata tunjuk yang paling tepat adalah...",
+            "options": [
+                "ذٰلِكَ سَاعَةٌ",
+                "تِلْكَ سَاعَةٌ",
+                "هٰذَا سَاعَةٌ",
+                "ذٰلِكَ بَابٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Perhatikan dua petunjuk: letak jam dinding itu JAUH, dan kata 'سَاعَةٌ' diakhiri huruf ة. Cek baris kedua tabel!",
+            "feedbackCorrect": "Mumtaz! Karena 'sā'atun' letaknya jauh dan berakhiran ة, kata tunjuknya adalah 'تِلْكَ' (Tilka)."
+        },
+        {
+            "id": "m04-q02",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa perbedaan utama antara 'هٰذِهِ' dan 'تِلْكَ'?",
+            "options": [
+                "هٰذِهِ untuk cowok, تِلْكَ untuk cewek",
+                "هٰذِهِ untuk benda cewek yang dekat, تِلْكَ untuk benda cewek yang jauh",
+                "هٰذِهِ untuk tunggal, تِلْكَ untuk banyak",
+                "Keduanya dipakai untuk menunjuk benda laki-laki"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Keduanya sama-sama dipakai untuk benda muannats (berakhiran ة), tetapi jarak bendanya berbeda!",
+            "feedbackCorrect": "Ahsanta! 'Hādzihi' berarti 'Ini' (dekat), sedangkan 'Tilka' berarti 'Itu' (jauh)."
+        },
+        {
+            "id": "m04-q03",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Lengkapi pasangan kata tunjuk dekat dan jauh berikut agar konsisten:\n'هٰذَا دُولَابٌ، وَ_____ بَابٌ.'",
+            "options": [
+                "تِلْكَ",
+                "ذٰلِكَ",
+                "هٰذِهِ",
+                "مَا"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Kata 'بَابٌ' (pintu) tidak memiliki huruf ة, dan kalimat kedua membutuhkan kata tunjuk jauh ('Itu').",
+            "feedbackCorrect": "Tepat sekali! 'Dzālika bābun' (dan itu sebuah pintu)."
+        },
+        {
+            "id": "m04-q04",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Urutan angka Arab yang benar untuk '6 - 7 - 8' adalah...",
+            "options": [
+                "سَبْعَةٌ - سِتَّةٌ - ثَمَانِيَةٌ",
+                "سِتَّةٌ - سَبْعَةٌ - ثَمَانِيَةٌ",
+                "خَمْسَةٌ - سِتَّةٌ - تِسْعَةٌ",
+                "ثَلَاثَةٌ - أَرْبَعَةٌ - خَمْسَةٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Hati-hati tertukar antara angka 6 ('sittatun') dan angka 7 ('sab'atun')! Cek baris ke-5 pada tabel.",
+            "feedbackCorrect": "Akurat! 'Sittatun' (6), 'Sab'atun' (7), 'Tsamāniyatun' (8)."
+        },
+        {
+            "id": "m04-q05",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Perhatikan hasil hitungan inventaris kelas: 'أَرْبَعَةٌ + خَمْسَةٌ = _____'. Jawaban yang benar dalam bahasa Arab adalah...",
+            "options": [
+                "سَبْعَةٌ",
+                "ثَمَانِيَةٌ",
+                "تِسْعَةٌ",
+                "عَشَرَةٌ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Terjemahkan dulu angkanya: 'arba'atun' (4) ditambah 'khamsatun' (5) sama dengan 9. Cari bahasa Arab dari 9 di tabel!",
+            "feedbackCorrect": "Cerdas! 4 + 5 = 9 ('Tis'atun')."
+        },
+        {
+            "id": "m04-q06",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Fadli menunjuk peta dunia di dinding belakang kelas dan berkata: 'ذٰلِكَ خَرِيطَةٌ'. Mengapa kalimat Fadli salah?",
+            "options": [
+                "Kata 'خَرِيطَةٌ' berakhiran ة, seharusnya menggunakan 'تِلْكَ'",
+                "Peta dunia tidak boleh ditunjuk dari jauh",
+                "Kata 'ذٰلِكَ' hanya untuk manusia",
+                "Seharusnya memakai 'هٰذَا'"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Lihat ujung kata 'خَرِيطَةٌ' (peta)! Ada tanda perempuan ة di sana.",
+            "feedbackCorrect": "Jeli sekali! Karena 'kharīṭatun' adalah kata benda muannats, kata tunjuk jauhnya wajib 'تِلْكَ'."
+        },
+        {
+            "id": "m04-q07",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kata tanya yang digunakan Daffa di cerita pembuka untuk menanyakan jumlah ('Berapa banyak...') adalah...",
+            "options": [
+                "مَنْ (Man)",
+                "كَمْ (Kam)",
+                "مَا (Mā)",
+                "كَيْفَ (Kai-fa)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Lihat kalimat pertama Daffa di bagian cerita: '_____ سَبُّورَةً فِي الْفَصْلِ؟'.",
+            "feedbackCorrect": "Benar! 'Kam' (كَمْ) berarti 'Berapa banyak'."
+        },
+        {
+            "id": "m04-q08",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca kalimat ini: 'ذٰلِكَ فَصْلِي، فِيهِ سَبُّورَةٌ وَاحِدَةٌ وَنَافِذَتَانِ.'\nBerapa jumlah jendela di dalam kelas tersebut?",
+            "options": [
+                "Satu jendela",
+                "Dua jendela",
+                "Tiga jendela",
+                "Sepuluh jendela"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Perhatikan akhiran 'ـتَانِ' pada kata 'نَافِذَتَانِ' (atau ingat makna angka اِثْنَانِ = dua)!",
+            "feedbackCorrect": "Mumtaz! 'Nāfidzatāni' berarti dua buah jendela."
+        },
+        {
+            "id": "m04-q09",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Manakah kata benda di bawah ini yang arti bahasa Indonesianya adalah 'Lemari'?",
+            "options": [
+                "فَصْلٌ (faṣ-lun)",
+                "دُولَابٌ (dū-lā-bun)",
+                "بَابٌ (bā-bun)",
+                "خَرِيطَةٌ (kha-rī-ṭa-tun)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek daftar kosakata baru atau kalimat kedua Daffa pada cerita pembuka!",
+            "feedbackCorrect": "Tepat! 'Dūlābun' berarti lemari."
+        },
+        {
+            "id": "m04-q10",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Kamu melihat dua benda di kejauhan: sebuah pintu ('بَابٌ') dan sebuah jendela ('نَافِذَةٌ'). Kalimat yang benar adalah...",
+            "options": [
+                "تِلْكَ بَابٌ وَذٰلِكَ نَافِذَةٌ",
+                "ذٰلِكَ بَابٌ وَتِلْكَ نَافِذَةٌ",
+                "ذٰلِكَ بَابٌ وَذٰلِكَ نَافِذَةٌ",
+                "تِلْكَ بَابٌ وَتِلْكَ نَافِذَةٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Pasangkan 'ذٰلِكَ' dengan benda tanpa ة, dan pasangkan 'تِلْكَ' dengan benda yang punya ekor ة!",
+            "feedbackCorrect": "Sempurna! 'Dzālika bābun wa tilka nāfidzatun'."
+        },
+        {
+            "id": "m04-q11",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Ubah kalimat jarak dekat 'هٰذِهِ سَاعَةٌ' (Ini sebuah jam) menjadi kalimat jarak jauh ('Itu sebuah jam'):",
+            "options": [
+                "ذٰلِكَ سَاعَةٌ",
+                "تِلْكَ سَاعَةٌ",
+                "هٰذَا سَاعَةٌ",
+                "تِلْكَ كِتَابٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ganti hanya kata tunjuk dekat 'هٰذِهِ' menjadi padanan jauhnya untuk benda muannats!",
+            "feedbackCorrect": "Ahsanta! 'Hādzihi' berubah menjadi 'Tilka'."
+        },
+        {
+            "id": "m04-q12",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Berapakah nilai dari 'عَشَرَةٌ' dikurangi 'ثَلَاثَةٌ'?",
+            "options": [
+                "خَمْسَةٌ (5)",
+                "سِتَّةٌ (6)",
+                "سَبْعَةٌ (7)",
+                "ثَمَانِيَةٌ (8)"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "'Asyaratun = 10, dan Tsalātsatun = 3. Hitung 10 - 3, lalu cari bahasa Arabnya di tabel!",
+            "feedbackCorrect": "Betul! 10 - 3 = 7 ('Sab'atun')."
+        },
+        {
+            "id": "m04-q13",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Dari keempat frasa berikut, manakah yang mengandung kesalahan kecocokan jenis kata?",
+            "options": [
+                "ذٰلِكَ الْكِتَابُ",
+                "تِلْكَ السَّبُّورَةُ",
+                "ذٰلِكَ النَّافِذَةُ",
+                "تِلْكَ الْحَقِيبَةُ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Meskipun diawali 'الـ' (Alif-Lam), huruf terakhir pada 'النَّافِذَةُ' tetap terlihat jelas memiliki tanda perempuan!",
+            "feedbackCorrect": "Hebat! 'An-nāfidzatu' memiliki huruf ة, sehingga seharusnya memakai 'تِلْكَ'."
+        },
+        {
+            "id": "m04-q14",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Cara baca yang tepat untuk angka 8 ('ثَمَانِيَةٌ') adalah...",
+            "options": [
+                "tsa-mā-ni-ya-tun",
+                "tsam-na-tun",
+                "tsa-lā-tsa-tun",
+                "tis-'a-tun"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Perhatikan alif panjang setelah Mim (-mā-) dan harakat kasrah di bawah Nun (-ni-). Cek baris ke-5 tabel!",
+            "feedbackCorrect": "Akurat! 'Tsa-mā-ni-ya-tun'."
+        },
+        {
+            "id": "m04-q15",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca teks berikut:\n'فِي مَكْتَبَتِي سِتَّةُ كُتُبٍ وَأَرْبَعُ مَجَلَّاتٍ.'\nBerapa total seluruh bahan bacaan yang ada di perpustakaanku?",
+            "options": [
+                "ثَمَانِيَةٌ (8)",
+                "تِسْعَةٌ (9)",
+                "عَشَرَةٌ (10)",
+                "خَمْسَةٌ (5)"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Jumlahkan 'سِتَّةُ' (6 buku) dengan 'أَرْبَعُ' (4 majalah)!",
+            "feedbackCorrect": "Mumtaz! 6 + 4 = 10 ('Asyaratun')."
+        },
+        {
+            "id": "m04-q16",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Jika kamu berada di luar ruangan dan menunjuk ruang kelasmu dari jauh, kalimat yang benar adalah...",
+            "options": [
+                "تِلْكَ فَصْلِي",
+                "ذٰلِكَ فَصْلِي",
+                "هٰذِهِ فَصْلِي",
+                "تِلْكَ دُولَابِي"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Kata dasar kelas adalah 'فَصْلٌ' (tidak memiliki huruf ة). Pilih kata tunjuk jauh untuk benda mudzakkar!",
+            "feedbackCorrect": "Benar! 'Dzālika faṣlī' (Itu kelasku)."
+        },
+        {
+            "id": "m04-q17",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Pasangkan dengan tepat: 'هٰذَا' berpasangan dengan 'ذٰلِكَ', sedangkan 'هٰذِهِ' berpasangan dengan...",
+            "options": [
+                "تِلْكَ",
+                "أَنْتِ",
+                "مَا",
+                "ذٰلِكَ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Lihat kotak 'Trik Cepat' di bagian materi untuk pasangan empat kata tunjuk!",
+            "feedbackCorrect": "Tepat sekali! 'Hādzihi' (ini-pr) berpasangan dengan 'Tilka' (itu-pr)."
+        },
+        {
+            "id": "m04-q18",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Angka 'اِثْنَانِ' (its-nā-ni) memiliki arti...",
+            "options": [
+                "Satu",
+                "Dua",
+                "Delapan",
+                "Sepuluh"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris ketiga pada tabel: urutan pertama adalah 'wāḥidun', dan urutan kedua adalah 'itsnāni'!",
+            "feedbackCorrect": "Ahsanta! 'Itsnāni' berarti dua."
+        },
+        {
+            "id": "m04-q19",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Manakah dari pernyataan berikut yang BENAR secara tata bahasa Arab?",
+            "options": [
+                "ذٰلِكَ خَرِيطَةٌ جَدِيدَةٌ",
+                "تِلْكَ دُولَابٌ كَبِيرٌ",
+                "ذٰلِكَ دُولَابٌ جَدِيدٌ",
+                "تِلْكَ قَلَمٌ أَحْمَرُ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Cek ketiga unsur pada tiap opsi: kata tunjuk jauh + kata benda + kata sifat. Ketiganya harus sama-sama mudzakkar atau sama-sama muannats!",
+            "feedbackCorrect": "Luar biasa! 'Dzālika dūlābun jadīdun' ketiga katanya kompak tanpa akhiran ة."
+        },
+        {
+            "id": "m04-q20",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Dalam dialog pembuka, Hanan berkata: 'تِلْكَ خَرِيطَةٌ كَبِيرَةٌ'. Mengapa kata 'كَبِيرَةٌ' (besar) ikut memakai huruf ة di akhirnya?",
+            "options": [
+                "Karena kata sifat mengikuti jenis benda yang dijelaskan (خَرِيطَةٌ adalah muannats)",
+                "Karena peta itu ukurannya sangat besar",
+                "Karena kata 'تِلْكَ' melarang kata tanpa ة",
+                "Karena kalimatnya diucapkan oleh anak perempuan"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Dalam bahasa Arab, kata sifat selalu 'meniru' jenis benda di depannya. Karena 'kharīṭatun' memakai ة, maka sifatnya juga memakai ة!",
+            "feedbackCorrect": "Brilian! Kamu baru saja menemukan aturan emas kata sifat Arab yang akan kita perdalam di Zona 3!"
+        }
+    ]
+}

@@ -1,0 +1,533 @@
+{
+    "id": 14,
+    "zoneId": "zone-3",
+    "slug": "jam-dan-jadwal-harian",
+    "title": "Jam & Jadwal Harian",
+    "canDo": "Aku bisa menanyakan dan menyebutkan waktu dalam jam penuh (pukul 1 sampai 12) serta mengaitkannya dengan kegiatan sehari-hari di sekolah dan rumah.",
+    "storyHook": {
+        "title": "Jadwal Pagi yang Disiplin",
+        "setting": "Pukul 06.30 pagi di depan rumah, Salma dan Zaki bersiap berangkat ke sekolah",
+        "lines": [
+            {
+                "speaker": "Zaki",
+                "avatarRole": "boy",
+                "arabic": "كَمِ السَّاعَةُ الْآنَ يَا سَلْمَى؟",
+                "transliteration": "Ka-mis-sā-'a-tul-ā-na yā Sal-mā?",
+                "translation": "Jam berapa sekarang wahai Salma?"
+            },
+            {
+                "speaker": "Salma",
+                "avatarRole": "girl",
+                "arabic": "السَّاعَةُ الْآنَ السَّادِسَةُ وَالنِّصْفُ. هَيَّا نَذْهَبُ إِلَى الْمَدْرَسَةِ!",
+                "transliteration": "As-sā-'a-tul-ā-nas-sā-di-sa-tu wan-niṣf. Hay-yā nadz-ha-bu i-lal-mad-ra-sah!",
+                "translation": "Sekarang jam setengah tujuh (jam 6 lewat 30 menit). Ayo kita berangkat ke sekolah!"
+            },
+            {
+                "speaker": "Zaki",
+                "avatarRole": "boy",
+                "arabic": "فِي أَيِّ سَاعَةٍ يَبْدَأُ الدَّرْسُ الْأَوَّلُ؟",
+                "transliteration": "Fī ay-yi sā-'a-tin yab-da-ud-dar-sul-aw-wal?",
+                "translation": "Pada jam berapa pelajaran pertama dimulai?"
+            },
+            {
+                "speaker": "Salma",
+                "avatarRole": "girl",
+                "arabic": "يَبْدَأُ الدَّرْسُ فِي السَّاعَةِ السَّابِعَةِ تَمَامًا.",
+                "transliteration": "Yab-da-ud-dar-su fis-sā-'a-tis-sā-bi-'a-ti ta-mā-mā.",
+                "translation": "Pelajaran dimulai pada pukul tujuh tepat."
+            }
+        ]
+    },
+    "explanation": "Untuk menyebutkan jam dalam bahasa Arab, kita memakai **Bilangan Bertingkat** (ke-1, ke-2, ke-3...) dan BUKAN angka hitungan biasa! Mengapa? Karena 'السَّاعَةُ الثَّالِثَةُ' secara harfiah berarti 'Jam yang ke-tiga' (pukul 3). Karena kata 'السَّاعَةُ' berakhiran huruf ة (perempuan), maka semua nama jam dari pukul 1 sampai 12 wajib memakai 'الـ' dan berakhiran 'ة'!",
+    "patternTable": {
+        "title": "Kompas Waktu: Pukul 1 Sampai 12 & Kata Keterangan Jam",
+        "filters": [
+            "Semua",
+            "Pukul 1–6",
+            "Pukul 7–12",
+            "Keterangan Waktu"
+        ],
+        "headers": [
+            "Waktu",
+            "Bahasa Arab",
+            "Cara Baca",
+            "Catatan Penting"
+        ],
+        "rows": [
+            {
+                "id": "m14-r1",
+                "category": "Pukul 1–6",
+                "cells": [
+                    "Jam 1 — 2 — 3",
+                    "الْوَاحِدَةُ • الثَّانِيَةُ • الثَّالِثَةُ",
+                    "al-wā-ḥi-dah • ats-tsā-ni-yah • ats-tsā-li-tsah",
+                    "Pukul 1, 2, dan 3 (bukan اِثْنَانِ, tapi الثَّانِيَةُ!)"
+                ],
+                "arabicResult": "السَّاعَةُ الْوَاحِدَةُ | الثَّانِيَةُ | الثَّالِثَةُ",
+                "transliteration": "al-wā-ḥi-da-tu | ats-tsā-ni-ya-tu | ats-tsā-li-tsa-tu",
+                "meaning": "Pukul 1 | Pukul 2 | Pukul 3",
+                "breakdown": "Semua diawali الـ dan diakhiri ة mengikuti kata السَّاعَةُ."
+            },
+            {
+                "id": "m14-r2",
+                "category": "Pukul 1–6",
+                "cells": [
+                    "Jam 4 — 5 — 6",
+                    "الرَّابِعَةُ • الْخَامِسَةُ • السَّادِسَةُ",
+                    "ar-rā-bi-'ah • al-khā-mi-sah • as-sā-di-sah",
+                    "Pukul 4, 5, dan 6 (bukan سِتَّةٌ, tapi السَّادِسَةُ!)"
+                ],
+                "arabicResult": "السَّاعَةُ الرَّابِعَةُ | الْخَامِسَةُ | السَّادِسَةُ",
+                "transliteration": "ar-rā-bi-'a-tu | al-khā-mi-sa-tu | as-sā-di-sa-tu",
+                "meaning": "Pukul 4 | Pukul 5 | Pukul 6",
+                "breakdown": "Perhatikan: angka 6 adalah سِتَّةٌ, tetapi Jam 6 adalah السَّادِسَةُ."
+            },
+            {
+                "id": "m14-r3",
+                "category": "Pukul 7–12",
+                "cells": [
+                    "Jam 7 — 8 — 9",
+                    "السَّابِعَةُ • الثَّامِنَةُ • التَّاسِعَةُ",
+                    "as-sā-bi-'ah • ats-tsā-mi-nah • at-tā-si-'ah",
+                    "Pukul 7, 8, dan 9"
+                ],
+                "arabicResult": "السَّاعَةُ السَّابِعَةُ | الثَّامِنَةُ | التَّاسِعَةُ",
+                "transliteration": "as-sā-bi-'a-tu | ats-tsā-mi-na-tu | at-tā-si-'a-tu",
+                "meaning": "Pukul 7 | Pukul 8 | Pukul 9",
+                "breakdown": "Pukul 7 pagi biasanya waktu masuk sekolah: السَّابِعَةُ صَبَاحًا."
+            },
+            {
+                "id": "m14-r4",
+                "category": "Pukul 7–12",
+                "cells": [
+                    "Jam 10 — 11 — 12",
+                    "الْعَاشِرَةُ • الْحَادِيَةَ عَشْرَةَ • الثَّانِيَةَ عَشْرَةَ",
+                    "al-'ā-shi-rah • al-ḥā-di-ya-ta 'ash-rah • ats-tsā-ni-ya-ta 'ash-rah",
+                    "Pukul 10, 11, dan 12"
+                ],
+                "arabicResult": "الْعَاشِرَةُ | الْحَادِيَةَ عَشْرَةَ | الثَّانِيَةَ عَشْرَةَ",
+                "transliteration": "al-'ā-shi-ra-tu | al-ḥā-di-ya-ta 'ash-ra-ta | ats-tsā-ni-ya-ta 'ash-ra-ta",
+                "meaning": "Pukul 10 | Pukul 11 | Pukul 12",
+                "breakdown": "Untuk 11 dan 12, kedua bagiannya memakai fathah (-ta)."
+            },
+            {
+                "id": "m14-r5",
+                "category": "Keterangan Waktu",
+                "cells": [
+                    "Tepat / Lewat 30 / Lewat 15",
+                    "تَمَامًا • وَالنِّصْفُ • وَالرُّبْعُ",
+                    "ta-mā-man • wan-niṣ-fu • war-rub-'u",
+                    "تَمَامًا (Tepat) | وَالنِّصْفُ (+30 mnt) | وَالرُّبْعُ (+15 mnt)"
+                ],
+                "arabicResult": "السَّاعَةُ السَّابِعَةُ وَالنِّصْفُ",
+                "transliteration": "As-sā-'a-tus-sā-bi-'a-tu wan-niṣ-fu",
+                "meaning": "Pukul 07.30 (Setengah delapan)",
+                "breakdown": "النِّصْفُ = setengah (30 menit), الرُّبْعُ = seperempat (15 menit)."
+            }
+        ]
+    },
+    "highlightedExamples": [
+        {
+            "segments": [
+                {
+                    "text": "كَمِ السَّاعَةُ؟ — السَّاع",
+                    "role": "base"
+                },
+                {
+                    "text": "َةُ ",
+                    "role": "suffix",
+                    "label": "Cewek"
+                },
+                {
+                    "text": "التَّاسِع",
+                    "role": "base"
+                },
+                {
+                    "text": "َةُ ",
+                    "role": "suffix",
+                    "label": "Ikut Cewek"
+                },
+                {
+                    "text": "تَمَامًا.",
+                    "role": "focus",
+                    "label": "Tepat"
+                }
+            ],
+            "transliteration": "Ka-mis-sā-'ah? — As-sā-'a-tut-tā-si-'a-tu ta-mā-man.",
+            "translation": "Jam berapa? — Pukul sembilan tepat."
+        },
+        {
+            "segments": [
+                {
+                    "text": "أَنَامُ ",
+                    "role": "base"
+                },
+                {
+                    "text": "فِي ",
+                    "role": "prefix",
+                    "label": "Magnet Kasrah"
+                },
+                {
+                    "text": "السَّاع",
+                    "role": "base"
+                },
+                {
+                    "text": "َةِ ",
+                    "role": "suffix",
+                    "label": "Kasrah (-ti)"
+                },
+                {
+                    "text": "الْعَاشِر",
+                    "role": "base"
+                },
+                {
+                    "text": "َةِ ",
+                    "role": "suffix",
+                    "label": "Ikut Kasrah (-ti)"
+                },
+                {
+                    "text": "لَيْلًا.",
+                    "role": "focus",
+                    "label": "Malam"
+                }
+            ],
+            "transliteration": "A-nā-mu fis-sā-'a-til-'ā-shi-ra-ti lai-lan.",
+            "translation": "Aku tidur pada pukul sepuluh malam."
+        }
+    ],
+    "quickTrick": "Dua Angka yang Berubah Wajah di Jam: Hati-hati! Angka 2 adalah 'اِثْنَانِ', tapi Jam 2 adalah 'الثَّانِيَةُ'. Angka 6 adalah 'سِتَّةٌ', tapi Jam 6 adalah 'السَّادِسَةُ'!",
+    "vocabulary": [
+        {
+            "arabic": "كَمِ السَّاعَةُ؟",
+            "transliteration": "ka-mis-sā-'ah?",
+            "meaning": "Jam berapa?"
+        },
+        {
+            "arabic": "تَمَامًا",
+            "transliteration": "ta-mā-man",
+            "meaning": "Tepat (menit 00)"
+        },
+        {
+            "arabic": "وَالنِّصْفُ",
+            "transliteration": "wan-niṣ-fu",
+            "meaning": "Lewat 30 menit (setengah)"
+        },
+        {
+            "arabic": "وَالرُّبْعُ",
+            "transliteration": "war-rub-'u",
+            "meaning": "Lewat 15 menit (seperempat)"
+        },
+        {
+            "arabic": "صَبَاحًا / نَهَارًا",
+            "transliteration": "ṣa-bā-ḥan / na-hā-ran",
+            "meaning": "Pagi hari / Siang hari"
+        },
+        {
+            "arabic": "مَسَاءً / لَيْلًا",
+            "transliteration": "ma-sā-an / lai-lan",
+            "meaning": "Sore hari / Malam hari"
+        }
+    ],
+    "quizBank": [
+        {
+            "id": "m14-q01",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Kamu ingin mengatakan 'Sekarang pukul 6 tepat'. Manakah penulisan yang BENAR dalam bahasa Arab?",
+            "options": [
+                "السَّاعَةُ السِّتَّةُ تَمَامًا",
+                "السَّاعَةُ السَّادِسَةُ تَمَامًا",
+                "السَّاعَةُ السَّادِسُ تَمَامًا",
+                "السَّاعَةُ السَّابِعَةُ تَمَامًا"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ingat kotak 'Trik Cepat'! Angka 6 adalah 'سِتَّةٌ', tetapi untuk menyebut Jam 6 wajib memakai bilangan bertingkat 'السَّادِسَةُ'!",
+            "feedbackCorrect": "Mumtaz! 'As-sā'atus-sādisatu tamāman' (Pukul enam tepat)."
+        },
+        {
+            "id": "m14-q02",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Ungkapan 'السَّاعَةُ الثَّامِنَةُ وَالرُّبْعُ' menunjukkan pukul...",
+            "options": [
+                "08.00",
+                "08.15",
+                "08.30",
+                "07.45"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "'Ats-tsāminatu' = pukul 8, dan 'war-rub'u' = lewat seperempat (15 menit). Cek baris ke-5 tabel!",
+            "feedbackCorrect": "Ahsanta! Pukul 08.15 (jam delapan lewat seperempat)."
+        },
+        {
+            "id": "m14-q03",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Faris menulis: 'أَذْهَبُ إِلَى الْمَدْرَسَةِ فِي السَّاعَةِ السَّابِعَةُ'. Kesalahan harakat pada kalimat Faris adalah...",
+            "options": [
+                "Setelah 'فِي', kata 'السَّاعَةِ' berharakat kasrah, sehingga 'السَّابِعَةُ' wajib ikut kasrah: السَّابِعَةِ",
+                "Jam 7 seharusnya ditulis السَّادِسَةِ",
+                "Kata 'فِي' tidak boleh dipakai sebelum jam",
+                "Tidak ada kesalahan"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Gabungkan aturan Modul 5 (Magnet Kasrah setelah 'فِي') dan Modul 12 (Sifat/bilangan tingkat meniru harakat kata di depannya)!",
+            "feedbackCorrect": "Jeli luar biasa! 'Fis-sā'atis-sābi'ati'—keduanya berharakat akhir kasrah (-ti)."
+        },
+        {
+            "id": "m14-q04",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Jika jam dinding menunjukkan pukul 03.30, maka dalam bahasa Arab disebut...",
+            "options": [
+                "السَّاعَةُ الثَّالِثَةُ وَالنِّصْفُ",
+                "السَّاعَةُ الرَّابِعَةُ وَالنِّصْفُ",
+                "السَّاعَةُ الثَّالِثَةُ وَالرُّبْعُ",
+                "السَّاعَةُ الثَّانِيَةُ وَالنِّصْفُ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Dalam bahasa Arab tidak disebut 'setengah empat', melainkan 'Jam tiga lewat setengah' ('الثَّالِثَةُ وَالنِّصْفُ')!",
+            "feedbackCorrect": "Tepat sekali! 'As-sā'atuts-tsālitsatu wan-niṣfu' (Jam 3 lewat 30 menit)."
+        },
+        {
+            "id": "m14-q05",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca jadwal harian Alya:\n'أَسْتَيْقِظُ مِنَ النَّوْمِ فِي السَّاعَةِ الرَّابِعَةِ وَالنِّصْفِ صَبَاحًا، وَأَتَنَاوَلُ الْفُطُورَ فِي السَّاعَةِ السَّادِسَةِ تَمَامًا.'\nBerapa lama selisih waktu antara Alya bangun tidur dan sarapan pagi?",
+            "options": [
+                "30 menit",
+                "1 jam",
+                "1 jam 30 menit",
+                "2 jam"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Alya bangun pukul 'الرَّابِعَةِ وَالنِّصْفِ' (04.30) dan sarapan pukul 'السَّادِسَةِ تَمَامًا' (06.00). Hitung selisihnya!",
+            "feedbackCorrect": "Cerdas! Dari 04.30 ke 06.00 adalah 1 jam 30 menit."
+        },
+        {
+            "id": "m14-q06",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Bagaimana cara bertanya 'Jam berapa sekarang?' dalam bahasa Arab?",
+            "options": [
+                "كَمِ السَّاعَةُ الْآنَ؟",
+                "أَيْنَ السَّاعَةُ الْآنَ؟",
+                "مَا لَوْنُ السَّاعَةِ؟",
+                "مَنْ السَّاعَةُ؟"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cek kalimat pertama Zaki pada cerita pembuka!",
+            "feedbackCorrect": "Benar! 'Kamis-sā'atul-āna?'."
+        },
+        {
+            "id": "m14-q07",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Angka 2 adalah 'اِثْنَانِ'. Jika diubah menjadi sebutan pukul 2 ('Jam dua'), bentuknya adalah...",
+            "options": [
+                "السَّاعَةُ الْاِثْنَانِ",
+                "السَّاعَةُ الثَّانِيَةُ",
+                "السَّاعَةُ الثَّالِثَةُ",
+                "السَّاعَةُ الثَّامِنَةُ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris pertama tabel waktu untuk pukul 2!",
+            "feedbackCorrect": "Akurat! 'As-sā'atuts-tsāniyatu' (Pukul 2)."
+        },
+        {
+            "id": "m14-q08",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kata keterangan waktu yang tepat untuk pukul 09.00 malam adalah...",
+            "options": [
+                "صَبَاحًا (ṣa-bā-ḥan)",
+                "نَهَارًا (na-hā-ran)",
+                "لَيْلًا (lai-lan)",
+                "تَمَامًا (ta-mā-man)"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Cek baris terakhir pada daftar kosakata baru untuk arti 'malam hari'!",
+            "feedbackCorrect": "Ahsanta! 'Lailan' (لَيْلًا) berarti malam hari."
+        },
+        {
+            "id": "m14-q09",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Manakah penulisan yang benar untuk 'Pukul 11 tepat'?",
+            "options": [
+                "السَّاعَةُ الْحَادِيَةَ عَشْرَةَ تَمَامًا",
+                "السَّاعَةُ الْعَاشِرَةُ تَمَامًا",
+                "السَّاعَةُ الثَّانِيَةَ عَشْرَةَ تَمَامًا",
+                "السَّاعَةُ الْوَاحِدَةُ تَمَامًا"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cek baris keempat pada tabel waktu untuk pukul 11 ('الْحَادِيَةَ عَشْرَةَ')!",
+            "feedbackCorrect": "Mumtaz! 'As-sā'atul-ḥādiyata 'asyrata tamāman'."
+        },
+        {
+            "id": "m14-q10",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Pukul 12.00 siang saat waktu istirahat kedua dalam bahasa Arab disebut...",
+            "options": [
+                "السَّاعَةُ الثَّانِيَةَ عَشْرَةَ نَهَارًا",
+                "السَّاعَةُ الْعَاشِرَةُ صَبَاحًا",
+                "السَّاعَةُ الثَّانِيَةُ لَيْلًا",
+                "السَّاعَةُ الْخَامِسَةُ مَسَاءً"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "'Ats-tsāniyata 'asyrata' = pukul 12, dan 'nahāran' = siang hari!",
+            "feedbackCorrect": "Tepat! Pukul 12 siang."
+        },
+        {
+            "id": "m14-q11",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Perhatikan kalimat: 'يَنْتَهِي الدَّرْسُ فِي السَّاعَةِ الْوَاحِدَةِ وَالرُّبْعِ نَهَارًا.'\nPukul berapakah pelajaran berakhir?",
+            "options": [
+                "13.00 siang",
+                "13.15 siang",
+                "13.30 siang",
+                "11.15 pagi"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "'الْوَاحِدَةِ' = pukul 1 (13.00 siang), dan 'وَالرُّبْعِ' = lewat 15 menit!",
+            "feedbackCorrect": "Benar! Pukul 01.15 siang (13.15)."
+        },
+        {
+            "id": "m14-q12",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari kata 'وَالنِّصْفُ' (wan-niṣ-fu) dalam penyebutan jam?",
+            "options": [
+                "Tepat",
+                "Lewat 15 menit",
+                "Lewat 30 menit (setengah)",
+                "Kurang 15 menit"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "'An-niṣfu' artinya setengah dari 60 menit, yaitu 30 menit!",
+            "feedbackCorrect": "Akurat! 'Wan-niṣfu' berarti lewat 30 menit."
+        },
+        {
+            "id": "m14-q13",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Temukan satu penyebutan jam yang SALAH di bawah ini:",
+            "options": [
+                "السَّاعَةُ الْخَامِسَةُ صَبَاحًا (Pukul 5 pagi)",
+                "السَّاعَةُ التَّاسِعَةُ لَيْلًا (Pukul 9 malam)",
+                "السَّاعَةُ الثَّامِنَةُ مَسَاءً (Pukul 8 malam)",
+                "السَّاعَةُ الْأَرْبَعَةُ نَهَارًا (Pukul 4 siang)"
+            ],
+            "correctIndex": 3,
+            "feedbackWrong": "Pukul 4 harus memakai bilangan bertingkat 'الرَّابِعَةُ', bukan angka hitungan biasa 'الْأَرْبَعَةُ'!",
+            "feedbackCorrect": "Jeli sekali! Seharusnya 'السَّاعَةُ الرَّابِعَةُ'."
+        },
+        {
+            "id": "m14-q14",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Jika sekarang pukul 10.00 pagi, maka dalam bahasa Arab adalah...",
+            "options": [
+                "السَّاعَةُ الْعَاشِرَةُ صَبَاحًا",
+                "السَّاعَةُ التَّاسِعَةُ صَبَاحًا",
+                "السَّاعَةُ الْحَادِيَةَ عَشْرَةَ صَبَاحًا",
+                "السَّاعَةُ السَّابِعَةُ صَبَاحًا"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cek baris keempat tabel waktu untuk pukul 10 ('الْعَاشِرَةُ')!",
+            "feedbackCorrect": "Ahsanta! 'As-sā'atul-'āsyiratu ṣabāḥan'."
+        },
+        {
+            "id": "m14-q15",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Zaki bermain sepak bola di lapangan mulai pukul 'الرَّابِعَةِ تَمَامًا' (16.00) selama 1 jam. Pukul berapa Zaki selesai bermain?",
+            "options": [
+                "السَّاعَةُ الثَّالِثَةُ مَسَاءً",
+                "السَّاعَةُ الْخَامِسَةُ مَسَاءً",
+                "السَّاعَةُ السَّادِسَةُ مَسَاءً",
+                "السَّاعَةُ السَّابِعَةُ مَسَاءً"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "1 jam setelah pukul 4 sore ('الرَّابِعَةِ') adalah pukul 5 sore!",
+            "feedbackCorrect": "Mumtaz! Selesai pada pukul 5 sore ('as-sā'atul-khāmisatu masā-an')."
+        },
+        {
+            "id": "m14-q16",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Mengapa semua nama jam (الْوَاحِدَةُ، الثَّانِيَةُ، الثَّالِثَةُ...) diakhiri dengan huruf Ta Marbuthah (ة)?",
+            "options": [
+                "Karena menjelaskan kata 'السَّاعَةُ' yang berjenis perempuan (muannats)",
+                "Karena waktu selalu berjalan cepat",
+                "Karena semua angka Arab wajib memakai ة",
+                "Karena dipakai pada siang hari saja"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Lihat huruf terakhir pada kata 'السَّاعَةُ' (jam)! Ada tanda muannats ة di sana.",
+            "feedbackCorrect": "Benar! Nama jam mengikuti jenis kelamin kata 'السَّاعَةُ'."
+        },
+        {
+            "id": "m14-q17",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Ubah 'السَّاعَةُ السَّابِعَةُ تَمَامًا' (07.00) menjadi pukul 07.15:",
+            "options": [
+                "السَّاعَةُ السَّابِعَةُ وَالنِّصْفُ",
+                "السَّاعَةُ السَّابِعَةُ وَالرُّبْعُ",
+                "السَّاعَةُ الثَّامِنَةُ وَالرُّبْعُ",
+                "السَّاعَةُ السَّادِسَةُ وَالرُّبْعُ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ganti 'تَمَامًا' (tepat) menjadi 'وَالرُّبْعُ' (lewat 15 menit)!",
+            "feedbackCorrect": "Tepat sekali! 'As-sā'atus-sābi'atu war-rub'u'."
+        },
+        {
+            "id": "m14-q18",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Waktu pukul 04.30 sore dalam bahasa Arab ditulis...",
+            "options": [
+                "السَّاعَةُ الرَّابِعَةُ وَالنِّصْفُ مَسَاءً",
+                "السَّاعَةُ الْخَامِسَةُ وَالنِّصْفُ صَبَاحًا",
+                "السَّاعَةُ الرَّابِعَةُ وَالرُّبْعُ لَيْلًا",
+                "السَّاعَةُ الثَّالِثَةُ وَالنِّصْفُ مَسَاءً"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "'Ar-rābi'atu' = pukul 4, 'wan-niṣfu' = lewat 30 menit, dan 'masā-an' = sore hari!",
+            "feedbackCorrect": "Akurat! Pukul 04.30 sore."
+        },
+        {
+            "id": "m14-q19",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Susunlah kata-kata berikut menjadi kalimat yang benar:\n(1) السَّابِعَةِ  (2) أَذْهَبُ  (3) فِي السَّاعَةِ  (4) إِلَى الْمَدْرَسَةِ",
+            "options": [
+                "2 - 4 - 3 - 1",
+                "3 - 1 - 4 - 2",
+                "1 - 2 - 3 - 4",
+                "4 - 3 - 2 - 1"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Mulai dengan kata kerja 'Aku pergi' (2), tujuan 'ke sekolah' (4), lalu keterangan waktu 'pada pukul 7' (3 - 1)!",
+            "feedbackCorrect": "Selamat! Kamu telah menaklukkan seluruh Zona 3 dengan nilai luar biasa!"
+        },
+        {
+            "id": "m14-q20",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Dalam cerita pembuka, Salma berkata: 'السَّاعَةُ الْآنَ السَّادِسَةُ وَالنِّصْفُ' (06.30), dan pelajaran dimulai pukul 'السَّابِعَةِ تَمَامًا' (07.00). Berapa menit waktu yang tersisa bagi Zaki dan Salma untuk tiba di sekolah sebelum pelajaran dimulai?",
+            "options": [
+                "15 menit",
+                "30 menit",
+                "45 menit",
+                "60 menit"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Dari pukul 06.30 menuju pukul 07.00 berselisih setengah jam!",
+            "feedbackCorrect": "Mumtaz! Tersisa 30 menit ('niṣfu sā'ah')."
+        }
+    ]
+}

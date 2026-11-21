@@ -1,0 +1,545 @@
+{
+    "id": 8,
+    "zoneId": "zone-2",
+    "slug": "tim-berdua-mutsanna",
+    "title": "Tim Berdua! (Dhamir Ganda)",
+    "canDo": "Aku bisa menggunakan dhamir ganda (Antuma & Huma) dan akhiran '-āni' untuk menyebutkan dua orang teman atau dua buah benda.",
+    "storyHook": {
+        "title": "Lomba Lari Estafet Dua Orang!",
+        "setting": "Lapangan sekolah saat pekan olahraga, dua pasangan pelari bersiap di garis start",
+        "lines": [
+            {
+                "speaker": "Bilal",
+                "avatarRole": "boy",
+                "arabic": "مَنْ هُمَا يَا سَلْمَى؟ هَلْ هُمَا طَالِبَانِ مِنْ فَصْلِنَا؟",
+                "transliteration": "Man hu-mā yā Sal-mā? Hal hu-mā ṭā-li-bā-ni min faṣ-li-nā?",
+                "translation": "Siapa mereka berdua wahai Salma? Apakah mereka berdua dua siswa dari kelas kita?"
+            },
+            {
+                "speaker": "Salma",
+                "avatarRole": "girl",
+                "arabic": "نَعَمْ، هُمَا طَارِقٌ وَزَيْدٌ. هُمَا صَدِيقَانِ سَرِيعَانِ!",
+                "transliteration": "Na-'am, hu-mā Ṭā-riq wa Zaid. Hu-mā ṣa-dī-qā-ni sa-rī-'ā-ni!",
+                "translation": "Ya, mereka berdua Tariq dan Zaid. Mereka berdua dua sahabat yang cepat!"
+            },
+            {
+                "speaker": "Bilal",
+                "avatarRole": "boy",
+                "arabic": "وَأَنْتُمَا يَا نَادِيَةُ وَعَالِيَةُ! هَلْ أَنْتُمَا جَاهِزَتَانِ؟",
+                "transliteration": "Wa an-tu-mā yā Nā-di-yah wa 'Ā-li-yah! Hal an-tu-mā jā-hi-za-tā-ni?",
+                "translation": "Dan kalian berdua wahai Nadia dan Alya! Apakah kalian berdua sudah siap?"
+            },
+            {
+                "speaker": "Nadia",
+                "avatarRole": "girl",
+                "arabic": "نَعَمْ، نَحْنُ جَاهِزَتَانِ لِلسِّبَاقِ!",
+                "transliteration": "Na-'am, naḥ-nu jā-hi-za-tā-ni lis-si-bāq!",
+                "translation": "Ya, kami berdua sudah siap untuk perlombaan!"
+            }
+        ]
+    },
+    "explanation": "Bahasa Arab punya keunikan keren yang tidak ada di bahasa Indonesia maupun Inggris: kategori KHUSUS BERDUA (Mutsanna)! Jika orang atau bendanya berjumlah PAS DUA (bukan satu, dan belum sampai tiga), kita memakai dhamir 'Antumā' (Kalian berdua) atau 'Humā' (Mereka berdua). Uniknya, kata 'Antumā' dan 'Humā' berlaku sama untuk pasangan cowok maupun pasangan cewek—yang berubah hanyalah akhiran kata di belakangnya!",
+    "patternTable": {
+        "title": "Rumus Ajaib 'Pasangan Berdua' (Akhiran ـَانِ)",
+        "filters": [
+            "Semua",
+            "Pasangan Cowok",
+            "Pasangan Cewek",
+            "Benda Berdua"
+        ],
+        "headers": [
+            "Dhamir Ganda",
+            "Kata Dasar",
+            "Akhiran",
+            "Hasil Berdua & Arti"
+        ],
+        "rows": [
+            {
+                "id": "m8-r1",
+                "category": "Pasangan Cowok",
+                "cells": [
+                    "هُمَا (Mereka 2 lk)",
+                    "طَالِبٌ (1 siswa)",
+                    "+ ـَانِ",
+                    "هُمَا طَالِبَانِ (Hu-mā ṭā-li-bā-ni = Mereka berdua 2 siswa)"
+                ],
+                "arabicResult": "هُمَا طَالِبَانِ",
+                "transliteration": "Hu-mā ṭā-li-bā-ni",
+                "meaning": "Mereka berdua adalah dua siswa laki-laki",
+                "breakdown": "طَالِب + انِ → huruf ب diberi fathah (بَا) lalu ditambah نِ."
+            },
+            {
+                "id": "m8-r2",
+                "category": "Pasangan Cowok",
+                "cells": [
+                    "أَنْتُمَا (Kalian 2 lk)",
+                    "صَدِيقٌ (1 teman lk)",
+                    "+ ـَانِ",
+                    "أَنْتُمَا صَدِيقَانِ (An-tu-mā ṣa-dī-qā-ni = Kalian berdua 2 teman)"
+                ],
+                "arabicResult": "أَنْتُمَا صَدِيقَانِ",
+                "transliteration": "An-tu-mā ṣa-dī-qā-ni",
+                "meaning": "Kalian berdua adalah dua teman laki-laki",
+                "breakdown": "صَدِيق + انِ → ujungnya berbunyi '-qā-ni'."
+            },
+            {
+                "id": "m8-r3",
+                "category": "Pasangan Cewek",
+                "cells": [
+                    "هُمَا (Mereka 2 pr)",
+                    "طَالِبَةٌ (1 siswi)",
+                    "+ ـتَانِ",
+                    "هُمَا طَالِبَتَانِ (Hu-mā ṭā-li-ba-tā-ni = Mereka berdua 2 siswi)"
+                ],
+                "arabicResult": "هُمَا طَالِبَتَانِ",
+                "transliteration": "Hu-mā ṭā-li-ba-tā-ni",
+                "meaning": "Mereka berdua adalah dua siswi perempuan",
+                "breakdown": "Huruf ة terbuka menjadi ت biasa sebelum ditambah ـَانِ → ـتَانِ (-tā-ni)."
+            },
+            {
+                "id": "m8-r4",
+                "category": "Pasangan Cewek",
+                "cells": [
+                    "أَنْتُمَا (Kalian 2 pr)",
+                    "صَدِيقَةٌ (1 teman pr)",
+                    "+ ـتَانِ",
+                    "أَنْتُمَا صَدِيقَتَانِ (An-tu-mā ṣa-dī-qa-tā-ni = Kalian berdua 2 teman pr)"
+                ],
+                "arabicResult": "أَنْتُمَا صَدِيقَتَانِ",
+                "transliteration": "An-tu-mā ṣa-dī-qa-tā-ni",
+                "meaning": "Kalian berdua adalah dua teman perempuan",
+                "breakdown": "Perhatikan tanda huruf ت sebelum ا: itulah pembeda 2 cewek vs 2 cowok!"
+            },
+            {
+                "id": "m8-r5",
+                "category": "Benda Berdua",
+                "cells": [
+                    "2 Benda Cowok",
+                    "قَلَمٌ (1 pulpen)",
+                    "+ ـَانِ",
+                    "قَلَمَانِ (qa-la-mā-ni = 2 pulpen)"
+                ],
+                "arabicResult": "قَلَمٌ ← قَلَمَانِ",
+                "transliteration": "qa-la-mun → qa-la-mā-ni",
+                "meaning": "Satu pulpen → Dua pulpen",
+                "breakdown": "Berlaku juga untuk benda mati: كِتَابَانِ (2 buku), بَابَانِ (2 pintu)."
+            },
+            {
+                "id": "m8-r6",
+                "category": "Benda Berdua",
+                "cells": [
+                    "2 Benda Cewek",
+                    "حَقِيبَةٌ (1 tas)",
+                    "+ ـتَانِ",
+                    "حَقِيبَتَانِ (ḥa-qī-ba-tā-ni = 2 tas)"
+                ],
+                "arabicResult": "حَقِيبَةٌ ← حَقِيبَتَانِ",
+                "transliteration": "ḥa-qī-ba-tun → ḥa-qī-ba-tā-ni",
+                "meaning": "Satu tas → Dua tas",
+                "breakdown": "Benda berakhiran ة berubah menjadi ـتَانِ saat berjumlah dua."
+            }
+        ]
+    },
+    "highlightedExamples": [
+        {
+            "segments": [
+                {
+                    "text": "هُمَا ",
+                    "role": "focus",
+                    "label": "Mereka Berdua"
+                },
+                {
+                    "text": "طَبِيب",
+                    "role": "base"
+                },
+                {
+                    "text": "َانِ",
+                    "role": "suffix",
+                    "label": "2 Cowok (-āni)"
+                },
+                {
+                    "text": "، وَهُمَا ",
+                    "role": "base"
+                },
+                {
+                    "text": "طَبِيبَ",
+                    "role": "base"
+                },
+                {
+                    "text": "تَانِ",
+                    "role": "suffix",
+                    "label": "2 Cewek (-tāni)"
+                }
+            ],
+            "transliteration": "Hu-mā ṭa-bī-bā-ni, wa hu-mā ṭa-bī-ba-tā-ni.",
+            "translation": "Mereka berdua adalah 2 dokter (lk), dan mereka berdua adalah 2 dokter (pr)."
+        },
+        {
+            "segments": [
+                {
+                    "text": "فِي الْحَقِيبَةِ ",
+                    "role": "base"
+                },
+                {
+                    "text": "كِتَاب",
+                    "role": "base"
+                },
+                {
+                    "text": "َانِ",
+                    "role": "suffix",
+                    "label": "2 Buku"
+                },
+                {
+                    "text": " وَمِسْطَرَ",
+                    "role": "base"
+                },
+                {
+                    "text": "تَانِ",
+                    "role": "suffix",
+                    "label": "2 Penggaris"
+                }
+            ],
+            "transliteration": "Fil-ḥa-qī-ba-ti ki-tā-bā-ni wa mis-ṭa-ra-tā-ni.",
+            "translation": "Di dalam tas ada dua buku dan dua penggaris."
+        }
+    ],
+    "quickTrick": "Jebakan Terbesar 'Huma & Antuma': Kata 'هُمَا' dan 'أَنْتُمَا' dipakai baik untuk 2 cowok maupun 2 cewek! Jadi untuk tahu apakah yang dibicarakan 2 cowok atau 2 cewek, intip huruf sebelum 'ـَانِ': ada huruf ت (ـتَانِ) = 2 Cewek, tidak ada ت = 2 Cowok!",
+    "vocabulary": [
+        {
+            "arabic": "هُمَا",
+            "transliteration": "hu-mā",
+            "meaning": "Mereka berdua (lk / pr)"
+        },
+        {
+            "arabic": "أَنْتُمَا",
+            "transliteration": "an-tu-mā",
+            "meaning": "Kalian berdua (lk / pr)"
+        },
+        {
+            "arabic": "كِتَابَانِ",
+            "transliteration": "ki-tā-bā-ni",
+            "meaning": "Dua buah buku",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "قَلَمَانِ",
+            "transliteration": "qa-la-mā-ni",
+            "meaning": "Dua buah pulpen",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "حَقِيبَتَانِ",
+            "transliteration": "ḥa-qī-ba-tā-ni",
+            "meaning": "Dua buah tas",
+            "gender": "muannats"
+        },
+        {
+            "arabic": "مِسْطَرَتَانِ",
+            "transliteration": "mis-ṭa-ra-tā-ni",
+            "meaning": "Dua buah penggaris",
+            "gender": "muannats"
+        }
+    ],
+    "quizBank": [
+        {
+            "id": "m08-q01",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Perhatikan kalimat: 'هُمَا _____ مُجْتَهِدَتَانِ'. Kata manakah yang tepat untuk mengisi titik-titik tersebut?",
+            "options": [
+                "طَالِبَانِ",
+                "طَالِبَتَانِ",
+                "طَالِبَةٌ",
+                "طُلَّابٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Kata 'هُمَا' memang netral, jadi lihatlah kata sifat di belakangnya: 'مُجْتَهِدَتَانِ' memiliki huruf ت sebelum 'ـانِ', artinya dua perempuan!",
+            "feedbackCorrect": "Mumtaz! Karena kata sifatnya berbentuk dua perempuan (ـتَانِ), kata bendanya wajib 'طَالِبَتَانِ'."
+        },
+        {
+            "id": "m08-q02",
+            "difficulty": "medium",
+            "type": "morpheme-swap",
+            "question": "Bentuk tunggal 'guru perempuan' adalah 'أُسْتَاذَةٌ'. Jika ada 2 orang guru perempuan, bentuknya berubah menjadi...",
+            "options": [
+                "أُسْتَاذَانِ",
+                "أُسْتَاذَتَانِ",
+                "أُسْتَاذَاتٌ",
+                "أُسْتَاذَةٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ubah huruf ة menjadi ت biasa lalu tambahkan akhiran ganda 'ـَانِ' (-āni). Cek baris ke-3 tabel!",
+            "feedbackCorrect": "Ahsanta! 'Ustādzatun' menjadi 'Ustādzatāni' (أُسْتَاذَتَانِ)."
+        },
+        {
+            "id": "m08-q03",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Dina menyapa dua teman laki-lakinya (Rafi dan Zaki): 'أَنْتُمْ طَالِبَانِ نَشِيطَانِ'. Mengapa sapaan Dina keliru?",
+            "options": [
+                "Kata 'أَنْتُمْ' untuk 3 orang atau lebih, seharusnya memakai 'أَنْتُمَا' karena hanya 2 orang",
+                "Kata 'طَالِبَانِ' seharusnya 'طَالِبَتَانِ'",
+                "Kata 'أَنْتُمْ' hanya untuk perempuan",
+                "Tidak ada kesalahan"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Hitung jumlah orang yang diajak bicara Dina: Rafi dan Zaki hanya BERDUA! Jangan pakai dhamir jamak (3+).",
+            "feedbackCorrect": "Jeli sekali! Untuk 2 orang, bahasa Arab wajib memakai 'أَنْتُمَا' (Antumā)."
+        },
+        {
+            "id": "m08-q04",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa perbedaan dhamir 'هُمَا' untuk dua siswa laki-laki dan 'هُمَا' untuk dua siswi perempuan?",
+            "options": [
+                "Untuk 2 perempuan ditulis 'هُمَاتِ'",
+                "Untuk 2 laki-laki ditulis 'هُمَانِ'",
+                "Tulisan dhamir 'هُمَا' SAMA PERSIS keduanya, yang berbeda hanya kata benda setelahnya",
+                "Untuk 2 perempuan memakai 'هُنَّ'"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Cek bagian 'Trik Cepat'! Kata 'هُمَا' dan 'أَنْتُمَا' berlaku sama untuk dua laki-laki maupun dua perempuan.",
+            "feedbackCorrect": "Tepat! 'Humā' tidak berubah bentuknya, hanya kata benda/sifat di belakangnya yang memakai ـَانِ atau ـتَانِ."
+        },
+        {
+            "id": "m08-q05",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca kalimat ini: 'فِي الْفَصْلِ سَبُّورَتَانِ وَبَابَانِ وَنَافِذَتَانِ.'\nBerapa total seluruh benda yang disebutkan di dalam kelas tersebut?",
+            "options": [
+                "3 benda",
+                "4 benda",
+                "6 benda",
+                "8 benda"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Setiap kata benda di atas berakhiran 'ـَانِ' atau 'ـتَانِ' yang artinya BERJUMLAH DUA. Hitung 2 + 2 + 2!",
+            "feedbackCorrect": "Cerdas! 2 papan tulis + 2 pintu + 2 jendela = 6 benda."
+        },
+        {
+            "id": "m08-q06",
+            "difficulty": "medium",
+            "type": "morpheme-swap",
+            "question": "Ubah benda tunggal 'مَكْتَبٌ' (satu meja) menjadi bentuk ganda ('dua meja'):",
+            "options": [
+                "مَكْتَبَتَانِ",
+                "مَكْتَبَانِ",
+                "مَكْتَبُونَ",
+                "مَكَاتِبُ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "'Maktabun' tidak memiliki huruf ة di akhirnya, jadi langsung tambahkan 'ـَانِ' tanpa menyisipkan huruf ت!",
+            "feedbackCorrect": "Benar! 'Maktabāni' (مَكْتَبَانِ) berarti dua meja."
+        },
+        {
+            "id": "m08-q07",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Ibu guru bertanya kepada Hasan dan Husain (kembar laki-laki): 'هَلْ _____ أَخَوَانِ؟'. Kata ganti yang tepat adalah...",
+            "options": [
+                "هُمَا",
+                "أَنْتُمَا",
+                "أَنْتُمْ",
+                "نَحْنُ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ibu guru berbicara LANGSUNG kepada Hasan dan Husain (orang kedua berdua: 'Kalian berdua').",
+            "feedbackCorrect": "Mumtaz! 'Hal antumā akhawāni?' (Apakah kalian berdua saudara kembar/bersaudara?)."
+        },
+        {
+            "id": "m08-q08",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Temukan satu kalimat yang SALAH di bawah ini:",
+            "options": [
+                "هُمَا طَبِيبَتَانِ مَاهِرَتَانِ",
+                "أَنْتُمَا صَدِيقَانِ مُجْتَهِدَانِ",
+                "هُمَا مُدِيرَانِ جَدِيدَتَانِ",
+                "أَنْتُمَا طَالِبَتَانِ ذَكِيَّتَانِ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Periksa keserasian antara kata benda dan kata sifat pada keempat kalimat! Ada satu kalimat yang kata bendanya 2 cowok (ـَانِ) tetapi sifatnya 2 cewek (ـتَانِ).",
+            "feedbackCorrect": "Jeli sekali! 'Mudīrāni' (2 kepala sekolah lk) harus diikuti sifat 'jadīdāni', bukan 'jadīdatāni'."
+        },
+        {
+            "id": "m08-q09",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kata 'مِسْطَرَتَانِ' (mis-ṭa-ra-tā-ni) memiliki arti...",
+            "options": [
+                "Satu penggaris",
+                "Dua penggaris",
+                "Tiga penggaris",
+                "Dua penghapus"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Lihat akhiran 'ـتَانِ' yang menempel pada kata dasar 'مِسْطَرَةٌ' (penggaris)!",
+            "feedbackCorrect": "Ahsanta! 'Misṭaratāni' berarti dua buah penggaris."
+        },
+        {
+            "id": "m08-q10",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Dalam cerita pembuka, Nadia menjawab: 'نَعَمْ، نَحْنُ جَاهِزَتَانِ لِلسِّبَاقِ!'. Mengapa Nadia memakai 'نَحْنُ' padahal mereka hanya berdua?",
+            "options": [
+                "Karena bahasa Arab tidak punya dhamir khusus untuk 'Kami berdua', jadi memakai 'نَحْنُ' yang diikuti akhiran ـتَانِ",
+                "Karena Nadia lupa memakai 'أَنْتُمَا'",
+                "Karena ada 5 orang yang ikut lomba",
+                "Karena 'نَحْنُ' artinya mereka berdua"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Untuk orang pertama ('Aku' → 'Kami'), tidak ada dhamir khusus berdua; kata 'نَحْنُ' dipakai untuk 2 orang maupun 3+ orang!",
+            "feedbackCorrect": "Wawasan tata bahasa yang luar biasa! 'Naḥnu' mencakup 'kami berdua' sekaligus 'kami semua'."
+        },
+        {
+            "id": "m08-q11",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Manakah urutan yang benar untuk jumlah: 1 buku → 2 buku → banyak buku?",
+            "options": [
+                "كِتَابٌ → كِتَابَانِ → كُتُبٌ",
+                "كِتَابَانِ → كِتَابٌ → كُتُبٌ",
+                "كِتَابٌ → كُتُبٌ → كِتَابَانِ",
+                "كِتَابَتَانِ → كِتَابٌ → كُتُبٌ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Tunggal tanpa imbuhan, ganda berakhiran 'ـَانِ', dan jamak adalah 'كُتُبٌ'!",
+            "feedbackCorrect": "Tepat! 'Kitābun' (1) → 'Kitābāni' (2) → 'Kutubun' (3+)."
+        },
+        {
+            "id": "m08-q12",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Ubah kalimat tunggal 'هِيَ مُمَرِّضَةٌ' (Dia pr seorang perawat) menjadi bentuk ganda ('Mereka berdua adalah 2 perawat perempuan'):",
+            "options": [
+                "هُمَا مُمَرِّضَانِ",
+                "هُمَا مُمَرِّضَتَانِ",
+                "هُنَّ مُمَرِّضَاتٌ",
+                "أَنْتُمَا مُمَرِّضَتَانِ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ubah 'هِيَ' menjadi 'هُمَا', dan ubah 'مُمَرِّضَةٌ' menjadi bentuk ganda berakhiran 'ـتَانِ'!",
+            "feedbackCorrect": "Sempurna! 'Humā mumarridhatāni'."
+        },
+        {
+            "id": "m08-q13",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Bagaimana cara membaca suku kata yang tepat untuk 'حَقِيبَتَانِ'?",
+            "options": [
+                "ḥa-qī-ba-tā-ni",
+                "ḥa-qī-ba-tu-ni",
+                "ḥa-qī-bā-ni",
+                "ḥa-qī-ba-tun"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Perhatikan harakat fathah panjang di atas huruf Ta (-tā-) dan kasrah di bawah Nun (-ni)!",
+            "feedbackCorrect": "Akurat! 'Ḥa-qī-ba-tā-ni'."
+        },
+        {
+            "id": "m08-q14",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Kamu melihat 2 buah kunci di atas meja. Dalam bahasa Arab, 'dua kunci' ditulis...",
+            "options": [
+                "مِفْتَاحَانِ",
+                "مِفْتَاحَتَانِ",
+                "مِفْتَاحٌ",
+                "مَفَاتِيحُ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Kata dasar kunci adalah 'مِفْتَاحٌ' (tidak memiliki huruf ة). Tambahkan akhiran ganda langsung pada huruf ح!",
+            "feedbackCorrect": "Benar! 'Miftāḥāni' berarti dua buah kunci."
+        },
+        {
+            "id": "m08-q15",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Perhatikan kalimat: 'أَنْتُمَا مُهَنْدِسَانِ مَاهِرَانِ.'\nSiapakah yang sedang diajak bicara dalam kalimat ini?",
+            "options": [
+                "Dua orang insinyur laki-laki",
+                "Dua orang insinyur perempuan",
+                "Banyak insinyur laki-laki",
+                "Satu orang insinyur laki-laki"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Lihat kata 'أَنْتُمَا' (kalian berdua) dan akhiran 'ـَانِ' tanpa huruf ت pada 'مُهَنْدِسَانِ'!",
+            "feedbackCorrect": "Mumtaz! Kalimat itu ditujukan kepada dua orang insinyur laki-laki."
+        },
+        {
+            "id": "m08-q16",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Total seluruh Dhamir Munfashil (kata ganti terpisah) yang sudah kita pelajari dari Modul 6 sampai Modul 8 adalah...",
+            "options": [
+                "10 dhamir",
+                "12 dhamir",
+                "14 dhamir (5 tunggal + 5 jamak + 4 posisi ganda)",
+                "8 dhamir"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Hitung keseluruhan baris di tabel Modul 6 (5), Modul 7 (5), dan 4 posisi ganda (Antuma lk/pr & Huma lk/pr) di Modul 8!",
+            "feedbackCorrect": "Tepat sekali! Lengkap sudah seluruh 14 Dhamir Munfashil bahasa Arab!"
+        },
+        {
+            "id": "m08-q17",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Umar menulis: 'عَلَى الْمَكْتَبِ كُرْسِيَّانِ وَخَرِيطَانِ'. Kesalahan ejaan ganda terdapat pada kata...",
+            "options": [
+                "خَرِيطَانِ (seharusnya خَرِيطَتَانِ karena kata dasarnya خَرِيطَةٌ memakai ة)",
+                "كُرْسِيَّانِ (seharusnya كُرْسِيَتَانِ)",
+                "الْمَكْتَبِ (seharusnya الْمَكْتَبُ)",
+                "Tidak ada kesalahan"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ingat kata dasar peta dari Modul 4: 'خَرِيطَةٌ' (ada huruf ة!). Jika ada 2 peta, huruf ة harus berubah menjadi ت dulu sebelum ditambah ـَانِ.",
+            "feedbackCorrect": "Jeli luar biasa! 'Kharīṭatun' menjadi 'Kharīṭatāni' (خَرِيطَتَانِ)."
+        },
+        {
+            "id": "m08-q18",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari 'هُمَا جَدِّي وَجَدَّتِي'?",
+            "options": [
+                "Mereka berdua adalah ayahku dan ibuku",
+                "Mereka berdua adalah kakekku dan nenekku",
+                "Kalian berdua adalah kakek dan nenek",
+                "Mereka semua adalah keluargaku"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Gabungkan makna 'هُمَا' (mereka berdua) dengan kosakata keluarga dari Modul 6 ('جَدِّي' dan 'جَدَّتِي')!",
+            "feedbackCorrect": "Ahsanta! 'Mereka berdua adalah kakekku dan nenekku'."
+        },
+        {
+            "id": "m08-q19",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Jika bentuk ganda 'قِطَّتَانِ' artinya 'dua ekor kucing betina', maka bentuk tunggalnya adalah...",
+            "options": [
+                "قِطٌّ",
+                "قِطَّةٌ",
+                "قِطَطٌ",
+                "قِطَّانِ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Lepaskan akhiran 'ـتَانِ' lalu tutup kembali huruf ت menjadi ة!",
+            "feedbackCorrect": "Cerdas! 'Qiṭṭatun' (قِطَّةٌ) adalah bentuk tunggalnya."
+        },
+        {
+            "id": "m08-q20",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Pilih kalimat yang paling tepat untuk memuji dua siswi juara kelas:",
+            "options": [
+                "أَنْتُمَا طَالِبَتَانِ مَاهِرَتَانِ!",
+                "أَنْتُمَا طَالِبَانِ مَاهِرَانِ!",
+                "أَنْتُنَّ طَالِبَتَانِ مَاهِرَتَانِ!",
+                "هُمَا طَالِبَتَانِ مَاهِرَانِ!"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Pastikan kamu berbicara langsung kepada dua siswi ('أَنْتُمَا') dan kedua kata di belakangnya memakai akhiran 'ـتَانِ'!",
+            "feedbackCorrect": "Mumtaz! 'Antumā ṭālibatāni māhiratāni!'."
+        }
+    ]
+}

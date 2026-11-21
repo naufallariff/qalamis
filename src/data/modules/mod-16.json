@@ -1,0 +1,506 @@
+{
+    "id": 16,
+    "zoneId": "zone-4",
+    "slug": "kalimat-isim-mubtada-khabar",
+    "title": "Kalimat Isim (Mubtada & Khabar)",
+    "canDo": "Aku bisa menyusun dan membedakan kalimat nomina dasar (Jumlah Ismiyyah: Mubtada + Khabar) dari frasa kata sifat, serta menjaga keserasian jenis kelamin dan harakat akhirnya.",
+    "storyHook": {
+        "title": "Mading Sekolah Paling Rapi",
+        "setting": "Pukul 08.00 pagi di lorong kelas 6, Salma dan Bilal memeriksa papan mading lomba kebersihan",
+        "lines": [
+            {
+                "speaker": "Bilal",
+                "avatarRole": "boy",
+                "arabic": "اُنْظُرِي يَا سَلْمَى! الْفَصْلُ نَظِيفٌ، وَالسَّبُّورَةُ جَدِيدَةٌ.",
+                "transliteration": "Un-ẓu-rī yā Sal-mā! Al-faṣ-lu na-ẓī-fun, was-sab-bū-ra-tu ja-dī-dah.",
+                "translation": "Lihatlah wahai Salma! Kelas itu bersih, dan papan tulis itu baru."
+            },
+            {
+                "speaker": "Salma",
+                "avatarRole": "girl",
+                "arabic": "نَعَمْ، وَالطُّلَّابُ مُجْتَهِدُونَ، وَالطَّالِبَاتُ نَشِيطَاتٌ.",
+                "transliteration": "Na-'am, waṭ-ṭul-lā-bu muj-ta-hi-dū-na, waṭ-ṭā-li-bā-tu na-shī-ṭāt.",
+                "translation": "Ya, dan para siswa itu rajin, serta para siswi itu giat."
+            },
+            {
+                "speaker": "Bilal",
+                "avatarRole": "boy",
+                "arabic": "هَلِ الْمُدِيرُ مَوْجُودٌ فِي الْإِدَارَةِ الْآنَ؟",
+                "transliteration": "Ha-lil-mu-dī-ru mau-jū-dun fil-i-dā-ra-til-ān?",
+                "translation": "Apakah Pak Kepala Sekolah ada di ruang tata usaha sekarang?"
+            },
+            {
+                "speaker": "Salma",
+                "avatarRole": "girl",
+                "arabic": "نَعَمْ، الْمُدِيرُ جَالِسٌ فِي مَكْتَبِهِ.",
+                "transliteration": "Na-'am, al-mu-dī-ru jā-li-sun fī mak-ta-bih.",
+                "translation": "Ya, Pak Kepala Sekolah sedang duduk di ruang kerjanya."
+            }
+        ]
+    },
+    "explanation": "Kalimat yang diawali oleh **ISIM** (kata benda, nama orang, atau dhamir) disebut **Jumlah Ismiyyah** (Kalimat Nomina). Susunan intinya hanya dua bagian: **Mubtada'** (Subjek/Topik di depan, umumnya memakai 'الـ' dan berharakat akhir Dhammah `-u`) + **Khabar** (Berita/Predikat di belakang, umumnya TANPA 'الـ' dan bertanwin `-un`). Jangan tertukar dengan frasa kata sifat di Modul 12 yang memakai 'الـ' pada kedua katanya!",
+    "patternTable": {
+        "title": "Rumus Jumlah Ismiyyah: Mubtada' (Pakai الـ) + Khabar (Tanpa الـ)",
+        "filters": [
+            "Semua",
+            "Tunggal (Cowok & Cewek)",
+            "Jamak & Perbandingan Frasa"
+        ],
+        "headers": [
+            "Pola Susunan",
+            "Mubtada' (Subjek)",
+            "Khabar (Predikat)",
+            "Hasil Kalimat & Arti"
+        ],
+        "rows": [
+            {
+                "id": "m16-r1",
+                "category": "Tunggal (Cowok & Cewek)",
+                "cells": [
+                    "Subjek Cowok",
+                    "الْفَصْلُ (al-faṣ-lu)",
+                    "نَظِيفٌ (na-ẓī-fun)",
+                    "الْفَصْلُ نَظِيفٌ = Kelas itu bersih"
+                ],
+                "arabicResult": "الْفَصْلُ نَظِيفٌ",
+                "transliteration": "Al-faṣ-lu na-ẓī-fun",
+                "meaning": "Kelas itu bersih",
+                "breakdown": "الْفَصْلُ memakai الـ (dhammah -u), نَظِيفٌ tanpa الـ (tanwin -un)."
+            },
+            {
+                "id": "m16-r2",
+                "category": "Tunggal (Cowok & Cewek)",
+                "cells": [
+                    "Subjek Cewek",
+                    "السَّبُّورَةُ (as-sab-bū-ra-tu)",
+                    "جَدِيدَةٌ (ja-dī-da-tun)",
+                    "السَّبُّورَةُ جَدِيدَةٌ = Papan tulis itu baru"
+                ],
+                "arabicResult": "السَّبُّورَةُ جَدِيدَةٌ",
+                "transliteration": "As-sab-bū-ra-tu ja-dī-da-tun",
+                "meaning": "Papan tulis itu baru",
+                "breakdown": "Mubtada' berakhiran ة, maka Khabar wajib ikut berakhiran ة."
+            },
+            {
+                "id": "m16-r3",
+                "category": "Tunggal (Cowok & Cewek)",
+                "cells": [
+                    "Subjek Nama Orang",
+                    "زَيْدٌ (Zai-dun)",
+                    "طَالِبٌ (ṭā-li-bun)",
+                    "زَيْدٌ طَالِبٌ = Zaid adalah seorang siswa"
+                ],
+                "arabicResult": "زَيْدٌ طَالِبٌ | فَاطِمَةُ طَالِبَةٌ",
+                "transliteration": "Zai-dun ṭā-li-bun | Fā-ṭi-ma-tu ṭā-li-ba-tun",
+                "meaning": "Zaid adalah siswa | Fatimah adalah siswi",
+                "breakdown": "Nama orang sudah khusus tanpa perlu الـ, sehingga langsung menjadi Mubtada'."
+            },
+            {
+                "id": "m16-r4",
+                "category": "Jamak & Perbandingan Frasa",
+                "cells": [
+                    "Jamak Cowok & Cewek",
+                    "الطُّلَّابُ • الطَّالِبَاتُ",
+                    "مُجْتَهِدُونَ • نَشِيطَاتٌ",
+                    "الطُّلَّابُ مُجْتَهِدُونَ = Para siswa itu rajin"
+                ],
+                "arabicResult": "الطُّلَّابُ مُجْتَهِدُونَ | الطَّالِبَاتُ نَشِيطَاتٌ",
+                "transliteration": "Aṭ-ṭul-lā-bu muj-ta-hi-dū-na | Aṭ-ṭā-li-bā-tu na-shī-ṭā-tun",
+                "meaning": "Para siswa itu rajin | Para siswi itu giat",
+                "breakdown": "Jumlah (tunggal/jamak) dan gender Mubtada' & Khabar harus selalu serasi."
+            },
+            {
+                "id": "m16-r5",
+                "category": "Jamak & Perbandingan Frasa",
+                "cells": [
+                    "Kalimat vs. Frasa Sifat",
+                    "الْبَيْتُ كَبِيرٌ (Kalimat)",
+                    "الْبَيْتُ الْكَبِيرُ (Frasa)",
+                    "Tanpa الـ di kata ke-2 = Kalimat lengkap!"
+                ],
+                "arabicResult": "الْبَيْتُ كَبِيرٌ (Kalimat) ≠ الْْبَيْتُ الْكَبِيرُ (Frasa)",
+                "transliteration": "Al-bai-tu ka-bī-run ≠ Al-bai-tul-ka-bī-ru",
+                "meaning": "Rumah itu besar (Kalimat) ≠ Rumah yang besar itu (Frasa)",
+                "breakdown": "Perbedaan satu 'الـ' mengubah frasa gantung menjadi kalimat berita utuh!"
+            }
+        ]
+    },
+    "highlightedExamples": [
+        {
+            "segments": [
+                {
+                    "text": "الْ",
+                    "role": "prefix",
+                    "label": "Pakai Al- (Mubtada')"
+                },
+                {
+                    "text": "مَدْرَسَةُ ",
+                    "role": "base"
+                },
+                {
+                    "text": "كَبِيرَةٌ",
+                    "role": "focus",
+                    "label": "Tanpa Al- (Khabar)"
+                },
+                {
+                    "text": " وَنَظِيفَةٌ.",
+                    "role": "suffix",
+                    "label": "Khabar ke-2"
+                }
+            ],
+            "transliteration": "Al-mad-ra-sa-tu ka-bī-ra-tun wa na-ẓī-fa-tun.",
+            "translation": "Sekolah itu besar dan bersih."
+        },
+        {
+            "segments": [
+                {
+                    "text": "الْقَلَمُ ",
+                    "role": "focus",
+                    "label": "Mubtada' (-u)"
+                },
+                {
+                    "text": "عَلَى الْمَكْتَبِ.",
+                    "role": "prefix",
+                    "label": "Khabar Lokasi"
+                }
+            ],
+            "transliteration": "Al-qa-la-mu 'a-lal-mak-ta-bi.",
+            "translation": "Pulpen itu berada di atas meja."
+        }
+    ],
+    "quickTrick": "Sakelar Kalimat Utuh: Kata ke-1 pakai 'الـ' + Kata ke-2 TANPA 'الـ' = Kalimat Sempurna! Contoh: 'الْكِتَابُ جَدِيدٌ' (Buku itu baru). Kalau dua-duanya pakai 'الـ' ('الْكِتَابُ الْجَدِيدُ'), artinya baru sebatas frasa 'Buku yang baru itu...' dan belum selesai!",
+    "vocabulary": [
+        {
+            "arabic": "مُبْتَدَأٌ",
+            "transliteration": "mub-ta-da-un",
+            "meaning": "Subjek di awal kalimat isim"
+        },
+        {
+            "arabic": "خَبَرٌ",
+            "transliteration": "kha-ba-run",
+            "meaning": "Berita / predikat pelengkap subjek"
+        },
+        {
+            "arabic": "مُجْتَهِدٌ / مُجْتَهِدَةٌ",
+            "transliteration": "muj-ta-hi-dun / muj-ta-hi-da-tun",
+            "meaning": "Rajin / bersungguh-sungguh (lk / pr)"
+        },
+        {
+            "arabic": "نَشِيطٌ / نَشِيطَةٌ",
+            "transliteration": "na-shī-ṭun / na-shī-ṭa-tun",
+            "meaning": "Giat / aktif / bersemangat (lk / pr)"
+        },
+        {
+            "arabic": "مَوْجُودٌ / مَوْجُودَةٌ",
+            "transliteration": "mau-jū-dun / mau-jū-da-tun",
+            "meaning": "Ada / hadir di tempat (lk / pr)"
+        },
+        {
+            "arabic": "جَالِسٌ / جَالِسَةٌ",
+            "transliteration": "jā-li-sun / jā-li-sa-tun",
+            "meaning": "Sedang duduk (posisi/keadaan) (lk / pr)"
+        }
+    ],
+    "quizBank": [
+        {
+            "id": "m16-q01",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Bandingkan dua susunan berikut:\n(A) 'الْحَقِيبَةُ جَدِيدَةٌ'\n(B) 'الْحَقِيبَةُ الْجَدِيدَةُ'\nPerbedaan makna yang paling tepat adalah...",
+            "options": [
+                "(A) adalah kalimat lengkap 'Tas itu baru', sedangkan (B) adalah frasa 'Tas yang baru itu'",
+                "(A) adalah frasa 'Tas yang baru itu', sedangkan (B) adalah kalimat 'Tas itu baru'",
+                "(A) salah tata bahasa, sedangkan (B) benar",
+                "Keduanya memiliki arti yang sama persis"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cek baris ke-5 tabel dan kotak 'Trik Cepat'! Kata kedua tanpa 'الـ' menjadi Khabar (predikat kalimat berita).",
+            "feedbackCorrect": "Mumtaz! 'Al-ḥaqībatu jadīdatun' adalah kalimat berita lengkap, sedangkan 'Al-ḥaqībatul-jadīdatu' baru berupa frasa benda+sifat."
+        },
+        {
+            "id": "m16-q02",
+            "difficulty": "medium",
+            "type": "agreement-trap",
+            "question": "Lengkapi Jumlah Ismiyyah berikut dengan Khabar yang tepat:\n'الْمُعَلِّمَةُ _____ فِي الْفَصْلِ.' (Ibu guru itu hadir/ada di dalam kelas)",
+            "options": [
+                "مَوْجُودٌ",
+                "مَوْجُودَةٌ",
+                "الْمَوْجُودَةُ",
+                "مَوْجُودُونَ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Mubtada' 'الْمُعَلِّمَةُ' adalah tunggal perempuan (ada ة), dan Khabar tidak boleh memakai 'الـ'!",
+            "feedbackCorrect": "Ahsanta! 'Al-mu'allimatu maujūdatun fil-faṣli'."
+        },
+        {
+            "id": "m16-q03",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Rafi ingin membuat kalimat 'Perpustakaan itu luas' dan menulis: 'الْمَكْتَبَةُ الْوَاسِعَةُ'. Mengapa tulisannya belum menjadi kalimat berita yang utuh?",
+            "options": [
+                "Karena kata 'الْوَاسِعَةُ' masih memakai 'الـ'; seharusnya 'وَاسِعَةٌ' agar menjadi Khabar",
+                "Karena kata 'الْمَكْتَبَةُ' seharusnya tanpa 'الـ'",
+                "Karena perpustakaan adalah benda mudzakkar",
+                "Tulisan Rafi sudah menjadi kalimat berita lengkap"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ingat Sakelar Kalimat Utuh! Khabar (kata kedua) harus dilepas 'الـ'-nya dan diberi tanwin (-un).",
+            "feedbackCorrect": "Jeli sekali! 'Al-maktabatu wāsi'atun' barulah kalimat lengkap yang artinya 'Perpustakaan itu luas'."
+        },
+        {
+            "id": "m16-q04",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Dalam kalimat 'الطَّالِبَاتُ نَشِيطَاتٌ', kata manakah yang berkedudukan sebagai **MUBTADA'** (Subjek)?",
+            "options": [
+                "الطَّالِبَاتُ",
+                "نَشِيطَاتٌ",
+                "Keduanya Mubtada'",
+                "Tidak ada Mubtada'"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Mubtada' adalah isim yang berada di awal kalimat dan diawali 'الـ'!",
+            "feedbackCorrect": "Tepat! 'Aṭ-ṭālibātu' adalah Mubtada', dan 'nasyīṭātun' adalah Khabarnya."
+        },
+        {
+            "id": "m16-q05",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Perhatikan harakat akhir Mubtada' dan Khabar yang baku:\n'الْكُرْسِيُّ _____.' (Kursi itu bersih)",
+            "options": [
+                "نَظِيفًا (na-ẓī-fan)",
+                "نَظِيفٌ (na-ẓī-fun)",
+                "نَظِيفٍ (na-ẓī-fin)",
+                "نَظِيفَةٌ (na-ẓī-fa-tun)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Mubtada' dan Khabar pada kalimat dasar selalu berharakat akhir Dhammah (-u / -un) dan sama-sama mudzakkar!",
+            "feedbackCorrect": "Akurat! 'Al-kursiyyu naẓīfun'."
+        },
+        {
+            "id": "m16-q06",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari kata 'نَشِيطٌ' (na-shī-ṭun) dan 'مُجْتَهِدٌ' (muj-ta-hi-dun)?",
+            "options": [
+                "Giat/aktif dan Rajin",
+                "Malas dan Lambat",
+                "Besar dan Luas",
+                "Baru dan Bersih"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cek baris ketiga dan keempat pada daftar kosakata baru!",
+            "feedbackCorrect": "Benar! 'Nasyīṭun' = giat/aktif, dan 'Mujtahidun' = rajin."
+        },
+        {
+            "id": "m16-q07",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca paragraf pendek ini:\n'مَدْرَسَتِي كَبِيرَةٌ. الْفُصُولُ نَظِيفَةٌ، وَالْمَلْعَبُ وَاسِعٌ، وَالْأَسَاتِذَةُ مُجْتَهِدُونَ.'\nBerapa banyak Jumlah Ismiyyah (kalimat nomina) yang terdapat di dalam paragraf tersebut?",
+            "options": [
+                "2 kalimat",
+                "3 kalimat",
+                "4 kalimat",
+                "1 kalimat"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Hitung setiap pasangan Mubtada' + Khabar: (1) مَدْرَسَتِي كَبِيرَةٌ, (2) الْفُصُولُ نَظِيفَةٌ, (3) وَالْمَلْعَبُ وَاسِعٌ, (4) وَالْأَسَاتِذَةُ مُجْتَهِدُونَ!",
+            "feedbackCorrect": "Mumtaz! Ada 4 buah Jumlah Ismiyyah yang tersusun rapi."
+        },
+        {
+            "id": "m16-q08",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Ubah kalimat tunggal 'الطَّالِبُ جَالِسٌ' (Siswa itu sedang duduk) menjadi bentuk jamak ('Para siswa itu sedang duduk'):",
+            "options": [
+                "الطُّلَّابُ جَالِسُونَ",
+                "الطُّلَّابُ جَالِسٌ",
+                "الطَّالِبَاتُ جَالِسَاتٌ",
+                "الطُّلَّابُ الْجَالِسُونَ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ubah Mubtada' 'الطَّالِبُ' menjadi jamak 'الطُّلَّابُ', lalu tambahkan akhiran jamak laki-laki 'ـُونَ' pada Khabar 'جَالِسٌ' (tanpa الـ)!",
+            "feedbackCorrect": "Ahsanta! 'Aṭ-ṭullābu jālisūna'."
+        },
+        {
+            "id": "m16-q09",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Mengapa dalam kalimat 'زَيْدٌ مُهَنْدِسٌ' (Zaid adalah seorang insinyur), kata 'زَيْدٌ' tidak perlu diberi 'الـ' meskipun menjadi Mubtada'?",
+            "options": [
+                "Karena nama orang sudah jelas dan khusus (Ma'rifah) tanpa perlu awalan الـ",
+                "Karena kata 'زَيْدٌ' adalah Fi'il",
+                "Karena Zaid adalah seorang anak kecil",
+                "Karena kalimatnya terlalu pendek"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cek baris ketiga pada tabel rumus Jumlah Ismiyyah!",
+            "feedbackCorrect": "Tepat! Nama diri (seperti Zaid, Fatimah, Jakarta) sudah khusus tanpa perlu Alif-Lam."
+        },
+        {
+            "id": "m16-q10",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Temukan satu kalimat yang SALAH secara tata bahasa dari empat opsi berikut:",
+            "options": [
+                "الْحَدِيقَةُ جَمِيلَةٌ",
+                "الْقَلَمُ طَوِيلٌ",
+                "السَّيَّارَةُ سَرِيعٌ",
+                "الْمَكْتَبُ نَظِيفٌ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Periksa keserasian jenis kelamin antara Mubtada' dan Khabar! Kata 'السَّيَّارَةُ' (mobil) berakhiran ة, apakah Khabarnya sudah memakai ة?",
+            "feedbackCorrect": "Jeli sekali! Seharusnya 'السَّيَّارَةُ سَرِيعَةٌ' (Mobil itu cepat)."
+        },
+        {
+            "id": "m16-q11",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Dalam cerita pembuka, Salma berkata: 'الْمُدِيرُ جَالِسٌ فِي مَكْتَبِهِ.' Kata 'مَكْتَبِهِ' di kalimat ini memiliki arti...",
+            "options": [
+                "Di atas meja tulisnya",
+                "Di ruang kerjanya / kantornya",
+                "Di depan kelasnya",
+                "Di dalam perpustakaannya"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Kata 'مَكْتَبٌ' selain berarti meja tulis juga berarti ruang kerja/kantor saat digabung dengan 'فِي' (di dalam)!",
+            "feedbackCorrect": "Cerdas! 'Fī maktabihi' berarti di dalam ruang kerjanya."
+        },
+        {
+            "id": "m16-q12",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Susunlah kata-kata acak berikut menjadi kalimat berita lengkap (Jumlah Ismiyyah) yang tepat:\n(1) نَشِيطَةٌ  (2) الْجَدِيدَةُ  (3) الطَّالِبَةُ",
+            "options": [
+                "3 - 2 - 1",
+                "3 - 1 - 2",
+                "1 - 3 - 2",
+                "2 - 3 - 1"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Gabungkan dulu Mubtada' + sifatnya yang sama-sama pakai 'الـ' ('Siswi yang baru itu'), lalu tutup dengan Khabar yang tanpa 'الـ' ('giat')!",
+            "feedbackCorrect": "BRILIAN! 'Aṭ-ṭālibatuj-jadīdatu nasyīṭatun' (Siswi yang baru itu giat)."
+        },
+        {
+            "id": "m16-q13",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Jika kamu ingin mengatakan 'Aku rajin' sebagai siswi perempuan, maka susunan Mubtada' (Dhamir) + Khabarnya adalah...",
+            "options": [
+                "أَنَا مُجْتَهِدٌ",
+                "أَنَا مُجْتَهِدَةٌ",
+                "هِيَ مُجْتَهِدٌ",
+                "أَنْتِ مُجْتَهِدٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Dhamir 'أَنَا' menjadi Mubtada', dan Khabarnya mengikuti jenis kelamin pembicara perempuan!",
+            "feedbackCorrect": "Benar! 'Anā mujtahidatun'."
+        },
+        {
+            "id": "m16-q14",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Perhatikan kalimat: 'الْكِتَابُ فِي الْحَقِيبَةِ.'\nDi manakah letak Khabar (informasi berita) pada kalimat ini?",
+            "options": [
+                "Pada kata 'الْكِتَابُ'",
+                "Pada gabungan 'فِي الْحَقِيبَةِ' (di dalam tas)",
+                "Kalimat ini tidak memiliki Khabar",
+                "Pada huruf 'الـ'"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek contoh kedua pada bagian 'Contoh Kalimat Berwarna'! Khabar tidak selalu berupa kata sifat, melainkan bisa juga keterangan tempat ('di dalam tas').",
+            "feedbackCorrect": "Mumtaz! 'Fil-ḥaqībati' berfungsi sebagai Khabar yang menjelaskan di mana buku itu berada."
+        },
+        {
+            "id": "m16-q15",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari kalimat 'الطَّعَامُ لَذِيذٌ وَالشَّرَابُ بَارِدٌ'?",
+            "options": [
+                "Makanan itu lezat dan minuman itu dingin",
+                "Makanan itu panas dan minuman itu manis",
+                "Meja itu bersih dan kursi itu baru",
+                "Kelas itu luas dan halaman itu indah"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ingat kosakata Modul 13: 'اَلطَّعَامُ' (makanan itu), 'لَذِيذٌ' (lezat), 'اَلشَّرَابُ' (minuman itu), 'بَارِدٌ' (dingin)!",
+            "feedbackCorrect": "Ahsanta! 'Makanan itu lezat dan minuman itu dingin'."
+        },
+        {
+            "id": "m16-q16",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Ubah kalimat 'الْبَابُ مَفْتُوحٌ' (Pintu itu terbuka) menjadi kalimat untuk jendela ('النَّافِذَةُ'):",
+            "options": [
+                "النَّافِذَةُ مَفْتُوحٌ",
+                "النَّافِذَةُ مَفْتُوحَةٌ",
+                "النَّافِذَةُ الْمَفْتُوحَةُ",
+                "نَافِذَةٌ مَفْتُوحَةٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Mubtada' memakai 'الـ' dan berakhiran ة ('النَّافِذَةُ'), maka Khabarnya tanpa 'الـ' dan ikut berakhiran ة ('مَفْتُوحَةٌ')!",
+            "feedbackCorrect": "Tepat sekali! 'An-nāfidzatu maftūḥatun' (Jendela itu terbuka)."
+        },
+        {
+            "id": "m16-q17",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Manakah yang termasuk ciri paling umum dari **Mubtada'**?",
+            "options": [
+                "Berupa kata kerja di awal kalimat",
+                "Berupa Isim tertentu (memakai الـ, nama orang, atau dhamir) di awal kalimat",
+                "Selalu berharakat akhir kasrah",
+                "Selalu berada di ujung paling belakang kalimat"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek bagian penjelasan materi tentang definisi Mubtada'!",
+            "feedbackCorrect": "Akurat! Mubtada' adalah Isim tertentu yang menjadi pokok pembicaraan di awal kalimat."
+        },
+        {
+            "id": "m16-q18",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Manakah dari 4 kalimat berikut yang merupakan **Jumlah Ismiyyah** (Kalimat Isim)?",
+            "options": [
+                "يَكْتُبُ التِّلْمِيذُ الدَّرْسَ",
+                "ذَهَبَتْ سَلْمَى إِلَى السُّوقِ",
+                "التِّلْمِيذُ يَكْتُبُ الدَّرْسَ",
+                "اِفْتَحِ الْبَابَ يَا بِلَالُ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Lihat kata PERTAMA di setiap opsi! Jumlah Ismiyyah wajib dimulai dengan ISIM (kata benda/nama), bukan kata kerja.",
+            "feedbackCorrect": "Cerdas! 'At-tilmīdzu yaktubud-darsa' dimulai dengan Isim ('التِّلْمِيذُ'), sehingga ia adalah Jumlah Ismiyyah."
+        },
+        {
+            "id": "m16-q19",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kata 'مَوْجُودَةٌ' (mau-jū-da-tun) memiliki arti...",
+            "options": [
+                "Tidak hadir / absen",
+                "Ada / hadir di tempat (untuk perempuan)",
+                "Sedang berdiri",
+                "Baru datang"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris kelima pada daftar kosakata baru!",
+            "feedbackCorrect": "Benar! 'Maujūdatun' berarti ada atau hadir."
+        },
+        {
+            "id": "m16-q20",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Dua orang siswa laki-laki itu rajin. Kalimat Jumlah Ismiyyah ganda yang paling tepat adalah...",
+            "options": [
+                "الطَّالِبَانِ مُجْتَهِدَانِ",
+                "الطَّالِبَانِ الْمُجْتَهِدَانِ",
+                "الطَّالِبَتَانِ مُجْتَهِدَتَانِ",
+                "الطَّالِبَانِ مُجْتَهِدٌ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Subjeknya dua siswa laki-laki dengan 'الـ' ('الطَّالِبَانِ'), diikuti predikat ganda laki-laki TANPA 'الـ' ('مُجْتَهِدَانِ')!",
+            "feedbackCorrect": "Luar biasa! Kamu menggabungkan Modul 8 (Mutsanna) dan Modul 16 (Mubtada'-Khabar) dengan sempurna!"
+        }
+    ]
+}

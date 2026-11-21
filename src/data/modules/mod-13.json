@@ -1,0 +1,525 @@
+{
+    "id": 13,
+    "zoneId": "zone-3",
+    "slug": "makanan-dan-minuman-kantin",
+    "title": "Makanan & Minuman di Kantin",
+    "canDo": "Aku bisa memesan makanan dan minuman favoritku di kantin sekolah serta mengungkapkan apa yang aku sukai dan aku inginkan dalam bahasa Arab.",
+    "storyHook": {
+        "title": "Jam Istirahat di Kantin Sehat",
+        "setting": "Pukul 10.15 pagi, Bilal dan Hanan memilih menu makan siang di kantin sekolah",
+        "lines": [
+            {
+                "speaker": "Bilal",
+                "avatarRole": "boy",
+                "arabic": "مَاذَا تُرِيدِينَ أَنْ تَأْكُلِي يَا حَنَانُ؟",
+                "transliteration": "Mā-dzā tu-rī-dī-na an ta'-ku-lī yā Ḥa-nān?",
+                "translation": "Apa yang ingin kamu makan wahai Hanan?"
+            },
+            {
+                "speaker": "Hanan",
+                "avatarRole": "girl",
+                "arabic": "أُرِيدُ أُرْزًا وَسَمَكًا، وَأُحِبُّ عَصِيرَ الْبُرْتُقَالِ. وَأَنْتَ يَا بِلَالُ؟",
+                "transliteration": "U-rī-du ur-zan wa sa-ma-kan, wa u-ḥib-bu 'a-ṣī-ral-bur-tu-qāl. Wa an-ta yā Bi-lāl?",
+                "translation": "Aku ingin nasi dan ikan, dan aku suka jus jeruk. Dan kamu wahai Bilal?"
+            },
+            {
+                "speaker": "Bilal",
+                "avatarRole": "boy",
+                "arabic": "أَنَا أُرِيدُ خُبْزًا وَبَيْضًا، وَأَشْرَبُ حَلِيبًا دَافِئًا.",
+                "transliteration": "A-nā u-rī-du khub-zan wa bai-ḍan, wa ash-ra-bu ḥa-lī-ban dā-fi-ā.",
+                "translation": "Aku ingin roti dan telur, dan aku minum susu hangat."
+            },
+            {
+                "speaker": "Hanan",
+                "avatarRole": "girl",
+                "arabic": "هٰذَا طَعَامٌ لَذِيذٌ وَمُفِيدٌ!",
+                "transliteration": "Hā-dzā ṭa-'ā-mun la-dzī-dzun wa mu-fīd!",
+                "translation": "Ini makanan yang lezat dan menyehatkan!"
+            }
+        ]
+    },
+    "explanation": "Saat jajan atau makan di kantin, ada 3 kata kunci super praktis yang perlu kamu hafal: 'Urīdu...' (أُرِيدُ = Aku ingin...), 'Uḥibbu...' (أُحِبُّ = Aku suka...), dan 'Ākulu / Asyrabu' (آكُلُ / أَشْرَبُ = Aku makan / Aku minum). Perhatikan ujung kata makanan setelah kata kerja ini: harakatnya berubah menjadi Fathah Tanwin (-an), seperti 'أُرِيدُ خُبْزًا' (Aku ingin roti)!",
+    "patternTable": {
+        "title": "Menu Kantin Sehat & Ungkapan Memesan",
+        "filters": [
+            "Semua",
+            "Makanan Pokok",
+            "Minuman & Buah",
+            "Ungkapan Pesan"
+        ],
+        "headers": [
+            "Kategori",
+            "Kosakata Arab",
+            "Cara Baca",
+            "Arti & Contoh Pemakaian"
+        ],
+        "rows": [
+            {
+                "id": "m13-r1",
+                "category": "Makanan Pokok",
+                "cells": [
+                    "Nasi & Roti",
+                    "أُرْزٌ • خُبْزٌ",
+                    "ur-zun • khub-zun",
+                    "أُرِيدُ أُرْزًا وَخُبْزًا (Aku ingin nasi dan roti)"
+                ],
+                "arabicResult": "أُرْزٌ (Nasi) | خُبْزٌ (Roti)",
+                "transliteration": "ur-zun | khub-zun",
+                "meaning": "Nasi | Roti",
+                "breakdown": "Saat menjadi objek setelah أُرِيدُ, tanwin -un berubah menjadi -an (أُرْزًا، خُبْزًا)."
+            },
+            {
+                "id": "m13-r2",
+                "category": "Makanan Pokok",
+                "cells": [
+                    "Ikan, Ayam, Telur",
+                    "سَمَكٌ • دَجَاجٌ • بَيْضٌ",
+                    "sa-ma-kun • da-jā-jun • bai-ḍun",
+                    "آكُلُ سَمَكًا أَوْ دَجَاجًا (Aku makan ikan atau ayam)"
+                ],
+                "arabicResult": "سَمَكٌ | دَجَاجٌ | بَيْضٌ",
+                "transliteration": "sa-ma-kun | da-jā-jun | bai-ḍun",
+                "meaning": "Ikan | Ayam | Telur",
+                "breakdown": "Lauk-pauk bergizi yang sering ada di kantin."
+            },
+            {
+                "id": "m13-r3",
+                "category": "Minuman & Buah",
+                "cells": [
+                    "Air, Susu, Teh",
+                    "مَاءٌ • حَلِيبٌ • شَايٌ",
+                    "mā-un • ḥa-lī-bun • shā-yun",
+                    "أَشْرَبُ مَاءً وَحَلِيبًا (Aku minum air dan susu)"
+                ],
+                "arabicResult": "مَاءٌ | حَلِيبٌ | شَايٌ",
+                "transliteration": "mā-un | ḥa-lī-bun | shā-yun",
+                "meaning": "Air putih | Susu | Teh",
+                "breakdown": "Kata kerja minum adalah أَشْرَبُ (ash-ra-bu)."
+            },
+            {
+                "id": "m13-r4",
+                "category": "Minuman & Buah",
+                "cells": [
+                    "Jus & Buah",
+                    "عَصِيرٌ • تُفَّاحٌ • بُرْتُقَالٌ",
+                    "'a-ṣī-run • tuf-fā-ḥun • bur-tu-qā-lun",
+                    "عَصِيرُ التُّفَّاحِ (Jus apel) | عَصِيرُ الْبُرْتُقَالِ (Jus jeruk)"
+                ],
+                "arabicResult": "عَصِيرٌ | تُفَّاحٌ | بُرْتُقَالٌ",
+                "transliteration": "'a-ṣī-run | tuf-fā-ḥun | bur-tu-qā-lun",
+                "meaning": "Jus | Apel | Jeruk",
+                "breakdown": "عَصِيرُ + nama buah = Jus buah tersebut."
+            },
+            {
+                "id": "m13-r5",
+                "category": "Ungkapan Pesan",
+                "cells": [
+                    "Ingin & Suka",
+                    "أُرِيدُ ... • أُحِبُّ ...",
+                    "u-rī-du ... • u-ḥib-bu ...",
+                    "أُرِيدُ شَايًا (Aku ingin teh) | أُحِبُّ التُّفَّاحَ (Aku suka apel)"
+                ],
+                "arabicResult": "أُرِيدُ (Aku ingin) | أُحِبُّ (Aku suka)",
+                "transliteration": "u-rī-du | u-ḥib-bu",
+                "meaning": "Aku ingin / mau | Aku suka / menyukai",
+                "breakdown": "Sangat praktis untuk memesan menu dan bercerita tentang makanan kesukaan."
+            }
+        ]
+    },
+    "highlightedExamples": [
+        {
+            "segments": [
+                {
+                    "text": "أُرِيدُ ",
+                    "role": "focus",
+                    "label": "Aku ingin"
+                },
+                {
+                    "text": "دَجَاج",
+                    "role": "base"
+                },
+                {
+                    "text": "ًا",
+                    "role": "suffix",
+                    "label": "Objek (-an)"
+                },
+                {
+                    "text": " وَ",
+                    "role": "base"
+                },
+                {
+                    "text": "عَصِيرَ ",
+                    "role": "base"
+                },
+                {
+                    "text": "التُّفَّاحِ.",
+                    "role": "focus",
+                    "label": "Jus Apel"
+                }
+            ],
+            "transliteration": "U-rī-du da-jā-jan wa 'a-ṣī-rat-tuf-fāḥ.",
+            "translation": "Aku ingin ayam dan jus apel."
+        },
+        {
+            "segments": [
+                {
+                    "text": "هٰذَا ",
+                    "role": "base"
+                },
+                {
+                    "text": "الطَّعَامُ ",
+                    "role": "focus",
+                    "label": "Makanan"
+                },
+                {
+                    "text": "لَذِيذٌ ",
+                    "role": "suffix",
+                    "label": "Lezat"
+                },
+                {
+                    "text": "جِدًّا!",
+                    "role": "base"
+                }
+            ],
+            "transliteration": "Hā-dzaṭ-ṭa-'ā-mu la-dzī-dzun jid-dan!",
+            "translation": "Makanan ini lezat sekali!"
+        }
+    ],
+    "quickTrick": "Rumus Objek Makanan (-AN): Setiap kali kamu menyebut makanan/minuman SETELAH kata 'أُرِيدُ' (Aku ingin), 'آكُلُ' (Aku makan), atau 'أَشْرَبُ' (Aku minum), ubah bunyi akhirnya menjadi '-AN' (ـًا)! Contoh: سَمَكٌ → أُرِيدُ سَمَكًا.",
+    "vocabulary": [
+        {
+            "arabic": "طَعَامٌ",
+            "transliteration": "ṭa-'ā-mun",
+            "meaning": "Makanan",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "شَرَابٌ",
+            "transliteration": "sha-rā-bun",
+            "meaning": "Minuman",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "لَذِيذٌ / لَذِيذَةٌ",
+            "transliteration": "la-dzī-dzun / la-dzī-dza-tun",
+            "meaning": "Lezat / enak (lk / pr)"
+        },
+        {
+            "arabic": "مُفِيدٌ / مُفِيدَةٌ",
+            "transliteration": "mu-fī-dun / mu-fī-da-tun",
+            "meaning": "Bermanfaat / menyehatkan (lk / pr)"
+        },
+        {
+            "arabic": "جَائِعٌ / جَائِعَةٌ",
+            "transliteration": "jā-i-'un / jā-i-'a-tun",
+            "meaning": "Lapar (lk / pr)"
+        },
+        {
+            "arabic": "عَطْشَانُ / عَطْشَى",
+            "transliteration": "'aṭ-shā-nu / 'aṭ-shā",
+            "meaning": "Haus (lk / pr)"
+        }
+    ],
+    "quizBank": [
+        {
+            "id": "m13-q01",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kamu sedang merasa sangat haus ('عَطْشَانُ') setelah pelajaran olahraga. Ungkapan yang paling tepat untuk memesan air putih di kantin adalah...",
+            "options": [
+                "آكُلُ مَاءً",
+                "أُرِيدُ مَاءً، أَنَا عَطْشَانُ",
+                "أُرِيدُ خُبْزًا، أَنَا عَطْشَانُ",
+                "أَشْرَبُ دَجَاجًا"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "'Mā-un' (air) adalah minuman, jadi tidak boleh memakai kata kerja makan ('آكُلُ'). Gunakan 'أُرِيدُ مَاءً' (Aku ingin air)!",
+            "feedbackCorrect": "Mumtaz! 'Urīdu mā-an, anā 'aṭsyānu' (Aku ingin air, aku haus)."
+        },
+        {
+            "id": "m13-q02",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Terapkan rumus objek makanan (-AN) untuk melengkapi kalimat berikut:\n'فِي الصَّبَاحِ، آكُلُ _____ وَأَشْرَبُ _____.'",
+            "options": [
+                "بَيْضٌ — حَلِيبٌ",
+                "بَيْضًا — حَلِيبًا",
+                "بَيْضٍ — حَلِيبٍ",
+                "حَلِيبًا — بَيْضًا"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Perhatikan dua hal: (1) kata 'آكُلُ' (makan) diikuti makanan ('بَيْضًا' = telur), 'أَشْرَبُ' (minum) diikuti minuman ('حَلِيبًا' = susu), dan (2) keduanya wajib berakhiran Fathah Tanwin (-an)!",
+            "feedbackCorrect": "Ahsanta! 'Ākulu baiḍan wa asyrabu ḥalīban' (Aku makan telur dan minum susu)."
+        },
+        {
+            "id": "m13-q03",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari ungkapan 'عَصِيرُ الْبُرْتُقَالِ' yang dipesan Hanan di cerita pembuka?",
+            "options": [
+                "Jus apel",
+                "Jus jeruk",
+                "Susu cokelat",
+                "Teh manis"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris keempat pada tabel menu kantin ('عَصِيرٌ • تُفَّاحٌ • بُرْتُقَالٌ')!",
+            "feedbackCorrect": "Tepat! ''Aṣīrul-burtuqāli' berarti jus jeruk."
+        },
+        {
+            "id": "m13-q04",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Zaki menulis menu sarapannya: 'أَنَا أَشْرَبُ خُبْزًا لَذِيذًا'. Mengapa kalimat Zaki aneh dan salah?",
+            "options": [
+                "Kata 'أَشْرَبُ' artinya minum, sedangkan 'خُبْزًا' adalah roti (makanan); seharusnya memakai 'آكُلُ'",
+                "Kata 'خُبْزًا' seharusnya berharakat dhammah",
+                "Roti tidak boleh disebut lezat",
+                "Tidak ada kesalahan"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cek arti kata kerja 'أَشْرَبُ' (ash-ra-bu) vs 'آكُلُ' (ā-ku-lu) dan kata benda 'خُبْزٌ' (roti)!",
+            "feedbackCorrect": "Jeli sekali! Roti dimakan ('آكُلُ خُبْزًا'), bukan diminum!"
+        },
+        {
+            "id": "m13-q05",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Manakah pasangan makanan yang seluruhnya merupakan sumber protein hewani pada daftar menu?",
+            "options": [
+                "أُرْزٌ • خُبْزٌ • تُفَّاحٌ",
+                "سَمَكٌ • دَجَاجٌ • بَيْضٌ",
+                "مَاءٌ • شَايٌ • عَصِيرٌ",
+                "بُرْتُقَالٌ • مَوْزٌ • خُبْزٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris kedua pada tabel menu kantin: ikan, ayam, dan telur!",
+            "feedbackCorrect": "Benar! 'Samakun' (ikan), 'Dajājun' (ayam), dan 'Baiḍun' (telur)."
+        },
+        {
+            "id": "m13-q06",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca dialog ini:\nPenjual: 'مَاذَا تُرِيدُ يَا وَلَدُ؟'\nTariq: 'أُرِيدُ أُرْزًا وَسَمَكًا، وَلَا أُرِيدُ شَايًا، أُرِيدُ مَاءً.'\nApa saja yang akhirnya dipesan oleh Tariq?",
+            "options": [
+                "Nasi, ikan, dan teh",
+                "Nasi, ikan, dan air putih",
+                "Roti, ayam, dan teh",
+                "Ikan dan jus jeruk"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Perhatikan kata 'لَا أُرِيدُ شَايًا' (Aku TIDAK ingin teh), lalu Tariq menggantinya dengan 'أُرِيدُ مَاءً'!",
+            "feedbackCorrect": "Teliti sekali! Tariq memesan nasi, ikan, dan air putih."
+        },
+        {
+            "id": "m13-q07",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Jika kamu seorang siswi perempuan dan merasa lapar, ungkapan yang tepat adalah...",
+            "options": [
+                "أَنَا جَائِعٌ",
+                "أَنَا جَائِعَةٌ",
+                "أَنَا عَطْشَانُ",
+                "أَنَا لَذِيذَةٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris kelima pada daftar kosakata baru untuk bentuk perempuan dari kata 'lapar'!",
+            "feedbackCorrect": "Ahsanta! 'Anā jā-i'atun' (Aku lapar — untuk perempuan)."
+        },
+        {
+            "id": "m13-q08",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Lengkapi pujian berikut untuk segelas susu ('حَلِيبٌ' — mudzakkar) dan sepotong kue ('كَعْكَةٌ' — muannats):\n'الْحَلِيبُ _____، وَالْكَعْكَةُ _____.'",
+            "options": [
+                "مُفِيدٌ — لَذِيذَةٌ",
+                "مُفِيدَةٌ — لَذِيذٌ",
+                "مُفِيدٌ — لَذِيذٌ",
+                "مُفِيدَةٌ — لَذِيذَةٌ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Susu ('الْحَلِيبُ') tanpa ة sehingga sifatnya tanpa ة ('مُفِيدٌ'), sedangkan kue ('الْكَعْكَةُ') memakai ة sehingga sifatnya ikut memakai ة ('لَذِيذَةٌ')!",
+            "feedbackCorrect": "Sempurna! 'Al-ḥalību mufīdun, wal-ka'katu ladzīdzatun'."
+        },
+        {
+            "id": "m13-q09",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa perbedaan arti antara 'أُرِيدُ' (u-rī-du) dan 'أُحِبُّ' (u-ḥib-bu)?",
+            "options": [
+                "أُرِيدُ = Aku suka, أُحِبُّ = Aku makan",
+                "أُرِيدُ = Aku ingin/mau, أُحِبُّ = Aku suka/menyukai",
+                "أُرِيدُ = Aku minum, أُحِبُّ = Aku lapar",
+                "Keduanya memiliki arti yang sama persis"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris kelima pada tabel untuk makna masing-masing ungkapan!",
+            "feedbackCorrect": "Akurat! 'Urīdu' = Aku ingin, sedangkan 'Uḥibbu' = Aku suka."
+        },
+        {
+            "id": "m13-q10",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Ubah kalimat 'أُحِبُّ التُّفَّاحَ' (Aku suka apel) menjadi 'Aku suka ayam':",
+            "options": [
+                "أُحِبُّ الدَّجَاجَ",
+                "أُحِبُّ الدَّجَاجُ",
+                "أُحِبُّ السَّمَكُ",
+                "أَشْرَبُ الدَّجَاجَ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ganti 'التُّفَّاحَ' dengan 'الدَّجَاجَ' yang berharakat fathah di akhir sebagai objek!",
+            "feedbackCorrect": "Tepat! 'Uḥibbud-dajāja'."
+        },
+        {
+            "id": "m13-q11",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kata 'شَايٌ' (shā-yun) dalam bahasa Arab berarti...",
+            "options": [
+                "Kopi",
+                "Teh",
+                "Susu",
+                "Air mineral"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris ketiga pada tabel menu kantin!",
+            "feedbackCorrect": "Benar! 'Syāyun' berarti teh."
+        },
+        {
+            "id": "m13-q12",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Dalam cerita pembuka, Bilal bertanya kepada Hanan: 'مَاذَا تُرِيدِينَ أَنْ تَأْكُلِي يَا حَنَانُ؟'. Mengapa kata kerja di kalimat itu berakhiran 'ـِينَ' dan 'ـِي' ('تُرِيدِينَ ... تَأْكُلِي')?",
+            "options": [
+                "Karena Bilal berbicara kepada Hanan (lawan bicara perempuan / أَنْتِ)",
+                "Karena Hanan sedang makan bersama banyak teman",
+                "Karena makanan di kantin sangat banyak",
+                "Karena Bilal menanyakan harga makanan"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Dalam bahasa Arab, kata kerja yang ditujukan kepada 'أَنْتِ' (kamu perempuan) selalu memiliki ciri bunyi 'ـِي' (ī) di ujungnya!",
+            "feedbackCorrect": "Cerdas! Pengamatan detail huruf akhiranmu sangat tajam."
+        },
+        {
+            "id": "m13-q13",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Manakah kata yang berarti 'menyehatkan / bermanfaat' untuk mendeskripsikan buah-buahan?",
+            "options": [
+                "وَسِخٌ",
+                "مُفِيدٌ",
+                "ضَيِّقٌ",
+                "قَدِيمٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris keempat pada daftar kosakata baru!",
+            "feedbackCorrect": "Ahsanta! 'Mufīdun' berarti bermanfaat/menyehatkan."
+        },
+        {
+            "id": "m13-q14",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Dari keempat kalimat di bawah ini, manakah yang menggunakan tanda objek (-AN) dengan BENAR?",
+            "options": [
+                "أُرِيدُ أُرْزٌ وَسَمَكٌ",
+                "أُرِيدُ أُرْزًا وَسَمَكًا",
+                "أُرِيدُ أُرْزٍ وَسَمَكٍ",
+                "أُرِيدُ أُرْزَةً وَسَمَكَةٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ingat kotak 'Trik Cepat'! Kedua makanan yang diinginkan setelah 'أُرِيدُ' harus memakai Fathah Tanwin (-an).",
+            "feedbackCorrect": "Mumtaz! 'Urīdu urzan wa samakan'."
+        },
+        {
+            "id": "m13-q15",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari kalimat 'أَنَا جَائِعٌ، أُرِيدُ أُرْزًا وَدَجَاجًا'?",
+            "options": [
+                "Aku haus, aku ingin jus dan susu",
+                "Aku lapar, aku ingin nasi dan ayam",
+                "Aku kenyang, aku tidak ingin makan",
+                "Aku suka roti dan telur"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Gabungkan arti 'جَائِعٌ' (lapar), 'أُرْزًا' (nasi), dan 'دَجَاجًا' (ayam)!",
+            "feedbackCorrect": "Tepat sekali! 'Aku lapar, aku ingin nasi dan ayam'."
+        },
+        {
+            "id": "m13-q16",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Susunlah 4 kata berikut menjadi kalimat pemesanan yang sopan:\n(1) مِنْ فَضْلِكَ  (2) عَصِيرَ التُّفَّاحِ  (3) أُرِيدُ  (4) يَا أَخِي",
+            "options": [
+                "3 - 2 - 1 - 4",
+                "2 - 3 - 4 - 1",
+                "1 - 2 - 3 - 4",
+                "4 - 2 - 1 - 3"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Mulai dengan 'Aku ingin' (3), lalu objek minumannya (2), lalu ungkapan 'tolong/permisi' (1) dan panggilan (4)!",
+            "feedbackCorrect": "Sangat sopan dan natural! 'Urīdu 'aṣīrat-tuffāḥi min faḍlika yā akhī' (Aku ingin jus apel, tolong ya Mas/Saudaraku)."
+        },
+        {
+            "id": "m13-q17",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kata 'طَعَامٌ' dan 'شَرَابٌ' secara berurutan memiliki arti...",
+            "options": [
+                "Makanan dan Minuman",
+                "Lapar dan Haus",
+                "Nasi dan Air",
+                "Manis dan Asin"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cek dua baris pertama pada daftar kosakata baru!",
+            "feedbackCorrect": "Benar! 'Ṭa'āmun' = makanan, 'Syarābun' = minuman."
+        },
+        {
+            "id": "m13-q18",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca teks pendek: 'لَا أُحِبُّ الشَّايَ، وَلٰكِنْ أُحِبُّ الْحَلِيبَ وَعَصِيرَ الْبُرْتُقَالِ.'\nMinuman apa yang TIDAK disukai oleh penulis kalimat tersebut?",
+            "options": [
+                "Susu",
+                "Jus jeruk",
+                "Teh",
+                "Air putih"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Perhatikan kata setelah 'لَا أُحِبُّ' (Aku tidak suka): 'الشَّايَ'!",
+            "feedbackCorrect": "Akurat! Penulis tidak menyukai teh ('asy-syāya')."
+        },
+        {
+            "id": "m13-q19",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Bagaimana cara membaca kata 'لَذِيذٌ' (lezat) dengan benar?",
+            "options": [
+                "la-dzī-dzun",
+                "la-zī-zun",
+                "la-dī-dun",
+                "li-dzā-dzun"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Kedua huruf konsonan setelah Lam adalah huruf Dzal (ذ), dibaca lembut seperti 'dz'!",
+            "feedbackCorrect": "Tepat! 'La-dzī-dzun'."
+        },
+        {
+            "id": "m13-q20",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Jika 'حَلِيبٌ دَافِئٌ' artinya 'susu hangat', maka 'air dingin' ('مَاءٌ' + 'بَارِدٌ') ditulis...",
+            "options": [
+                "مَاءٌ بَارِدَةٌ",
+                "مَاءٌ بَارِدٌ",
+                "مَاءٌ دَافِئَةٌ",
+                "بَارِدٌ مَاءٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Kata 'مَاءٌ' (air) adalah mudzakkar, sehingga kata sifat 'بَارِدٌ' (dingin) diletakkan setelahnya tanpa huruf ة!",
+            "feedbackCorrect": "Mumtaz! 'Mā-un bāridun' (air dingin)."
+        }
+    ]
+}

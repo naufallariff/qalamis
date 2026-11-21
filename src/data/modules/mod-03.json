@@ -1,0 +1,532 @@
+{
+    "id": 3,
+    "zoneId": "zone-1",
+    "slug": "rahasia-ta-marbuthah",
+    "title": "Rahasia Huruf ة (Ta Marbuthah)",
+    "canDo": "Aku bisa mengubah kata benda atau profesi laki-laki menjadi bentuk perempuan hanya dengan menambahkan satu huruf ajaib di belakangnya.",
+    "storyHook": {
+        "title": "Wawancara Majalah Dinding Sekolah",
+        "setting": "Tim mading kelas 6 mewawancarai warga sekolah di halaman",
+        "lines": [
+            {
+                "speaker": "Naufal",
+                "avatarRole": "boy",
+                "arabic": "مَنْ هٰذَا يَا أَمِينَةُ؟",
+                "transliteration": "Man hā-dzā yā A-mī-nah?",
+                "translation": "Siapa ini wahai Aminah?"
+            },
+            {
+                "speaker": "Aminah",
+                "avatarRole": "girl",
+                "arabic": "هٰذَا أُسْتَاذٌ، وَهٰذِهِ أُسْتَاذَةٌ.",
+                "transliteration": "Hā-dzā us-tā-dzun, wa hā-dzi-hi us-tā-dza-tun.",
+                "translation": "Ini seorang guru laki-laki, dan ini seorang guru perempuan."
+            },
+            {
+                "speaker": "Naufal",
+                "avatarRole": "boy",
+                "arabic": "وَهَلْ هٰذِهِ طَالِبَةٌ جَدِيدَةٌ؟",
+                "transliteration": "Wa hal hā-dzi-hi ṭā-li-ba-tun ja-dī-dah?",
+                "translation": "Dan apakah ini seorang siswi baru?"
+            },
+            {
+                "speaker": "Aminah",
+                "avatarRole": "girl",
+                "arabic": "نَعَمْ، هِيَ طَالِبَةٌ وَصَدِيقَتِي!",
+                "transliteration": "Na-'am, hi-ya ṭā-li-ba-tun wa ṣa-dī-qa-tī!",
+                "translation": "Ya, dia seorang siswi dan sahabat perempuanku!"
+            }
+        ]
+    },
+    "explanation": "Huruf Ta Marbuthah (ـة / ة) bukan cuma menempel pada benda mati, tetapi juga menjadi 'sakelar pengubah' untuk profesi dan panggilan orang! Jika bentuk laki-lakinya adalah 'Ṭālibun' (siswa), cukup tambahkan 'ـة' di ujungnya maka langsung berubah menjadi 'Ṭālibatun' (siswi).",
+    "patternTable": {
+        "title": "Mesin Pengubah Profesi: Cowok → Cewek",
+        "filters": [
+            "Semua",
+            "Lingkungan Sekolah",
+            "Profesi & Teman"
+        ],
+        "headers": [
+            "Bentuk Cowok (Mudzakkar)",
+            "Imbuhan",
+            "Bentuk Cewek (Muannats)",
+            "Arti"
+        ],
+        "rows": [
+            {
+                "id": "m3-r1",
+                "category": "Lingkungan Sekolah",
+                "cells": [
+                    "طَالِبٌ (ṭā-li-bun)",
+                    "+ ـة",
+                    "طَالِبَةٌ (ṭā-li-ba-tun)",
+                    "Siswa → Siswi"
+                ],
+                "arabicResult": "طَالِبٌ ← طَالِبَةٌ",
+                "transliteration": "ṭā-li-bun → ṭā-li-ba-tun",
+                "meaning": "Siswa laki-laki → Siswi perempuan",
+                "breakdown": "Huruf ب diberi harakat fathah (بَ) lalu disambung dengan ة."
+            },
+            {
+                "id": "m3-r2",
+                "category": "Lingkungan Sekolah",
+                "cells": [
+                    "أُسْتَاذٌ (us-tā-dzun)",
+                    "+ ة",
+                    "أُسْتَاذَةٌ (us-tā-dza-tun)",
+                    "Pak Guru → Bu Guru"
+                ],
+                "arabicResult": "أُسْتَاذٌ ← أُسْتَاذَةٌ",
+                "transliteration": "us-tā-dzun → us-tā-dza-tun",
+                "meaning": "Guru laki-laki → Guru perempuan",
+                "breakdown": "Karena berakhir dengan huruf ذ (tidak menyambung ke kiri), ة ditulis bulat terpisah."
+            },
+            {
+                "id": "m3-r3",
+                "category": "Lingkungan Sekolah",
+                "cells": [
+                    "مُدِيرٌ (mu-dī-run)",
+                    "+ ة",
+                    "مُدِيرَةٌ (mu-dī-ra-tun)",
+                    "Kepala Sekolah (Lk → Pr)"
+                ],
+                "arabicResult": "مُدِيرٌ ← مُدِيرَةٌ",
+                "transliteration": "mu-dī-run → mu-dī-ra-tun",
+                "meaning": "Kepala sekolah laki-laki → perempuan",
+                "breakdown": "Huruf ر diberi harakat fathah (رَ) lalu diikuti ة terpisah."
+            },
+            {
+                "id": "m3-r4",
+                "category": "Profesi & Teman",
+                "cells": [
+                    "صَدِيقٌ (ṣa-dī-qun)",
+                    "+ ـة",
+                    "صَدِيقَةٌ (ṣa-dī-qa-tun)",
+                    "Teman (Lk → Pr)"
+                ],
+                "arabicResult": "صَدِيقٌ ← صَدِيقَةٌ",
+                "transliteration": "ṣa-dī-qun → ṣa-dī-qa-tun",
+                "meaning": "Teman laki-laki → Teman perempuan",
+                "breakdown": "Huruf ق disambung dengan ـة menjadi قَةٌ."
+            },
+            {
+                "id": "m3-r5",
+                "category": "Profesi & Teman",
+                "cells": [
+                    "طَبِيبٌ (ṭa-bī-bun)",
+                    "+ ـة",
+                    "طَبِيبَةٌ (ṭa-bī-ba-tun)",
+                    "Dokter (Lk → Pr)"
+                ],
+                "arabicResult": "طَبِيبٌ ← طَبِيبَةٌ",
+                "transliteration": "ṭa-bī-bun → ṭa-bī-ba-tun",
+                "meaning": "Dokter laki-laki → Dokter perempuan",
+                "breakdown": "Huruf ب disambung dengan ـة menjadi بَةٌ."
+            },
+            {
+                "id": "m3-r6",
+                "category": "Profesi & Teman",
+                "cells": [
+                    "مُهَنْدِسٌ (mu-han-di-sun)",
+                    "+ ـة",
+                    "مُهَنْدِسَةٌ (mu-han-di-sa-tun)",
+                    "Insinyur (Lk → Pr)"
+                ],
+                "arabicResult": "مُهَنْدِسٌ ← مُهَنْدِسَةٌ",
+                "transliteration": "mu-han-di-sun → mu-han-di-sa-tun",
+                "meaning": "Insinyur laki-laki → Insinyur perempuan",
+                "breakdown": "Huruf س disambung dengan ـة menjadi سَةٌ."
+            }
+        ]
+    },
+    "highlightedExamples": [
+        {
+            "segments": [
+                {
+                    "text": "هٰذَا ",
+                    "role": "focus",
+                    "label": "Tunjuk Cowok"
+                },
+                {
+                    "text": "طَبِيبٌ",
+                    "role": "base"
+                },
+                {
+                    "text": "، وَهٰذِهِ ",
+                    "role": "focus",
+                    "label": "Tunjuk Cewek"
+                },
+                {
+                    "text": "طَبِيب",
+                    "role": "base"
+                },
+                {
+                    "text": "َةٌ",
+                    "role": "suffix",
+                    "label": "Penanda Cewek"
+                }
+            ],
+            "transliteration": "Hā-dzā ṭa-bī-bun, wa hā-dzi-hi ṭa-bī-ba-tun.",
+            "translation": "Ini seorang dokter (lk), dan ini seorang dokter (pr)."
+        },
+        {
+            "segments": [
+                {
+                    "text": "مَنْ هٰذِهِ؟ — هٰذِهِ ",
+                    "role": "base"
+                },
+                {
+                    "text": "مُدِير",
+                    "role": "base"
+                },
+                {
+                    "text": "َةُ",
+                    "role": "suffix",
+                    "label": "Penanda Cewek"
+                },
+                {
+                    "text": " الْمَدْرَسَةِ.",
+                    "role": "focus",
+                    "label": "Sekolah"
+                }
+            ],
+            "transliteration": "Man hā-dzi-hi? — Hā-dzi-hi mu-dī-ra-tul-mad-ra-sah.",
+            "translation": "Siapa ini? — Ini ibu kepala sekolah."
+        }
+    ],
+    "quickTrick": "Sebelum menempelkan ة di akhir kata, ubah dulu harakat huruf terakhir kata aslinya menjadi Fathah (-a)! Contoh: ṭā-li-bun → ṭā-li-BA-tun.",
+    "vocabulary": [
+        {
+            "arabic": "مَنْ",
+            "transliteration": "man",
+            "meaning": "Siapa"
+        },
+        {
+            "arabic": "طَالِبٌ / طَالِبَةٌ",
+            "transliteration": "ṭā-li-bun / ṭā-li-ba-tun",
+            "meaning": "Siswa / Siswi"
+        },
+        {
+            "arabic": "أُسْتَاذٌ / أُسْتَاذَةٌ",
+            "transliteration": "us-tā-dzun / us-tā-dza-tun",
+            "meaning": "Pak Guru / Bu Guru"
+        },
+        {
+            "arabic": "صَدِيقٌ / صَدِيقَةٌ",
+            "transliteration": "ṣa-dī-qun / ṣa-dī-qa-tun",
+            "meaning": "Teman (lk / pr)"
+        },
+        {
+            "arabic": "طَبِيبٌ / طَبِيبَةٌ",
+            "transliteration": "ṭa-bī-bun / ṭa-bī-ba-tun",
+            "meaning": "Dokter (lk / pr)"
+        },
+        {
+            "arabic": "مُدِيرٌ / مُدِيرَةٌ",
+            "transliteration": "mu-dī-run / mu-dī-ra-tun",
+            "meaning": "Kepala sekolah (lk / pr)"
+        }
+    ],
+    "quizBank": [
+        {
+            "id": "m03-q01",
+            "difficulty": "medium",
+            "type": "morpheme-swap",
+            "question": "Bentuk laki-laki dari 'dokter' adalah 'طَبِيبٌ'. Bagaimana penulisan yang benar untuk 'dokter perempuan'?",
+            "options": [
+                "طَبِيبَةٌ",
+                "طَبِيبٌة",
+                "طَبِيبَتٌ",
+                "طَبِيبِةٌ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Huruf ب bisa disambung ke kiri dengan ـة, dan harakat pada huruf ب sebelum ة harus berupa fathah (-ba-). Cek baris ke-5 tabel!",
+            "feedbackCorrect": "Mumtaz! 'Ṭabībun' berubah mulus menjadi 'Ṭabībatun' (طَبِيبَةٌ)."
+        },
+        {
+            "id": "m03-q02",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Di Modul 2 kita memakai 'مَا' untuk menanyakan benda. Di dialog Naufal dan Aminah, kata tanya apa yang dipakai untuk menanyakan ORANG?",
+            "options": [
+                "مَا (Mā)",
+                "مَنْ (Man)",
+                "أَيْنَ (Ai-na)",
+                "كَيْفَ (Kai-fa)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Lihat baris pertama cerita Naufal: '_____ هٰذَا يَا أَمِينَةُ؟'. Cek daftar kosakata baru untuk kata tanya 'Siapa'!",
+            "feedbackCorrect": "Ahsanta! 'Man' (مَنْ) digunakan untuk menanyakan manusia/orang, sedangkan 'Mā' (مَا) untuk benda."
+        },
+        {
+            "id": "m03-q03",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Lengkapi percakapan berikut dengan tepat:\n'مَنْ هٰذِهِ؟ — هٰذِهِ _____.'",
+            "options": [
+                "أُسْتَاذٌ",
+                "مُدِيرٌ",
+                "مُهَنْدِسَةٌ",
+                "صَدِيقٌ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Pertanyaan memakai 'هٰذِهِ' (untuk perempuan). Pilihlah profesi yang memiliki penanda perempuan (ـة) di akhirnya!",
+            "feedbackCorrect": "Tepat sekali! 'Muhandisatun' (insinyur perempuan) cocok dengan 'هٰذِهِ'."
+        },
+        {
+            "id": "m03-q04",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Perhatikan penulisan kata 'أُسْتَاذَةٌ' (guru perempuan). Mengapa huruf ة di akhir kata tersebut tidak disambung dengan huruf ذ?",
+            "options": [
+                "Karena huruf ذ (Dzal) termasuk huruf yang tidak bisa disambung ke kiri",
+                "Karena kata guru perempuan tidak boleh memakai ة",
+                "Karena huruf ة berada di tengah kata",
+                "Karena harakat sebelumnya kasrah"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cek bagian 'breakdown' pada baris ke-2 di tabel! Huruf ذ tidak dapat bergandengan dengan huruf setelahnya.",
+            "feedbackCorrect": "Cerdas! Huruf ذ hanya bisa disambung dari kanan, sehingga ة di sebelah kirinya berdiri bulat utuh."
+        },
+        {
+            "id": "m03-q05",
+            "difficulty": "medium",
+            "type": "morpheme-swap",
+            "question": "Jika kamu melihat kata 'مُعَلِّمَةٌ' (guru perempuan), maka bentuk laki-lakinya adalah...",
+            "options": [
+                "مُعَلِّمٌ",
+                "مُعَلِّمَة",
+                "مُعَلِّمَتٌ",
+                "عَلِيمٌ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Untuk mengubah bentuk perempuan kembali ke laki-laki, cukup lepaskan huruf 'ـة' di ujungnya dan beri tanwin dhammah (-un) pada huruf م!",
+            "feedbackCorrect": "Hebat! Melepas 'ـة' dari 'mu'allimatun' menghasilkan bentuk mudzakkar 'mu'allimun' (مُعَلِّمٌ)."
+        },
+        {
+            "id": "m03-q06",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Salma memperkenalkan dua orang di ruang UKS: 'هٰذَا _____ وَهٰذِهِ _____'. Pasangan kata yang tepat untuk melengkapinya adalah...",
+            "options": [
+                "طَبِيبَةٌ — طَبِيبٌ",
+                "طَبِيبٌ — طَبِيبَةٌ",
+                "طَبِيبٌ — طَبِيبٌ",
+                "طَبِيبَةٌ — طَبِيبَةٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Perhatikan urutan kata tunjuknya: pertama 'هٰذَا' (cowok), lalu kedua 'هٰذِهِ' (cewek). Jangan sampai tertukar!",
+            "feedbackCorrect": "Mumtaz! Urutan cowok dulu (ṭabībun) lalu cewek (ṭabībatun) sangat pas."
+        },
+        {
+            "id": "m03-q07",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari kalimat 'هٰذَا صَدِيقِي وَهٰذِهِ صَدِيقَتِي'?",
+            "options": [
+                "Ini guruku (lk) dan ini guruku (pr)",
+                "Ini teman laki-lakiku dan ini teman perempuanku",
+                "Ini siswa baru dan ini siswi baru",
+                "Ini dokternya dan ini pasiennya"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek arti kata dasar 'صَدِيقٌ' di daftar kosakata baru, lalu gabungkan dengan akhiran 'ـِي' (milikku)!",
+            "feedbackCorrect": "Benar! 'Ṣadīqī' = teman laki-lakiku, dan 'Ṣadīqatī' = teman perempuanku."
+        },
+        {
+            "id": "m03-q08",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca pernyataan berikut:\n'اِسْمِي حَمْزَةُ. أَنَا طَالِبٌ. أُخْتِي اِسْمُهَا زَيْنَبُ، هِيَ طَالِبَةٌ.'\nMengapa Zainab disebut 'طَالِبَةٌ' sedangkan Hamzah disebut 'طَالِبٌ'?",
+            "options": [
+                "Karena Zainab lebih tua dari Hamzah",
+                "Karena Zainab berjenis kelamin perempuan sehingga memakai ة, sedangkan Hamzah laki-laki",
+                "Karena Hamzah sudah lulus sekolah",
+                "Karena Zainab adalah seorang guru"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Perhatikan perbedaan huruf akhir antara sebutan untuk Hamzah (tanpa ة) dan Zainab (memakai ة)!",
+            "feedbackCorrect": "Tepat! Bahasa Arab selalu menyesuaikan akhiran profesi atau status dengan jenis kelamin orangnya."
+        },
+        {
+            "id": "m03-q09",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Temukan kalimat yang SALAH di bawah ini:",
+            "options": [
+                "مَنْ هٰذَا؟ هٰذَا مُدِيرٌ.",
+                "مَا هٰذَا؟ هٰذَا طَالِبٌ.",
+                "مَنْ هٰذِهِ؟ هٰذِهِ أُسْتَاذَةٌ.",
+                "مَنْ هٰذَا؟ هٰذَا صَدِيقٌ."
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek kata tanya pada pilihan kedua! 'طَالِبٌ' (siswa) adalah manusia/orang, bukan benda mati. Kata tanya apa yang seharusnya dipakai?",
+            "feedbackCorrect": "Jeli sekali! Menanyakan 'طَالِبٌ' (siswa) harus memakai 'مَنْ' (Siapa), bukan 'مَا' (Apa)."
+        },
+        {
+            "id": "m03-q10",
+            "difficulty": "medium",
+            "type": "morpheme-swap",
+            "question": "Dalam kata 'مُدِيرَةٌ', bagaimana cara baca suku kata yang tepat sesuai kaidah pemenggalan?",
+            "options": [
+                "mu-dī-ra-tun",
+                "mu-di-ri-tun",
+                "ma-dī-ra-tun",
+                "mu-dī-run-tun"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ingat trik cepat di materi: huruf sebelum ة selalu berharakat fathah (-ra-), bukan kasrah (-ri-) atau tanwin!",
+            "feedbackCorrect": "Akurat! 'Mu-dī-ra-tun' dengan bunyi '-ra-' sebelum '-tun'."
+        },
+        {
+            "id": "m03-q11",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Ibu Farida adalah kepala sekolah di SD Harapan. Kalimat yang tepat untuk memperkenalkannya adalah...",
+            "options": [
+                "هٰذَا مُدِيرٌ فَرِيدَةُ",
+                "هٰذِهِ مُدِيرَةٌ، اِسْمُهَا فَرِيدَةُ",
+                "هٰذِهِ مُدِيرٌ، اِسْمُهَا فَرِيدَةُ",
+                "هٰذَا مُدِيرَةٌ، اِسْمُهُ فَرِيدَةُ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ibu Farida adalah perempuan, sehingga ketiga unsur (kata tunjuk, jabatan kepala sekolah, dan kata ganti namanya) harus berbentuk perempuan!",
+            "feedbackCorrect": "Luar biasa! 'Hādzihi mudīratun, ismuhā Farīdah' konsisten memakai bentuk muannats dari awal hingga akhir."
+        },
+        {
+            "id": "m03-q12",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari kata 'مُهَنْدِسٌ' dalam tabel profesi?",
+            "options": [
+                "Dokter",
+                "Insinyur / Arsitek",
+                "Kepala Sekolah",
+                "Siswa"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris terakhir pada tabel 'Mesin Pengubah Profesi: Cowok → Cewek'!",
+            "feedbackCorrect": "Benar! 'Muhandisun' berarti insinyur (laki-laki)."
+        },
+        {
+            "id": "m03-q13",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Jika kata 'مُمَرِّضٌ' berarti 'perawat laki-laki', maka 'perawat perempuan' ditulis...",
+            "options": [
+                "مُمَرِّضَةٌ",
+                "مُمَرِّضٌة",
+                "مُمَرِّضِةٌ",
+                "مُمَرِّضُةٌ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Terapkan rumus yang sama pada kosakata baru ini! Huruf ض dapat disambung ke kiri dengan ـة dan berharakat fathah.",
+            "feedbackCorrect": "Hebat! Kamu mampu membentuk kata 'mumarridhatun' (مُمَرِّضَةٌ) secara mandiri."
+        },
+        {
+            "id": "m03-q14",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Manakah dari 4 kata berikut yang TIDAK memiliki penanda perempuan (Ta Marbuthah)?",
+            "options": [
+                "أُسْتَاذَةٌ",
+                "طَالِبَةٌ",
+                "أُسْتَاذٌ",
+                "طَبِيبَةٌ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Perhatikan ujung keempat kata tersebut. Tiga di antaranya diakhiri huruf ة, satu diakhiri huruf ذ.",
+            "feedbackCorrect": "Tepat! 'Ustādzun' adalah bentuk mudzakkar (Pak Guru)."
+        },
+        {
+            "id": "m03-q15",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Perhatikan dialog:\nA: 'هَلْ أَنْتِ طَبِيبَةٌ؟'\nB: 'لَا، أَنَا أُسْتَاذَةٌ.'\nSiapakah B sebenarnya?",
+            "options": [
+                "Seorang dokter perempuan",
+                "Seorang guru perempuan",
+                "Seorang guru laki-laki",
+                "Seorang siswi"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "B menolak anggapan A dengan kata 'لَا' (Bukan), lalu menyebutkan profesi aslinya dengan kata 'أَنَا...'!",
+            "feedbackCorrect": "Mumtaz! B menjelaskan bahwa ia bukan dokter, melainkan seorang guru perempuan ('ustādzatun')."
+        },
+        {
+            "id": "m03-q16",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Ketika kata 'صَدِيقَةٌ' (teman perempuan) disambung dengan 'ـِي' (milikku) menjadi 'صَدِيقَتِي', mengapa huruf ة tidak terlihat lagi?",
+            "options": [
+                "Karena huruf ة dihapus dan diganti huruf ت biasa agar bisa menyambung dengan ـِي",
+                "Karena artinya berubah menjadi teman laki-laki",
+                "Karena huruf ة hilang saat diucapkan",
+                "Karena kata tersebut menjadi jamak"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ingat sifat huruf Ta Marbuthah: tertutup di ujung kata (ة), tetapi terbuka menjadi Ta biasa (ت) begitu disambung dengan imbuhan di belakangnya!",
+            "feedbackCorrect": "Ahsanta! Penjelasanmu sangat tepat—ikatan ة terbuka menjadi ت saat disambung."
+        },
+        {
+            "id": "m03-q17",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Lengkapi pertanyaan berikut untuk menanyakan status teman laki-lakimu:\n'هَلْ _____ طَالِبٌ؟'",
+            "options": [
+                "أَنْتِ",
+                "أَنْتَ",
+                "هٰذِهِ",
+                "هِيَ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Predikatnya adalah 'طَالِبٌ' (siswa laki-laki) dan soal meminta menanyakan kepada lawan bicara ('kamu laki-laki').",
+            "feedbackCorrect": "Benar! 'Hal anta ṭālibun?' artinya 'Apakah kamu seorang siswa?'."
+        },
+        {
+            "id": "m03-q18",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Pasangan yang PALING SERASI antara kata tanya dan jawabannya adalah...",
+            "options": [
+                "مَنْ هٰذَا؟ ← هٰذَا كِتَابٌ",
+                "مَا هٰذِهِ؟ ← هٰذِهِ مِسْطَرَةٌ",
+                "مَا هٰذِهِ؟ ← هٰذِهِ أُسْتَاذَةٌ",
+                "مَنْ هٰذِهِ؟ ← هٰذَا طَالِبٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ingat dua aturan sekaligus: 'مَا' untuk benda vs 'مَنْ' untuk orang, serta kesesuaian 'هٰذَا' vs 'هٰذِهِ'!",
+            "feedbackCorrect": "Sempurna! 'Mā hādzihi?' (Apa ini?) dijawab 'Hādzihi misṭaratun' (Ini penggaris)."
+        },
+        {
+            "id": "m03-q19",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Rizki membaca tulisan: 'هٰذِهِ مُدِيرٌ جَدِيدٌ'. Kesalahan ganda dalam kalimat tersebut adalah...",
+            "options": [
+                "Seharusnya memakai 'هٰذَا' karena 'مُدِيرٌ' dan 'جَدِيدٌ' sama-sama mudzakkar",
+                "Kata 'مُدِيرٌ' tidak boleh memakai harakat dhammah",
+                "Kata 'جَدِيدٌ' seharusnya diletakkan di depan 'هٰذِهِ'",
+                "Tidak ada kesalahan"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Lihat dua kata di belakang: 'مُدِيرٌ' (kepala sekolah lk) dan 'جَدِيدٌ' (baru lk)—keduanya tidak berakhiran ة! Kata tunjuk di depannya malah memakai bentuk perempuan.",
+            "feedbackCorrect": "Cerdas! Karena kedua kata di belakang berbentuk laki-laki, kata tunjuknya harus 'هٰذَا'."
+        },
+        {
+            "id": "m03-q20",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Dalam cerita pembuka, Aminah berkata: 'هِيَ طَالِبَةٌ وَصَدِيقَتِي!'. Siapa yang dimaksud dengan kata 'هِيَ' (dia perempuan) oleh Aminah?",
+            "options": [
+                "Naufal",
+                "Siswi baru yang sedang dibicarakan",
+                "Ibu Guru",
+                "Aminah sendiri"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Lihat pertanyaan Naufal tepat sebelum jawaban Aminah: 'وَهَلْ هٰذِهِ طَالِبَةٌ جَدِيدَةٌ؟' (Dan apakah ini siswi baru?).",
+            "feedbackCorrect": "Grandmaster Zona 1! Kamu memahami konteks cerita dengan sangat baik."
+        }
+    ]
+}

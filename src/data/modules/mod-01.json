@@ -1,0 +1,521 @@
+{
+    "id": 1,
+    "zoneId": "zone-1",
+    "slug": "salam-dan-kenalan",
+    "title": "Salam & Kenalan Yuk!",
+    "canDo": "Aku bisa menyapa teman sesuai waktu (pagi/sore), menanyakan kabar, serta memperkenalkan nama dan asalku dalam bahasa Arab.",
+    "storyHook": {
+        "title": "Hari Pertama di Klub Baca Sekolah",
+        "setting": "Pagi hari yang cerah di depan perpustakaan SD Nusantara",
+        "lines": [
+            {
+                "speaker": "Tariq",
+                "avatarRole": "boy",
+                "arabic": "السَّلَامُ عَلَيْكُمْ! صَبَاحُ الْخَيْرِ.",
+                "transliteration": "As-sa-lā-mu 'a-lai-kum! Ṣa-bā-ḥul-khair.",
+                "translation": "Semoga keselamatan tercurah atasmu! Selamat pagi."
+            },
+            {
+                "speaker": "Salma",
+                "avatarRole": "girl",
+                "arabic": "وَعَلَيْكُمُ السَّلَامُ! صَبَاحُ النُّورِ. كَيْفَ حَالُكَ؟",
+                "transliteration": "Wa 'a-lai-ku-mus-sa-lām! Ṣa-bā-ḥun-nūr. Kai-fa ḥā-lu-ka?",
+                "translation": "Dan atasmu keselamatan! Selamat pagi juga. Bagaimana kabarmu?"
+            },
+            {
+                "speaker": "Tariq",
+                "avatarRole": "boy",
+                "arabic": "أَنَا بِخَيْرٍ، الْحَمْدُ لِلّٰهِ. اِسْمِي طَارِقٌ. وَمَا اسْمُكِ؟",
+                "transliteration": "A-nā bi-khai-rin, al-ḥam-du lil-lāh. Is-mī Ṭā-riq. Wa mas-mu-ki?",
+                "translation": "Aku baik-baik saja, segala puji bagi Allah. Namaku Tariq. Dan siapa namamu?"
+            },
+            {
+                "speaker": "Salma",
+                "avatarRole": "girl",
+                "arabic": "اِسْمِي سَلْمَى. أَنَا مِنْ جَاكَرْتَا. أَهْلًا وَسَهْلًا!",
+                "transliteration": "Is-mī Sal-mā. A-nā min Jā-kar-tā. Ah-lan wa sah-lan!",
+                "translation": "Namaku Salma. Aku berasal dari Jakarta. Selamat datang!"
+            }
+        ]
+    },
+    "explanation": "Dalam bahasa Arab, setiap sapaan memiliki pasangan jawaban yang serasi seperti pantun! Selain itu, saat bertanya nama atau kabar, ujung katanya berubah tipis tergantung kamu berbicara dengan teman laki-laki (akhiran -ka) atau teman perempuan (akhiran -ki).",
+    "patternTable": {
+        "title": "Peta Sapaan & Tanya Jawab Perkenalan",
+        "filters": [
+            "Semua",
+            "Sapaan Waktu",
+            "Tanya Nama & Kabar"
+        ],
+        "headers": [
+            "Situasi",
+            "Ungkapan Pembuka",
+            "Balasan Pasangannya"
+        ],
+        "rows": [
+            {
+                "id": "m1-r1",
+                "category": "Sapaan Waktu",
+                "cells": [
+                    "Pagi hari",
+                    "صَبَاحُ الْخَيْرِ (Ṣa-bā-ḥul-khair)",
+                    "صَبَاحُ النُّورِ (Ṣa-bā-ḥun-nūr)"
+                ],
+                "arabicResult": "صَبَاحُ الْخَيْرِ ← صَبَاحُ النُّورِ",
+                "transliteration": "Ṣa-bā-ḥul-khair → Ṣa-bā-ḥun-nūr",
+                "meaning": "Selamat pagi → Selamat pagi (cahaya)",
+                "breakdown": "الْخَيْرِ (kebaikan) dibalas dengan النُّورِ (cahaya)."
+            },
+            {
+                "id": "m1-r2",
+                "category": "Sapaan Waktu",
+                "cells": [
+                    "Sore hari",
+                    "مَسَاءُ الْخَيْرِ (Ma-sā-ul-khair)",
+                    "مَسَاءُ النُّورِ (Ma-sā-un-nūr)"
+                ],
+                "arabicResult": "مَسَاءُ الْخَيْرِ ← مَسَاءُ النُّورِ",
+                "transliteration": "Ma-sā-ul-khair → Ma-sā-un-nūr",
+                "meaning": "Selamat sore → Selamat sore (cahaya)",
+                "breakdown": "Cukup ganti صَبَاحُ (pagi) menjadi مَسَاءُ (sore), balasannya tetap النُّورِ."
+            },
+            {
+                "id": "m1-r3",
+                "category": "Sapaan Waktu",
+                "cells": [
+                    "Menyambut tamu/teman",
+                    "أَهْلًا وَسَهْلًا (Ah-lan wa sah-lan)",
+                    "أَهْلًا بِكَ / بِكِ (Ah-lan bi-ka/ki)"
+                ],
+                "arabicResult": "أَهْلًا وَسَهْلًا ← أَهْلًا بِكَ",
+                "transliteration": "Ah-lan wa sah-lan → Ah-lan bi-ka",
+                "meaning": "Selamat datang → Selamat datang juga",
+                "breakdown": "بِكَ (bi-ka) jika menyapa cowok, بِكِ (bi-ki) jika menyapa cewek."
+            },
+            {
+                "id": "m1-r4",
+                "category": "Tanya Nama & Kabar",
+                "cells": [
+                    "Tanya kabar (ke cowok)",
+                    "كَيْفَ حَالُكَ؟ (Kai-fa ḥā-lu-ka?)",
+                    "أَنَا بِخَيْرٍ (A-nā bi-khai-rin)"
+                ],
+                "arabicResult": "كَيْفَ حَالُكَ؟",
+                "transliteration": "Kai-fa ḥā-lu-ka?",
+                "meaning": "Apa kabarmu (laki-laki)?",
+                "breakdown": "حَالُ (kabar) + كَ (-ka = kamu laki-laki)."
+            },
+            {
+                "id": "m1-r5",
+                "category": "Tanya Nama & Kabar",
+                "cells": [
+                    "Tanya kabar (ke cewek)",
+                    "كَيْفَ حَالُكِ؟ (Kai-fa ḥā-lu-ki?)",
+                    "أَنَا بِخَيْرٍ (A-nā bi-khai-rin)"
+                ],
+                "arabicResult": "كَيْفَ حَالُكِ؟",
+                "transliteration": "Kai-fa ḥā-lu-ki?",
+                "meaning": "Apa kabarmu (perempuan)?",
+                "breakdown": "حَالُ (kabar) + كِ (-ki = kamu perempuan)."
+            },
+            {
+                "id": "m1-r6",
+                "category": "Tanya Nama & Kabar",
+                "cells": [
+                    "Tanya nama",
+                    "مَا اسْمُكَ؟ / مَا اسْمُكِ؟",
+                    "اِسْمِي ... (Is-mī ...)"
+                ],
+                "arabicResult": "مَا اسْمُكَ؟ ← اِسْمِي طَارِقٌ",
+                "transliteration": "Mas-mu-ka? → Is-mī Ṭā-riq",
+                "meaning": "Siapa namamu? → Namaku Tariq",
+                "breakdown": "اِسْمُ (nama) + ي (-ī = milikku) menjadi اِسْمِي (namaku)."
+            }
+        ]
+    },
+    "highlightedExamples": [
+        {
+            "segments": [
+                {
+                    "text": "مَا اسْمُ",
+                    "role": "base"
+                },
+                {
+                    "text": "كَ",
+                    "role": "suffix",
+                    "label": "Kamu (Cowok)"
+                },
+                {
+                    "text": "؟ — اِسْمِ",
+                    "role": "base"
+                },
+                {
+                    "text": "ي",
+                    "role": "suffix",
+                    "label": "Milikku"
+                },
+                {
+                    "text": " زَيْدٌ.",
+                    "role": "focus",
+                    "label": "Nama"
+                }
+            ],
+            "transliteration": "Mas-mu-ka? — Is-mī Zai-dun.",
+            "translation": "Siapa namamu (cowok)? — Namaku Zaid."
+        },
+        {
+            "segments": [
+                {
+                    "text": "مِنْ أَيْنَ أَنْتِ؟ — ",
+                    "role": "focus",
+                    "label": "Dari mana?"
+                },
+                {
+                    "text": "أَنَا مِنْ",
+                    "role": "prefix",
+                    "label": "Aku dari..."
+                },
+                {
+                    "text": " بَانْدُونْج.",
+                    "role": "base"
+                }
+            ],
+            "transliteration": "Min ai-na an-ti? — A-nā min Bān-dūng.",
+            "translation": "Dari mana asalmu (cewek)? — Aku berasal dari Bandung."
+        }
+    ],
+    "quickTrick": "Ingat rumus 'KA-KI': Harakat fathah (-KA) di atas huruf Kaf untuk KAkak cowok, sedangkan kasrah (-KI) di bawah huruf Kaf untuk cewek!",
+    "vocabulary": [
+        {
+            "arabic": "صَبَاحٌ",
+            "transliteration": "ṣa-bā-ḥun",
+            "meaning": "Pagi"
+        },
+        {
+            "arabic": "مَسَاءٌ",
+            "transliteration": "ma-sā-un",
+            "meaning": "Sore"
+        },
+        {
+            "arabic": "اِسْمٌ",
+            "transliteration": "is-mun",
+            "meaning": "Nama"
+        },
+        {
+            "arabic": "بِخَيْرٍ",
+            "transliteration": "bi-khai-rin",
+            "meaning": "Baik-baik saja"
+        },
+        {
+            "arabic": "مِنْ أَيْنَ",
+            "transliteration": "min ai-na",
+            "meaning": "Dari mana"
+        },
+        {
+            "arabic": "شُكْرًا",
+            "transliteration": "shuk-ran",
+            "meaning": "Terima kasih"
+        }
+    ],
+    "quizBank": [
+        {
+            "id": "m01-q01",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Rafi bertemu Nisa di gerbang sekolah pukul 15.30 sore. Kalimat sapaan dan pertanyaan kabar yang paling tepat diucapkan Rafi adalah...",
+            "options": [
+                "صَبَاحُ الْخَيْرِ، كَيْفَ حَالُكِ؟",
+                "مَسَاءُ الْخَيْرِ، كَيْفَ حَالُكَ؟",
+                "مَسَاءُ الْخَيْرِ، كَيْفَ حَالُكِ؟",
+                "مَسَاءُ النُّورِ، مَا اسْمُكِ؟"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Perhatikan dua hal: waktu pertemuan adalah sore hari, dan lawan bicara Rafi adalah perempuan (Nisa). Cek akhiran -ka vs -ki di tabel!",
+            "feedbackCorrect": "Mumtaz! 'Masā-ul-khair' pas untuk sore hari, dan akhiran '-ki' pada 'ḥā-lu-ki' tepat untuk menyapa perempuan."
+        },
+        {
+            "id": "m01-q02",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Ibu Guru menyapa siswa baru laki-laki: 'أَهْلًا وَسَهْلًا يَا أَحْمَدُ!'. Jawaban paling tepat dari Ahmad adalah...",
+            "options": [
+                "أَهْلًا بِكَ",
+                "أَهْلًا بِكِ",
+                "صَبَاحُ النُّورِ",
+                "أَنَا بِخَيْرٍ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ahmad sedang membalas sapaan kepada Ibu Guru (perempuan). Cek kembali tabel pada bagian 'Menyambut tamu/teman' untuk lawan bicara perempuan!",
+            "feedbackCorrect": "Ahsanta! Karena Ahmad berbicara kepada Ibu Guru (perempuan), ia membalas dengan 'Ah-lan bi-ki'."
+        },
+        {
+            "id": "m01-q03",
+            "difficulty": "medium",
+            "type": "error-spotting",
+            "question": "Perhatikan percakapan berikut:\nFajar: 'مَا اسْمُكَ؟'\nLaila: 'اِسْمُكَ لَيْلَى.'\nKesalahan tata bahasa pada jawaban Laila terletak pada kata...",
+            "options": [
+                "مَا",
+                "اسْمُكَ (di pertanyaan Fajar)",
+                "اِسْمُكَ (di jawaban Laila)",
+                "لَيْلَى"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Kalau Laila menjawab 'اِسْمُكَ لَيْلَى', artinya 'Namamu Laila'! Cek kembali tabel bagaimana cara mengatakan 'Namaku' dalam bahasa Arab.",
+            "feedbackCorrect": "Tepat sekali! Seharusnya Laila menjawab 'اِسْمِي لَيْلَى' (Namaku Laila) dengan akhiran huruf Ya (ـِي)."
+        },
+        {
+            "id": "m01-q04",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Manakah pasangan sapaan dan balasan yang SALAH di bawah ini?",
+            "options": [
+                "صَبَاحُ الْخَيْرِ ← صَبَاحُ النُّورِ",
+                "مَسَاءُ الْخَيْرِ ← مَسَاءُ النُّورِ",
+                "مَسَاءُ النُّورِ ← مَسَاءُ الْخَيْرِ",
+                "كَيْفَ حَالُكَ؟ ← اِسْمِي عُمَرُ"
+            ],
+            "correctIndex": 3,
+            "feedbackWrong": "Cek makna pertanyaan di pilihan tersebut! Apakah pertanyaan tentang kabar dijawab dengan menyebutkan nama? Periksa tabel 'Tanya Nama & Kabar'.",
+            "feedbackCorrect": "Hebat! 'Kaifa ḥāluka?' menanyakan kabar, sehingga seharusnya dijawab 'Anā bikhairin', bukan menyebutkan nama."
+        },
+        {
+            "id": "m01-q05",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca dialog singkat ini:\nA: 'مِنْ أَيْنَ أَنْتَ يَا حَسَنُ؟'\nB: 'أَنَا مِنْ سُورَابَايَا.'\nInformasi apa yang baru saja ditanyakan oleh A?",
+            "options": [
+                "Menanyakan nama lengkap Hasan",
+                "Menanyakan kabar kesehatan Hasan",
+                "Menanyakan kota asal Hasan",
+                "Menanyakan kelas tempat Hasan belajar"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Perhatikan kata kunci 'مِنْ أَيْنَ' (min aina) dan jawaban 'مِنْ سُورَابَايَا'. Cek daftar kosakata baru untuk arti 'مِنْ أَيْنَ'!",
+            "feedbackCorrect": "Mumtaz! 'Min aina anta?' berarti 'Dari mana asalmu?', dan Hasan menjawab ia berasal dari Surabaya."
+        },
+        {
+            "id": "m01-q06",
+            "difficulty": "medium",
+            "type": "morpheme-swap",
+            "question": "Kamu ingin mengubah pertanyaan 'كَيْفَ حَالُكَ؟' agar bisa ditanyakan kepada teman perempuanmu bernama Zahra. Bentuk yang benar adalah...",
+            "options": [
+                "كَيْفَ حَالُكِ؟",
+                "كَيْفَ حَالِي؟",
+                "مَا حَالُكَ؟",
+                "أَيْنَ حَالُكِ؟"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Jangan ubah kata tanya 'كَيْفَ' (bagaimana). Cukup ganti harakat pada huruf Kaf di akhir kata 'حَالُـ...' sesuai jenis kelamin Zahra!",
+            "feedbackCorrect": "Benar! Mengubah harakat fathah (-ka) menjadi kasrah (-ki) membuat pertanyaan ditujukan kepada perempuan."
+        },
+        {
+            "id": "m01-q07",
+            "difficulty": "hard",
+            "type": "context-choice",
+            "question": "Seseorang berkata kepadamu: 'أَنَا بِخَيْرٍ، الْحَمْدُ لِلّٰهِ. وَأَنْتَ؟'. Siapakah orang yang diajak bicara dalam kalimat tersebut?",
+            "options": [
+                "Seorang anak perempuan",
+                "Seorang anak laki-laki",
+                "Sekelompok siswa di kelas",
+                "Dirinya sendiri"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Perhatikan kata terakhir 'وَأَنْتَ؟' (wa anta?). Harakat fathah di atas huruf Ta menunjukkan lawan bicara berjenis kelamin tertentu!",
+            "feedbackCorrect": "Jeli sekali! Kata 'أَنْتَ' (dengan fathah) digunakan untuk lawan bicara laki-laki tunggal."
+        },
+        {
+            "id": "m01-q08",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Di pagi hari, Budi menyapa pak satpam sekolah: 'صَبَاحُ الْخَيْرِ'. Pak satpam membalas dengan...",
+            "options": [
+                "صَبَاحُ النُّورِ",
+                "مَسَاءُ النُّورِ",
+                "مَعَ السَّلَامَةِ",
+                "عَفْوًا"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Pastikan kata waktunya sama-sama 'pagi' (صَبَاحُ), lalu pasangkan dengan kata 'cahaya' (النُّورِ). Cek baris pertama tabel!",
+            "feedbackCorrect": "Tepat! Pasangan dari 'Ṣabāḥul-khair' adalah 'Ṣabāḥun-nūr'."
+        },
+        {
+            "id": "m01-q09",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Susunlah potongan kalimat berikut menjadi perkenalan yang runtut:\n1. اِسْمِي نَدَى\n2. أَنَا مِنْ مَاكَا سَّار\n3. السَّلَامُ عَلَيْكُمْ\n4. صَبَاحُ الْخَيْرِ",
+            "options": [
+                "3 - 4 - 1 - 2",
+                "1 - 2 - 3 - 4",
+                "4 - 1 - 3 - 2",
+                "3 - 1 - 4 - 2"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Dalam etika komunikasi bahasa Arab, ucapkan salam pembuka terlebih dahulu, diikuti sapaan waktu, lalu sebutkan nama dan asal daerah!",
+            "feedbackCorrect": "Luar biasa! Urutan salam (3) → sapaan waktu (4) → nama (1) → asal daerah (2) adalah urutan yang paling alami."
+        },
+        {
+            "id": "m01-q10",
+            "difficulty": "medium",
+            "type": "morpheme-swap",
+            "question": "Kata dasar 'اِسْمٌ' berarti 'nama'. Jika ditambah akhiran 'ـِي' menjadi 'اِسْمِي', artinya berubah menjadi...",
+            "options": [
+                "Namamu (cowok)",
+                "Namamu (cewek)",
+                "Namaku",
+                "Namanya"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Akhiran huruf Ya sukun (ـِي) selalu merujuk pada pembicara pertama ('aku'). Cek baris terakhir pada tabel!",
+            "feedbackCorrect": "Betul! Akhiran 'ـِي' menempel pada kata benda untuk menunjukkan kepemilikan 'milikku'."
+        },
+        {
+            "id": "m01-q11",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Dina ingin bertanya kepada kakak laki-lakinya: 'مِنْ أَيْنَ أَنْتِ يَا أَخِي؟'. Mengapa kalimat Dina kurang tepat?",
+            "options": [
+                "Seharusnya memakai 'مَا' bukan 'مِنْ أَيْنَ'",
+                "Kata 'أَنْتِ' dipakai untuk perempuan, seharusnya 'أَنْتَ'",
+                "Kata 'أَخِي' berarti saudari perempuan",
+                "Tidak ada kesalahan sama sekali"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Lihat siapa yang diajak bicara oleh Dina: kakak laki-lakinya ('يَا أَخِي'). Bandingkan harakat akhir pada kata ganti 'kamu'!",
+            "feedbackCorrect": "Hebat! Karena berbicara dengan kakak laki-laki, Dina harus memakai 'أَنْتَ' (fathah), bukan 'أَنْتِ' (kasrah)."
+        },
+        {
+            "id": "m01-q12",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Temanmu meminjamkan penghapus dan kamu berkata 'شُكْرًا'. Ungkapan balasan 'Sama-sama' dalam bahasa Arab adalah...",
+            "options": [
+                "عَفْوًا ('Af-wan)",
+                "أَهْلًا (Ah-lan)",
+                "بِخَيْرٍ (Bi-khai-rin)",
+                "صَبَاحًا (Ṣa-bā-ḥan)"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Bukan 'Ahlan' (selamat datang) dan bukan 'Bikhairin' (baik-baik saja). Pilih ungkapan sopan santun untuk membalas ucapan terima kasih!",
+            "feedbackCorrect": "Mumtaz! 'Shukran' (terima kasih) dijawab dengan ''Afwan' (sama-sama)."
+        },
+        {
+            "id": "m01-q13",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Perhatikan kalimat: 'أَنَا طَالِبٌ مِنْ يَوْغْيَاكَرْتَا، وَاِسْمِي رَامَا.'\nPernyataan manakah yang BENAR berdasarkan kalimat tersebut?",
+            "options": [
+                "Rama sedang menanyakan asal kota temannya",
+                "Rama adalah seorang siswa yang berasal dari Yogyakarta",
+                "Rama tinggal di Jakarta bersama temannya",
+                "Kalimat tersebut diucapkan oleh seorang siswi perempuan"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Perhatikan kata 'أَنَا' (aku) dan 'مِنْ يَوْغْيَاكَرْتَا' (dari Yogyakarta). Tidak ada tanda tanya pada kalimat itu!",
+            "feedbackCorrect": "Tepat sekali! Rama sedang memperkenalkan status, kota asal, dan namanya secara mandiri."
+        },
+        {
+            "id": "m01-q14",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa perbedaan makna antara 'مَسَاءُ الْخَيْرِ' dan 'مَسَاءُ النُّورِ'?",
+            "options": [
+                "Yang pertama untuk pagi, yang kedua untuk sore",
+                "Yang pertama sapaan pembuka sore, yang kedua adalah jawabannya",
+                "Yang pertama untuk cowok, yang kedua untuk cewek",
+                "Keduanya adalah ucapan selamat tidur"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Keduanya diawali kata 'مَسَاءُ' (sore). Cek kolom 'Ungkapan Pembuka' vs 'Balasan Pasangannya' di tabel!",
+            "feedbackCorrect": "Benar! 'Masā-ul-khair' diucapkan penyapa pertama, lalu dibalas 'Masā-un-nūr'."
+        },
+        {
+            "id": "m01-q15",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Jika 'حَالُكَ' artinya 'kabarmu (laki-laki)', dan 'حَالُكِ' artinya 'kabarmu (perempuan)', maka 'حَالِي' artinya adalah...",
+            "options": [
+                "Kabarnya (laki-laki)",
+                "Kabarku",
+                "Kabar mereka",
+                "Kabar pagi"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ingat pola akhiran 'ـِي' yang sudah kita pelajari pada kata 'اِسْمِي' (namaku). Terapkan pola yang sama pada kata 'حَالُ'!",
+            "feedbackCorrect": "Cerdas! Kamu berhasil menerapkan pola akhiran 'ـِي' pada kosakata baru: 'ḥā-lī' = kabarku."
+        },
+        {
+            "id": "m01-q16",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Saat ingin berpamitan pulang sekolah kepada teman-teman, ungkapan perpisahan yang paling umum digunakan adalah...",
+            "options": [
+                "إِلَى اللِّقَاءِ (I-lal-li-qā-i)",
+                "أَهْلًا وَسَهْلًا (Ah-lan wa sah-lan)",
+                "صَبَاحُ الْخَيْرِ (Ṣa-bā-ḥul-khair)",
+                "مَا اسْمُكَ؟ (Mas-mu-ka?)"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Tiga pilihan lainnya dipakai saat baru bertemu atau berkenalan. Pilih ungkapan yang berarti 'Sampai jumpa lagi!'",
+            "feedbackCorrect": "Ahsanta! 'Ilal-liqā-i' berarti 'Sampai jumpa lagi'."
+        },
+        {
+            "id": "m01-q17",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Lengkapi bagian rumpang berikut:\n'السَّلَامُ عَلَيْكُمْ، أَنَا حَافِظٌ. مَا _____ يَا أُخْتِي؟'",
+            "options": [
+                "اسْمُكَ",
+                "اسْمُكِ",
+                "اسْمِي",
+                "حَالُكَ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Perhatikan panggilan di akhir kalimat: 'يَا أُخْتِي' (wahai saudariku perempuan). Akhiran apa yang cocok untuk lawan bicara perempuan?",
+            "feedbackCorrect": "Mumtaz! Karena Hafizh menyapa saudari perempuannya, ia memakai 'مَا اسْمُكِ؟' (mas-mu-ki)."
+        },
+        {
+            "id": "m01-q18",
+            "difficulty": "medium",
+            "type": "reading-comprehension",
+            "question": "Transliterasi yang paling tepat untuk kalimat 'كَيْفَ حَالُكِ؟' adalah...",
+            "options": [
+                "Kai-fa ḥā-lu-ka?",
+                "Kai-fa ḥā-lu-ki?",
+                "Ka-fa ḥa-la-ki?",
+                "Kai-fu ḥā-li-ka?"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cermati harakat di atas huruf Lam (dhammah = u) dan harakat di bawah huruf Kaf (kasrah = i)!",
+            "feedbackCorrect": "Akurat! 'Kai-fa ḥā-lu-ki?' dibaca dengan akhiran '-ki'."
+        },
+        {
+            "id": "m01-q19",
+            "difficulty": "hard",
+            "type": "context-choice",
+            "question": "Kamu baru pindah ke kelas 6B. Teman sebangkumu bertanya: 'مِنْ أَيْنَ أَنْتَ؟'. Jawaban yang paling nyambung adalah...",
+            "options": [
+                "اِسْمِي بَاقِرٌ",
+                "أَنَا بِخَيْرٍ، شُكْرًا",
+                "أَنَا مِنْ مَدِينَةِ بُوغُور",
+                "صَبَاحُ النُّورِ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Pertanyaan diawali dengan kata 'مِنْ' (dari). Jawabanmu juga sebaiknya diawali dengan kata 'أَنَا مِنْ...' (Aku dari...)!",
+            "feedbackCorrect": "Hebat! 'Anā min madīnati Būghūr' berarti 'Aku berasal dari kota Bogor'."
+        },
+        {
+            "id": "m01-q20",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Manakah kalimat yang 100% BEBAS dari kesalahan tata bahasa?",
+            "options": [
+                "صَبَاحُ النُّورِ، أَنَا بِخَيْرٍ، اِسْمِي مَرْيَمُ.",
+                "مَسَاءُ الْخَيْرِ، كَيْفَ حَالُكَ يَا فَاطِمَةُ؟",
+                "أَهْلًا وَسَهْلًا، مَا اسْمُكِ يَا عَلِيُّ؟",
+                "مِنْ أَيْنَ أَنْتَ؟ — اِسْمُكَ حَسَنٌ."
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Periksa kecocokan nama orang (Fatimah = cewek, Ali = cowok) dengan akhiran -ka/-ki pada tiga pilihan lainnya!",
+            "feedbackCorrect": "Luar biasa! Kamu berhasil mendeteksi jebakan jenis kelamin pada pilihan lain dan menemukan satu-satunya kalimat yang sempurna."
+        }
+    ]
+}

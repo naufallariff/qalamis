@@ -1,0 +1,538 @@
+{
+    "id": 7,
+    "zoneId": "zone-2",
+    "slug": "kami-dan-kalian-jamak",
+    "title": "Kami & Kalian (Dhamir Jamak)",
+    "canDo": "Aku bisa menggunakan 5 kata ganti kelompok/jamak (Nahnu, Antum, Antunna, Hum, Hunna) untuk menceritakan tim olahraga atau kelompok belajarku.",
+    "storyHook": {
+        "title": "Turnamen Cerdas Cermat Antar Kelas",
+        "setting": "Aula sekolah ramai oleh regu putra dan regu putri kelas 6",
+        "lines": [
+            {
+                "speaker": "Naufal",
+                "avatarRole": "boy",
+                "arabic": "نَحْنُ فَرِيقُ السَّادِسِ! وَمَنْ أَنْتُمْ؟",
+                "transliteration": "Naḥ-nu fa-rī-qus-sā-dis! Wa man an-tum?",
+                "translation": "Kami adalah tim kelas enam! Dan siapa kalian (kelompok putra)?"
+            },
+            {
+                "speaker": "Rafi",
+                "avatarRole": "boy",
+                "arabic": "نَحْنُ طُلَّابُ الْخَامِسِ. وَهُمْ أَصْدِقَاؤُنَا.",
+                "transliteration": "Naḥ-nu ṭul-lā-bul-khā-mis. Wa hum aṣ-di-qā-u-nā.",
+                "translation": "Kami para siswa kelas lima. Dan mereka (lk) adalah teman-teman kami."
+            },
+            {
+                "speaker": "Salma",
+                "avatarRole": "girl",
+                "arabic": "وَأَنْتُنَّ يَا بَنَاتُ؟ هَلْ أَنْتُنَّ طَالِبَاتٌ جَدِيدَاتٌ؟",
+                "transliteration": "Wa an-tun-na yā ba-nāt? Hal an-tun-na ṭā-li-bā-tun ja-dī-dāt?",
+                "translation": "Dan kalian (kelompok putri) wahai anak-anak perempuan? Apakah kalian siswi baru?"
+            },
+            {
+                "speaker": "Nadia",
+                "avatarRole": "girl",
+                "arabic": "نَعَمْ، نَحْنُ طَالِبَاتٌ، وَهُنَّ مُعَلِّمَاتُنَا!",
+                "transliteration": "Na-'am, naḥ-nu ṭā-li-bāt, wa hun-na mu-'al-li-mā-tu-nā!",
+                "translation": "Ya, kami para siswi, dan mereka (pr) adalah ibu-ibu guru kami!"
+            }
+        ]
+    },
+    "explanation": "Kalau orangnya berjumlah TIGA ATAU LEBIH (kelompok/jamak), kita tidak boleh lagi memakai Ana, Anta, atau Huwa! Kita naik level memakai 5 Dhamir Jamak: 'Naḥnu' (Kami/Kita — bebas untuk putra/putri), lalu pasangan 'Kalian' ('Antum' = kalian putra, 'Antunna' = kalian putri), dan pasangan 'Mereka' ('Hum' = mereka putra, 'Hunna' = mereka putri). Perhatikan juga pola jamak putri: cukup ganti 'ـةٌ' menjadi 'ـَاتٌ' (-ātun)!",
+    "patternTable": {
+        "title": "5 Dhamir Jamak (Kelompok 3 Orang atau Lebih)",
+        "filters": [
+            "Semua",
+            "Kami / Kita",
+            "Kalian (Jamak)",
+            "Mereka (Jamak)"
+        ],
+        "headers": [
+            "Dhamir Jamak",
+            "Cara Baca",
+            "Arti & Sasaran",
+            "Contoh Kalimat & Pola Jamak"
+        ],
+        "rows": [
+            {
+                "id": "m7-r1",
+                "category": "Kami / Kita",
+                "cells": [
+                    "نَحْنُ",
+                    "Naḥ-nu",
+                    "Kami / Kita (Putra & Putri sama)",
+                    "نَحْنُ طُلَّابٌ / نَحْنُ طَالِبَاتٌ"
+                ],
+                "arabicResult": "نَحْنُ طُلَّابٌ",
+                "transliteration": "Naḥ-nu ṭul-lā-bun",
+                "meaning": "Kami adalah para siswa",
+                "breakdown": "Seperti أَنَا, kata نَحْنُ tetap sama untuk kelompok laki-laki maupun perempuan."
+            },
+            {
+                "id": "m7-r2",
+                "category": "Kalian (Jamak)",
+                "cells": [
+                    "أَنْتُمْ",
+                    "An-tum",
+                    "Kalian (3+ Cowok / Campuran)",
+                    "أَنْتُمْ مُجْتَهِدُونَ (An-tum muj-ta-hi-dūn)"
+                ],
+                "arabicResult": "أَنْتُمْ طُلَّابٌ",
+                "transliteration": "An-tum ṭul-lā-bun",
+                "meaning": "Kalian (lk) adalah para siswa",
+                "breakdown": "Akhiran Mim sukun (ـتُمْ) adalah ciri khas kelompok laki-laki."
+            },
+            {
+                "id": "m7-r3",
+                "category": "Kalian (Jamak)",
+                "cells": [
+                    "أَنْتُنَّ",
+                    "An-tun-na",
+                    "Kalian (3+ Cewek khusus)",
+                    "أَنْتُنَّ طَالِبَاتٌ (An-tun-na ṭā-li-bāt)"
+                ],
+                "arabicResult": "أَنْتُنَّ طَالِبَاتٌ",
+                "transliteration": "An-tun-na ṭā-li-bā-tun",
+                "meaning": "Kalian (pr) adalah para siswi",
+                "breakdown": "Nun bertasydid (ـتُنَّ) + akhiran ـَاتٌ pada kata benda putri."
+            },
+            {
+                "id": "m7-r4",
+                "category": "Mereka (Jamak)",
+                "cells": [
+                    "هُمْ",
+                    "Hum",
+                    "Mereka (3+ Cowok / Campuran)",
+                    "هُمْ مُعَلِّمُونَ (Hum mu-'al-li-mūn)"
+                ],
+                "arabicResult": "هُمْ مُعَلِّمُونَ",
+                "transliteration": "Hum mu-'al-li-mū-na",
+                "meaning": "Mereka (lk) adalah para guru",
+                "breakdown": "Mim sukun (ـمْ) pada هُمْ selaras dengan أَنْتُمْ untuk kelompok laki-laki."
+            },
+            {
+                "id": "m7-r5",
+                "category": "Mereka (Jamak)",
+                "cells": [
+                    "هُنَّ",
+                    "Hun-na",
+                    "Mereka (3+ Cewek khusus)",
+                    "هُنَّ مُعَلِّمَاتٌ (Hun-na mu-'al-li-māt)"
+                ],
+                "arabicResult": "هُنَّ مُعَلِّمَاتٌ",
+                "transliteration": "Hun-na mu-'al-li-mā-tun",
+                "meaning": "Mereka (pr) adalah para ibu guru",
+                "breakdown": "Nun bertasydid (ـنَّ) pada هُنَّ selaras dengan أَنْتُنَّ untuk kelompok perempuan."
+            }
+        ]
+    },
+    "highlightedExamples": [
+        {
+            "segments": [
+                {
+                    "text": "أَنْتُ",
+                    "role": "base"
+                },
+                {
+                    "text": "مْ ",
+                    "role": "suffix",
+                    "label": "Kalian (Cowok)"
+                },
+                {
+                    "text": "طُلَّابٌ، وَ",
+                    "role": "base"
+                },
+                {
+                    "text": "أَنْتُ",
+                    "role": "base"
+                },
+                {
+                    "text": "نَّ ",
+                    "role": "suffix",
+                    "label": "Kalian (Cewek)"
+                },
+                {
+                    "text": "طَالِب",
+                    "role": "base"
+                },
+                {
+                    "text": "َاتٌ",
+                    "role": "suffix",
+                    "label": "Jamak Cewek"
+                }
+            ],
+            "transliteration": "An-tum ṭul-lā-bun, wa an-tun-na ṭā-li-bā-tun.",
+            "translation": "Kalian (lk) adalah para siswa, dan kalian (pr) adalah para siswi."
+        },
+        {
+            "segments": [
+                {
+                    "text": "هُ",
+                    "role": "base"
+                },
+                {
+                    "text": "نَّ ",
+                    "role": "suffix",
+                    "label": "Mereka (Cewek)"
+                },
+                {
+                    "text": "طَبِيب",
+                    "role": "base"
+                },
+                {
+                    "text": "َاتٌ",
+                    "role": "suffix",
+                    "label": "Jamak Cewek"
+                },
+                {
+                    "text": " مَاهِرَاتٌ.",
+                    "role": "focus",
+                    "label": "Sifat Jamak"
+                }
+            ],
+            "transliteration": "Hun-na ṭa-bī-bā-tun mā-hi-rā-tun.",
+            "translation": "Mereka (pr) adalah para dokter perempuan yang hebat."
+        }
+    ],
+    "quickTrick": "Kode Rahasia Huruf Akhir: 'M' (أَنْتُمْ - هُمْ) untuk kelompok Male/Cowok, sedangkan 'N' bertasydid (أَنْتُنَّ - هُنَّ) untuk kelompok Nona/Cewek!",
+    "vocabulary": [
+        {
+            "arabic": "طُلَّابٌ",
+            "transliteration": "ṭul-lā-bun",
+            "meaning": "Para siswa (jamak lk)",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "طَالِبَاتٌ",
+            "transliteration": "ṭā-li-bā-tun",
+            "meaning": "Para siswi (jamak pr)",
+            "gender": "muannats"
+        },
+        {
+            "arabic": "مُعَلِّمُونَ",
+            "transliteration": "mu-'al-li-mū-na",
+            "meaning": "Para guru (jamak lk)",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "مُعَلِّمَاتٌ",
+            "transliteration": "mu-'al-li-mā-tun",
+            "meaning": "Para guru (jamak pr)",
+            "gender": "muannats"
+        },
+        {
+            "arabic": "فَرِيقٌ",
+            "transliteration": "fa-rī-qun",
+            "meaning": "Tim / Regu",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "بَنَاتٌ",
+            "transliteration": "ba-nā-tun",
+            "meaning": "Anak-anak perempuan",
+            "gender": "muannats"
+        }
+    ],
+    "quizBank": [
+        {
+            "id": "m07-q01",
+            "difficulty": "medium",
+            "type": "agreement-trap",
+            "question": "Kamu melihat 5 orang dokter perempuan di rumah sakit. Kata ganti yang tepat untuk menunjuk mereka adalah...",
+            "options": [
+                "هُمْ (Hum)",
+                "هُنَّ (Hun-na)",
+                "هِيَ (Hi-ya)",
+                "أَنْتُنَّ (An-tun-na)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Perhatikan dua hal: jumlah mereka 5 orang (jamak), berjenis kelamin perempuan, dan mereka tidak sedang diajak bicara langsung (orang ketiga). Cek baris ke-5 tabel!",
+            "feedbackCorrect": "Mumtaz! 'Hunna' (هُنَّ) digunakan untuk mereka perempuan (3 orang atau lebih)."
+        },
+        {
+            "id": "m07-q02",
+            "difficulty": "medium",
+            "type": "morpheme-swap",
+            "question": "Bentuk tunggal dari 'dokter perempuan' adalah 'طَبِيبَةٌ'. Bagaimana cara mengubahnya menjadi bentuk jamak ('para dokter perempuan')?",
+            "options": [
+                "طَبِيبُونَ",
+                "طَبِيبَاتٌ",
+                "طَبِيبَتَانِ",
+                "طَبِيبٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ganti akhiran tunggal 'ـةٌ' dengan akhiran jamak perempuan 'ـَاتٌ' (-ātun)!",
+            "feedbackCorrect": "Ahsanta! 'Ṭabībatun' berubah menjadi 'Ṭabībāṭun' (طَبِيبَاتٌ)."
+        },
+        {
+            "id": "m07-q03",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Pelatih basket berbicara di depan 10 pemain putri: 'أَنْتُمْ فَرِيقٌ قَوِيٌّ!'. Kesalahan dhamir yang diucapkan pelatih adalah...",
+            "options": [
+                "Seharusnya memakai 'أَنْتُنَّ' karena seluruh pemain berjenis kelamin perempuan",
+                "Seharusnya memakai 'هُنَّ' karena mereka diajak bicara langsung",
+                "Seharusnya memakai 'أَنْتِ' karena jumlahnya banyak",
+                "Tidak ada kesalahan"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ingat 'Kode Rahasia Huruf Akhir'! Huruf Mim sukun (ـتُمْ) hanya untuk kelompok laki-laki, sedangkan kelompok khusus perempuan memakai Nun bertasydid!",
+            "feedbackCorrect": "Jeli sekali! Kepada kelompok putri, sapaan 'Kalian' yang tepat adalah 'أَنْتُنَّ' (Antunna)."
+        },
+        {
+            "id": "m07-q04",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Dhamir 'نَحْنُ' (Naḥnu) adalah bentuk jamak dari...",
+            "options": [
+                "أَنْتَ (Anta)",
+                "أَنَا (Anā)",
+                "هُوَ (Huwa)",
+                "هِيَ (Hiya)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Jika sendirian aku berkata 'أَنَا' (Aku), maka ketika bersama teman-teman aku berkata 'نَحْنُ' (Kami/Kita)!",
+            "feedbackCorrect": "Tepat! 'Naḥnu' adalah bentuk jamak dari 'Anā'."
+        },
+        {
+            "id": "m07-q05",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Lengkapi kalimat berikut dengan pasangan yang selaras:\n'_____ مُعَلِّمُونَ مَاهِرُونَ.'",
+            "options": [
+                "هُنَّ",
+                "هُمْ",
+                "هِيَ",
+                "أَنْتُنَّ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Lihat akhiran 'ـُونَ' (-ūna) pada 'مُعَلِّمُونَ'—itu adalah penanda jamak laki-laki. Pilih dhamir orang ketiga jamak laki-laki!",
+            "feedbackCorrect": "Mumtaz! 'Hum mu'allimūna māhirūna' (Mereka adalah para guru laki-laki yang mahir)."
+        },
+        {
+            "id": "m07-q06",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca dialog singkat:\nGuru: 'مَنْ أَنْتُمْ؟'\nSiswa: 'نَحْنُ طُلَّابُ الصَّفِّ السَّادِسِ.'\nMengapa para siswa menjawab dengan 'نَحْنُ' padahal guru bertanya dengan 'أَنْتُمْ'?",
+            "options": [
+                "Karena kata 'أَنْتُمْ' berarti siapa",
+                "Karena saat ditanya 'Kalian', pihak yang menjawab menyebut diri mereka 'Kami'",
+                "Karena guru salah bertanya",
+                "Karena 'نَحْنُ' artinya kalian"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Bayangkan percakapan nyata: jika seseorang bertanya 'Siapa kalian?', tentu kalian akan menjawab 'Kami adalah...'!",
+            "feedbackCorrect": "Logika komunikasi yang sangat baik! 'Antum' (Kalian) dijawab dengan 'Naḥnu' (Kami)."
+        },
+        {
+            "id": "m07-q07",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Manakah kata yang merupakan bentuk jamak dari 'طَالِبٌ' (seorang siswa laki-laki)?",
+            "options": [
+                "طَالِبَاتٌ",
+                "طُلَّابٌ",
+                "طَالِبَةٌ",
+                "طَبِيبٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris pertama pada daftar kosakata baru atau kalimat Rafi di cerita pembuka!",
+            "feedbackCorrect": "Benar! 'Ṭullābun' (طُلَّابٌ) adalah bentuk jamak untuk para siswa laki-laki."
+        },
+        {
+            "id": "m07-q08",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Dalam satu kelas ada 15 siswa laki-laki dan 15 siswi perempuan. Jika kamu ingin menyapa seluruh kelas sekaligus ('Kalian semua'), dhamir yang digunakan dalam bahasa Arab adalah...",
+            "options": [
+                "أَنْتُنَّ (Antunna)",
+                "أَنْتُمْ (Antum)",
+                "أَنْتَ (Anta)",
+                "هُنَّ (Hunna)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek kolom 'Arti & Sasaran' pada baris kedua tabel! Untuk kelompok campuran (ada laki-laki dan perempuan), bahasa Arab memakai bentuk jamak umum.",
+            "feedbackCorrect": "Cerdas! 'Antum' (أَنْتُمْ) dipakai untuk kelompok laki-laki maupun kelompok campuran putra-putri."
+        },
+        {
+            "id": "m07-q09",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari kata 'بَنَاتٌ' yang diucapkan Salma di cerita pembuka?",
+            "options": [
+                "Anak-anak laki-laki",
+                "Anak-anak perempuan",
+                "Ibu-ibu guru",
+                "Buku-buku"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris terakhir pada daftar kosakata baru!",
+            "feedbackCorrect": "Ahsanta! 'Banātun' berarti anak-anak perempuan."
+        },
+        {
+            "id": "m07-q10",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Ubah kalimat tunggal 'هِيَ مُهَنْدِسَةٌ' (Dia pr seorang insinyur) menjadi bentuk jamak ('Mereka pr adalah para insinyur'):",
+            "options": [
+                "هُمْ مُهَنْدِسُونَ",
+                "هُنَّ مُهَنْدِسَاتٌ",
+                "أَنْتُنَّ مُهَنْدِسَاتٌ",
+                "هُنَّ مُهَنْدِسَةٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ubah kedua kata sekaligus: 'هِيَ' (dia pr) menjadi 'هُنَّ' (mereka pr), dan 'مُهَنْدِسَةٌ' menjadi bentuk jamak berakhiran 'ـَاتٌ'!",
+            "feedbackCorrect": "Sempurna! 'Hunna muhandisātun'."
+        },
+        {
+            "id": "m07-q11",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Perhatikan 4 kalimat di bawah ini. Manakah yang SALAH secara tata bahasa?",
+            "options": [
+                "نَحْنُ طَالِبَاتٌ",
+                "هُمْ طُلَّابٌ",
+                "أَنْتُنَّ طُلَّابٌ",
+                "هُنَّ مُعَلِّمَاتٌ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Cek keserasian jenis kelamin antara dhamir dan kata benda setelahnya pada keempat opsi! Ada satu dhamir putri yang dipasangkan dengan jamak putra.",
+            "feedbackCorrect": "Jeli sekali! 'Antunna' adalah kalian putri, tidak boleh dipasangkan dengan 'ṭullābun' (para siswa putra)."
+        },
+        {
+            "id": "m07-q12",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Pasangan tunggal → jamak yang BENAR adalah...",
+            "options": [
+                "أَنْتَ → هُمْ",
+                "هُوَ → هُمْ",
+                "هِيَ → أَنْتُنَّ",
+                "أَنَا → أَنْتُمْ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Pastikan pelaku (orang pertama/kedua/ketiga) dan jenis kelaminnya sama antara tunggal dan jamaknya!",
+            "feedbackCorrect": "Tepat! 'Huwa' (dia lk) jika banyak menjadi 'Hum' (mereka lk)."
+        },
+        {
+            "id": "m07-q13",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca teks berikut:\n'نَحْنُ فَرِيقُ كُرَةِ الْقَدَمِ. أَنَا حَارِسٌ، وَهُمْ مُهَاجِمُونَ.'\nBerapa kira-kira jumlah orang yang sedang diceritakan dalam teks tersebut?",
+            "options": [
+                "Hanya 1 orang saja",
+                "Hanya 2 orang saja",
+                "3 orang atau lebih (satu tim)",
+                "Tidak ada orang sama sekali"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Perhatikan penggunaan kata 'نَحْنُ' (kami) dan 'هُمْ' (mereka jamak)!",
+            "feedbackCorrect": "Mumtaz! Penggunaan 'naḥnu' dan 'hum' menunjukkan kelompok berisi tiga orang atau lebih."
+        },
+        {
+            "id": "m07-q14",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Cara baca yang tepat untuk dhamir 'أَنْتُنَّ' adalah...",
+            "options": [
+                "An-tu-na (tanpa penekanan)",
+                "An-tun-na (huruf Nun ditekan karena tasydid)",
+                "An-tum",
+                "An-tā-ni"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Perhatikan tanda tasydid (ـّ) di atas huruf Nun pada 'أَنْتُنَّ'!",
+            "feedbackCorrect": "Akurat! 'An-tun-na' dibaca dengan penekanan pada huruf Nun."
+        },
+        {
+            "id": "m07-q15",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Ibu-ibu guru sedang berkumpul di ruang guru. Jika kamu menunjuk mereka dari luar ruangan, kalimat yang benar adalah...",
+            "options": [
+                "هُمْ مُعَلِّمَاتٌ",
+                "هُنَّ مُعَلِّمَاتٌ",
+                "أَنْتُنَّ مُعَلِّمَاتٌ",
+                "هِيَ مُعَلِّمَاتٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Mereka tidak sedang diajak bicara langsung (orang ketiga) dan berjumlah banyak perempuan.",
+            "feedbackCorrect": "Benar! 'Hunna mu'allimātun' (Mereka adalah para ibu guru)."
+        },
+        {
+            "id": "m07-q16",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari 'أَنْتُمْ أَصْدِقَاؤُنَا'?",
+            "options": [
+                "Mereka adalah guru-guru kami",
+                "Kalian adalah teman-teman kami",
+                "Kami adalah siswa-siswa baru",
+                "Kalian adalah saudari-saudari kami"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "'Antum' = Kalian (lk/campuran), dan 'aṣdiqā-unā' berasal dari kata 'ṣadīqun' (teman) + 'nā' (kami)!",
+            "feedbackCorrect": "Ahsanta! 'Kalian adalah teman-teman kami'."
+        },
+        {
+            "id": "m07-q17",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Jika kata 'مُسْلِمٌ' (seorang muslim lk) bentuk jamaknya 'مُسْلِمُونَ', maka kata 'مُدَرِّسٌ' (seorang pengajar lk) bentuk jamaknya adalah...",
+            "options": [
+                "مُدَرِّسَاتٌ",
+                "مُدَرِّسُونَ",
+                "مُدَرِّسَانِ",
+                "مُدَرِّسَةٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Terapkan pola yang sama! Tambahkan akhiran jamak laki-laki 'ـُونَ' (-ūna) di ujung kata 'مُدَرِّس'!",
+            "feedbackCorrect": "Hebat! Kamu berhasil menggeneralisasi pola jamak mudzakkar salim: 'mudarrisūna' (مُدَرِّسُونَ)."
+        },
+        {
+            "id": "m07-q18",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Dhamir mana saja yang berakhiran huruf Mim sukun (ـمْ)?",
+            "options": [
+                "أَنْتُنَّ dan هُنَّ",
+                "أَنْتُمْ dan هُمْ",
+                "نَحْنُ dan أَنَا",
+                "أَنْتَ dan هُوَ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ingat 'Kode Rahasia Huruf Akhir' di bagian materi untuk kelompok laki-laki!",
+            "feedbackCorrect": "Tepat! 'Antum' (أَنْتُمْ) dan 'Hum' (هُمْ)."
+        },
+        {
+            "id": "m07-q19",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Rani dan 4 teman perempuannya ingin berkata 'Kami adalah siswi-siswi kelas 6'. Kalimat yang benar adalah...",
+            "options": [
+                "نَحْنُ طُلَّابُ السَّادِسِ",
+                "نَحْنُ طَالِبَاتُ السَّادِسِ",
+                "أَنْتُنَّ طَالِبَاتُ السَّادِسِ",
+                "هُنَّ طَالِبَاتُ السَّادِسِ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Gunakan dhamir 'Kami' ('نَحْنُ') yang diikuti bentuk jamak siswi perempuan ('طَالِبَاتُ')!",
+            "feedbackCorrect": "Mumtaz! 'Naḥnu ṭālibātus-sādisi'."
+        },
+        {
+            "id": "m07-q20",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Dalam cerita pembuka, Nadia berkata: 'هُنَّ مُعَلِّمَاتُنَا!'. Jika yang dimaksud Nadia adalah bapak-bapak guru, kalimat tersebut berubah menjadi...",
+            "options": [
+                "هُمْ مُعَلِّمُونَا!",
+                "هُمْ مُعَلِّمَاتُنَا!",
+                "هُنَّ مُعَلِّمُونَا!",
+                "أَنْتُمْ مُعَلِّمُونَا!"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ubah 'هُنَّ' (mereka pr) menjadi 'هُمْ' (mereka lk), dan ganti jamak 'مُعَلِّمَات' (ibu guru) menjadi 'مُعَلِّمُو' (bapak guru)!",
+            "feedbackCorrect": "Luar biasa! 'Hum mu'allimūnā!' (Mereka adalah bapak-bapak guru kami)."
+        }
+    ]
+}

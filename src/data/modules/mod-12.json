@@ -1,0 +1,520 @@
+{
+    "id": 12,
+    "zoneId": "zone-3",
+    "slug": "sifat-benda-naat",
+    "title": "Besar, Kecil, Baru! (Kata Sifat)",
+    "canDo": "Aku bisa menggambarkan sifat suatu benda atau tempat (besar, kecil, baru, lama, bersih, luas) dengan aturan Na'at–Man'ut yang serasi.",
+    "storyHook": {
+        "title": "Tur Keliling Gedung Perpustakaan Baru",
+        "setting": "Pukul 09.15 pagi, Daffa dan Alya mengamati ruangan perpustakaan yang baru diresmikan",
+        "lines": [
+            {
+                "speaker": "Daffa",
+                "avatarRole": "boy",
+                "arabic": "مَا شَاءَ اللّٰهُ! هٰذِهِ مَكْتَبَةٌ كَبِيرَةٌ وَوَاسِعَةٌ!",
+                "transliteration": "Mā shā-al-lāh! Hā-dzi-hi mak-ta-ba-tun ka-bī-ra-tun wa wā-si-'ah!",
+                "translation": "Masya Allah! Ini adalah perpustakaan yang besar dan luas!"
+            },
+            {
+                "speaker": "Alya",
+                "avatarRole": "girl",
+                "arabic": "نَعَمْ، وَفِيهَا رَفٌّ جَدِيدٌ لِلْقِصَصِ، وَمَكْتَبٌ نَظِيفٌ لِلْمُطَالَعَةِ.",
+                "transliteration": "Na-'am, wa fī-hā raf-fun ja-dī-dun lil-qi-ṣaṣ, wa mak-ta-bun na-ẓī-fun lil-mu-ṭā-la-'ah.",
+                "translation": "Ya, dan di dalamnya ada rak baru untuk cerita-cerita, serta meja yang bersih untuk membaca."
+            },
+            {
+                "speaker": "Daffa",
+                "avatarRole": "boy",
+                "arabic": "أَيْنَ الْمَكْتَبَةُ الْقَدِيمَةُ؟",
+                "transliteration": "Ai-nal-mak-ta-ba-tul-qa-dī-mah?",
+                "translation": "Di mana perpustakaan yang lama itu?"
+            },
+            {
+                "speaker": "Alya",
+                "avatarRole": "girl",
+                "arabic": "الْمَكْتَبَةُ الْقَدِيمَةُ صَغِيرَةٌ، وَهِيَ بِجَانِبِ الْفَصْلِ.",
+                "transliteration": "Al-mak-ta-ba-tul-qa-dī-ma-tu ṣa-ghī-rah, wa hi-ya bi-jā-ni-bil-faṣl.",
+                "translation": "Perpustakaan yang lama itu kecil, dan letaknya di samping kelas."
+            }
+        ]
+    },
+    "explanation": "Dalam bahasa Indonesia kita bilang 'buku baru' (benda dulu, baru sifat). Bahasa Arab punya urutan yang sama persis: **Benda (Man'ūt) di depan, Sifat (Na'at) di belakang!** Namun ada syarat kembar siam 3-in-1: Kata sifat wajib meniru bendanya dalam 3 hal sekaligus: (1) Cowok/Ceweknya (ada ة atau tidak), (2) Pakai 'الـ' (Al-) atau tidak, dan (3) Harakat akhirnya!",
+    "patternTable": {
+        "title": "Pasangan Kata Sifat & Aturan Kembar 3-in-1",
+        "filters": [
+            "Semua",
+            "Ukuran & Ruang",
+            "Kondisi Benda"
+        ],
+        "headers": [
+            "Lawan Kata Sifat",
+            "Bentuk Cowok (Mudzakkar)",
+            "Bentuk Cewek (Muannats)",
+            "Contoh Frasa Kembar"
+        ],
+        "rows": [
+            {
+                "id": "m12-r1",
+                "category": "Ukuran & Ruang",
+                "cells": [
+                    "Besar ↔ Kecil",
+                    "كَبِيرٌ ↔ صَغِيرٌ",
+                    "كَبِيرَةٌ ↔ صَغِيرَةٌ",
+                    "بَيْتٌ كَبِيرٌ | غُرْفَةٌ صَغِيرَةٌ"
+                ],
+                "arabicResult": "كَبِيرٌ (ka-bī-run) ↔ صَغِيرٌ (ṣa-ghī-run)",
+                "transliteration": "bai-tun ka-bī-run | ghur-fa-tun ṣa-ghī-ra-tun",
+                "meaning": "Rumah besar | Kamar kecil",
+                "breakdown": "غُرْفَةٌ memakai ة, maka sifatnya ikut memakai ة menjadi صَغِيرَةٌ."
+            },
+            {
+                "id": "m12-r2",
+                "category": "Ukuran & Ruang",
+                "cells": [
+                    "Luas ↔ Sempit",
+                    "وَاسِعٌ ↔ ضَيِّقٌ",
+                    "وَاسِعَةٌ ↔ ضَيِّقَةٌ",
+                    "مَلْعَبٌ وَاسِعٌ | سَاحَةٌ ضَيِّقَةٌ"
+                ],
+                "arabicResult": "وَاسِعٌ (wā-si-'un) ↔ ضَيِّقٌ (ḍay-yi-qun)",
+                "transliteration": "mal-'a-bun wā-si-'un | sā-ḥa-tun ḍay-yi-qa-tun",
+                "meaning": "Lapangan luas | Halaman sempit",
+                "breakdown": "Perhatikan tasydid pada huruf Ya di kata ضَيِّقٌ (ḍay-yi-qun)."
+            },
+            {
+                "id": "m12-r3",
+                "category": "Ukuran & Ruang",
+                "cells": [
+                    "Panjang ↔ Pendek",
+                    "طَوِيلٌ ↔ قَصِيرٌ",
+                    "طَوِيلَةٌ ↔ قَصِيرَةٌ",
+                    "قَلَمٌ طَوِيلٌ | مِسْطَرَةٌ قَصِيرَةٌ"
+                ],
+                "arabicResult": "طَوِيلٌ (ṭa-wī-lun) ↔ قَصِيرٌ (qa-ṣī-run)",
+                "transliteration": "qa-la-mun ṭa-wī-lun | mis-ṭa-ra-tun qa-ṣī-ra-tun",
+                "meaning": "Pulpen panjang | Penggaris pendek",
+                "breakdown": "مِسْطَرَةٌ berakhiran ة → sifatnya قَصِيرَةٌ."
+            },
+            {
+                "id": "m12-r4",
+                "category": "Kondisi Benda",
+                "cells": [
+                    "Baru ↔ Lama",
+                    "جَدِيدٌ ↔ قَدِيمٌ",
+                    "جَدِيدَةٌ ↔ قَدِيمَةٌ",
+                    "كِتَابٌ جَدِيدٌ | حَقِيبَةٌ قَدِيمَةٌ"
+                ],
+                "arabicResult": "جَدِيدٌ (ja-dī-dun) ↔ قَدِيمٌ (qa-dī-mun)",
+                "transliteration": "ki-tā-bun ja-dī-dun | ḥa-qī-ba-tun qa-dī-ma-tun",
+                "meaning": "Buku baru | Tas lama",
+                "breakdown": "قَدِيمٌ berarti lama / kuno (untuk benda, bukan umur manusia)."
+            },
+            {
+                "id": "m12-r5",
+                "category": "Kondisi Benda",
+                "cells": [
+                    "Bersih ↔ Kotor",
+                    "نَظِيفٌ ↔ وَسِخٌ",
+                    "نَظِيفَةٌ ↔ وَسِخَةٌ",
+                    "فَصْلٌ نَظِيفٌ | سَبُّورَةٌ وَسِخَةٌ"
+                ],
+                "arabicResult": "نَظِيفٌ (na-ẓī-fun) ↔ وَسِخٌ (wa-si-khun)",
+                "transliteration": "faṣ-lun na-ẓī-fun | sab-bū-ra-tun wa-si-kha-tun",
+                "meaning": "Kelas bersih | Papan tulis kotor",
+                "breakdown": "Ingat: jika benda memakai الـ, sifat wajib ikut memakai الـ: الْفَصْلُ النَّظِيفُ."
+            }
+        ]
+    },
+    "highlightedExamples": [
+        {
+            "segments": [
+                {
+                    "text": "الْ",
+                    "role": "prefix",
+                    "label": "Pakai Al-"
+                },
+                {
+                    "text": "مَكْتَبَ",
+                    "role": "base"
+                },
+                {
+                    "text": "ةُ ",
+                    "role": "suffix",
+                    "label": "Cewek"
+                },
+                {
+                    "text": "الْ",
+                    "role": "prefix",
+                    "label": "Ikut Al-"
+                },
+                {
+                    "text": "جَدِيدَ",
+                    "role": "base"
+                },
+                {
+                    "text": "ةُ",
+                    "role": "suffix",
+                    "label": "Ikut Cewek"
+                }
+            ],
+            "transliteration": "Al-mak-ta-ba-tul-ja-dī-da-tu.",
+            "translation": "Perpustakaan yang baru itu."
+        },
+        {
+            "segments": [
+                {
+                    "text": "فِي ",
+                    "role": "prefix",
+                    "label": "Magnet Kasrah"
+                },
+                {
+                    "text": "بَيْتٍ ",
+                    "role": "base"
+                },
+                {
+                    "text": "كَبِيرٍ",
+                    "role": "suffix",
+                    "label": "Ikut Kasrah (-in)"
+                }
+            ],
+            "transliteration": "Fī bai-tin ka-bī-rin.",
+            "translation": "Di dalam sebuah rumah yang besar."
+        }
+    ],
+    "quickTrick": "Aturan Kembar 3-in-1 (Na'at): Sifat adalah bayangan cermin benda di depannya! Kalau bendanya pakai 'الـ' dan berakhiran 'ة', sifat di belakangnya WAJIB ikut pakai 'الـ' dan 'ة' (الْحَقِيبَةُ الْجَدِيدَةُ)!",
+    "vocabulary": [
+        {
+            "arabic": "صَغِيرٌ / صَغِيرَةٌ",
+            "transliteration": "ṣa-ghī-run / ṣa-ghī-ra-tun",
+            "meaning": "Kecil (lk / pr)"
+        },
+        {
+            "arabic": "وَاسِعٌ / وَاسِعَةٌ",
+            "transliteration": "wā-si-'un / wā-si-'a-tun",
+            "meaning": "Luas (lk / pr)"
+        },
+        {
+            "arabic": "ضَيِّقٌ / ضَيِّقَةٌ",
+            "transliteration": "ḍay-yi-qun / ḍay-yi-qa-tun",
+            "meaning": "Sempit (lk / pr)"
+        },
+        {
+            "arabic": "قَدِيمٌ / قَدِيمَةٌ",
+            "transliteration": "qa-dī-mun / qa-dī-ma-tun",
+            "meaning": "Lama / usang (lk / pr)"
+        },
+        {
+            "arabic": "طَوِيلٌ / قَصِيرٌ",
+            "transliteration": "ṭa-wī-lun / qa-ṣī-run",
+            "meaning": "Panjang / Pendek (lk)"
+        },
+        {
+            "arabic": "رَفٌّ",
+            "transliteration": "raf-fun",
+            "meaning": "Rak buku",
+            "gender": "mudzakkar"
+        }
+    ],
+    "quizBank": [
+        {
+            "id": "m12-q01",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Terapkan aturan Kembar 3-in-1 untuk melengkapi frasa berikut:\n'الْمَدْرَسَةُ _____' (Sekolah yang besar itu)",
+            "options": [
+                "كَبِيرٌ",
+                "كَبِيرَةٌ",
+                "الْكَبِيرُ",
+                "الْكَبِيرَةُ"
+            ],
+            "correctIndex": 3,
+            "feedbackWrong": "Perhatikan dua tanda pada 'الْمَدْرَسَةُ': diawali 'الـ' (Alif-Lam) DAN diakhiri huruf ة! Maka sifat di belakangnya wajib membawa keduanya sekaligus.",
+            "feedbackCorrect": "Mumtaz! 'Al-madrasatul-kabīratu'—sama-sama memakai الـ dan sama-sama berakhiran ة!"
+        },
+        {
+            "id": "m12-q02",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Lawan kata dari 'وَاسِعَةٌ' (luas) untuk menggambarkan ruangan yang sempit adalah...",
+            "options": [
+                "قَصِيرَةٌ",
+                "ضَيِّقَةٌ",
+                "قَدِيمَةٌ",
+                "وَسِخَةٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris kedua pada tabel pasangan kata sifat!",
+            "feedbackCorrect": "Ahsanta! 'Ḍayyiqatun' (ضَيِّقَةٌ) berarti sempit."
+        },
+        {
+            "id": "m12-q03",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Rafi menulis: 'هٰذَا رَفٌّ الْجَدِيدُ'. Mengapa susunan kata sifat pada kalimat Rafi salah?",
+            "options": [
+                "Kata 'رَفٌّ' tidak memakai 'الـ', sehingga sifat 'جَدِيدٌ' tidak boleh memakai 'الـ'",
+                "Kata 'رَفٌّ' adalah muannats sehingga harus 'جَدِيدَةٌ'",
+                "Kata sifat harus diletakkan sebelum kata benda",
+                "Tidak ada kesalahan"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ingat syarat ke-2 dari Kembar 3-in-1! Kalau kata benda memakai tanwin tanpa 'الـ' (رَفٌّ), maka kata sifatnya juga harus tanpa 'الـ' (جَدِيدٌ).",
+            "feedbackCorrect": "Jeli sekali! Seharusnya 'hādzā raffun jadīdun' (Ini sebuah rak baru)."
+        },
+        {
+            "id": "m12-q04",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Penggaris ('مِسْطَرَةٌ') berukuran pendek dalam bahasa Arab ditulis...",
+            "options": [
+                "مِسْطَرَةٌ قَصِيرٌ",
+                "مِسْطَرَةٌ قَصِيرَةٌ",
+                "مِسْطَرَةٌ طَوِيلَةٌ",
+                "مِسْطَرَةٌ صَغِيرٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "'Misṭaratun' berakhiran ة, dan lawan kata dari panjang ('طَوِيلَةٌ') adalah pendek. Cek baris ke-3 tabel!",
+            "feedbackCorrect": "Tepat! 'Misṭaratun qaṣīratun'."
+        },
+        {
+            "id": "m12-q05",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Perhatikan harakat akhir pada kalimat ini: 'أَجْلِسُ عَلَى كُرْسِيٍّ _____.' (Aku duduk di atas sebuah kursi yang baru).\nKata sifat yang paling tepat adalah...",
+            "options": [
+                "جَدِيدٌ (ja-dī-dun)",
+                "جَدِيدٍ (ja-dī-din)",
+                "جَدِيدَةٍ (ja-dī-da-tin)",
+                "الْجَدِيدِ (al-ja-dī-di)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Lihat kata 'كُرْسِيٍّ': (1) mudzakkar (tanpa ة), (2) tanpa الـ, dan (3) berharakat kasrah tanwin (-in) karena didahului 'عَلَى'. Kata sifat wajib meniru ketiganya!",
+            "feedbackCorrect": "Brilian! 'Kursiyyin jadīdin' memenuhi seluruh syarat Kembar 3-in-1 dengan sempurna!"
+        },
+        {
+            "id": "m12-q06",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari kata 'وَسِخٌ' (wa-si-khun) pada tabel kondisi benda?",
+            "options": [
+                "Bersih",
+                "Kotor",
+                "Lama",
+                "Luas"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris kelima pada tabel untuk lawan kata dari 'نَظِيفٌ' (bersih)!",
+            "feedbackCorrect": "Benar! 'Wasikhun' berarti kotor."
+        },
+        {
+            "id": "m12-q07",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca dialog pembuka antara Daffa dan Alya:\n'الْمَكْتَبَةُ الْقَدِيمَةُ صَغِيرَةٌ، وَهِيَ بِجَانِبِ الْفَصْلِ.'\nBagaimana ciri dan letak perpustakaan yang lama?",
+            "options": [
+                "Besar dan luas, di depan halaman",
+                "Kecil, dan letaknya di samping kelas",
+                "Baru dan bersih, di belakang sekolah",
+                "Sempit, di dalam ruang guru"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Terjemahkan 'صَغِيرَةٌ' (kecil) dan 'بِجَانِبِ الْفَصْلِ' (di samping kelas)!",
+            "feedbackCorrect": "Mumtaz! Perpustakaan yang lama berukuran kecil dan terletak di samping kelas."
+        },
+        {
+            "id": "m12-q08",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Ubah kalimat berita 'الْبَابُ قَدِيمٌ' (Pintu itu lama) menjadi gabungan Benda + Sifat ('Pintu yang lama itu...'):",
+            "options": [
+                "الْبَابُ الْقَدِيمُ",
+                "بَابٌ الْقَدِيمُ",
+                "الْبَابُ قَدِيمَةٌ",
+                "الْقَدِيمُ الْبَابُ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Agar menjadi satu frasa benda+sifat ('Pintu yang lama itu'), kedua kata harus sama-sama memakai 'الـ'!",
+            "feedbackCorrect": "Ahsanta! 'Al-bābul-qadīmu' (Pintu yang lama itu)."
+        },
+        {
+            "id": "m12-q09",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Dalam bahasa Arab, jika kamu ingin mengatakan 'pulpen panjang', urutan kata yang benar adalah...",
+            "options": [
+                "طَوِيلٌ قَلَمٌ (Sifat dulu, baru benda)",
+                "قَلَمٌ طَوِيلٌ (Benda dulu, baru sifat)",
+                "قَلَمٌ طَوِيلَةٌ",
+                "الْقَلَمُ طَوِيلٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ingat aturan dasar Na'at-Man'ut: Benda selalu di depan, diikuti sifatnya di belakang!",
+            "feedbackCorrect": "Akurat! 'Qalamun ṭawīlun'."
+        },
+        {
+            "id": "m12-q10",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Dari keempat frasa berikut, manakah yang SALAH?",
+            "options": [
+                "الْحَقِيبَةُ الصَّغِيرَةُ",
+                "الْقَلَمُ الطَّوِيلُ",
+                "السَّاحَةُ الْوَاسِعُ",
+                "الْفَصْلُ النَّظِيفُ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Periksa huruf terakhir kata benda di setiap opsi! Kata 'السَّاحَةُ' (halaman) memiliki huruf ة, apakah sifatnya sudah memakai ة?",
+            "feedbackCorrect": "Jeli sekali! Seharusnya 'السَّاحَةُ الْوَاسِعَةُ'."
+        },
+        {
+            "id": "m12-q11",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kata 'رَفٌّ' (raf-fun) pada cerita dan daftar kosakata memiliki arti...",
+            "options": [
+                "Lantai",
+                "Rak buku",
+                "Atap",
+                "Dinding"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris terakhir pada daftar kosakata baru!",
+            "feedbackCorrect": "Benar! 'Raffun' berarti rak buku."
+        },
+        {
+            "id": "m12-q12",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Perhatikan kalimat: 'هٰذَا مَلْعَبُنَا الْوَاسِعُ.' (Ini adalah lapangan kami yang luas).\nMengapa kata 'الْوَاسِعُ' memakai 'الـ' padahal kata 'مَلْعَبُنَا' tidak diawali 'الـ'?",
+            "options": [
+                "Karena kata benda yang ditempeli ekor kepemilikan (ـنَا) sudah dianggap khusus/tertentu (Ma'rifah), setara dengan memakai الـ!",
+                "Karena kalimat tersebut salah cetak",
+                "Karena kata 'وَاسِعٌ' selalu memakai الـ",
+                "Karena lapangan itu sangat besar"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Dalam bahasa Arab, kata yang punya pemilik ('lapangan KAMI') sudah jelas bendanya (tertentu), sehingga sifatnya memakai 'الـ'!",
+            "feedbackCorrect": "Wawasan luar biasa! 'Mal'abunā al-wāsi'u' adalah aturan emas yang sering keluar di ujian!"
+        },
+        {
+            "id": "m12-q13",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Lawan kata dari 'جَدِيدَةٌ' (baru — untuk benda perempuan) adalah...",
+            "options": [
+                "قَدِيمٌ",
+                "قَدِيمَةٌ",
+                "صَغِيرَةٌ",
+                "قَصِيرَةٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cari arti 'lama' di tabel dan pastikan memakai bentuk muannats (berakhiran ة)!",
+            "feedbackCorrect": "Tepat! 'Qadīmatun' (قَدِيمَةٌ)."
+        },
+        {
+            "id": "m12-q14",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Ubah frasa 'غُرْفَةٌ ضَيِّقَةٌ' (sebuah kamar sempit) menjadi 'sebuah kamar luas':",
+            "options": [
+                "غُرْفَةٌ وَاسِعٌ",
+                "غُرْفَةٌ وَاسِعَةٌ",
+                "الْغُرْفَةُ الْوَاسِعَةُ",
+                "غُرْفَةٌ كَبِيرٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ganti 'ضَيِّقَةٌ' dengan lawan katanya dalam bentuk muannats dan tanpa 'الـ'!",
+            "feedbackCorrect": "Ahsanta! 'Ghurfatun wāsi'atun'."
+        },
+        {
+            "id": "m12-q15",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Bagaimana cara membaca kata 'صَغِيرَةٌ' dengan tepat?",
+            "options": [
+                "ṣa-ghī-ra-tun",
+                "sha-gī-ra-tun",
+                "ṣa-qī-ra-tun",
+                "ṣi-ghā-ra-tun"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Huruf pertama adalah Shad (ṣa-), kedua Ghain kasrah panjang (-ghī-), ketiga Ra (-ra-), keempat Ta Marbuthah (-tun)!",
+            "feedbackCorrect": "Akurat! 'Ṣa-ghī-ra-tun'."
+        },
+        {
+            "id": "m12-q16",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Pilih kalimat yang paling tepat untuk mendeskripsikan papan tulis di kelasmu:",
+            "options": [
+                "تِلْكَ سَبُّورَةٌ نَظِيفَةٌ وَكَبِيرَةٌ",
+                "ذٰلِكَ سَبُّورَةٌ نَظِيفٌ وَكَبِيرٌ",
+                "تِلْكَ سَبُّورَةٌ نَظِيفٌ وَكَبِيرَةٌ",
+                "هٰذَا سَبُّورَةٌ نَظِيفَةٌ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Semua unsur ('تِلْكَ', 'سَبُّورَةٌ', 'نَظِيفَةٌ', dan 'كَبِيرَةٌ') harus kompak dalam bentuk muannats!",
+            "feedbackCorrect": "Sempurna! Keempat kata dalam kalimat itu selaras 100%."
+        },
+        {
+            "id": "m12-q17",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Pasangan lawan kata yang TIDAK tepat di bawah ini adalah...",
+            "options": [
+                "كَبِيرٌ ↔ صَغِيرٌ",
+                "جَدِيدٌ ↔ قَدِيمٌ",
+                "طَوِيلٌ ↔ وَاسِعٌ",
+                "نَظِيفٌ ↔ وَسِخٌ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "'Ṭawīlun' (panjang) lawannya adalah 'Qaṣīrun' (pendek), sedangkan 'Wāsi'un' (luas) lawannya adalah 'Ḍayyiqun' (sempit)!",
+            "feedbackCorrect": "Benar! 'Ṭawīlun ↔ Wāsi'un' bukan pasangan lawan kata."
+        },
+        {
+            "id": "m12-q18",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca teka-teki ini: 'أَنَا بِنَايَةٌ كَبِيرَةٌ، فِيهَا كُتُبٌ كَثِيرَةٌ وَرُفُوفٌ جَدِيدَةٌ وَطُلَّابٌ يَقْرَؤُونَ بِهُدُوءٍ.'\nTempat apakah 'Aku' dalam teka-teki tersebut?",
+            "options": [
+                "الْمَلْعَبُ (Lapangan olahraga)",
+                "الْمَكْتَبَةُ (Perpustakaan)",
+                "السَّاحَةُ (Halaman sekolah)",
+                "الْحَافِلَةُ (Bus sekolah)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Perhatikan petunjuknya: bangunan besar berisi banyak buku ('كُتُبٌ كَثِيرَةٌ'), rak baru ('رُفُوفٌ جَدِيدَةٌ'), dan siswa membaca dengan tenang!",
+            "feedbackCorrect": "Mumtaz! Jawabannya adalah 'Al-Maktabah' (Perpustakaan)."
+        },
+        {
+            "id": "m12-q19",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari 'بَيْتِي صَغِيرٌ وَلٰكِنَّهُ نَظِيفٌ'?",
+            "options": [
+                "Rumahku besar dan kotor",
+                "Rumahku kecil tetapi bersih",
+                "Rumahmu sempit dan lama",
+                "Rumahnya luas dan baru"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "'Baitī' = rumahku, 'ṣaghīrun' = kecil, 'wa lākinnahu' = tetapi dia, 'naẓīfun' = bersih!",
+            "feedbackCorrect": "Tepat sekali! 'Rumahku kecil tetapi bersih'."
+        },
+        {
+            "id": "m12-q20",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Temukan kalimat yang BENAR secara tata bahasa dari empat opsi berikut:",
+            "options": [
+                "فِي حَقِيبَتِي قَلَمٌ أَزْرَقُ وَطَوِيلٌ",
+                "فِي حَقِيبَتِي قَلَمٌ زَرْقَاءُ وَطَوِيلَةٌ",
+                "فِي حَقِيبَتِي قَلَمٌ أَزْرَقُ وَطَوِيلَةٌ",
+                "فِي حَقِيبَتِي قَلَمٌ زَرْقَاءُ وَطَوِيلٌ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Gabungkan Modul 11 (Warna) dan Modul 12 (Sifat)! Kata 'قَلَمٌ' adalah mudzakkar, jadi warnanya ('أَزْرَقُ') dan sifatnya ('طَوِيلٌ') wajib mudzakkar keduanya!",
+            "feedbackCorrect": "Luar biasa! Kamu berhasil menggabungkan kata benda, warna, dan sifat dalam satu kalimat utuh!"
+        }
+    ]
+}

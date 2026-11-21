@@ -1,0 +1,533 @@
+{
+    "id": 2,
+    "zoneId": "zone-1",
+    "slug": "hadza-dan-hadzihi",
+    "title": "Ini Milik Siapa? (Hadza & Hadzihi)",
+    "canDo": "Aku bisa menunjuk benda-benda di dalam tas sekolahku dengan memilih kata tunjuk 'Ini' (Hadza atau Hadzihi) secara tepat.",
+    "storyHook": {
+        "title": "Misteri Tas Tertukar di Kelas 6A",
+        "setting": "Bel istirahat baru saja berbunyi, dua tas biru tergeletak di meja guru",
+        "lines": [
+            {
+                "speaker": "Bilal",
+                "avatarRole": "boy",
+                "arabic": "مَا هٰذَا يَا زَيْنَبُ؟ هَلْ هٰذَا قَلَمُكِ؟",
+                "transliteration": "Mā hā-dzā yā Zai-nab? Hal hā-dzā qa-la-mu-ki?",
+                "translation": "Apa ini wahai Zainab? Apakah ini pulpenmu?"
+            },
+            {
+                "speaker": "Zainab",
+                "avatarRole": "girl",
+                "arabic": "نَعَمْ، هٰذَا قَلَمِي. وَهٰذِهِ مِسْطَرَتِي.",
+                "transliteration": "Na-'am, hā-dzā qa-la-mī. Wa hā-dzi-hi mis-ṭa-ra-tī.",
+                "translation": "Ya, ini pulpenku. Dan ini penggarisku."
+            },
+            {
+                "speaker": "Bilal",
+                "avatarRole": "boy",
+                "arabic": "وَهٰذِهِ الْحَقِيبَةُ الْجَدِيدَةُ؟",
+                "transliteration": "Wa hā-dzi-hil-ḥa-qī-ba-tul-ja-dī-dah?",
+                "translation": "Dan tas baru ini (milik siapa)?"
+            },
+            {
+                "speaker": "Zainab",
+                "avatarRole": "girl",
+                "arabic": "لَا، هٰذِهِ حَقِيبَةُ سَارَةَ!",
+                "transliteration": "Lā, hā-dzi-hi ḥa-qī-ba-tu Sā-rah!",
+                "translation": "Bukan, ini tas milik Sarah!"
+            }
+        ]
+    },
+    "explanation": "Di dalam bahasa Arab, setiap kata benda punya jenis 'laki-laki' (Mudzakkar) atau 'perempuan' (Muannats)—bahkan benda mati seperti buku dan tas! Rahasia paling mudah mengenali benda perempuan adalah melihat huruf terakhirnya: hampir semuanya diakhiri huruf Ta Marbuthah (ـة / ة).",
+    "patternTable": {
+        "title": "Rumus Memilih Kata Tunjuk Dekat ('Ini')",
+        "filters": [
+            "Semua",
+            "Benda Laki-laki (هٰذَا)",
+            "Benda Perempuan (هٰذِهِ)"
+        ],
+        "headers": [
+            "Kata Tunjuk",
+            "Ciri Ujung Kata Benda",
+            "Contoh Benda",
+            "Cara Baca & Arti"
+        ],
+        "rows": [
+            {
+                "id": "m2-r1",
+                "category": "Benda Laki-laki (هٰذَا)",
+                "cells": [
+                    "هٰذَا (Hā-dzā)",
+                    "Tanpa huruf ة",
+                    "هٰذَا كِتَابٌ",
+                    "Hā-dzā ki-tā-bun (Ini buku)"
+                ],
+                "arabicResult": "هٰذَا كِتَابٌ",
+                "transliteration": "Hā-dzā ki-tā-bun",
+                "meaning": "Ini sebuah buku",
+                "breakdown": "كِتَابٌ tidak berakhiran ة → wajib memakai هٰذَا."
+            },
+            {
+                "id": "m2-r2",
+                "category": "Benda Laki-laki (هٰذَا)",
+                "cells": [
+                    "هٰذَا (Hā-dzā)",
+                    "Tanpa huruf ة",
+                    "هٰذَا قَلَمٌ",
+                    "Hā-dzā qa-la-mun (Ini pulpen)"
+                ],
+                "arabicResult": "هٰذَا قَلَمٌ",
+                "transliteration": "Hā-dzā qa-la-mun",
+                "meaning": "Ini sebuah pulpen",
+                "breakdown": "قَلَمٌ diakhiri huruf م (bukan ة) → wajib memakai هٰذَا."
+            },
+            {
+                "id": "m2-r3",
+                "category": "Benda Laki-laki (هٰذَا)",
+                "cells": [
+                    "هٰذَا (Hā-dzā)",
+                    "Tanpa huruf ة",
+                    "هٰذَا كُرْسِيٌّ",
+                    "Hā-dzā kur-siy-yun (Ini kursi)"
+                ],
+                "arabicResult": "هٰذَا كُرْسِيٌّ",
+                "transliteration": "Hā-dzā kur-siy-yun",
+                "meaning": "Ini sebuah kursi",
+                "breakdown": "كُرْسِيٌّ diakhiri huruf ي (bukan ة) → wajib memakai هٰذَا."
+            },
+            {
+                "id": "m2-r4",
+                "category": "Benda Perempuan (هٰذِهِ)",
+                "cells": [
+                    "هٰذِهِ (Hā-dzi-hi)",
+                    "Berakhiran huruf ة",
+                    "هٰذِهِ حَقِيبَةٌ",
+                    "Hā-dzi-hi ḥa-qī-ba-tun (Ini tas)"
+                ],
+                "arabicResult": "هٰذِهِ حَقِيبَةٌ",
+                "transliteration": "Hā-dzi-hi ḥa-qī-ba-tun",
+                "meaning": "Ini sebuah tas",
+                "breakdown": "حَقِيبَةٌ punya ekor ة → wajib memakai هٰذِهِ."
+            },
+            {
+                "id": "m2-r5",
+                "category": "Benda Perempuan (هٰذِهِ)",
+                "cells": [
+                    "هٰذِهِ (Hā-dzi-hi)",
+                    "Berakhiran huruf ة",
+                    "هٰذِهِ مِسْطَرَةٌ",
+                    "Hā-dzi-hi mis-ṭa-ra-tun (Ini penggaris)"
+                ],
+                "arabicResult": "هٰذِهِ مِسْطَرَةٌ",
+                "transliteration": "Hā-dzi-hi mis-ṭa-ra-tun",
+                "meaning": "Ini sebuah penggaris",
+                "breakdown": "مِسْطَرَةٌ punya ekor ة → wajib memakai هٰذِهِ."
+            },
+            {
+                "id": "m2-r6",
+                "category": "Benda Perempuan (هٰذِهِ)",
+                "cells": [
+                    "هٰذِهِ (Hā-dzi-hi)",
+                    "Berakhiran huruf ة",
+                    "هٰذِهِ سَبُّورَةٌ",
+                    "Hā-dzi-hi sab-bū-ra-tun (Ini papan tulis)"
+                ],
+                "arabicResult": "هٰذِهِ سَبُّورَةٌ",
+                "transliteration": "Hā-dzi-hi sab-bū-ra-tun",
+                "meaning": "Ini sebuah papan tulis",
+                "breakdown": "سَبُّورَةٌ punya ekor ة → wajib memakai هٰذِهِ."
+            }
+        ]
+    },
+    "highlightedExamples": [
+        {
+            "segments": [
+                {
+                    "text": "مَا هٰذَا؟ — ",
+                    "role": "base"
+                },
+                {
+                    "text": "هٰذَا",
+                    "role": "focus",
+                    "label": "Ini (Mudzakkar)"
+                },
+                {
+                    "text": " مَكْتَب",
+                    "role": "base"
+                },
+                {
+                    "text": "ٌ",
+                    "role": "suffix",
+                    "label": "Tanpa ة"
+                }
+            ],
+            "transliteration": "Mā hā-dzā? — Hā-dzā mak-ta-bun.",
+            "translation": "Apa ini? — Ini sebuah meja."
+        },
+        {
+            "segments": [
+                {
+                    "text": "مَا هٰذِهِ؟ — ",
+                    "role": "base"
+                },
+                {
+                    "text": "هٰذِهِ",
+                    "role": "focus",
+                    "label": "Ini (Muannats)"
+                },
+                {
+                    "text": " مِمْحَا",
+                    "role": "base"
+                },
+                {
+                    "text": "ةٌ",
+                    "role": "suffix",
+                    "label": "Huruf ة"
+                }
+            ],
+            "transliteration": "Mā hā-dzi-hi? — Hā-dzi-hi mim-ḥā-tun.",
+            "translation": "Apa ini? — Ini sebuah penghapus."
+        }
+    ],
+    "quickTrick": "Lihat 'ekor' katanya! Ada bulat bertitik dua (ـة / ة) di ujung kata? Langsung gandengkan dengan 'هٰذِهِ' (Hadzihi). Tidak ada? Pakai 'هٰذَا' (Hadza)!",
+    "vocabulary": [
+        {
+            "arabic": "كِتَابٌ",
+            "transliteration": "ki-tā-bun",
+            "meaning": "Buku",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "قَلَمٌ",
+            "transliteration": "qa-la-mun",
+            "meaning": "Pulpen",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "مَكْتَبٌ",
+            "transliteration": "mak-ta-bun",
+            "meaning": "Meja",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "حَقِيبَةٌ",
+            "transliteration": "ḥa-qī-ba-tun",
+            "meaning": "Tas",
+            "gender": "muannats"
+        },
+        {
+            "arabic": "مِسْطَرَةٌ",
+            "transliteration": "mis-ṭa-ra-tun",
+            "meaning": "Penggaris",
+            "gender": "muannats"
+        },
+        {
+            "arabic": "مِمْحَاةٌ",
+            "transliteration": "mim-ḥā-tun",
+            "meaning": "Penghapus",
+            "gender": "muannats"
+        }
+    ],
+    "quizBank": [
+        {
+            "id": "m02-q01",
+            "difficulty": "medium",
+            "type": "agreement-trap",
+            "question": "Perhatikan kalimat berikut: 'هٰذِهِ _____'. Kata benda mana yang tepat mengisi titik-titik tersebut?",
+            "options": [
+                "كِتَابٌ",
+                "قَلَمٌ",
+                "مِمْحَاةٌ",
+                "مَكْتَبٌ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Kata tunjuk 'هٰذِهِ' hanya mau berteman dengan kata benda yang memiliki tanda perempuan di ujungnya. Cek kembali tabel!",
+            "feedbackCorrect": "Mumtaz! 'Mim-ḥā-tun' berakhiran huruf ة (Ta Marbuthah), sehingga pasangan yang sah adalah 'هٰذِهِ'."
+        },
+        {
+            "id": "m02-q02",
+            "difficulty": "medium",
+            "type": "agreement-trap",
+            "question": "Guru menunjuk sebuah meja kayu dan bertanya: 'مَا هٰذَا؟'. Jawaban yang tepat adalah...",
+            "options": [
+                "هٰذِهِ مَكْتَبٌ",
+                "هٰذَا مَكْتَبٌ",
+                "هٰذَا مِسْطَرَةٌ",
+                "هٰذِهِ حَقِيبَةٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Lihat kata dalam pertanyaan: 'هٰذَا' (mudzakkar), dan benda yang ditunjuk adalah meja ('مَكْتَبٌ'). Pastikan kata tunjuk dan bendanya serasi!",
+            "feedbackCorrect": "Ahsanta! 'Maktabun' tidak memiliki huruf ة, sehingga memakai 'Hādzā'."
+        },
+        {
+            "id": "m02-q03",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Santi menulis 4 catatan kosakata di bukunya. Manakah catatan Santi yang SALAH?",
+            "options": [
+                "هٰذَا كُرْسِيٌّ",
+                "هٰذِهِ سَبُّورَةٌ",
+                "هٰذَا حَقِيبَةٌ",
+                "هٰذِهِ مِسْطَرَةٌ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Periksa satu per satu ujung kata bendanya! Apakah ada kata benda berakhiran ة yang dipasangkan dengan 'هٰذَا'?",
+            "feedbackCorrect": "Jeli sekali! 'Ḥaqībatun' (tas) berakhiran ة, jadi seharusnya memakai 'هٰذِهِ', bukan 'هٰذَا'."
+        },
+        {
+            "id": "m02-q04",
+            "difficulty": "hard",
+            "type": "context-choice",
+            "question": "Kamu melihat benda asing di lantai dan tahu benda itu adalah 'كُرَّاسَةٌ' (buku tulis). Bagaimana cara bertanya 'Apakah ini buku tulis?' dalam bahasa Arab?",
+            "options": [
+                "هَلْ هٰذَا كُرَّاسَةٌ؟",
+                "هَلْ هٰذِهِ كُرَّاسَةٌ؟",
+                "مَا هٰذَا كُرَّاسَةٌ؟",
+                "أَيْنَ هٰذَا كُرَّاسَةٌ؟"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Perhatikan huruf terakhir pada kata 'كُرَّاسَةٌ' (ada huruf ة!). Kata tanya 'Apakah' adalah 'هَلْ', lalu pilih kata tunjuk yang sesuai.",
+            "feedbackCorrect": "Hebat! Karena 'kurrāsatun' berakhiran ة, pertanyaan 'Apakah ini...' wajib memakai 'هَلْ هٰذِهِ...'."
+        },
+        {
+            "id": "m02-q05",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kelompokkan benda berikut: manakah yang termasuk kelompok Mudzakkar (tanpa ة)?",
+            "options": [
+                "حَقِيبَةٌ dan مِمْحَاةٌ",
+                "كِتَابٌ dan قَلَمٌ",
+                "مِسْطَرَةٌ dan سَبُّورَةٌ",
+                "كُرَّاسَةٌ dan مَكْتَبَةٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Kelompok Mudzakkar TIDAK memiliki huruf bulat bertitik dua (ة) di akhir katanya. Cek kembali daftar kosakata baru!",
+            "feedbackCorrect": "Tepat! 'Kitābun' dan 'Qalamun' keduanya tidak berakhiran ة."
+        },
+        {
+            "id": "m02-q06",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca dialog berikut:\nRani: 'هَلْ هٰذِهِ مِمْحَاةٌ؟'\nDodi: 'لَا، هٰذِهِ مِسْطَرَةٌ.'\nBenda apa yang sebenarnya sedang dipegang oleh Rani?",
+            "options": [
+                "Sebuah penghapus",
+                "Sebuah penggaris",
+                "Sebuah buku",
+                "Sebuah pulpen"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Dodi menjawab 'لَا' (Tidak/Bukan), lalu menyebutkan benda yang sebenarnya. Cek arti kosakata pada jawaban Dodi!",
+            "feedbackCorrect": "Mumtaz! Rani mengira itu penghapus (mimḥātun), padahal Dodi mengoreksi bahwa itu penggaris (misṭaratun)."
+        },
+        {
+            "id": "m02-q07",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Perhatikan kata 'مِسْطَرَتِي' (penggarisku) pada cerita pembuka. Mengapa huruf ة pada 'مِسْطَرَةٌ' berubah bentuk menjadi ت sebelum ditambah 'ـِي'?",
+            "options": [
+                "Karena huruf ة hanya bisa berada di akhir kata dan terbuka menjadi ت saat disambung",
+                "Karena penggaris berubah menjadi benda laki-laki",
+                "Karena artinya berubah menjadi 'penggarismu'",
+                "Karena itu adalah kesalahan cetak"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Huruf Ta Marbuthah (ة) artinya 'Ta yang terikat di ujung'. Jika ada huruf imbuhan di belakangnya, ikatannya terbuka menjadi huruf Ta biasa (ت)!",
+            "feedbackCorrect": "Cerdas luar biasa! Ta Marbuthah selalu terbuka menjadi huruf ت apabila disambung dengan akhiran kepemilikan."
+        },
+        {
+            "id": "m02-q08",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa perbedaan cara baca antara 'هٰذَا' dan 'هٰذِهِ'?",
+            "options": [
+                "Hā-dzā (2 suku kata) vs Hā-dzi-hi (3 suku kata)",
+                "Ha-dza (pendek semua) vs Ha-dzi-hi (panjang semua)",
+                "Hā-dzū vs Hā-dzā",
+                "Keduanya dibaca sama persis"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Perhatikan tanda harakat di bawah huruf Dzal dan Ha pada 'هٰذِهِ'. Ada tiga bunyi vokal yang dilafalkan!",
+            "feedbackCorrect": "Akurat! 'Hā-dzā' terdiri dari dua suku kata, sedangkan 'Hā-dzi-hi' terdiri dari tiga suku kata."
+        },
+        {
+            "id": "m02-q09",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Jika kamu menemukan kata benda baru 'نَافِذَةٌ' (jendela) dan 'بَابٌ' (pintu), pasangan kata tunjuk yang benar untuk keduanya secara berurutan adalah...",
+            "options": [
+                "هٰذَا نَافِذَةٌ — هٰذِهِ بَابٌ",
+                "هٰذِهِ نَافِذَةٌ — هٰذَا بَابٌ",
+                "هٰذَا نَافِذَةٌ — هٰذَا بَابٌ",
+                "هٰذِهِ نَافِذَةٌ — هٰذِهِ بَابٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Meski kamu baru melihat kata 'نَافِذَةٌ' dan 'بَابٌ', gunakan 'Trik Ekor Kata'! Mana yang punya ekor ة dan mana yang tidak?",
+            "feedbackCorrect": "Hebat! Dengan melihat ekor ة pada 'nāfidzatun' (jendela) dan ketiadaan ة pada 'bābun' (pintu), kamu bisa menebak dengan 100% akurat."
+        },
+        {
+            "id": "m02-q10",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Dalam kalimat 'مَا هٰذِهِ؟', fungsi kata 'مَا' adalah...",
+            "options": [
+                "Kata tanya 'Apa' untuk menanyakan benda",
+                "Kata tanya 'Siapa' untuk menanyakan orang",
+                "Kata sangkalan 'Tidak'",
+                "Kata sambung 'Dan'"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Lihat dialog Bilal dan Zainab! Ketika Bilal bertanya 'مَا هٰذَا؟', Zainab menjawab dengan nama benda ('قَلَمِي').",
+            "feedbackCorrect": "Tepat! 'Mā' (مَا) digunakan untuk menanyakan nama benda mati ('Apa')."
+        },
+        {
+            "id": "m02-q11",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Perhatikan kalimat: 'نَعَمْ، هٰذَا مِمْحَاةٌ.' Mengapa jawaban ini tidak logis secara tata bahasa?",
+            "options": [
+                "Kata 'نَعَمْ' tidak boleh di awal kalimat",
+                "Kata tunjuk 'هٰذَا' tidak cocok dengan 'مِمْحَاةٌ' yang berakhiran ة",
+                "Kata 'مِمْحَاةٌ' seharusnya tanpa tanwin",
+                "Kalimat ini sudah benar sepenuhnya"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek keserasian antara kata tunjuk sebelum kata benda dan huruf terakhir dari kata 'مِمْحَاةٌ'!",
+            "feedbackCorrect": "Ahsanta! 'Mimḥātun' adalah benda muannats (berakhiran ة), sehingga wajib memakai 'هٰذِهِ'."
+        },
+        {
+            "id": "m02-q12",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Manakah arti yang paling tepat untuk kalimat 'هٰذَا قَلَمُكِ'?",
+            "options": [
+                "Ini pulpenku",
+                "Ini pulpenmu (perempuan)",
+                "Ini pulpenmu (laki-laki)",
+                "Ini penghapusmu (perempuan)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Gabungkan ilmu Modul 1 dan Modul 2! 'قَلَمُ' = pulpen, dan akhiran kasrah 'ـكِ' = milikmu (untuk siapa?).",
+            "feedbackCorrect": "Mumtaz! 'Hādzā qalamuki' berarti 'Ini pulpenmu (perempuan)'."
+        },
+        {
+            "id": "m02-q13",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Di atas meja ada 3 benda: كِتَابٌ, حَقِيبَةٌ, dan قَلَمٌ. Berapa banyak benda yang harus ditunjuk menggunakan kata 'هٰذَا'?",
+            "options": [
+                "1 benda saja",
+                "2 benda",
+                "3 benda semuanya",
+                "0 benda"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Hitung satu per satu kata yang TIDAK memiliki huruf ة di akhirnya dari ketiga benda tersebut!",
+            "feedbackCorrect": "Tepat! Ada 2 benda mudzakkar ('kitābun' dan 'qalamun'), sedangkan 'ḥaqībatun' memakai 'hādzihi'."
+        },
+        {
+            "id": "m02-q14",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Jika temanmu bertanya 'هَلْ هٰذَا كِتَابٌ؟' dan benda itu memang sebuah buku, bagaimana cara menjawabnya secara lengkap?",
+            "options": [
+                "نَعَمْ، هٰذَا كِتَابٌ",
+                "نَعَمْ، هٰذِهِ كِتَابٌ",
+                "لَا، هٰذَا كِتَابٌ",
+                "نَعَمْ، مَا هٰذَا"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Karena jawabannya 'Ya' ('نَعَمْ'), ulangi pernyataan yang sama dari pertanyaan dengan tetap memakai 'هٰذَا'!",
+            "feedbackCorrect": "Benar! 'Na'am, hādzā kitābun' (Ya, ini sebuah buku)."
+        },
+        {
+            "id": "m02-q15",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Pilih kalimat yang paling tepat untuk menunjuk papan tulis di depan kelas:",
+            "options": [
+                "هٰذَا سَبُّورَةٌ",
+                "هٰذِهِ سَبُّورَةٌ",
+                "هٰذِهِ كُرْسِيٌّ",
+                "هٰذَا مِسْطَرَةٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Papan tulis dalam bahasa Arab adalah 'سَبُّورَةٌ' (sab-bū-ra-tun). Perhatikan huruf terakhirnya sebelum memilih هٰذَا atau هٰذِهِ!",
+            "feedbackCorrect": "Ahsanta! 'Sabbūratun' diakhiri ة, maka kata tunjuknya adalah 'هٰذِهِ'."
+        },
+        {
+            "id": "m02-q16",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kata 'مِمْحَاةٌ' (penghapus) memiliki huruf ة yang berdiri sendiri (tidak bersambung dengan huruf sebelumnya). Mengapa demikian?",
+            "options": [
+                "Karena huruf sebelumnya adalah Alif (ا) yang tidak bisa disambung ke kiri",
+                "Karena penghapus adalah benda laki-laki",
+                "Karena huruf ة tidak pernah bisa disambung",
+                "Karena panjang katanya 4 huruf"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ingat aturan menyambung huruf hijaiyah! Huruf Alif (ا) tidak mau bergandengan dengan huruf di sebelah kirinya, sehingga ة ditulis bulat utuh.",
+            "feedbackCorrect": "Cerdas! Baik berbentuk 'ـة' (bersambung) maupun 'ة' (terpisah setelah ا/د/ذ/ر/ز/و), keduanya tetap Ta Marbuthah!"
+        },
+        {
+            "id": "m02-q17",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Perhatikan kalimat: 'هٰذَا كِتَابِي، وَهٰذِهِ حَقِيبَتِي.'\nApa makna dari kalimat gabungan tersebut?",
+            "options": [
+                "Ini bukumu, dan ini tasmu",
+                "Ini bukuku, dan ini tasku",
+                "Ini buku baru, dan ini tas lama",
+                "Apakah ini bukuku dan tasku?"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Perhatikan akhiran 'ـِي' yang menempel pada 'كِتَاب' dan 'حَقِيبَت'!",
+            "feedbackCorrect": "Mumtaz! 'Ini bukuku, dan ini tasku'."
+        },
+        {
+            "id": "m02-q18",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Transliterasi yang tepat untuk 'هٰذِهِ مِسْطَرَةٌ' adalah...",
+            "options": [
+                "Hā-dzā mis-ṭa-ra-tun",
+                "Hā-dzi-hi mis-ṭa-ra-tun",
+                "Hā-dzi-hi mas-ṭu-ra-tun",
+                "Ha-dza mis-ta-ra-ti"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek harakat huruf Mim pada 'مِسْطَرَةٌ' (kasrah = mi) dan kata tunjuk di depannya!",
+            "feedbackCorrect": "Tepat sekali! 'Hā-dzi-hi mis-ṭa-ra-tun'."
+        },
+        {
+            "id": "m02-q19",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Manakah pasangan yang KEDUANYA membutuhkan kata tunjuk 'هٰذِهِ'?",
+            "options": [
+                "حَقِيبَةٌ & كِتَابٌ",
+                "مِسْطَرَةٌ & سَبُّورَةٌ",
+                "قَلَمٌ & مَكْتَبٌ",
+                "كُرْسِيٌّ & مِمْحَاةٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Kedua kata dalam pasangan pilihanmu wajib sama-sama berakhiran huruf ة. Periksa satu per satu!",
+            "feedbackCorrect": "Hebat! 'Misṭaratun' (penggaris) dan 'Sabbūratun' (papan tulis) sama-sama benda muannats."
+        },
+        {
+            "id": "m02-q20",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Umar ingin menunjuk kursinya sendiri. Ia menulis: 'هٰذِهِ كُرْسِيِّي'. Bagian mana yang keliru?",
+            "options": [
+                "Penggunaan 'هٰذِهِ' karena 'كُرْسِيٌّ' adalah benda mudzakkar",
+                "Akhiran 'ـِي' tidak boleh dipakai pada kursi",
+                "Kursi seharusnya ditulis 'كُرْسِيَّةٌ'",
+                "Tidak ada yang keliru"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cek baris ketiga di tabel rumus! Kursi ('كُرْسِيٌّ') masuk kategori benda laki-laki atau perempuan?",
+            "feedbackCorrect": "Luar biasa! 'Kursiyyun' adalah benda mudzakkar, jadi harus memakai 'هٰذَا كُرْسِيِّي'."
+        }
+    ]
+}

@@ -1,0 +1,526 @@
+{
+    "id": 17,
+    "zoneId": "zone-4",
+    "slug": "kalimat-fiil-dan-proyek-akhir",
+    "title": "Kalimat Fi'il & Proyek Paragrafku",
+    "canDo": "Aku bisa menyusun kalimat verbal dasar (Jumlah Fi'liyyah: Fi'il + Fa'il + Maf'ul Bih) serta merangkai satu paragraf cerita utuh tentang diriku, keluargaku, dan kegiatanku di sekolah.",
+    "storyHook": {
+        "title": "Festival Karya Tulis Bahasa Arab Kelas 6",
+        "setting": "Panggung aula sekolah, Hanan membacakan karangan pendeknya di hadapan guru dan teman-teman",
+        "lines": [
+            {
+                "speaker": "Hanan",
+                "avatarRole": "girl",
+                "arabic": "اِسْمِي حَنَانُ، أَنَا طَالِبَةٌ فِي الصَّفِّ السَّادِسِ.",
+                "transliteration": "Is-mī Ḥa-nān, a-nā ṭā-li-ba-tun fiṣ-ṣaf-fis-sā-dis.",
+                "translation": "Namaku Hanan, aku adalah siswi di kelas enam."
+            },
+            {
+                "speaker": "Hanan",
+                "avatarRole": "girl",
+                "arabic": "أَذْهَبُ إِلَى الْمَدْرَسَةِ صَبَاحًا، وَأَدْرُسُ اللُّغَةَ الْعَرَبِيَّةَ بِسُرُورٍ.",
+                "transliteration": "Adz-ha-bu i-lal-mad-ra-sa-ti ṣa-bā-ḥan, wa ad-ru-sul-lu-gha-tal-'a-ra-biy-ya-ta bi-su-rūr.",
+                "translation": "Aku pergi ke sekolah pada pagi hari, dan aku mempelajari bahasa Arab dengan gembira."
+            },
+            {
+                "speaker": "Hanan",
+                "avatarRole": "girl",
+                "arabic": "يَكْتُبُ الْأُسْتَاذُ الدَّرْسَ عَلَى السَّبُّورَةِ، وَتَقْرَأُ الطَّالِبَاتُ الْكِتَابَ.",
+                "transliteration": "Yak-tu-bul-us-tā-dzud-dar-sa 'a-las-sab-bū-rah, wa taq-ra-uṭ-ṭā-li-bā-tul-ki-tāb.",
+                "translation": "Pak Guru menulis pelajaran di papan tulis, dan para siswi membaca buku."
+            },
+            {
+                "speaker": "Ustadzah Maryam",
+                "avatarRole": "girl",
+                "arabic": "مُمْتَازٌ يَا حَنَانُ! هٰذِهِ فِقْرَةٌ عَرَبِيَّةٌ رَائِعَةٌ!",
+                "transliteration": "Mum-tā-zun yā Ḥa-nān! Hā-dzi-hi fiq-ra-tun 'a-ra-biy-ya-tun rā-i-'ah!",
+                "translation": "Luar biasa wahai Hanan! Ini adalah paragraf bahasa Arab yang hebat!"
+            }
+        ]
+    },
+    "explanation": "Selamat tiba di Pos Terakhir Qalamis! Jika kalimat diawali oleh **FI'IL** (Kata Kerja), namanya adalah **Jumlah Fi'liyyah** (Kalimat Verbal). Rumus emasnya selalu berurutan: **(1) Fi'il** (Kata Kerja) + **(2) Fā'il** (Pelaku, harakat akhir Dhammah `-u`) + **(3) Maf'ūl Bih** (Objek sasaran, harakat akhir Fathah `-a`). Dengan menguasai Jumlah Ismiyyah dan Jumlah Fi'liyyah, kamu kini siap merangkai paragraf bahasa Arabmu sendiri!",
+    "patternTable": {
+        "title": "Rumus Jumlah Fi'liyyah: Fi'il (Kerja) + Fā'il (-u) + Maf'ūl Bih (-a)",
+        "filters": [
+            "Semua",
+            "Pelaku Laki-laki (يَـ)",
+            "Pelaku Perempuan (تَـ)",
+            "Proyek Paragraf"
+        ],
+        "headers": [
+            "Pola Pelaku",
+            "Fi'il (Kata Kerja)",
+            "Fā'il (Pelaku -u)",
+            "Maf'ūl Bih (Objek -a)"
+        ],
+        "rows": [
+            {
+                "id": "m17-r1",
+                "category": "Pelaku Laki-laki (يَـ)",
+                "cells": [
+                    "Pelaku Cowok",
+                    "يَكْتُبُ (Sedang menulis)",
+                    "الطَّالِبُ (aṭ-ṭā-li-bu)",
+                    "الدَّرْسَ (ad-dar-sa = pelajaran)"
+                ],
+                "arabicResult": "يَكْتُبُ الطَّالِبُ الدَّرْسَ",
+                "transliteration": "Yak-tu-buṭ-ṭā-li-bud-dar-sa",
+                "meaning": "Siswa itu sedang menulis pelajaran",
+                "breakdown": "Pelaku (الطَّالِبُ) ujungnya dhammah (-u), Objek (الدَّرْسَ) ujungnya fathah (-a)."
+            },
+            {
+                "id": "m17-r2",
+                "category": "Pelaku Laki-laki (يَـ)",
+                "cells": [
+                    "Pelaku Cowok (Lampau)",
+                    "شَرِبَ (Telah minum)",
+                    "زَيْدٌ (Zai-dun)",
+                    "الْحَلِيبَ (al-ḥa-lī-ba = susu)"
+                ],
+                "arabicResult": "شَرِبَ زَيْدٌ الْحَلِيبَ",
+                "transliteration": "Sha-ri-ba Zai-du-nil-ḥa-lī-ba",
+                "meaning": "Zaid telah minum susu",
+                "breakdown": "زَيْدٌ pelaku (-un), الْحَلِيبَ objek (-a)."
+            },
+            {
+                "id": "m17-r3",
+                "category": "Pelaku Perempuan (تَـ)",
+                "cells": [
+                    "Pelaku Cewek",
+                    "تَقْرَأُ (Sedang membaca)",
+                    "الطَّالِبَةُ (aṭ-ṭā-li-ba-tu)",
+                    "الْقِصَّةَ (al-qiṣ-ṣa-ta = cerita)"
+                ],
+                "arabicResult": "تَقْرَأُ الطَّالِبَةُ الْقِصَّةَ",
+                "transliteration": "Taq-ra-uṭ-ṭā-li-ba-tul-qiṣ-ṣa-ta",
+                "meaning": "Siswi itu sedang membaca cerita",
+                "breakdown": "Karena pelakunya perempuan, Fi'il Mudhari' diawali huruf تَـ (taq-ra-u)."
+            },
+            {
+                "id": "m17-r4",
+                "category": "Pelaku Perempuan (تَـ)",
+                "cells": [
+                    "Pelaku Cewek (Lampau)",
+                    "فَتَحَتْ (Telah membuka)",
+                    "فَاطِمَةُ (Fā-ṭi-ma-tu)",
+                    "النَّافِذَةَ (an-nā-fi-dza-ta = jendela)"
+                ],
+                "arabicResult": "فَتَحَتْ فَاطِمَةُ النَّافِذَةَ",
+                "transliteration": "Fa-ta-ḥat Fā-ṭi-ma-tun-nā-fi-dza-ta",
+                "meaning": "Fatimah telah membuka jendela",
+                "breakdown": "Pada Fi'il Madhi, pelaku perempuan ditandai akhiran Ta Sukun (ـتْ)."
+            },
+            {
+                "id": "m17-r5",
+                "category": "Proyek Paragraf",
+                "cells": [
+                    "Rangkaian Paragraf",
+                    "Perkenalan + Keluarga + Aktivitas",
+                    "Ismiyyah + Fi'liyyah",
+                    "Paragraf Utuh Bahasa Arab"
+                ],
+                "arabicResult": "اِسْمِي ... أَنَا طَالِبٌ ... أَدْرُسُ اللُّغَةَ الْعَرَبِيَّةَ",
+                "transliteration": "Is-mī ... A-nā ṭā-li-bun ... Ad-ru-sul-lu-gha-tal-'a-ra-biy-yah",
+                "meaning": "Namaku ... Aku seorang siswa ... Aku belajar bahasa Arab",
+                "breakdown": "Gabungkan kalimat perkenalan (Modul 1–2), keluarga/kepemilikan (Modul 6–10), dan kegiatan harian (Modul 14–17)."
+            }
+        ]
+    },
+    "highlightedExamples": [
+        {
+            "segments": [
+                {
+                    "text": "يَ",
+                    "role": "prefix",
+                    "label": "Awalan Cowok"
+                },
+                {
+                    "text": "فْتَحُ ",
+                    "role": "base"
+                },
+                {
+                    "text": "بِلَالٌ ",
+                    "role": "focus",
+                    "label": "Fā'il / Pelaku (-un)"
+                },
+                {
+                    "text": "الْبَابَ",
+                    "role": "suffix",
+                    "label": "Maf'ūl Bih / Objek (-a)"
+                },
+                {
+                    "text": ".",
+                    "role": "base"
+                }
+            ],
+            "transliteration": "Yaf-ta-ḥu Bi-lā-lu-nil-bā-ba.",
+            "translation": "Bilal sedang membuka pintu itu."
+        },
+        {
+            "segments": [
+                {
+                    "text": "تَ",
+                    "role": "prefix",
+                    "label": "Awalan Cewek"
+                },
+                {
+                    "text": "كْتُبُ ",
+                    "role": "base"
+                },
+                {
+                    "text": "عَالِيَةُ ",
+                    "role": "focus",
+                    "label": "Fā'il / Pelaku (-u)"
+                },
+                {
+                    "text": "الْوَاجِبَ",
+                    "role": "suffix",
+                    "label": "Maf'ūl Bih / Objek (-a)"
+                },
+                {
+                    "text": ".",
+                    "role": "base"
+                }
+            ],
+            "transliteration": "Tak-tu-bu 'Ā-li-ya-tul-wā-ji-ba.",
+            "translation": "Alya sedang menulis pekerjaan rumah (PR)."
+        }
+    ],
+    "quickTrick": "Kode Harakat Kalimat Fi'il: Pelaku selalu 'U' (Dhammah), Objek selalu 'A' (Fathah)! Jadi dalam 'يَقْرَأُ زَيْدٌ الْكِتَابَ', siapa yang membaca? Yang ujungnya 'U' (Zaidun). Apa yang dibaca? Yang ujungnya 'A' (Al-kitāba)!",
+    "vocabulary": [
+        {
+            "arabic": "فَاعِلٌ",
+            "transliteration": "fā-'i-lun",
+            "meaning": "Pelaku pekerjaan (subjek verbal)"
+        },
+        {
+            "arabic": "مَفْعُولٌ بِهِ",
+            "transliteration": "maf-'ū-lun bi-hi",
+            "meaning": "Objek yang dikenai pekerjaan"
+        },
+        {
+            "arabic": "فَتَحَ / يَفْتَحُ",
+            "transliteration": "fa-ta-ḥa / yaf-ta-ḥu",
+            "meaning": "Telah membuka / Sedang membuka"
+        },
+        {
+            "arabic": "دَرَسَ / يَدْرُسُ",
+            "transliteration": "da-ra-sa / yad-ru-su",
+            "meaning": "Telah belajar / Sedang belajar"
+        },
+        {
+            "arabic": "الْوَاجِبُ",
+            "transliteration": "al-wā-ji-bu",
+            "meaning": "Pekerjaan rumah (PR) / tugas",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "الْقِصَّةُ",
+            "transliteration": "al-qiṣ-ṣa-tu",
+            "meaning": "Cerita / kisah",
+            "gender": "muannats"
+        }
+    ],
+    "quizBank": [
+        {
+            "id": "m17-q01",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Terapkan Kode Harakat Kalimat Fi'il (Pelaku = -u, Objek = -a) untuk melengkapi kalimat berikut:\n'يَفْتَحُ _____ _____.' (Siswa itu sedang membuka pintu)",
+            "options": [
+                "الطَّالِبَ — الْبَابُ",
+                "الطَّالِبُ — الْبَابَ",
+                "الطَّالِبِ — الْبَابِ",
+                "الطَّالِبُ — الْبَابُ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ingat kotak 'Trik Cepat'! Pelaku pekerjaan ('الطَّالِبُ') wajib berharakat akhir dhammah (-u), sedangkan objek yang dibuka ('الْبَابَ') wajib fathah (-a).",
+            "feedbackCorrect": "Mumtaz! 'Yaftaḥuṭ-ṭālibul-bāba' (Siswa itu sedang membuka pintu)."
+        },
+        {
+            "id": "m17-q02",
+            "difficulty": "medium",
+            "type": "agreement-trap",
+            "question": "Karena pelakunya adalah Salma (perempuan), kata kerja 'sedang belajar' yang tepat adalah:\n'_____ سَلْمَى اللُّغَةَ الْعَرَبِيَّةَ.'",
+            "options": [
+                "يَدْرُسُ (yad-ru-su)",
+                "تَدْرُسُ (tad-ru-su)",
+                "أَدْرُسُ (ad-ru-su)",
+                "نَدْرُسُ (nad-ru-su)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris ketiga tabel! Jika pelaku orang ketiga adalah perempuan ('سَلْمَى'), Fi'il Mudhari' diawali huruf Ta (تَـ).",
+            "feedbackCorrect": "Ahsanta! 'Tadrusu Salmā al-lughatal-'arabiyyata'."
+        },
+        {
+            "id": "m17-q03",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Perhatikan kalimat: 'قَرَأَ أَحْمَدُ الْقِصَّةُ'. Kesalahan harakat pada kalimat tersebut terletak pada kata...",
+            "options": [
+                "الْقِصَّةُ (seharusnya berharakat fathah الْقِصَّةَ karena menjadi objek/Maf'ūl Bih)",
+                "أَحْمَدُ (seharusnya berharakat fathah أَحْمَدَ)",
+                "قَرَأَ (seharusnya تَقْرَأُ)",
+                "Tidak ada kesalahan"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ahmad adalah pelaku yang membaca (dhammah -u), sedangkan 'الْقِصَّةَ' (cerita) adalah objek yang dibaca sehingga ujungnya wajib fathah (-a)!",
+            "feedbackCorrect": "Jeli sekali! Seharusnya 'Qara-a Aḥmadul-qiṣṣata'."
+        },
+        {
+            "id": "m17-q04",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Dalam kalimat 'تَكْتُبُ فَاطِمَةُ الْوَاجِبَ', kata manakah yang berperan sebagai **MAF'ŪL BIH** (Objek)?",
+            "options": [
+                "تَكْتُبُ",
+                "فَاطِمَةُ",
+                "الْوَاجِبَ",
+                "Tidak ada objek"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Objek adalah benda yang dikenai pekerjaan dan berharakat akhir fathah (-a)!",
+            "feedbackCorrect": "Tepat! 'Al-wājiba' (PR/tugas) adalah objek yang sedang ditulis oleh Fatimah."
+        },
+        {
+            "id": "m17-q05",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Ubah kalimat untuk laki-laki 'يَفْتَحُ زَيْدٌ النَّافِذَةَ' (Zaid sedang membuka jendela) menjadi kalimat untuk perempuan ('Zainab sedang membuka jendela'):",
+            "options": [
+                "تَفْتَحُ زَيْنَبُ النَّافِذَةَ",
+                "يَفْتَحُ زَيْنَبُ النَّافِذَةَ",
+                "تَفْتَحُ زَيْنَبَ النَّافِذَةُ",
+                "فَتَحَ زَيْنَبُ النَّافِذَةَ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ubah awalan Fi'il dari 'يَـ' menjadi 'تَـ', pastikan pelaku ('زَيْنَبُ') berharakat dhammah, dan objek ('النَّافِذَةَ') tetap fathah!",
+            "feedbackCorrect": "Sempurna! 'Taftaḥu Zainabun-nāfidzata'."
+        },
+        {
+            "id": "m17-q06",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari kata 'الْوَاجِبُ' (al-wā-ji-bu) dalam kosakata sekolah?",
+            "options": [
+                "Buku cerita",
+                "Pekerjaan rumah (PR) / tugas",
+                "Jadwal pelajaran",
+                "Ujian akhir"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris kelima pada daftar kosakata baru!",
+            "feedbackCorrect": "Benar! 'Al-wājibu' berarti pekerjaan rumah (PR) atau tugas."
+        },
+        {
+            "id": "m17-q07",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca teka-teki harakat ini dengan teliti:\n'أَكَلَ السَّمَكَ الْقِطُّ.'\nBerdasarkan tanda harakat akhir pada kata-kata di atas, siapakah yang MEMAKAN dan apa yang DIMAKAN?",
+            "options": [
+                "Ikan memakan kucing",
+                "Kucing memakan ikan (karena الْقِطُّ berharakat dhammah sebagai pelaku, dan السَّمَكَ fathah sebagai objek)",
+                "Kucing dan ikan saling makan",
+                "Kalimat tidak bisa dipahami"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Jangan tertipu urutan letaknya! Lihat harakat akhirnya: 'الْقِطُّ' ujungnya dhammah (-u = pelaku), sedangkan 'السَّمَكَ' ujungnya fathah (-a = objek)!",
+            "feedbackCorrect": "BRILIAN! Inilah kehebatan sistem harakat bahasa Arab: harakat menentukan siapa pelaku dan siapa objek!"
+        },
+        {
+            "id": "m17-q08",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Pada Fi'il Madhi (kata kerja lampau), tanda yang ditambahkan di akhir kata untuk pelaku perempuan (seperti pada 'فَتَحَتْ فَاطِمَةُ') adalah...",
+            "options": [
+                "Akhiran Ta Sukun (ـتْ)",
+                "Awalan Ya (يَـ)",
+                "Akhiran Tanwin (ـٌ)",
+                "Awalan Alif-Lam (الـ)"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cek baris keempat pada tabel rumus Jumlah Fi'liyyah!",
+            "feedbackCorrect": "Akurat! Akhiran Ta Sukun (ـتْ) menandakan pelaku perempuan pada Fi'il Madhi."
+        },
+        {
+            "id": "m17-q09",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Susunlah 3 kata acak berikut menjadi Jumlah Fi'liyyah yang benar:\n(1) الدَّرْسَ  (2) يَكْتُبُ  (3) الْأُسْتَاذُ",
+            "options": [
+                "2 - 3 - 1",
+                "3 - 2 - 1",
+                "1 - 2 - 3",
+                "2 - 1 - 3"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Urutan baku Jumlah Fi'liyyah adalah: (1) Fi'il / Kata Kerja di depan, (2) Fā'il / Pelaku (-u), lalu (3) Maf'ūl Bih / Objek (-a)!",
+            "feedbackCorrect": "Mumtaz! 'Yaktubul-ustādzud-darsa' (Pak Guru sedang menulis pelajaran)."
+        },
+        {
+            "id": "m17-q10",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Manakah pasangan Fi'il yang memiliki arti 'Telah membuka / Sedang membuka'?",
+            "options": [
+                "دَرَسَ / يَدْرُسُ",
+                "فَتَحَ / يَفْتَحُ",
+                "كَتَبَ / يَكْتُبُ",
+                "قَرَأَ / يَقْرَأُ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris ketiga pada daftar kosakata baru!",
+            "feedbackCorrect": "Ahsanta! 'Fataḥa / Yaftaḥu'."
+        },
+        {
+            "id": "m17-q11",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca paragraf perkenalan berikut:\n'اِسْمِي طَارِقٌ. أَبِي طَبِيبٌ، وَأُمِّي مُعَلِّمَةٌ. أَذْهَبُ إِلَى الْمَدْرَسَةِ فِي السَّاعَةِ السَّابِعَةِ صَبَاحًا، وَأُحِبُّ اللُّغَةَ الْعَرَبِيَّةَ.'\nPernyataan manakah yang TIDAK SESUAI dengan isi paragraf di atas?",
+            "options": [
+                "Ayah Tariq berprofesi sebagai dokter",
+                "Ibu Tariq berprofesi sebagai guru",
+                "Tariq berangkat ke sekolah pada pukul delapan pagi",
+                "Tariq menyukai bahasa Arab"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Periksa jam berangkat sekolah Tariq pada teks: 'فِي السَّاعَةِ السَّابِعَةِ صَبَاحًا' (pukul 7 pagi)!",
+            "feedbackCorrect": "Teliti sekali! Tariq berangkat pukul 7 pagi ('as-sābi'ati'), bukan pukul 8."
+        },
+        {
+            "id": "m17-q12",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Dari keempat kalimat di bawah ini, manakah yang memiliki susunan harakat Fā'il dan Maf'ūl Bih yang BENAR?",
+            "options": [
+                "يَشْرَبُ بِلَالٌ الْعَصِيرَ",
+                "يَشْرَبُ بِلَالًا الْعَصِيرُ",
+                "يَشْرَبُ بِلَالٍ الْعَصِيرِ",
+                "تَشْرَبُ بِلَالٌ الْعَصِيرَ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Pastikan Fi'il memakai 'يَـ' (karena Bilal laki-laki), pelaku 'بِلَالٌ' berharakat dhammah (-un), dan objek 'الْعَصِيرَ' berharakat fathah (-a)!",
+            "feedbackCorrect": "Tepat sekali! 'Yasyrabu Bilālunil-'aṣīra' (Bilal sedang minum jus)."
+        },
+        {
+            "id": "m17-q13",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Istilah untuk pelaku pekerjaan dalam Jumlah Fi'liyyah disebut...",
+            "options": [
+                "مَفْعُولٌ بِهِ (Maf'ūl Bih)",
+                "فَاعِلٌ (Fā'il)",
+                "خَبَرٌ (Khabar)",
+                "نَعْتٌ (Na'at)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris pertama pada daftar kosakata baru!",
+            "feedbackCorrect": "Benar! 'Fā'ilun' berarti pelaku pekerjaan."
+        },
+        {
+            "id": "m17-q14",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Ubah Jumlah Ismiyyah 'الطَّالِبُ يَقْرَأُ الْكِتَابَ' (Siswa itu sedang membaca buku) menjadi Jumlah Fi'liyyah dengan memindahkan kata kerja ke paling depan:",
+            "options": [
+                "يَقْرَأُ الطَّالِبُ الْكِتَابَ",
+                "الْكِتَابَ يَقْرَأُ الطَّالِبُ",
+                "تَقْرَأُ الطَّالِبُ الْكِتَابَ",
+                "يَقْرَأُ الطَّالِبَ الْكِتَابُ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Letakkan Fi'il 'يَقْرَأُ' di posisi pertama, diikuti pelaku 'الطَّالِبُ' (-u), lalu objek 'الْكِتَابَ' (-a)!",
+            "feedbackCorrect": "Luar biasa! Kamu mahir mengubah bentuk kalimat dari Ismiyyah ke Fi'liyyah dan sebaliknya."
+        },
+        {
+            "id": "m17-q15",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Dalam cerita pembuka, Hanan berkata: 'أَدْرُسُ اللُّغَةَ الْعَرَبِيَّةَ بِسُرُورٍ.' Arti dari kata 'بِسُرُورٍ' adalah...",
+            "options": [
+                "Dengan sedih",
+                "Dengan gembira / senang hati",
+                "Dengan cepat",
+                "Dengan suara keras"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Lihat terjemahan kalimat kedua Hanan di bagian cerita pembuka!",
+            "feedbackCorrect": "Ahsanta! 'Bi-surūrin' berarti dengan gembira."
+        },
+        {
+            "id": "m17-q16",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Jika kamu ingin menutup paragraf perkenalanmu dengan kalimat 'Ini adalah sekolahku yang indah dan bersih', susunan terbaiknya adalah...",
+            "options": [
+                "هٰذِهِ مَدْرَسَتِي الْجَمِيلَةُ وَالنَّظِيفَةُ.",
+                "هٰذَا مَدْرَسَتِي الْجَمِيلُ وَالنَّظِيفُ.",
+                "هٰذِهِ مَدْرَسَتِي جَمِيلٌ وَنَظِيفٌ.",
+                "تِلْكَ مَدْرَسَتُهُ الْجَمِيلَةُ."
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Gabungkan seluruh ilmu dari Zona 1 sampai 4: kata tunjuk muannats ('هٰذِهِ'), kepemilikan ('مَدْرَسَتِي'), dan dua kata sifat tertentu dengan 'الـ' dan 'ة'!",
+            "feedbackCorrect": "Sempurna! Kalimat penutup paragraf yang sangat rapi dan berkelas."
+        },
+        {
+            "id": "m17-q17",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari kalimat 'دَرَسَ الطُّلَّابُ فِي الْمَكْتَبَةِ'?",
+            "options": [
+                "Para siswa telah belajar di dalam perpustakaan",
+                "Para siswi sedang bermain di halaman",
+                "Pak guru telah menulis di papan tulis",
+                "Para siswa sedang makan di kantin"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "'Darasa' = telah belajar, 'aṭ-ṭullābu' = para siswa, 'fil-maktabati' = di dalam perpustakaan!",
+            "feedbackCorrect": "Akurat! 'Para siswa telah belajar di dalam perpustakaan'."
+        },
+        {
+            "id": "m17-q18",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Nadia menulis kalimat pembuka paragraf: 'أَنَا طَالِبٌ فِي الصَّفِّ السَّادِسِ'. Mengapa kalimat tersebut kurang tepat untuk Nadia (siswi perempuan)?",
+            "options": [
+                "Kata 'طَالِبٌ' seharusnya ditulis 'طَالِبَةٌ' karena Nadia adalah perempuan",
+                "Kata 'أَنَا' hanya boleh dipakai anak laki-laki",
+                "Kata 'الصَّفِّ' seharusnya 'الْفَصْلُ'",
+                "Tidak ada kesalahan"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ingat Modul 1 dan Modul 6! Kata 'أَنَا' netral, namun profesi/status di belakangnya wajib memakai ة jika pembicaranya perempuan.",
+            "feedbackCorrect": "Jeli sekali! Seharusnya 'Anā ṭālibatun fiṣ-ṣaffis-sādisi'."
+        },
+        {
+            "id": "m17-q19",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kata 'فِقْرَةٌ' (fiq-ra-tun) yang diucapkan Ustadzah Maryam di akhir cerita berarti...",
+            "options": [
+                "Satu huruf",
+                "Satu kata",
+                "Satu paragraf / alinea",
+                "Satu buku tebal"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Cek terjemahan kalimat terakhir Ustadzah Maryam pada cerita pembuka!",
+            "feedbackCorrect": "Benar! 'Fiqratun' berarti satu paragraf."
+        },
+        {
+            "id": "m17-q20",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Tantangan Wisuda Qalamis! Baca paragraf utuh berikut:\n'اِسْمِي زَيْدٌ. أَنَا طَالِبٌ مُجْتَهِدٌ. أَبِي مُهَنْدِسٌ وَأُمِّي طَبِيبَةٌ. أَذْهَبُ إِلَى الْمَدْرَسَةِ فِي السَّاعَةِ السَّابِعَةِ، وَأَكْتُبُ الْوَاجِبَ فِي غُرْفَتِي مَسَاءً.'\nBerapa banyak pernyataan BENAR tentang Zaid dari teks di atas?\n(1) Ayah Zaid seorang insinyur  (2) Ibu Zaid seorang dokter  (3) Zaid mengerjakan PR di kamarnya pada sore/malam hari",
+            "options": [
+                "Hanya 1 pernyataan benar",
+                "Hanya 2 pernyataan benar",
+                "Ketiga pernyataan (1, 2, dan 3) semuanya BENAR!",
+                "Tidak ada pernyataan yang benar"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Cocokkan satu per satu dengan teks: 'أَبِي مُهَنْدِسٌ' (1), 'أُمِّي طَبِيبَةٌ' (2), dan 'أَكْتُبُ الْوَاجِبَ فِي غُرْفَتِي مَسَاءً' (3)!",
+            "feedbackCorrect": "MABROUK! Selamat! Kamu telah menamatkan seluruh 17 Modul Qalamis dan siap menjadi Juara Bahasa Arab!"
+        }
+    ]
+}

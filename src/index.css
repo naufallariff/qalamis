@@ -1,15 +1,183 @@
+/* src/index.css */
 @import "tailwindcss";
 
-@layer base {
-  body {
-    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
-    background-color: #FFFBEB;
-    color: #1E293B;
-    -webkit-tap-highlight-color: transparent;
+@theme {
+  /* === 1. Typography Tokens === */
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-arabic: "Amiri", "Scheherazade New", serif;
+
+  /* === 2. Semantic Color Tokens (WCAG AA Verified) === */
+  --color-canvas: #fffdf9;
+  --color-surface: #ffffff;
+  --color-surface-subtle: #f8fafc;
+
+  --color-brand: #059669;
+  --color-brand-hover: #047857;
+  --color-brand-soft: #ecfdf5;
+  --color-brand-border: #a7f3d0;
+
+  --color-reward: #d97706;
+  --color-reward-soft: #fffbeb;
+  --color-reward-border: #fde68a;
+
+  /* Zone Theme Tokens */
+  --color-zone-1: #0284c7;
+  --color-zone-1-soft: #f0f9ff;
+  --color-zone-2: #7c3aed;
+  --color-zone-2-soft: #f5f3ff;
+  --color-zone-3: #ea580c;
+  --color-zone-3-soft: #fff7ed;
+  --color-zone-4: #e11d48;
+  --color-zone-4-soft: #fff1f2;
+
+  /* === 3. Motion & Easing Tokens === */
+  --ease-out-snappy: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out-smooth: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-spring-playful: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  --animate-pop-in: pop-in 200ms var(--ease-out-snappy) both;
+  --animate-panel-enter: panel-enter 240ms var(--ease-out-snappy) both;
+  --animate-shake-x: shake-x 320ms var(--ease-out-snappy);
+  --animate-float-slow: float-slow 3.2s ease-in-out infinite;
+}
+
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px) scale(0.96);
   }
 
-  .font-arabic {
-    font-family: 'Amiri', 'Scheherazade New', serif;
-    line-height: 2;
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes panel-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake-x {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: translateX(-6px);
+  }
+
+  40% {
+    transform: translateX(6px);
+  }
+
+  60% {
+    transform: translateX(-4px);
+  }
+
+  80% {
+    transform: translateX(4px);
+  }
+}
+
+@keyframes float-slow {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: var(--color-canvas);
+    color: #0f172a;
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    overscroll-behavior-y: contain;
+    min-height: 100dvh;
+  }
+
+  /* Tabular numerals agar skor XP, nomor soal, dan penghitung tidak bergetar */
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* === 4. Arabic Typography & Diacritic Protection === */
+.font-arabic {
+  font-family: var(--font-arabic);
+  line-height: 2.1;
+  letter-spacing: 0;
+  word-spacing: 0.08em;
+}
+
+/* === 5. Tactile Interactive Cards & Buttons (Pointer-Safe) === */
+.tactile-card {
+  background-color: var(--color-surface);
+  border: 2px solid #e2e8f0;
+  border-radius: 1.25rem;
+  box-shadow: 0 3px 0 #e2e8f0;
+  transition: transform 150ms var(--ease-out-snappy),
+    border-color 150ms ease,
+    box-shadow 150ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .tactile-card-interactive:hover {
+    transform: translateY(-2px);
+    border-color: #6ee7b7;
+    box-shadow: 0 5px 0 #a7f3d0;
+  }
+}
+
+.tactile-card-interactive:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 #cbd5e1;
+}
+
+.tactile-btn {
+  transition: transform 120ms var(--ease-out-snappy),
+    background-color 150ms ease,
+    box-shadow 120ms ease;
+}
+
+.tactile-btn:active:not(:disabled) {
+  transform: translateY(2px) scale(0.985);
+}
+
+/* === 6. Accessibility: Reduced Motion Override === */
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 120ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .tactile-card-interactive:hover,
+  .tactile-card-interactive:active,
+  .tactile-btn:active:not(:disabled) {
+    transform: none !important;
   }
 }

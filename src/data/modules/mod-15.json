@@ -1,0 +1,511 @@
+{
+    "id": 15,
+    "zoneId": "zone-4",
+    "slug": "isim-dan-fiil",
+    "title": "Kata Benda vs. Kata Kerja",
+    "canDo": "Aku bisa membedakan antara Isim (kata benda/nama/sifat) dan Fi'il (kata kerja yang terikat waktu) menggunakan 3 tanda detektor cepat.",
+    "storyHook": {
+        "title": "Detektif Kata di Papan Tulis!",
+        "setting": "Pelajaran Bahasa Arab kelas 6, Ustadzah Maryam mengadakan tantangan detektif kata",
+        "lines": [
+            {
+                "speaker": "Ustadzah Maryam",
+                "avatarRole": "girl",
+                "arabic": "يَا طُلَّابُ! اُنْظُرُوا إِلَى هٰذِهِ الْجُمْلَةِ: «يَقْرَأُ طَارِقٌ الْكِتَابَ».",
+                "transliteration": "Yā ṭul-lāb! Un-ẓu-rū i-lā hā-dzi-hil-jum-lah: «Yaq-ra-u Ṭā-ri-qun al-ki-tā-ba».",
+                "translation": "Wahai para siswa! Lihatlah kalimat ini: «Tariq sedang membaca buku itu»."
+            },
+            {
+                "speaker": "Tariq",
+                "avatarRole": "boy",
+                "arabic": "كَلِمَةُ «الْكِتَابَ» فِيهَا «الـ»، إِذَنْ هِيَ اسْمٌ يَا أُسْتَاذَةُ!",
+                "transliteration": "Ka-li-ma-tu «al-ki-tā-ba» fī-hā «al-», i-dzan hi-ya is-mun yā us-tā-dzah!",
+                "translation": "Kata «al-kitāba» ada awalan «Al-», jadi dia adalah Isim wahai Bu Guru!"
+            },
+            {
+                "speaker": "Hanan",
+                "avatarRole": "girl",
+                "arabic": "وَكَلِمَةُ «طَارِقٌ» فِيهَا تَنْوِينٌ، فَهِيَ اسْمٌ أَيْضًا!",
+                "transliteration": "Wa ka-li-ma-tu «Ṭā-ri-qun» fī-hā tan-wī-nun, fa-hi-ya is-mun ai-ḍan!",
+                "translation": "Dan kata «Ṭāriqun» ada tanda tanwin, maka dia adalah Isim juga!"
+            },
+            {
+                "speaker": "Ustadzah Maryam",
+                "avatarRole": "girl",
+                "arabic": "أَحْسَنْتُمَا! أَمَّا «يَقْرَأُ» فَهُوَ فِعْلٌ، لِأَنَّهُ يَدُلُّ عَلَى عَمَلٍ وَزَمَنٍ.",
+                "transliteration": "Aḥ-san-tu-mā! Am-mā «yaq-ra-u» fa-hu-wa fi'-lun, li-an-na-hu ya-dul-lu 'a-lā 'a-ma-lin wa za-man.",
+                "translation": "Bagus sekali kalian berdua! Adapun «yaqra-u» (sedang membaca), maka dia adalah Fi'il, karena menunjukkan perbuatan dan waktu."
+            }
+        ]
+    },
+    "explanation": "Selamat datang di Zona 4 — gerbang utama untuk memahami struktur kalimat bahasa Arab! Semua kata dalam bahasa Arab terbagi menjadi 3 kelompok besar, dan dua yang paling utama adalah **ISIM** (Kata Benda, nama orang/tempat, kata sifat) dan **FI'IL** (Kata Kerja/aktivitas yang terikat waktu lampau atau sekarang). Ada 3 alat detektor ajaib yang hanya dimiliki oleh ISIM dan mustahil dimiliki oleh FI'IL!",
+    "patternTable": {
+        "title": "Detektor Cepat: Isim (Kata Benda) vs. Fi'il (Kata Kerja)",
+        "filters": [
+            "Semua",
+            "Ciri Khusus Isim",
+            "Ciri Khusus Fi'il"
+        ],
+        "headers": [
+            "Jenis Kata",
+            "Ciri Detektor Utama",
+            "Contoh Kata",
+            "Bukti Uji Coba"
+        ],
+        "rows": [
+            {
+                "id": "m15-r1",
+                "category": "Ciri Khusus Isim",
+                "cells": [
+                    "Isim (Detektor 1: الـ)",
+                    "Bisa diawali Alif-Lam (الـ)",
+                    "الْمَدْرَسَةُ • الْقَلَمُ • الْكَبِيرُ",
+                    "Kata kerja tidak pernah bisa pakai الـ (Salah: الْيَقْرَأُ)"
+                ],
+                "arabicResult": "الْ + قَلَمٌ = الْقَلَمُ (ISIM)",
+                "transliteration": "al-qa-la-mu",
+                "meaning": "Pulpen itu (Kata Benda)",
+                "breakdown": "Setiap kata yang diawali الـ pasti 100% adalah Isim!"
+            },
+            {
+                "id": "m15-r2",
+                "category": "Ciri Khusus Isim",
+                "cells": [
+                    "Isim (Detektor 2: Tanwin)",
+                    "Bisa berakhiran Tanwin (ـٌ ـً ـٍ)",
+                    "كِتَابٌ • طَالِبَةٌ • جَدِيدًا",
+                    "Kata kerja tidak pernah bertanwin (Salah: كَتَبٌ)"
+                ],
+                "arabicResult": "طَالِبٌ / طَالِبَةٌ (ISIM)",
+                "transliteration": "ṭā-li-bun / ṭā-li-ba-tun",
+                "meaning": "Siswa / Siswi (Kata Benda)",
+                "breakdown": "Tanda tanwin (-un, -an, -in) atau huruf ة adalah bukti mutlak Isim."
+            },
+            {
+                "id": "m15-r3",
+                "category": "Ciri Khusus Isim",
+                "cells": [
+                    "Isim (Detektor 3: Magnet Posisi)",
+                    "Bisa didahului فِي / عَلَى / إِلَى",
+                    "فِي الْفَصْلِ • عَلَى الْمَكْتَبِ",
+                    "Kata posisi hanya masuk ke Isim, bukan ke kata kerja"
+                ],
+                "arabicResult": "فِي + الْمَسْجِدِ = فِي الْمَسْجِدِ (ISIM)",
+                "transliteration": "fil-mas-ji-di",
+                "meaning": "Di dalam masjid",
+                "breakdown": "Kata setelah فِي، عَلَى، مِنْ، إِلَى pasti Isim."
+            },
+            {
+                "id": "m15-r4",
+                "category": "Ciri Khusus Fi'il",
+                "cells": [
+                    "Fi'il Madhi (Lampau)",
+                    "Menunjukkan aktivitas SUDAH selesai",
+                    "كَتَبَ • ذَهَبَ • قَرَأَ • شَرِبَ",
+                    "كَتَبَ = telah menulis | ذَهَبَ = telah pergi"
+                ],
+                "arabicResult": "كَتَبَ (ka-ta-ba) — FI'IL MADHI",
+                "transliteration": "ka-ta-ba",
+                "meaning": "Telah menulis (Lampau)",
+                "breakdown": "Biasanya terdiri dari 3 huruf berharakat fathah."
+            },
+            {
+                "id": "m15-r5",
+                "category": "Ciri Khusus Fi'il",
+                "cells": [
+                    "Fi'il Mudhari' (Sekarang)",
+                    "Diawali huruf أَ / نَ / يَ / تَ (A-NA-I-TU)",
+                    "يَكْتُبُ • تَذْهَبُ • أَقْرَأُ • نَشْرَبُ",
+                    "يَكْتُبُ = sedang menulis | أَقْرَأُ = aku sedang membaca"
+                ],
+                "arabicResult": "يَكْتُبُ (yak-tu-bu) — FI'IL MUDHARI'",
+                "transliteration": "yak-tu-bu",
+                "meaning": "Sedang / akan menulis",
+                "breakdown": "Menunjukkan aktivitas yang sedang berlangsung sekarang atau akan datang."
+            }
+        ]
+    },
+    "highlightedExamples": [
+        {
+            "segments": [
+                {
+                    "text": "يَكْتُبُ ",
+                    "role": "focus",
+                    "label": "Fi'il (Kata Kerja)"
+                },
+                {
+                    "text": "زَيْدٌ ",
+                    "role": "suffix",
+                    "label": "Isim (Tanwin)"
+                },
+                {
+                    "text": "الدَّرْسَ ",
+                    "role": "suffix",
+                    "label": "Isim (Pakai الـ)"
+                },
+                {
+                    "text": "فِي الْفَصْلِ.",
+                    "role": "prefix",
+                    "label": "Isim (Setelah فِي)"
+                }
+            ],
+            "transliteration": "Yak-tu-bu Zai-dun ad-dar-sa fil-faṣ-li.",
+            "translation": "Zaid sedang menulis pelajaran di dalam kelas."
+        },
+        {
+            "segments": [
+                {
+                    "text": "ذَهَبَ ",
+                    "role": "focus",
+                    "label": "Fi'il Madhi (Lampau)"
+                },
+                {
+                    "text": "← ",
+                    "role": "base"
+                },
+                {
+                    "text": "يَذْهَبُ",
+                    "role": "suffix",
+                    "label": "Fi'il Mudhari' (Sekarang)"
+                }
+            ],
+            "transliteration": "Dza-ha-ba → Yadz-ha-bu.",
+            "translation": "Telah pergi → Sedang pergi."
+        }
+    ],
+    "quickTrick": "Tes Cepat 'Al- & Tanwin': Kalau sebuah kata BISA diberi 'الـ' di depan atau tanwin di belakang (seperti الْمَسْجِدُ / مَسْجِدٌ), dia pasti ISIM! Kalau tidak bisa dan menunjukkan gerakan/aktivitas (seperti ذَهَبَ / يَذْهَبُ), dia pasti FI'IL!",
+    "vocabulary": [
+        {
+            "arabic": "اِسْمٌ",
+            "transliteration": "is-mun",
+            "meaning": "Kata benda / nama / sifat"
+        },
+        {
+            "arabic": "فِعْلٌ",
+            "transliteration": "fi'-lun",
+            "meaning": "Kata kerja (aktivitas)"
+        },
+        {
+            "arabic": "كَتَبَ / يَكْتُبُ",
+            "transliteration": "ka-ta-ba / yak-tu-bu",
+            "meaning": "Telah menulis / Sedang menulis"
+        },
+        {
+            "arabic": "قَرَأَ / يَقْرَأُ",
+            "transliteration": "qa-ra-a / yaq-ra-u",
+            "meaning": "Telah membaca / Sedang membaca"
+        },
+        {
+            "arabic": "ذَهَبَ / يَذْهَبُ",
+            "transliteration": "dza-ha-ba / yadz-ha-bu",
+            "meaning": "Telah pergi / Sedang pergi"
+        },
+        {
+            "arabic": "جَلَسَ / يَجْلِسُ",
+            "transliteration": "ja-la-sa / yaj-li-su",
+            "meaning": "Telah duduk / Sedang duduk"
+        }
+    ],
+    "quizBank": [
+        {
+            "id": "m15-q01",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Dari keempat kata di bawah ini, manakah yang termasuk **FI'IL** (kata kerja)?",
+            "options": [
+                "الْمَكْتَبَةُ (Perpustakaan)",
+                "يَجْلِسُ (Sedang duduk)",
+                "جَمِيلٌ (Indah)",
+                "حَقِيبَةٌ (Tas)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Gunakan Detektor Cepat! Tiga kata memiliki ciri Isim (الـ atau tanwin), sementara satu kata menunjukkan aktivitas duduk dan diawali 'يَـ'.",
+            "feedbackCorrect": "Mumtaz! 'Yajlisu' (يَجْلِسُ) adalah Fi'il yang berarti sedang duduk."
+        },
+        {
+            "id": "m15-q02",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Kata 'جَدِيدٌ' (baru) dan 'أَحْمَرُ' (merah) termasuk dalam kategori **ISIM** dalam bahasa Arab. Mengapa demikian?",
+            "options": [
+                "Karena kata sifat dan warna bisa menerima 'الـ' (الْجَدِيدُ) atau tanwin, serta tidak terikat waktu lampau/sekarang",
+                "Karena keduanya menunjukkan gerakan",
+                "Karena keduanya selalu berada di awal kalimat",
+                "Karena keduanya punya huruf Alif"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ingat cakupan ISIM di bagian penjelasan: kata benda, nama orang/tempat, kata sifat, dan warna semuanya masuk kategori ISIM!",
+            "feedbackCorrect": "Ahsanta! Dalam tata bahasa Arab, kata sifat dan warna termasuk golongan Isim."
+        },
+        {
+            "id": "m15-q03",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Seseorang mencoba menambahkan Alif-Lam pada kata kerja sehingga menjadi 'الْكَتَبَ'. Mengapa bentuk ini MUSTAHIL ada dalam bahasa Arab?",
+            "options": [
+                "Karena awalan 'الـ' adalah detektor khusus Isim dan haram masuk ke Fi'il (kata kerja)",
+                "Karena huruf Kaf tidak boleh setelah Alif-Lam",
+                "Karena kata 'كَتَبَ' terlalu pendek",
+                "Bentuk tersebut sebenarnya benar"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cek baris pertama pada tabel detektor cepat!",
+            "feedbackCorrect": "Jeli sekali! Alif-Lam (الـ) hanya boleh menempel pada Isim."
+        },
+        {
+            "id": "m15-q04",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa perbedaan makna antara 'ذَهَبَ' (dza-ha-ba) dan 'يَذْهَبُ' (yadz-ha-bu)?",
+            "options": [
+                "ذَهَبَ = telah pergi (lampau), يَذْهَبُ = sedang/akan pergi (sekarang)",
+                "ذَهَبَ = sedang pergi, يَذْهَبُ = telah pergi",
+                "ذَهَبَ = kata benda, يَذْهَبُ = kata sifat",
+                "Keduanya berarti telah pulang"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Bandingkan baris ke-4 (Fi'il Madhi / Lampau) dan baris ke-5 (Fi'il Mudhari' / Sekarang) pada tabel!",
+            "feedbackCorrect": "Tepat! 'Dzahaba' adalah bentuk lampau, sedangkan 'Yadzhabu' adalah bentuk sedang berlangsung."
+        },
+        {
+            "id": "m15-q05",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Hitunglah berapa jumlah **ISIM** yang terdapat dalam kalimat berikut:\n'قَرَأَ طَارِقٌ الْكِتَابَ فِي الْمَكْتَبَةِ.'\n(Tariq telah membaca buku itu di dalam perpustakaan)",
+            "options": [
+                "1 Isim",
+                "2 Isim",
+                "3 Isim",
+                "4 Isim"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Periksa tiap kata: (1) 'قَرَأَ' = Fi'il (telah membaca), (2) 'طَارِقٌ' = nama orang/tanwin (Isim 1), (3) 'الْكِتَابَ' = pakai الـ (Isim 2), (4) 'فِي' = huruf depan, (5) 'الْمَكْتَبَةِ' = pakai الـ & setelah فِي (Isim 3)!",
+            "feedbackCorrect": "Analisis sintaksis yang luar biasa! Ada 3 Isim ('طَارِقٌ', 'الْكِتَابَ', dan 'الْمَكْتَبَةِ')."
+        },
+        {
+            "id": "m15-q06",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Manakah yang BUKAN merupakan bukti bahwa sebuah kata adalah Isim?",
+            "options": [
+                "Diawali huruf 'الـ'",
+                "Berakhiran tanda tanwin (ـٌ / ـً / ـٍ)",
+                "Terletak setelah kata 'فِي' atau 'عَلَى'",
+                "Menunjukkan pekerjaan yang sedang dilakukan sekarang"
+            ],
+            "correctIndex": 3,
+            "feedbackWrong": "Menunjukkan pekerjaan yang sedang dilakukan sekarang adalah ciri khas Fi'il Mudhari', bukan Isim!",
+            "feedbackCorrect": "Benar! Itu adalah ciri dari Fi'il."
+        },
+        {
+            "id": "m15-q07",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Perhatikan pola perubahan kata kerja berikut:\n'كَتَبَ' (telah menulis) → 'يَكْتُبُ' (sedang menulis).\nJika 'جَلَسَ' artinya 'telah duduk', maka 'sedang duduk' adalah...",
+            "options": [
+                "يَجْلِسُ",
+                "جَالِسٌ",
+                "مَجْلِسٌ",
+                "الْجَلَسَ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Tambahkan awalan 'يَـ' di depan dan ubah harakat huruf terakhir menjadi dhammah (-u). Cek baris terakhir kosakata!",
+            "feedbackCorrect": "Ahsanta! 'Yajlisu' (يَجْلِسُ)."
+        },
+        {
+            "id": "m15-q08",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kata 'فِعْلٌ' (fi'-lun) secara istilah tata bahasa Arab berarti...",
+            "options": [
+                "Kata benda",
+                "Kata kerja",
+                "Kata sambung",
+                "Kata tanya"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris kedua pada daftar kosakata baru!",
+            "feedbackCorrect": "Akurat! 'Fi'lun' berarti kata kerja."
+        },
+        {
+            "id": "m15-q09",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Perhatikan dua kata yang mirip bunyinya ini: (A) 'كِتَابٌ' dan (B) 'كَتَبَ'. Klasifikasi yang paling tepat adalah...",
+            "options": [
+                "(A) Isim (sebuah buku), (B) Fi'il (telah menulis)",
+                "(A) Fi'il (telah menulis), (B) Isim (sebuah buku)",
+                "Keduanya adalah Fi'il",
+                "Keduanya adalah Isim"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "(A) memiliki alif panjang dan tanwin ('kitābun' = buku), sedangkan (B) tidak bertanwin dan berarti perbuatan telah menulis ('kataba')!",
+            "feedbackCorrect": "Mumtaz! Perbedaan satu panjang huruf dan tanwin mengubah Fi'il menjadi Isim."
+        },
+        {
+            "id": "m15-q10",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Dalam kalimat 'يَشْرَبُ بِلَالٌ الْحَلِيبَ', kata manakah yang berperan sebagai **FI'IL**?",
+            "options": [
+                "يَشْرَبُ (Sedang minum)",
+                "بِلَالٌ (Bilal)",
+                "الْحَلِيبَ (Susu itu)",
+                "Tidak ada Fi'il"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "'بِلَالٌ' bertanwin (Isim) dan 'الْحَلِيبَ' memakai الـ (Isim). Satu-satunya aktivitas di kalimat itu adalah kata pertama!",
+            "feedbackCorrect": "Tepat! 'Yasyrabu' adalah Fi'il."
+        },
+        {
+            "id": "m15-q11",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Mengapa kata 'شَجَرَةٌ' (pohon) langsung bisa dipastikan sebagai **ISIM** bahkan tanpa melihat artinya?",
+            "options": [
+                "Karena memiliki dua detektor Isim sekaligus: akhiran Ta Marbuthah (ة) dan tanda Tanwin (ـٌ)",
+                "Karena diawali huruf Syin",
+                "Karena terdiri dari empat huruf",
+                "Karena pohon tidak bisa bergerak"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Dalam bahasa Arab, huruf Ta Marbuthah (ة) dan tanda Tanwin TIDAK PERNAH menempel pada kata kerja!",
+            "feedbackCorrect": "Cerdas! Huruf ة dan tanwin adalah kartu identitas mutlak milik Isim."
+        },
+        {
+            "id": "m15-q12",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari pasangan Fi'il 'قَرَأَ / يَقْرَأُ'?",
+            "options": [
+                "Telah menulis / Sedang menulis",
+                "Telah membaca / Sedang membaca",
+                "Telah duduk / Sedang duduk",
+                "Telah pergi / Sedang pergi"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris keempat pada daftar kosakata baru!",
+            "feedbackCorrect": "Benar! 'Qara-a / Yaqra-u' berarti telah membaca / sedang membaca."
+        },
+        {
+            "id": "m15-q13",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Perhatikan kalimat berikut:\n'ذَهَبَ أَحْمَدُ إِلَى الْمَدْرَسَةِ صَبَاحًا.'\nJika kejadian tersebut sedang berlangsung SEKARANG (bukan tadi pagi), kata mana yang harus diubah?",
+            "options": [
+                "'ذَهَبَ' diubah menjadi 'يَذْهَبُ'",
+                "'أَحْمَدُ' diubah menjadi 'يَأْحْمَدُ'",
+                "'الْمَدْرَسَةِ' diubah menjadi 'يَدْرُسُ'",
+                "Tidak perlu ada yang diubah"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Hanya Fi'il (kata kerja) yang terikat waktu! Ubah Fi'il Madhi 'ذَهَبَ' menjadi Fi'il Mudhari'.",
+            "feedbackCorrect": "Ahsanta! 'Yadzhabu Aḥmadu ilal-madrasati' (Ahmad sedang pergi ke sekolah)."
+        },
+        {
+            "id": "m15-q14",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Huruf-huruf awalan yang sering menjadi ciri khas Fi'il Mudhari' (kata kerja sedang berlangsung) disingkat menjadi...",
+            "options": [
+                "A-NA-I-TU (أَ - نَ - يَ - تَ)",
+                "AL-IF-LAM (الـ)",
+                "TAN-WIN (ـٌ ـً ـٍ)",
+                "HU-WA-HI-YA"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cek kolom 'Ciri Detektor Utama' pada baris kelima tabel!",
+            "feedbackCorrect": "Akurat! Huruf أَ (aku), نَ (kami), يَ (dia lk), dan تَ (dia pr / kamu)."
+        },
+        {
+            "id": "m15-q15",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Dari kelompok kata di bawah ini, manakah yang SEMUANYA adalah **ISIM**?",
+            "options": [
+                "مَسْجِدٌ • كَبِيرَةٌ • الْمُعَلِّمُ",
+                "كَتَبَ • يَقْرَأُ • ذَهَبَ",
+                "قَلَمٌ • يَجْلِسُ • بَيْتٌ",
+                "سَبُّورَةٌ • شَرِبَ • طَالِبٌ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Periksa tiap kelompok: pastikan tidak ada satu pun kata kerja (aktivitas) yang menyelinap di dalamnya!",
+            "feedbackCorrect": "Mumtaz! 'Masjidun' (tanwin), 'Kabīratun' (ة + tanwin), dan 'Al-mu'allimu' (الـ) ketiganya adalah Isim."
+        },
+        {
+            "id": "m15-q16",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kata 'فِي الْمَسْجِدِ' membuktikan bahwa 'الْمَسْجِدِ' adalah Isim karena dua alasan sekaligus, yaitu...",
+            "options": [
+                "Diawali 'الـ' dan terletak setelah kata depan 'فِي'",
+                "Menunjukkan gerakan dan waktu lampau",
+                "Diakhiri huruf Ta Marbuthah dan tasydid",
+                "Berasal dari kata kerja"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cek baris ketiga pada tabel detektor cepat!",
+            "feedbackCorrect": "Tepat sekali! Dua detektor Isim menyala sekaligus pada kata 'فِي الْمَسْجِدِ'."
+        },
+        {
+            "id": "m15-q17",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Kata 'كَتَبَ' (telah menulis) jika pelakunya adalah 'أَنَا' (Aku sedang menulis) diawali huruf Alif menjadi 'أَكْتُبُ'. Jika pelakunya 'نَحْنُ' (Kami sedang menulis), maka diawali huruf Nun menjadi...",
+            "options": [
+                "نَكْتُبُ",
+                "يَكْتُبُ",
+                "تَكْتُبُ",
+                "كَتَبْنَا"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ganti awalan 'أَ' (Aku) dengan awalan 'نَ' (Kami) pada pola Fi'il Mudhari'!",
+            "feedbackCorrect": "Brilian! 'Naktubu' (نَكْتُبُ) berarti kami sedang menulis."
+        },
+        {
+            "id": "m15-q18",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari kalimat 'يَجْلِسُ الطَّالِبُ عَلَى الْكُرْسِيِّ'?",
+            "options": [
+                "Siswa itu sedang menulis di atas meja",
+                "Siswa itu sedang duduk di atas kursi",
+                "Siswi itu sedang membaca di dalam kelas",
+                "Pak guru sedang berdiri di depan papan tulis"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "'Yajlisu' = sedang duduk, 'aṭ-ṭālibu' = siswa itu, ''alal-kursiyyi' = di atas kursi!",
+            "feedbackCorrect": "Ahsanta! 'Siswa itu sedang duduk di atas kursi'."
+        },
+        {
+            "id": "m15-q19",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Dalam cerita pembuka, Ustadzah Maryam berkata: 'يَقْرَأُ طَارِقٌ الْكِتَابَ'. Mengapa kata 'طَارِقٌ' disebut Isim oleh Hanan?",
+            "options": [
+                "Karena kata 'طَارِقٌ' memiliki tanda tanwin (ـٌ) dan merupakan nama orang",
+                "Karena diawali huruf 'الـ'",
+                "Karena berada di awal kalimat",
+                "Karena menunjukkan pekerjaan membaca"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Lihat jawaban Hanan pada baris ketiga cerita pembuka!",
+            "feedbackCorrect": "Akurat! Nama orang dan tanda tanwin adalah bukti nyata Isim."
+        },
+        {
+            "id": "m15-q20",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Manakah pernyataan kesimpulan yang PALING BENAR tentang Isim dan Fi'il?",
+            "options": [
+                "Isim tidak terikat waktu dan bisa memakai الـ/tanwin, sedangkan Fi'il terikat waktu (lampau/sekarang) dan tidak bisa memakai الـ/tanwin",
+                "Fi'il bisa memakai الـ dan tanwin, sedangkan Isim tidak bisa",
+                "Semua kata dalam bahasa Arab adalah Fi'il",
+                "Kata sifat seperti 'كَبِيرٌ' termasuk Fi'il"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ringkas kembali perbedaan utama pada tabel detektor cepat di atas!",
+            "feedbackCorrect": "Sempurna! Pondasi nahwu kamu sudah sangat kokoh untuk melangkah ke Modul 16!"
+        }
+    ]
+}

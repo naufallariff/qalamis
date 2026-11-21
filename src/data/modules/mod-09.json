@@ -1,0 +1,527 @@
+{
+    "id": 9,
+    "zoneId": "zone-2",
+    "slug": "kepemilikan-inti",
+    "title": "Bukuku, Bukumu! (Milik Pribadi)",
+    "canDo": "Aku bisa menempelkan akhiran kepemilikan (-i, -ka, -ki, -hu, -ha) di ujung kata benda untuk menyatakan barang milikku, milikmu, atau miliknya.",
+    "storyHook": {
+        "title": "Barang Tertinggal di Ruang Komputer",
+        "setting": "Usai pelajaran TIK, Zaki dan Alya merapikan meja komputer",
+        "lines": [
+            {
+                "speaker": "Zaki",
+                "avatarRole": "boy",
+                "arabic": "يَا عَالِيَةُ، هٰذَا دَفْتَرُكِ؟ اِسْمُكِ مَكْتُوبٌ عَلَيْهِ.",
+                "transliteration": "Yā 'Ā-li-yah, hā-dzā daf-ta-ru-ki? Is-mu-ki mak-tū-bun 'a-laih.",
+                "translation": "Wahai Alya, apakah ini buku catatanmu? Namamu tertulis di atasnya."
+            },
+            {
+                "speaker": "Alya",
+                "avatarRole": "girl",
+                "arabic": "نَعَمْ، هٰذَا دَفْتَرِي! شُكْرًا يَا زَكِيُّ. وَأَيْنَ قَلَمُكَ؟",
+                "transliteration": "Na-'am, hā-dzā daf-ta-rī! Shuk-ran yā Za-kiy. Wa ai-na qa-la-mu-ka?",
+                "translation": "Ya, ini buku catatanku! Terima kasih Zaki. Dan di mana pulpenmu?"
+            },
+            {
+                "speaker": "Zaki",
+                "avatarRole": "boy",
+                "arabic": "قَلَمِي فِي جَيْبِي. وَهٰذِهِ حَقِيبَةُ طَارِقٍ، هٰذَا كِتَابُهُ وَتِلْكَ مِسْطَرَتُهُ.",
+                "transliteration": "Qa-la-mī fī jai-bī. Wa hā-dzi-hi ḥa-qī-ba-tu Ṭā-riq, hā-dzā ki-tā-bu-hu wa til-ka mis-ṭa-ra-tu-hu.",
+                "translation": "Pulpenku di sakuku. Dan ini tas Tariq, ini bukunya (lk) dan itu penggarisnya (lk)."
+            },
+            {
+                "speaker": "Alya",
+                "avatarRole": "girl",
+                "arabic": "وَفَاطِمَةُ؟ هٰذِهِ حَقِيبَتُهَا!",
+                "transliteration": "Wa Fā-ṭi-mah? Hā-dzi-hi ḥa-qī-ba-tu-hā!",
+                "translation": "Dan Fatimah? Ini tasnya (pr)!"
+            }
+        ]
+    },
+    "explanation": "Untuk bilang 'bukuku' atau 'bukunya', bahasa Arab tidak memakai kata terpisah seperti 'كِتَابٌ أَنَا' (itu salah besar!). Sebagai gantinya, kita memakai 'Dhamir Muttashil'—huruf ekor pendek yang MENEMPEL LANGSUNG di ujung kata benda. Begitu ditempeli ekor kepemilikan, tanwin (-un) di ujung kata benda otomatis hilang!",
+    "patternTable": {
+        "title": "5 Ekor Kepemilikan Inti (Dhamir Muttashil Tunggal)",
+        "filters": [
+            "Semua",
+            "Milikku & Milikmu",
+            "Miliknya (Dia)"
+        ],
+        "headers": [
+            "Pemilik (Asal Dhamir)",
+            "Huruf Ekor",
+            "Contoh pada كِتَابٌ",
+            "Contoh pada حَقِيبَةٌ (Pakai ة)"
+        ],
+        "rows": [
+            {
+                "id": "m9-r1",
+                "category": "Milikku & Milikmu",
+                "cells": [
+                    "أَنَا (Aku)",
+                    "+ ـِي (-ī)",
+                    "كِتَابِي (ki-tā-bī = bukuku)",
+                    "حَقِيبَتِي (ḥa-qī-ba-tī = tasku)"
+                ],
+                "arabicResult": "كِتَابٌ + ـِي = كِتَابِي",
+                "transliteration": "ki-tā-bī | ḥa-qī-ba-tī",
+                "meaning": "Bukuku | Tasku",
+                "breakdown": "Tanwin (-un) hilang diganti kasrah + Ya sukun (ـِي)."
+            },
+            {
+                "id": "m9-r2",
+                "category": "Milikku & Milikmu",
+                "cells": [
+                    "أَنْتَ (Kamu lk)",
+                    "+ ـكَ (-ka)",
+                    "كِتَابُكَ (ki-tā-bu-ka = bukumu lk)",
+                    "حَقِيبَتُكَ (ḥa-qī-ba-tu-ka = tasmu lk)"
+                ],
+                "arabicResult": "كِتَابٌ + ـكَ = كِتَابُكَ",
+                "transliteration": "ki-tā-bu-ka | ḥa-qī-ba-tu-ka",
+                "meaning": "Bukumu (lk) | Tasmu (lk)",
+                "breakdown": "Huruf terakhir kata dasar tetap dhammah (-bu- / -tu-) lalu ditempeli كَ."
+            },
+            {
+                "id": "m9-r3",
+                "category": "Milikku & Milikmu",
+                "cells": [
+                    "أَنْتِ (Kamu pr)",
+                    "+ ـكِ (-ki)",
+                    "كِتَابُكِ (ki-tā-bu-ki = bukumu pr)",
+                    "حَقِيبَتُكِ (ḥa-qī-ba-tu-ki = tasmu pr)"
+                ],
+                "arabicResult": "كِتَابٌ + ـكِ = كِتَابُكِ",
+                "transliteration": "ki-tā-bu-ki | ḥa-qī-ba-tu-ki",
+                "meaning": "Bukumu (pr) | Tasmu (pr)",
+                "breakdown": "Sama persis dengan -ka, hanya harakat huruf Kaf menjadi kasrah (كِ)."
+            },
+            {
+                "id": "m9-r4",
+                "category": "Miliknya (Dia)",
+                "cells": [
+                    "هُوَ (Dia lk)",
+                    "+ ـهُ (-hu)",
+                    "كِتَابُهُ (ki-tā-bu-hu = bukunya lk)",
+                    "حَقِيبَتُهُ (ḥa-qī-ba-tu-hu = tasnya lk)"
+                ],
+                "arabicResult": "كِتَابٌ + ـهُ = كِتَابُهُ",
+                "transliteration": "ki-tā-bu-hu | ḥa-qī-ba-tu-hu",
+                "meaning": "Bukunya (lk) | Tasnya (lk)",
+                "breakdown": "Ekor ـهُ (-hu) merujuk pada 1 pemilik laki-laki (contoh: bukunya Ahmad)."
+            },
+            {
+                "id": "m9-r5",
+                "category": "Miliknya (Dia)",
+                "cells": [
+                    "هِيَ (Dia pr)",
+                    "+ ـهَا (-hā)",
+                    "كِتَابُهَا (ki-tā-bu-hā = bukunya pr)",
+                    "حَقِيبَتُهَا (ḥa-qī-ba-tu-hā = tasnya pr)"
+                ],
+                "arabicResult": "كِتَابٌ + ـهَا = كِتَابُهَا",
+                "transliteration": "ki-tā-bu-hā | ḥa-qī-ba-tu-hā",
+                "meaning": "Bukunya (pr) | Tasnya (pr)",
+                "breakdown": "Ekor ـهَا (-hā) merujuk pada 1 pemilik perempuan (contoh: bukunya Fatimah)."
+            }
+        ]
+    },
+    "highlightedExamples": [
+        {
+            "segments": [
+                {
+                    "text": "أَحْمَدُ يَقْرَأُ ",
+                    "role": "base"
+                },
+                {
+                    "text": "كِتَابَ",
+                    "role": "base"
+                },
+                {
+                    "text": "هُ",
+                    "role": "suffix",
+                    "label": "Milik Ahmad (lk)"
+                },
+                {
+                    "text": "، وَسَلْمَى تَقْرَأُ ",
+                    "role": "base"
+                },
+                {
+                    "text": "كِتَابَ",
+                    "role": "base"
+                },
+                {
+                    "text": "هَا",
+                    "role": "suffix",
+                    "label": "Milik Salma (pr)"
+                }
+            ],
+            "transliteration": "Aḥ-ma-du yaq-ra-u ki-tā-ba-hu, wa Sal-mā taq-ra-u ki-tā-ba-hā.",
+            "translation": "Ahmad membaca bukunya (lk), dan Salma membaca bukunya (pr)."
+        },
+        {
+            "segments": [
+                {
+                    "text": "هٰذِهِ ",
+                    "role": "base"
+                },
+                {
+                    "text": "مَدْرَسَ",
+                    "role": "base"
+                },
+                {
+                    "text": "تُ",
+                    "role": "focus",
+                    "label": "ة terbuka jadi ت"
+                },
+                {
+                    "text": "نَا",
+                    "role": "suffix",
+                    "label": "Milik Kami"
+                }
+            ],
+            "transliteration": "Hā-dzi-hi mad-ra-sa-tu-nā.",
+            "translation": "Ini adalah sekolah kami."
+        }
+    ],
+    "quickTrick": "Jebakan Terbesar Siswa: Jangan bingung membedakan jenis BENDANYA dengan jenis PEMILIKNYA! 'كِتَابُهَا' (bukunya cewek) tetap memakai ekor 'ـهَا' (cewek) walaupun 'كِتَابٌ' adalah benda cowok. Ekor kepemilikan selalu ikut PEMILIKNYA, bukan bendanya!",
+    "vocabulary": [
+        {
+            "arabic": "دَفْتَرٌ",
+            "transliteration": "daf-ta-run",
+            "meaning": "Buku catatan / tulis",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "جَيْبٌ",
+            "transliteration": "jai-bun",
+            "meaning": "Saku / kantong baju",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "بَيْتٌ",
+            "transliteration": "bai-tun",
+            "meaning": "Rumah",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "مَدْرَسَةٌ",
+            "transliteration": "mad-ra-sa-tun",
+            "meaning": "Sekolah",
+            "gender": "muannats"
+        },
+        {
+            "arabic": "غُرْفَةٌ",
+            "transliteration": "ghur-fa-tun",
+            "meaning": "Kamar / ruangan",
+            "gender": "muannats"
+        },
+        {
+            "arabic": "سَيَّارَةٌ",
+            "transliteration": "say-yā-ra-tun",
+            "meaning": "Mobil",
+            "gender": "muannats"
+        }
+    ],
+    "quizBank": [
+        {
+            "id": "m09-q01",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Fatimah (perempuan) memiliki sebuah pulpen baru ('قَلَمٌ' — benda mudzakkar). Bagaimana cara menulis 'pulpennya (milik Fatimah)'?",
+            "options": [
+                "قَلَمُهُ (qa-la-mu-hu)",
+                "قَلَمُهَا (qa-la-mu-hā)",
+                "قَلَمَةٌ (qa-la-ma-tun)",
+                "قَلَمُكِ (qa-la-mu-ki)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ingat 'Trik Cepat'! Ekor kepemilikan mengikuti jenis kelamin PEMILIKNYA (Fatimah = perempuan), bukan jenis bendanya!",
+            "feedbackCorrect": "Mumtaz! Pemiliknya adalah Fatimah (pr), jadi ekornya 'ـهَا': 'qalamuhā'."
+        },
+        {
+            "id": "m09-q02",
+            "difficulty": "medium",
+            "type": "morpheme-swap",
+            "question": "Gabungkan kata 'بَيْتٌ' (rumah) dengan akhiran kepemilikan untuk 'أَنْتَ' (kamu laki-laki):",
+            "options": [
+                "بَيْتِي",
+                "بَيْتُكَ",
+                "بَيْتُكِ",
+                "بَيْتُهُ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Hilangkan tanwin di akhir 'بَيْتٌ' lalu tempelkan akhiran untuk 'kamu laki-laki' (fathah di atas Kaf)!",
+            "feedbackCorrect": "Ahsanta! 'Baituka' (بَيْتُكَ) berarti rumahmu (laki-laki)."
+        },
+        {
+            "id": "m09-q03",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Rafi ingin menulis 'sekolahku' dari kata dasar 'مَدْرَسَةٌ'. Ia menulis: 'مَدْرَسَةِي'. Mengapa penulisan itu salah?",
+            "options": [
+                "Huruf Ta Marbuthah (ة) harus dibuka menjadi huruf Ta biasa (ت) sebelum disambung: مَدْرَسَتِي",
+                "Kata sekolah tidak boleh diberi akhiran ـِي",
+                "Seharusnya ditulis مَدْرَسُي",
+                "Tidak ada kesalahan"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cek kolom keempat di tabel rumus ('Contoh pada حَقِيبَةٌ')! Huruf ة tidak pernah bisa menyambung ke kiri.",
+            "feedbackCorrect": "Jeli sekali! Huruf ة terbuka menjadi ت sehingga menjadi 'madrasatī' (مَدْرَسَتِي)."
+        },
+        {
+            "id": "m09-q04",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Rizki (laki-laki) memiliki tas sekolah ('حَقِيبَةٌ' — benda muannats). Kalimat lengkap untuk 'Ini tasnya (milik Rizki)' adalah...",
+            "options": [
+                "هٰذَا حَقِيبَتُهُ",
+                "هٰذِهِ حَقِيبَتُهُ",
+                "هٰذِهِ حَقِيبَتُهَا",
+                "هٰذَا حَقِيبَتُهَا"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Perhatikan dua hal terpisah: kata tunjuk 'هٰذِهِ' mengikuti bendanya ('حَقِيبَةٌ' = muannats), sedangkan ekor 'ـهُ' mengikuti pemiliknya (Rizki = cowok)!",
+            "feedbackCorrect": "Brilian! 'Hādzihi ḥaqībatuhu'—kata tunjuk ikut bendanya, ekor ikut pemiliknya!"
+        },
+        {
+            "id": "m09-q05",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari kata 'سَيَّارَتُهَا'?",
+            "options": [
+                "Mobilku",
+                "Mobilmu (perempuan)",
+                "Mobilnya (laki-laki)",
+                "Mobilnya (perempuan)"
+            ],
+            "correctIndex": 3,
+            "feedbackWrong": "Kata dasarnya adalah 'سَيَّارَةٌ' (mobil), dan ekor paling ujungnya adalah 'ـهَا' (-hā). Cek baris ke-5 tabel!",
+            "feedbackCorrect": "Tepat! 'Sayyāratuhā' berarti mobilnya (milik seorang perempuan)."
+        },
+        {
+            "id": "m09-q06",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Saat sebuah kata benda diberi akhiran kepemilikan (seperti 'دَفْتَرٌ' → 'دَفْتَرِي'), apa yang terjadi pada tanda tanwin (-un) di akhir kata aslinya?",
+            "options": [
+                "Tanwin tetap ditulis dobel",
+                "Tanwin otomatis hilang/dihapus",
+                "Tanwin berubah menjadi tasydid",
+                "Tanwin pindah ke depan kata"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Bandingkan kolom ke-3 tabel: 'كِتَابٌ' (dengan tanwin) berubah menjadi 'كِتَابُكَ' (tanpa tanwin)!",
+            "feedbackCorrect": "Benar! Kata benda yang bersambung dengan kepemilikan tidak boleh memakai tanwin."
+        },
+        {
+            "id": "m09-q07",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca dialog ini:\nHasan: 'أَيْنَ غُرْفَتُكَ يَا عُمَرُ؟'\nUmar: 'غُرْفَتِي أَمَامَ الْحَدِيقَةِ.'\nApa yang ditanyakan Hasan kepada Umar?",
+            "options": [
+                "Di mana sekolahmu wahai Umar?",
+                "Di mana kamarmu wahai Umar?",
+                "Di mana mobilmu wahai Umar?",
+                "Siapa nama saudaramu wahai Umar?"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek arti kata dasar 'غُرْفَةٌ' pada daftar kosakata baru!",
+            "feedbackCorrect": "Mumtaz! 'Aina ghurfatuka?' berarti 'Di mana kamarmu?'."
+        },
+        {
+            "id": "m09-q08",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Ubah kalimat 'هٰذَا بَيْتِي' (Ini rumahku) menjadi 'Ini rumahnya (milik Pak Guru)':",
+            "options": [
+                "هٰذَا بَيْتُهَا",
+                "هٰذَا بَيْتُهُ",
+                "هٰذَا بَيْتُكَ",
+                "هٰذِهِ بَيْتُهُ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Pak Guru adalah orang ketiga tunggal laki-laki ('هُوَ'). Ganti ekor 'ـِي' menjadi ekor untuk 'هُوَ'!",
+            "feedbackCorrect": "Ahsanta! 'Hādzā baituhu' (Ini rumahnya lk)."
+        },
+        {
+            "id": "m09-q09",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Manakah kata yang berarti 'buku catatanmu (untuk lawan bicara perempuan)'?",
+            "options": [
+                "دَفْتَرُكَ",
+                "دَفْتَرُكِ",
+                "دَفْتَرُهُ",
+                "دَفْتَرِي"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Lawan bicara perempuan memakai harakat kasrah di bawah huruf Kaf (ـكِ)!",
+            "feedbackCorrect": "Akurat! 'Daftaruki' (دَفْتَرُكِ)."
+        },
+        {
+            "id": "m09-q10",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Manakah penulisan yang SALAH dan tidak pernah dipakai dalam bahasa Arab?",
+            "options": [
+                "كِتَابِي",
+                "كِتَابٌ أَنَا",
+                "كِتَابُكَ",
+                "كِتَابُهَا"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek bagian penjelasan materi! Untuk menyatakan kepemilikan, dhamir harus menempel di kata benda, bukan dipisah dengan dhamir munfashil.",
+            "feedbackCorrect": "Jeli sekali! 'كِتَابٌ أَنَا' salah; yang benar adalah menempelkan ekor 'ـِي' menjadi 'كِتَابِي'."
+        },
+        {
+            "id": "m09-q11",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Perhatikan kalimat: 'هٰذَا أَحْمَدُ، وَهٰذِهِ سَيَّارَتُهُ الْجَدِيدَةُ.'\nMengapa kata 'الْجَدِيدَةُ' memakai huruf ة sedangkan 'سَيَّارَتُهُ' memakai ekor 'ـهُ'?",
+            "options": [
+                "الْجَدِيدَةُ menjelaskan mobil (muannats), sedangkan ـهُ merujuk pada pemiliknya yaitu Ahmad (mudzakkar)",
+                "Karena mobil itu milik dua orang",
+                "Karena Ahmad adalah nama perempuan",
+                "Kalimat tersebut salah cetak"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Pecah dua perannya: sifat selalu mengikuti BENDANYA ('سَيَّارَةٌ'), sedangkan ekor kepemilikan mengikuti PEMILIKNYA ('أَحْمَدُ')!",
+            "feedbackCorrect": "Analisis tata bahasa tingkat tinggi! Kamu sudah paham logika bahasa Arab dengan sangat matang."
+        },
+        {
+            "id": "m09-q12",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kata 'جَيْبِي' yang diucapkan Zaki di cerita pembuka memiliki arti...",
+            "options": [
+                "Meja belajarku",
+                "Sakuku / kantong bajuku",
+                "Tasku",
+                "Rumahku"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris kedua pada daftar kosakata baru ('جَيْبٌ')!",
+            "feedbackCorrect": "Benar! 'Jaibī' berarti sakuku."
+        },
+        {
+            "id": "m09-q13",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Jika 'مِسْطَرَتُكَ' artinya 'penggarismu (lk)', maka 'penggarismu (pr)' ditulis...",
+            "options": [
+                "مِسْطَرَتُكِ",
+                "مِسْطَرَتُهَا",
+                "مِسْطَرَتِي",
+                "مِسْطَرَةِكِ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Huruf ت sebelum Kaf tetap berharakat dhammah (-tu-), cukup ubah harakat Kaf terakhir menjadi kasrah (-ki)!",
+            "feedbackCorrect": "Tepat! 'Misṭaratuki' (مِسْطَرَتُكِ)."
+        },
+        {
+            "id": "m09-q14",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Pasangan Dhamir Munfashil → Ekor Kepemilikan yang BENAR adalah...",
+            "options": [
+                "هُوَ → ـهَا",
+                "هِيَ → ـهُ",
+                "أَنْتَ → ـكَ",
+                "أَنَا → ـكِ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Periksa satu per satu di tabel: Huwa → -hu, Hiya → -hā, Anta → -ka, Anā → -ī.",
+            "feedbackCorrect": "Ahsanta! 'Anta' berpasangan dengan ekor 'ـكَ' (-ka)."
+        },
+        {
+            "id": "m09-q15",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Lengkapi pertanyaan ini saat kamu berbicara kepada Ibu Guru:\n'عَفْوًا يَا أُسْتَاذَةُ، هَلْ هٰذَا _____؟'",
+            "options": [
+                "كِتَابُكَ",
+                "كِتَابُكِ",
+                "كِتَابُهُ",
+                "كِتَابُهَا"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Kamu berbicara langsung kepada Ibu Guru ('يَا أُسْتَاذَةُ' — orang kedua perempuan). Pilih ekor untuk 'kamu perempuan'!",
+            "feedbackCorrect": "Mumtaz! 'Hal hādzā kitābuki?' (Apakah ini buku Ibu?)."
+        },
+        {
+            "id": "m09-q16",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Bagaimana cara baca yang benar untuk 'غُرْفَتُهُ' (kamarnya laki-laki)?",
+            "options": [
+                "ghur-fa-tu-hu",
+                "ghur-fa-ti-hi",
+                "ghur-fa-tu-hā",
+                "ghar-fa-ta-hu"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Semua harakat pada 'غُرْفَتُهُ' menggunakan dhammah (-u-) kecuali huruf Fa yang berharakat fathah (-fa-)!",
+            "feedbackCorrect": "Akurat! 'Ghur-fa-tu-hu'."
+        },
+        {
+            "id": "m09-q17",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca kalimat ini: 'أَنَا سَلْمَى. أَبِي طَبِيبٌ، وَاِسْمُهُ إِبْرَاهِيمُ. وَأُمِّي أُسْتَاذَةٌ، وَاِسْمُهَا زَيْنَبُ.'\nMengapa pada kata 'اِسْمُهُ' memakai 'ـهُ' sedangkan pada 'اِسْمُهَا' memakai 'ـهَا'?",
+            "options": [
+                "Karena 'اِسْمُهُ' merujuk pada nama ayah (lk), sedangkan 'اِسْمُهَا' merujuk pada nama ibu (pr)",
+                "Karena nama Ibrahim lebih panjang",
+                "Karena kata 'اِسْمٌ' berubah jenis kelamin",
+                "Karena Salma adalah anak perempuan"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Lihat siapa yang sedang dibicarakan di masing-masing bagian: pertama ayahnya (lk), kedua ibunya (pr)!",
+            "feedbackCorrect": "Hebat! 'Ismuhu' = namanya (ayah), 'Ismuhā' = namanya (ibu)."
+        },
+        {
+            "id": "m09-q18",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kata 'مَدْرَسَتُكِ' terdiri dari kata dasar 'مَدْرَسَةٌ' dan imbuhan...",
+            "options": [
+                "ـكَ",
+                "ـكِ",
+                "ـهُ",
+                "ـِي"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Lihat huruf terakhir di ujung kata 'مَدْرَسَتُكِ'!",
+            "feedbackCorrect": "Tepat! Imbuhan 'ـكِ' (-ki)."
+        },
+        {
+            "id": "m09-q19",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Temukan satu kalimat yang BEBAS dari kesalahan:",
+            "options": [
+                "هٰذِهِ دَفْتَرِي الْجَدِيدُ",
+                "هٰذَا دَفْتَرِي الْجَدِيدُ",
+                "هٰذَا دَفْتَرِي الْجَدِيدَةُ",
+                "هٰذِهِ دَفْتَرُكَ الْجَدِيدَةُ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Kata dasar 'دَفْتَرٌ' (buku catatan) tidak memiliki huruf ة (mudzakkar). Pastikan kata tunjuk di depan dan kata sifat di belakang juga tanpa ة!",
+            "feedbackCorrect": "Sempurna! 'Hādzā daftarī al-jadīdu' seluruhnya selaras."
+        },
+        {
+            "id": "m09-q20",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Jika 'صَدِيقَتُهُ' artinya 'teman perempuannya (milik seorang laki-laki)', maka 'teman laki-lakinya (milik seorang perempuan)' ditulis...",
+            "options": [
+                "صَدِيقُهَا",
+                "صَدِيقَتُهَا",
+                "صَدِيقُهُ",
+                "صَدِيقَتُهُ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Temannya berjenis kelamin laki-laki ('صَدِيقُ' — tanpa ة), dan pemiliknya adalah perempuan ('ـهَا')!",
+            "feedbackCorrect": "Luar biasa! 'Ṣadīquhā' (صَدِيقُهَا) memecahkan teka-teki silang jenis kelamin dengan sempurna!"
+        }
+    ]
+}

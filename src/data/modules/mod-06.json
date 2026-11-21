@@ -1,0 +1,518 @@
+{
+    "id": 6,
+    "zoneId": "zone-2",
+    "slug": "lima-dhamir-inti",
+    "title": "Aku, Kamu, Dia (5 Dhamir Inti)",
+    "canDo": "Aku bisa menggunakan 5 kata ganti orang tunggal (Ana, Anta, Anti, Huwa, Hiya) untuk memperkenalkan diriku, lawan bicaraku, dan anggota keluargaku.",
+    "storyHook": {
+        "title": "Album Foto Keluarga di Ruang Tamu",
+        "setting": "Sore hari di rumah Zaki, Zaki menunjukkan foto keluarganya kepada sepupunya",
+        "lines": [
+            {
+                "speaker": "Zaki",
+                "avatarRole": "boy",
+                "arabic": "اُنْظُرْ إِلَى هٰذِهِ الصُّورَةِ! أَنَا طَالِبٌ، وَهٰذَا أَبِي، هُوَ طَبِيبٌ.",
+                "transliteration": "Un-ẓur i-lā hā-dzi-hiṣ-ṣū-rah! A-nā ṭā-li-bun, wa hā-dzā a-bī, hu-wa ṭa-bī-bun.",
+                "translation": "Lihatlah foto ini! Aku seorang siswa, dan ini ayahku, dia (lk) seorang dokter."
+            },
+            {
+                "speaker": "Alya",
+                "avatarRole": "girl",
+                "arabic": "وَمَنْ هِيَ؟ هَلْ هِيَ أُمُّكَ؟",
+                "transliteration": "Wa man hi-ya? Hal hi-ya um-mu-ka?",
+                "translation": "Dan siapa dia (pr)? Apakah dia (pr) ibumu?"
+            },
+            {
+                "speaker": "Zaki",
+                "avatarRole": "boy",
+                "arabic": "نَعَمْ، هِيَ أُمِّي، هِيَ أُسْتَاذَةٌ. وَأَنْتِ يَا عَالِيَةُ، أَنْتِ طَالِبَةٌ مُجْتَهِدَةٌ!",
+                "transliteration": "Na-'am, hi-ya um-mī, hi-ya us-tā-dza-tun. Wa an-ti yā 'Ā-li-yah, an-ti ṭā-li-ba-tun muj-ta-hi-dah!",
+                "translation": "Ya, dia ibuku, dia seorang guru (pr). Dan kamu wahai Alya, kamu (pr) siswi yang rajin!"
+            }
+        ]
+    },
+    "explanation": "Selamat datang di Zona 2! Dalam bahasa Arab, kata ganti orang disebut 'Dhamir' (ضَمِيرٌ). Untuk 1 orang (tunggal), hanya ada 5 kata kunci yang wajib kamu kuasai: 'Anā' (Aku — bebas untuk cowok/cewek), lalu 2 untuk lawan bicara ('Anta' = kamu cowok, 'Anti' = kamu cewek), dan 2 untuk orang yang dibicarakan ('Huwa' = dia cowok, 'Hiya' = dia cewek).",
+    "patternTable": {
+        "title": "5 Dhamir Inti (Kata Ganti Tunggal)",
+        "filters": [
+            "Semua",
+            "Diri Sendiri",
+            "Lawan Bicara (Kamu)",
+            "Orang Ketiga (Dia)"
+        ],
+        "headers": [
+            "Dhamir Arab",
+            "Cara Baca",
+            "Arti & Sasaran",
+            "Contoh Kalimat Lengkap"
+        ],
+        "rows": [
+            {
+                "id": "m6-r1",
+                "category": "Diri Sendiri",
+                "cells": [
+                    "أَنَا",
+                    "A-nā",
+                    "Aku / Saya (Cowok & Cewek sama)",
+                    "أَنَا طَالِبٌ / أَنَا طَالِبَةٌ"
+                ],
+                "arabicResult": "أَنَا طَالِبٌ",
+                "transliteration": "A-nā ṭā-li-bun",
+                "meaning": "Aku seorang siswa",
+                "breakdown": "Kata أَنَا tetap sama untuk cowok/cewek, hanya kata belakangnya yang disesuaikan."
+            },
+            {
+                "id": "m6-r2",
+                "category": "Lawan Bicara (Kamu)",
+                "cells": [
+                    "أَنْتَ",
+                    "An-ta",
+                    "Kamu (1 Cowok)",
+                    "أَنْتَ أَخِي (An-ta a-khī)"
+                ],
+                "arabicResult": "أَنْتَ طَالِبٌ",
+                "transliteration": "An-ta ṭā-li-bun",
+                "meaning": "Kamu (lk) seorang siswa",
+                "breakdown": "Huruf ت berharakat Fathah (تَ) menandakan lawan bicara laki-laki."
+            },
+            {
+                "id": "m6-r3",
+                "category": "Lawan Bicara (Kamu)",
+                "cells": [
+                    "أَنْتِ",
+                    "An-ti",
+                    "Kamu (1 Cewek)",
+                    "أَنْتِ أُخْتِي (An-ti ukh-tī)"
+                ],
+                "arabicResult": "أَنْتِ طَالِبَةٌ",
+                "transliteration": "An-ti ṭā-li-ba-tun",
+                "meaning": "Kamu (pr) seorang siswi",
+                "breakdown": "Huruf ت berharakat Kasrah (تِ) menandakan lawan bicara perempuan."
+            },
+            {
+                "id": "m6-r4",
+                "category": "Orang Ketiga (Dia)",
+                "cells": [
+                    "هُوَ",
+                    "Hu-wa",
+                    "Dia (1 Cowok)",
+                    "هُوَ أَبِي (Hu-wa a-bī)"
+                ],
+                "arabicResult": "هُوَ طَبِيبٌ",
+                "transliteration": "Hu-wa ṭa-bī-bun",
+                "meaning": "Dia (lk) seorang dokter",
+                "breakdown": "هُوَ dipakai saat membicarakan 1 orang laki-laki (ayah, kakek, saudara lk)."
+            },
+            {
+                "id": "m6-r5",
+                "category": "Orang Ketiga (Dia)",
+                "cells": [
+                    "هِيَ",
+                    "Hi-ya",
+                    "Dia (1 Cewek)",
+                    "هِيَ أُمِّي (Hi-ya um-mī)"
+                ],
+                "arabicResult": "هِيَ طَبِيبَةٌ",
+                "transliteration": "Hi-ya ṭa-bī-ba-tun",
+                "meaning": "Dia (pr) seorang dokter",
+                "breakdown": "هِيَ dipakai saat membicarakan 1 orang perempuan (ibu, nenek, saudari pr)."
+            }
+        ]
+    },
+    "highlightedExamples": [
+        {
+            "segments": [
+                {
+                    "text": "هُوَ ",
+                    "role": "focus",
+                    "label": "Dia (Cowok)"
+                },
+                {
+                    "text": "أَبِي، وَ",
+                    "role": "base"
+                },
+                {
+                    "text": "هِيَ ",
+                    "role": "focus",
+                    "label": "Dia (Cewek)"
+                },
+                {
+                    "text": "أُمِّي.",
+                    "role": "base"
+                }
+            ],
+            "transliteration": "Hu-wa a-bī, wa hi-ya um-mī.",
+            "translation": "Dia (lk) ayahku, dan dia (pr) ibuku."
+        },
+        {
+            "segments": [
+                {
+                    "text": "أَنْتَ ",
+                    "role": "focus",
+                    "label": "Kamu (Cowok)"
+                },
+                {
+                    "text": "صَدِيقٌ، وَ",
+                    "role": "base"
+                },
+                {
+                    "text": "أَنْتِ ",
+                    "role": "focus",
+                    "label": "Kamu (Cewek)"
+                },
+                {
+                    "text": "صَدِيق",
+                    "role": "base"
+                },
+                {
+                    "text": "َةٌ",
+                    "role": "suffix",
+                    "label": "Penanda Cewek"
+                }
+            ],
+            "transliteration": "An-ta ṣa-dī-qun, wa an-ti ṣa-dī-qa-tun.",
+            "translation": "Kamu (lk) adalah teman, dan kamu (pr) adalah teman."
+        }
+    ],
+    "quickTrick": "Aturan Cermin: Jika Dhamirnya cewek (أَنْتِ atau هِيَ), kata benda/profesi di belakangnya wajib ikut memakai 'ة'! Contoh: هِيَ مُدِيرَةٌ.",
+    "vocabulary": [
+        {
+            "arabic": "أَبٌ / أَبِي",
+            "transliteration": "a-bun / a-bī",
+            "meaning": "Ayah / Ayahku",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "أُمٌّ / أُمِّي",
+            "transliteration": "um-mun / um-mī",
+            "meaning": "Ibu / Ibuku",
+            "gender": "muannats"
+        },
+        {
+            "arabic": "أَخٌ / أَخِي",
+            "transliteration": "a-khun / a-khī",
+            "meaning": "Saudara laki-laki / Saudaraku",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "أُخْتٌ / أُخْتِي",
+            "transliteration": "ukh-tun / ukh-tī",
+            "meaning": "Saudari perempuan / Saudariku",
+            "gender": "muannats"
+        },
+        {
+            "arabic": "جَدٌّ",
+            "transliteration": "jad-dun",
+            "meaning": "Kakek",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "جَدَّةٌ",
+            "transliteration": "jad-da-tun",
+            "meaning": "Nenek",
+            "gender": "muannats"
+        }
+    ],
+    "quizBank": [
+        {
+            "id": "m06-q01",
+            "difficulty": "medium",
+            "type": "agreement-trap",
+            "question": "Lengkapi kalimat perkenalan keluarga berikut:\n'هٰذِهِ جَدَّتِي، _____ أُسْتَاذَةٌ.'",
+            "options": [
+                "هُوَ",
+                "هِيَ",
+                "أَنْتِ",
+                "أَنَا"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Zaki sedang membicarakan neneknya ('جَدَّتِي' — orang ketiga perempuan). Pilih dhamir 'Dia (pr)' di tabel!",
+            "feedbackCorrect": "Mumtaz! 'Hiya ustādzatun' (Dia perempuan adalah seorang guru)."
+        },
+        {
+            "id": "m06-q02",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Manakah dhamir tunggal yang TIDAK berubah bentuknya meskipun dipakai oleh anak laki-laki maupun anak perempuan?",
+            "options": [
+                "أَنْتَ",
+                "هُوَ",
+                "أَنَا",
+                "هِيَ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Cek baris pertama tabel rumus! Kata ganti untuk 'Diri Sendiri' berlaku sama untuk cowok maupun cewek.",
+            "feedbackCorrect": "Ahsanta! 'Anā' (أَنَا) dipakai baik oleh laki-laki maupun perempuan."
+        },
+        {
+            "id": "m06-q03",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Raka berbicara langsung kepada adiknya yang perempuan (Dina): 'أَنْتَ أُخْتِي'. Mengapa kalimat Raka salah?",
+            "options": [
+                "Kata 'أُخْتِي' seharusnya diganti 'أَخِي'",
+                "Kata 'أَنْتَ' dipakai untuk lawan bicara laki-laki, seharusnya 'أَنْتِ'",
+                "Kata 'أَنْتَ' tidak boleh di awal kalimat",
+                "Tidak ada kesalahan"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Raka mengajak bicara Dina (perempuan). Bandingkan harakat akhir pada 'أَنْتَ' vs 'أَنْتِ'!",
+            "feedbackCorrect": "Jeli sekali! Kepada Dina, Raka harus berkata 'أَنْتِ أُخْتِي' (Kamu saudariku)."
+        },
+        {
+            "id": "m06-q04",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Perhatikan kalimat: 'هُوَ _____'. Kata manakah yang PALING SALAH jika diletakkan di titik-titik tersebut?",
+            "options": [
+                "جَدِّي",
+                "طَبِيبٌ",
+                "مُهَنْدِسَةٌ",
+                "أَخِي"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Dhamir 'هُوَ' hanya untuk laki-laki! Cari kata yang memiliki tanda perempuan (ـة) sehingga bertabrakan dengan 'هُوَ'.",
+            "feedbackCorrect": "Tepat sekali! 'Muhandisatun' adalah profesi perempuan, tidak boleh dipasangkan dengan 'هُوَ'."
+        },
+        {
+            "id": "m06-q05",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari kata 'جَدٌّ' dan 'جَدَّةٌ' secara berurutan?",
+            "options": [
+                "Ayah dan Ibu",
+                "Kakek dan Nenek",
+                "Paman dan Bibi",
+                "Kakak dan Adik"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek dua baris terakhir pada daftar kosakata baru!",
+            "feedbackCorrect": "Benar! 'Jaddun' = Kakek, dan 'Jaddatun' = Nenek."
+        },
+        {
+            "id": "m06-q06",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Ubah kalimat 'هُوَ مُدِيرٌ' (Dia lk adalah kepala sekolah) menjadi kalimat untuk perempuan ('Dia pr adalah kepala sekolah'):",
+            "options": [
+                "هِيَ مُدِيرٌ",
+                "هِيَ مُدِيرَةٌ",
+                "أَنْتِ مُدِيرَةٌ",
+                "هُوَ مُدِيرَةٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ingat 'Aturan Cermin': saat mengubah 'هُوَ' menjadi 'هِيَ', kata 'مُدِيرٌ' di belakangnya juga harus diberi ة!",
+            "feedbackCorrect": "Sempurna! 'Hiya mudīratun'—kedua bagiannya berubah serasi."
+        },
+        {
+            "id": "m06-q07",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Perbedaan tulisan antara 'أَنْتَ' dan 'أَنْتِ' terletak pada...",
+            "options": [
+                "Huruf pertama (Alif vs Ba)",
+                "Harakat huruf Ta terakhir (Fathah vs Kasrah)",
+                "Panjang pendeknya bacaan",
+                "Jumlah hurufnya"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Hurufnya sama-sama Alif-Nun-Ta (أنت), hanya tanda baca di huruf terakhirnya yang berbeda!",
+            "feedbackCorrect": "Akurat! Fathah (تَ) = An-ta (lk), Kasrah (تِ) = An-ti (pr)."
+        },
+        {
+            "id": "m06-q08",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca paragraf pendek ini:\n'اِسْمِي سُلَيْمَانُ. هٰذَا أَخِي یُوسُفُ، هُوَ طَالِبٌ. وَهٰذِهِ أُخْتِي مَرْيَمُ، هِيَ طَبِيبَةٌ.'\nSiapakah yang berprofesi sebagai dokter dalam keluarga Sulaiman?",
+            "options": [
+                "Sulaiman",
+                "Yusuf",
+                "Maryam",
+                "Ayah Sulaiman"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Cari kata 'طَبِيبَةٌ' (dokter perempuan) di teks, lalu lihat nama orang yang disebut tepat sebelumnya!",
+            "feedbackCorrect": "Mumtaz! Maryam ('أُخْتِي مَرْيَمُ، هِيَ طَبِيبَةٌ') adalah seorang dokter."
+        },
+        {
+            "id": "m06-q09",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Jika kamu seorang siswi perempuan dan ingin memperkenalkan diri, kalimat yang benar adalah...",
+            "options": [
+                "أَنَا طَالِبٌ",
+                "أَنَا طَالِبَةٌ",
+                "أَنْتِ طَالِبَةٌ",
+                "هِيَ طَالِبٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Gunakan dhamir diri sendiri ('أَنَا'), lalu pilih bentuk perempuan dari kata siswa ('طَالِبَةٌ')!",
+            "feedbackCorrect": "Ahsanta! 'Anā ṭālibatun' (Aku seorang siswi)."
+        },
+        {
+            "id": "m06-q10",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Pasangkan 4 dhamir berikut dengan urutan arti yang tepat: (1) هُوَ  (2) أَنْتِ  (3) هِيَ  (4) أَنْتَ",
+            "options": [
+                "(1) Dia lk — (2) Kamu pr — (3) Dia pr — (4) Kamu lk",
+                "(1) Dia pr — (2) Kamu lk — (3) Dia lk — (4) Kamu pr",
+                "(1) Kamu lk — (2) Dia pr — (3) Kamu pr — (4) Dia lk",
+                "(1) Aku — (2) Kamu pr — (3) Dia pr — (4) Dia lk"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cek satu per satu: 'Huwa' (1) = Dia lk, 'Anti' (2) = Kamu pr. Cocokkan kelanjutannya di tabel!",
+            "feedbackCorrect": "Luar biasa! Konsentrasimu sangat tajam meski urutannya diacak."
+        },
+        {
+            "id": "m06-q11",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kata 'أُمِّي' berasal dari kata dasar 'أُمٌّ' (ibu) yang ditambah akhiran 'ـِي'. Artinya adalah...",
+            "options": [
+                "Ibumu",
+                "Ibuku",
+                "Ibunya",
+                "Nenekku"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ingat akhiran 'ـِي' yang sudah kita pelajari sejak Modul 1 ('اِسْمِي' = namaku, 'قَلَمِي' = pulpenku)!",
+            "feedbackCorrect": "Benar! 'Ummī' berarti ibuku."
+        },
+        {
+            "id": "m06-q12",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Mana dari kalimat berikut yang SALAH karena tidak menerapkan Aturan Cermin?",
+            "options": [
+                "أَنْتَ مُهَنْدِسٌ",
+                "هِيَ جَدَّتِي",
+                "أَنْتِ طَبِيبٌ",
+                "هُوَ أَبِي"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Periksa kalimat yang memakai 'أَنْتِ' (kamu perempuan)! Apakah profesi di belakangnya sudah memakai huruf ة?",
+            "feedbackCorrect": "Tepat! Seharusnya 'أَنْتِ طَبِيبَةٌ' (Kamu perempuan adalah dokter)."
+        },
+        {
+            "id": "m06-q13",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Dalam percakapan telepon, Bilal berkata kepada neneknya: 'كَيْفَ حَالُكِ يَا جَدَّتِي؟ أَنَا بِخَيْرٍ.'\nSiapakah yang sedang diajak bicara oleh Bilal?",
+            "options": [
+                "Kakeknya",
+                "Neneknya",
+                "Ibunya",
+                "Saudara laki-lakinya"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Perhatikan panggilan setelah kata 'يَا' (wahai): 'جَدَّتِي'!",
+            "feedbackCorrect": "Mumtaz! 'Jaddatī' berarti nenekku."
+        },
+        {
+            "id": "m06-q14",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Ketika membicarakan seorang teman laki-laki yang tidak hadir di kelas, kata ganti yang kita pakai adalah...",
+            "options": [
+                "أَنْتَ (Anta)",
+                "هُوَ (Huwa)",
+                "هِيَ (Hiya)",
+                "أَنَا (Anā)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Teman tersebut TIDAK berada di depan kita (orang ketiga), dan berjenis kelamin laki-laki.",
+            "feedbackCorrect": "Ahsanta! 'Huwa' (هُوَ) berarti dia laki-laki."
+        },
+        {
+            "id": "m06-q15",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Jika 'هٰذَا أَخِي، هُوَ طَالِبٌ' (Ini saudaraku, dia siswa) diubah untuk menceritakan saudari perempuan, kalimat lengkapnya menjadi...",
+            "options": [
+                "هٰذِهِ أُخْتِي، هِيَ طَالِبَةٌ",
+                "هٰذَا أُخْتِي، هِيَ طَالِبٌ",
+                "هٰذِهِ أَخِي، هُوَ طَالِبَةٌ",
+                "هٰذِهِ أُخْتِي، هُوَ طَالِبَةٌ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ubah keempat bagian sekaligus menjadi bentuk perempuan: 'هٰذَا' → 'هٰذِهِ', 'أَخِي' → 'أُخْتِي', 'هُوَ' → 'هِيَ', dan 'طَالِبٌ' → 'طَالِبَةٌ'!",
+            "feedbackCorrect": "Brilian! Seluruh unsur kalimat berubah serasi menjadi bentuk muannats."
+        },
+        {
+            "id": "m06-q16",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Manakah pasangan kata keluarga yang memiliki jenis kelamin yang SAMA (keduanya perempuan)?",
+            "options": [
+                "أَبٌ & أُمٌّ",
+                "أُمٌّ & جَدَّةٌ",
+                "أَخٌ & أُخْتٌ",
+                "جَدٌّ & أَبٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cari pasangan yang dua-duanya adalah anggota keluarga perempuan!",
+            "feedbackCorrect": "Tepat! 'Ummun' (ibu) dan 'Jaddatun' (nenek) sama-sama muannats."
+        },
+        {
+            "id": "m06-q17",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Pilih kalimat yang paling tepat jika kamu berbicara langsung kepada Pak Guru:",
+            "options": [
+                "هُوَ أُسْتَاذٌ",
+                "أَنْتَ أُسْتَاذٌ",
+                "أَنْتِ أُسْتَاذٌ",
+                "أَنْتَ أُسْتَاذَةٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Karena berbicara LANGSUNG kepada Pak Guru (orang kedua laki-laki), gunakan 'Kamu (lk)' + 'Guru (lk)'!",
+            "feedbackCorrect": "Benar! 'Anta ustādzun' (Engkau/Kamu adalah seorang guru)."
+        },
+        {
+            "id": "m06-q18",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kata 'أُخْتٌ' (ukh-tun) dalam kosakata keluarga memiliki arti...",
+            "options": [
+                "Saudara laki-laki",
+                "Saudari perempuan",
+                "Ibu",
+                "Nenek"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris keempat pada daftar kosakata baru!",
+            "feedbackCorrect": "Ahsanta! 'Ukhtun' berarti saudari perempuan."
+        },
+        {
+            "id": "m06-q19",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Perhatikan dialog:\nSalma: 'هَلْ أَنْتَ أَخُو زَيْدٍ؟'\nFaris: 'نَعَمْ، أَنَا أَخُوهُ.'\nApa hubungan antara Faris dan Zaid?",
+            "options": [
+                "Faris adalah ayah Zaid",
+                "Faris adalah saudara laki-laki Zaid",
+                "Faris adalah guru Zaid",
+                "Faris adalah paman Zaid"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Salma bertanya 'Apakah kamu saudara laki-laki Zaid?' dan Faris menjawab 'نَعَمْ' (Ya)!",
+            "feedbackCorrect": "Mumtaz! Faris adalah saudara laki-laki Zaid."
+        },
+        {
+            "id": "m06-q20",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Dalam cerita pembuka, Zaki berkata kepada Alya: 'أَنْتِ طَالِبَةٌ مُجْتَهِدَةٌ!'. Jika Zaki mengucapkan pujian yang sama kepada teman laki-lakinya bernama Tariq, kalimatnya berubah menjadi...",
+            "options": [
+                "أَنْتَ طَالِبٌ مُجْتَهِدٌ!",
+                "أَنْتَ طَالِبَةٌ مُجْتَهِدٌ!",
+                "أَنْتِ طَالِبٌ مُجْتَهِدٌ!",
+                "هُوَ طَالِبٌ مُجْتَهِدَةٌ!"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ubah dhamir 'أَنْتِ' menjadi 'أَنْتَ', lalu lepaskan huruf ة dari kata 'طَالِبَةٌ' dan 'مُجْتَهِدَةٌ'!",
+            "feedbackCorrect": "Luar biasa! 'Anta ṭālibun mujtahidun!'—ketiganya selaras dalam bentuk mudzakkar."
+        }
+    ]
+}

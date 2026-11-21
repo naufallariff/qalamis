@@ -1,0 +1,547 @@
+{
+    "id": 11,
+    "zoneId": "zone-3",
+    "slug": "serunya-dunia-warna",
+    "title": "Serunya Dunia Warna!",
+    "canDo": "Aku bisa menyebutkan warna-warna dasar dalam bahasa Arab dan menyesuaikan bentuk warnanya dengan benda laki-laki (Mudzakkar) atau benda perempuan (Muannats).",
+    "storyHook": {
+        "title": "Menyiapkan Seragam & Perlengkapan Pramuka",
+        "setting": "Pagi hari di kamar Bilal, Bilal dan kakaknya memilih pakaian dan perlengkapan",
+        "lines": [
+            {
+                "speaker": "Bilal",
+                "avatarRole": "boy",
+                "arabic": "مَا لَوْنُ قَمِيصِكَ الْجَدِيدِ يَا أَخِي؟",
+                "transliteration": "Mā lau-nu qa-mī-ṣi-kal-ja-dī-di yā a-khī?",
+                "translation": "Apa warna kemeja barumu wahai saudaraku?"
+            },
+            {
+                "speaker": "Tariq",
+                "avatarRole": "boy",
+                "arabic": "قَمِيصِي أَبْيَضُ، وَحِذَائِي أَسْوَدُ.",
+                "transliteration": "Qa-mī-ṣī ab-ya-ḍu, wa ḥi-dzā-ī as-wa-du.",
+                "translation": "Kemejaku berwarna putih, dan sepatuku berwarna hitam."
+            },
+            {
+                "speaker": "Bilal",
+                "avatarRole": "boy",
+                "arabic": "وَمَا لَوْنُ حَقِيبَةِ سَلْمَى؟",
+                "transliteration": "Wa mā lau-nu ḥa-qī-ba-ti Sal-mā?",
+                "translation": "Dan apa warna tas milik Salma?"
+            },
+            {
+                "speaker": "Tariq",
+                "avatarRole": "boy",
+                "arabic": "حَقِيبَتُهَا حَمْرَاءُ، وَمِظَلَّتُهَا زَرْقَاءُ!",
+                "transliteration": "Ḥa-qī-ba-tu-hā ḥam-rā-u, wa mi-ẓal-la-tu-hā zar-qā-u!",
+                "translation": "Tasnya berwarna merah, dan payungnya berwarna biru!"
+            }
+        ]
+    },
+    "explanation": "Selamat datang di Zona 3! Di bahasa Arab, kata warna itu unik dan artistik: bentuknya berubah seperti bunglon mengikuti jenis benda yang diwarnai! Untuk benda laki-laki (tanpa ة), kata warnanya diawali huruf Alif berharakat fathah ('أَـ' seperti أَحْمَرُ = merah). Sedangkan untuk benda perempuan (berakhiran ة), huruf Alif di depan dipindah ke belakang menjadi 'ـَاءُ' ('-ā-u' seperti حَمْرَاءُ = merah)!",
+    "patternTable": {
+        "title": "Palet Warna Bunglon: Benda Cowok vs. Benda Cewek",
+        "filters": [
+            "Semua",
+            "Warna Dasar 1–3",
+            "Warna Dasar 4–6"
+        ],
+        "headers": [
+            "Arti Warna",
+            "Untuk Benda Cowok (Pola أَفْعَلُ)",
+            "Untuk Benda Cewek (Pola فَعْلَاءُ)",
+            "Contoh Gabungan"
+        ],
+        "rows": [
+            {
+                "id": "m11-r1",
+                "category": "Warna Dasar 1–3",
+                "cells": [
+                    "Merah",
+                    "أَحْمَرُ (aḥ-ma-ru)",
+                    "حَمْرَاءُ (ḥam-rā-u)",
+                    "قَلَمٌ أَحْمَرُ | حَقِيبَةٌ حَمْرَاءُ"
+                ],
+                "arabicResult": "أَحْمَرُ ← حَمْرَاءُ",
+                "transliteration": "aḥ-ma-ru → ḥam-rā-u",
+                "meaning": "Merah (benda lk → benda pr)",
+                "breakdown": "Buang 'أَ' di depan, lalu tempelkan 'ـَاءُ' di belakang."
+            },
+            {
+                "id": "m11-r2",
+                "category": "Warna Dasar 1–3",
+                "cells": [
+                    "Biru",
+                    "أَزْرَقُ (az-ra-qu)",
+                    "زَرْقَاءُ (zar-qā-u)",
+                    "كِتَابٌ أَزْرَقُ | سَيَّارَةٌ زَرْقَاءُ"
+                ],
+                "arabicResult": "أَزْرَقُ ← زَرْقَاءُ",
+                "transliteration": "az-ra-qu → zar-qā-u",
+                "meaning": "Biru (benda lk → benda pr)",
+                "breakdown": "أَزْرَقُ untuk buku/langit, زَرْقَاءُ untuk mobil/tas."
+            },
+            {
+                "id": "m11-r3",
+                "category": "Warna Dasar 1–3",
+                "cells": [
+                    "Hijau",
+                    "أَخْضَرُ (akh-ḍa-ru)",
+                    "خَضْرَاءُ (khaḍ-rā-u)",
+                    "فَصْلٌ أَخْضَرُ | شَجَرَةٌ خَضْرَاءُ"
+                ],
+                "arabicResult": "أَخْضَرُ ← خَضْرَاءُ",
+                "transliteration": "akh-ḍa-ru → khaḍ-rā-u",
+                "meaning": "Hijau (benda lk → benda pr)",
+                "breakdown": "شَجَرَةٌ خَضْرَاءُ (sha-ja-ra-tun khaḍ-rā-u) = pohon hijau."
+            },
+            {
+                "id": "m11-r4",
+                "category": "Warna Dasar 4–6",
+                "cells": [
+                    "Kuning",
+                    "أَصْفَرُ (aṣ-fa-ru)",
+                    "صَفْرَاءُ (ṣaf-rā-u)",
+                    "مَوْزٌ أَصْفَرُ | مِسْطَرَةٌ صَفْرَاءُ"
+                ],
+                "arabicResult": "أَصْفَرُ ← صَفْرَاءُ",
+                "transliteration": "aṣ-fa-ru → ṣaf-rā-u",
+                "meaning": "Kuning (benda lk → benda pr)",
+                "breakdown": "مِسْطَرَةٌ صَفْرَاءُ = penggaris kuning."
+            },
+            {
+                "id": "m11-r5",
+                "category": "Warna Dasar 4–6",
+                "cells": [
+                    "Putih",
+                    "أَبْيَضُ (ab-ya-ḍu)",
+                    "بَيْضَاءُ (bai-ḍā-u)",
+                    "قَمِيصٌ أَبْيَضُ | سَبُّورَةٌ بَيْضَاءُ"
+                ],
+                "arabicResult": "أَبْيَضُ ← بَيْضَاءُ",
+                "transliteration": "ab-ya-ḍu → bai-ḍā-u",
+                "meaning": "Putih (benda lk → benda pr)",
+                "breakdown": "سَبُّورَةٌ بَيْضَاءُ = papan tulis putih (whiteboard)."
+            },
+            {
+                "id": "m11-r6",
+                "category": "Warna Dasar 4–6",
+                "cells": [
+                    "Hitam",
+                    "أَسْوَدُ (as-wa-du)",
+                    "سَوْدَاءُ (sau-dā-u)",
+                    "حِذَاءٌ أَسْوَدُ | مِمْحَاةٌ سَوْدَاءُ"
+                ],
+                "arabicResult": "أَسْوَدُ ← سَوْدَاءُ",
+                "transliteration": "as-wa-du → sau-dā-u",
+                "meaning": "Hitam (benda lk → benda pr)",
+                "breakdown": "حِذَاءٌ أَسْوَدُ = sepatu hitam."
+            }
+        ]
+    },
+    "highlightedExamples": [
+        {
+            "segments": [
+                {
+                    "text": "عِنْدِي ",
+                    "role": "base"
+                },
+                {
+                    "text": "قَلَمٌ ",
+                    "role": "focus",
+                    "label": "Benda Cowok"
+                },
+                {
+                    "text": "أَ",
+                    "role": "prefix",
+                    "label": "Awalan A-"
+                },
+                {
+                    "text": "زْرَقُ، وَحَقِيب",
+                    "role": "base"
+                },
+                {
+                    "text": "َةٌ ",
+                    "role": "focus",
+                    "label": "Benda Cewek"
+                },
+                {
+                    "text": "زَرْق",
+                    "role": "base"
+                },
+                {
+                    "text": "َاءُ",
+                    "role": "suffix",
+                    "label": "Akhiran -ā-u"
+                }
+            ],
+            "transliteration": "'In-dī qa-la-mun az-ra-qu, wa ḥa-qī-ba-tun zar-qā-u.",
+            "translation": "Aku punya sebuah pulpen biru, dan sebuah tas biru."
+        },
+        {
+            "segments": [
+                {
+                    "text": "مَا لَوْنُ ",
+                    "role": "focus",
+                    "label": "Apa warna..."
+                },
+                {
+                    "text": "السَّبُّورَةِ؟ — لَوْنُهَا ",
+                    "role": "base"
+                },
+                {
+                    "text": "بَيْض",
+                    "role": "base"
+                },
+                {
+                    "text": "َاءُ",
+                    "role": "suffix",
+                    "label": "Putih (Cewek)"
+                }
+            ],
+            "transliteration": "Mā lau-nus-sab-bū-rah? — Lau-nu-hā bai-ḍā-u.",
+            "translation": "Apa warna papan tulis itu? — Warnanya putih."
+        }
+    ],
+    "quickTrick": "Rumus Bunglon Warna: Benda Cowok = Huruf 'A' di DEPAN (Aḥmaru, Azraqu, Abyaḍu). Benda Cewek = Bunyi '-Ā-U' di BELAKANG (Ḥamrā-u, Zarqā-u, Baiḍā-u)!",
+    "vocabulary": [
+        {
+            "arabic": "لَوْنٌ",
+            "transliteration": "lau-nun",
+            "meaning": "Warna",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "قَمِيصٌ",
+            "transliteration": "qa-mī-ṣun",
+            "meaning": "Kemeja / baju",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "حِذَاءٌ",
+            "transliteration": "ḥi-dzā-un",
+            "meaning": "Sepatu",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "مِظَلَّةٌ",
+            "transliteration": "mi-ẓal-la-tun",
+            "meaning": "Payung",
+            "gender": "muannats"
+        },
+        {
+            "arabic": "شَجَرَةٌ",
+            "transliteration": "sha-ja-ra-tun",
+            "meaning": "Pohon",
+            "gender": "muannats"
+        },
+        {
+            "arabic": "مَوْزٌ",
+            "transliteration": "mau-zun",
+            "meaning": "Pisang",
+            "gender": "mudzakkar"
+        }
+    ],
+    "quizBank": [
+        {
+            "id": "m11-q01",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Kamu melihat papan tulis putih di kelas ('سَبُّورَةٌ' — benda muannats). Bentuk warna 'putih' yang tepat untuk melengkapinya adalah: 'سَبُّورَةٌ _____'",
+            "options": [
+                "أَبْيَضُ (ab-ya-ḍu)",
+                "بَيْضَاءُ (bai-ḍā-u)",
+                "أَبْيَضَةٌ (ab-ya-ḍa-tun)",
+                "بَيْضٌ (bai-ḍun)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Hati-hati! Kata warna dasar tidak memakai 'ـةٌ' untuk perempuan, melainkan berubah pola menjadi berakhiran 'ـَاءُ' (-ā-u). Cek baris ke-5 tabel!",
+            "feedbackCorrect": "Mumtaz! 'Sabbūratun baiḍā-u' (papan tulis putih) menggunakan pola muannats yang tepat."
+        },
+        {
+            "id": "m11-q02",
+            "difficulty": "medium",
+            "type": "morpheme-swap",
+            "question": "Warna merah untuk benda laki-laki adalah 'أَحْمَرُ'. Jika dipasangkan dengan mobil ('سَيَّارَةٌ' — perempuan), warnanya berubah menjadi...",
+            "options": [
+                "حَمْرَاءُ",
+                "أَحْمَرَةٌ",
+                "خَضْرَاءُ",
+                "صَفْرَاءُ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Buang huruf 'أَ' di depan kata 'أَحْمَرُ', lalu tambahkan 'ـَاءُ' di ujungnya!",
+            "feedbackCorrect": "Ahsanta! 'Sayyāratun ḥamrā-u' (mobil merah)."
+        },
+        {
+            "id": "m11-q03",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Nadia menulis deskripsi gambar di bukunya: 'هٰذِهِ شَجَرَةٌ أَخْضَرُ'. Mengapa kalimat Nadia salah?",
+            "options": [
+                "Kata 'شَجَرَةٌ' berakhiran ة (muannats), sehingga warna hijaunya harus 'خَضْرَاءُ'",
+                "Kata 'هٰذِهِ' seharusnya diganti 'هٰذَا'",
+                "Pohon tidak boleh berwarna hijau",
+                "Tidak ada kesalahan"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Lihat ujung kata 'شَجَرَةٌ' (pohon)! Ada huruf ة di sana, sehingga warnanya wajib memakai pola akhiran 'ـَاءُ'.",
+            "feedbackCorrect": "Jeli sekali! Seharusnya 'hādzihi syajaratun khaḍrā-u'."
+        },
+        {
+            "id": "m11-q04",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari pasangan warna 'أَسْوَدُ' dan 'سَوْدَاءُ'?",
+            "options": [
+                "Putih",
+                "Hitam",
+                "Biru",
+                "Kuning"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris terakhir pada tabel palet warna!",
+            "feedbackCorrect": "Tepat! 'Aswadu' / 'Saudā-u' berarti hitam."
+        },
+        {
+            "id": "m11-q05",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Pilih kombinasi benda + warna yang BENAR di bawah ini:",
+            "options": [
+                "مَوْزٌ صَفْرَاءُ (Pisang kuning)",
+                "مِظَلَّةٌ أَزْرَقُ (Payung biru)",
+                "قَمِيصٌ أَخْضَرُ (Kemeja hijau)",
+                "حَقِيبَةٌ أَسْوَدُ (Tas hitam)"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Cek satu per satu jenis bendanya (ada ة atau tidak) dan cocokkan dengan pola warna (awalan أَـ vs akhiran ـَاءُ)!",
+            "feedbackCorrect": "Cerdas! 'Qamīṣun' (kemeja) adalah mudzakkar, dan 'akhḍaru' (hijau) juga mudzakkar."
+        },
+        {
+            "id": "m11-q06",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Bagaimana cara bertanya 'Apa warna tasmu?' kepada teman perempuan?",
+            "options": [
+                "مَا لَوْنُ حَقِيبَتُكِ؟",
+                "أَيْنَ حَقِيبَتُكِ؟",
+                "مَنْ حَقِيبَتُكِ؟",
+                "كَمْ حَقِيبَتُكِ؟"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Gunakan kata tanya 'مَا' (Apa) diikuti kata 'لَوْنُ' (warna). Cek baris pertama cerita Bilal!",
+            "feedbackCorrect": "Benar! 'Mā launu ḥaqībatuki?'."
+        },
+        {
+            "id": "m11-q07",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca teks singkat ini:\n'فِي غُرْفَتِي مَكْتَبٌ أَبْيَضُ، وَكُرْسِيٌّ أَسْوَدُ، وَخَرِيطَةٌ زَرْقَاءُ.'\nBenda manakah yang berwarna biru di dalam kamar tersebut?",
+            "options": [
+                "Meja",
+                "Kursi",
+                "Peta",
+                "Buku"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Cari kata warna biru ('زَرْقَاءُ') di kalimat tersebut dan lihat kata benda tepat di depannya!",
+            "feedbackCorrect": "Mumtaz! 'Kharīṭatun zarqā-u' (sebuah peta berwarna biru)."
+        },
+        {
+            "id": "m11-q08",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Jika kamu melihat kata warna baru 'أَسْمَرُ' (cokelat sawo matang untuk benda cowok), maka bentuk untuk benda ceweknya adalah...",
+            "options": [
+                "سَمْرَاءُ",
+                "أَسْمَرَةٌ",
+                "سَمَرٌ",
+                "مَسْمُورٌ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Terapkan rumus bunglon warna! Buang 'أَ' di depan, lalu tambahkan 'ـَاءُ' di ujungnya.",
+            "feedbackCorrect": "Luar biasa! Kamu berhasil menerapkan pola morfologi warna pada kosakata baru ('samrā-u')."
+        },
+        {
+            "id": "m11-q09",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kata 'مِظَلَّةٌ' (mi-ẓal-la-tun) dalam daftar kosakata baru memiliki arti...",
+            "options": [
+                "Sepatu",
+                "Kemeja",
+                "Payung",
+                "Pohon"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Cek baris keempat pada daftar kosakata baru!",
+            "feedbackCorrect": "Ahsanta! 'Miẓallatun' berarti payung."
+        },
+        {
+            "id": "m11-q10",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Seseorang menulis: 'هٰذَا حِذَاءٌ سَوْدَاءُ'. Mengapa kalimat ini kurang tepat?",
+            "options": [
+                "Kata 'حِذَاءٌ' (sepatu) adalah mudzakkar (diawali هٰذَا), sehingga warna hitamnya harus 'أَسْوَدُ'",
+                "Sepatu tidak boleh berwarna hitam",
+                "Kata 'هٰذَا' seharusnya diganti 'هٰذِهِ'",
+                "Tidak ada kesalahan"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Perhatikan kata tunjuk 'هٰذَا' di awal kalimat! Itu membuktikan 'حِذَاءٌ' adalah benda mudzakkar meskipun diakhiri hamzah.",
+            "feedbackCorrect": "Jeli sekali! 'Ḥidzā-un' adalah mudzakkar, sehingga pasangannya adalah 'أَسْوَدُ'."
+        },
+        {
+            "id": "m11-q11",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Warna daun pada umumnya adalah 'خَضْرَاءُ' (untuk benda pr) atau 'أَخْضَرُ' (untuk benda lk), yang artinya...",
+            "options": [
+                "Merah",
+                "Kuning",
+                "Hijau",
+                "Putih"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Cek baris ketiga pada tabel palet warna!",
+            "feedbackCorrect": "Tepat! 'Akhḍaru / Khaḍrā-u' berarti hijau."
+        },
+        {
+            "id": "m11-q12",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Lengkapi kalimat berikut:\n'لَوْنُ الْمَوْزِ _____، وَلَوْنُ التُّفَّاحَةِ _____.'\n(Warna pisang kuning, dan warna apel [التُّفَّاحَةُ] merah)",
+            "options": [
+                "أَصْفَرُ — حَمْرَاءُ",
+                "صَفْرَاءُ — أَحْمَرُ",
+                "أَصْفَرُ — أَحْمَرُ",
+                "صَفْرَاءُ — حَمْرَاءُ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Hati-hati jebakan super! Yang dijelaskan oleh kata warna di kalimat ini adalah kata 'لَوْنُ' (warna — mudzakkar), bukan pisang atau apelnya!",
+            "feedbackCorrect": "BRILIAN! Karena subjek kalimatnya adalah 'لَوْنُ' (warna = mudzakkar), kedua predikat warnanya memakai bentuk mudzakkar ('aṣfaru' dan 'aḥmaru')!"
+        },
+        {
+            "id": "m11-q13",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Bagaimana cara baca yang tepat untuk 'زَرْقَاءُ' (biru untuk benda pr)?",
+            "options": [
+                "zar-qā-u",
+                "az-ra-qu",
+                "zar-qa-tun",
+                "zur-qā-ni"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Bunyi Zai sukun Ra (zar-), diikuti Qaf panjang (-qā-), dan Hamzah berharakat dhammah (-u)!",
+            "feedbackCorrect": "Akurat! 'Zar-qā-u'."
+        },
+        {
+            "id": "m11-q14",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Dalam cerita pembuka, Tariq berkata: 'قَمِيصِي أَبْيَضُ، وَحِذَائِي أَسْوَدُ.'\nApa saja yang dikenakan Tariq menurut kalimat tersebut?",
+            "options": [
+                "Kemeja hitam dan sepatu putih",
+                "Kemeja putih dan sepatu hitam",
+                "Tas merah dan payung biru",
+                "Kemeja hijau dan sepatu biru"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Pasangkan 'قَمِيصِي' (kemejaku) dengan 'أَبْيَضُ', dan 'حِذَائِي' (sepatuku) dengan 'أَسْوَدُ'!",
+            "feedbackCorrect": "Benar! Kemeja putih dan sepatu hitam."
+        },
+        {
+            "id": "m11-q15",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Manakah kata warna yang memiliki huruf 'ض' (Dhad) di dalamnya?",
+            "options": [
+                "أَحْمَرُ dan أَصْفَرُ",
+                "أَخْضَرُ dan أَبْيَضُ",
+                "أَزْرَقُ dan أَسْوَدُ",
+                "حَمْرَاءُ dan زَرْقَاءُ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Perhatikan ejaan Arab untuk 'hijau' dan 'putih' di tabel palet warna!",
+            "feedbackCorrect": "Jeli! 'Akhḍaru' (hijau) dan 'Abyaḍu' (putih) sama-sama memakai huruf ض."
+        },
+        {
+            "id": "m11-q16",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Ubah frasa 'كِتَابٌ أَزْرَقُ' (buku biru) menjadi 'penggaris biru' ('مِسْطَرَةٌ'):",
+            "options": [
+                "مِسْطَرَةٌ أَزْرَقُ",
+                "مِسْطَرَةٌ زَرْقَاءُ",
+                "مِسْطَرَةٌ أَزْرَقَةٌ",
+                "مِسْطَرَةٌ خَضْرَاءُ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Karena 'مِسْطَرَةٌ' adalah benda perempuan (berakhiran ة), ubah 'أَزْرَقُ' menjadi bentuk perempuannya!",
+            "feedbackCorrect": "Ahsanta! 'Misṭaratun zarqā-u'."
+        },
+        {
+            "id": "m11-q17",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari 'مِفْتَاحٌ أَصْفَرُ'?",
+            "options": [
+                "Kunci kuning",
+                "Kunci hijau",
+                "Kunci merah",
+                "Kunci hitam"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "'Miftāḥun' = kunci (Modul 5), dan 'aṣfaru' = kuning!",
+            "feedbackCorrect": "Tepat! 'Kunci kuning'."
+        },
+        {
+            "id": "m11-q18",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Jika kamu ingin menunjuk dari jauh sebuah payung merah ('مِظَلَّةٌ'), kalimat yang paling sempurna adalah...",
+            "options": [
+                "ذٰلِكَ مِظَلَّةٌ أَحْمَرُ",
+                "تِلْكَ مِظَلَّةٌ حَمْرَاءُ",
+                "تِلْكَ مِظَلَّةٌ أَحْمَرُ",
+                "هٰذَا مِظَلَّةٌ حَمْرَاءُ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Gabungkan 3 aturan: kata tunjuk jauh perempuan ('تِلْكَ'), kata benda ('مِظَلَّةٌ'), dan warna merah perempuan ('حَمْرَاءُ')!",
+            "feedbackCorrect": "Sempurna! 'Tilka miẓallatun ḥamrā-u'."
+        },
+        {
+            "id": "m11-q19",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Bentuk maskulin (untuk benda cowok) dari warna 'بَيْضَاءُ' adalah...",
+            "options": [
+                "أَبْيَضُ",
+                "أَسْوَدُ",
+                "أَحْمَرُ",
+                "أَخْضَرُ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Kembalikan huruf 'أَ' ke posisi paling depan sebelum huruf Ba!",
+            "feedbackCorrect": "Benar! 'Abyaḍu' (أَبْيَضُ)."
+        },
+        {
+            "id": "m11-q20",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Dari empat pasangan benda + warna berikut, manakah yang SALAH?",
+            "options": [
+                "بَابٌ أَخْضَرُ",
+                "نَافِذَةٌ بَيْضَاءُ",
+                "دُولَابٌ صَفْرَاءُ",
+                "سَاعَةٌ سَوْدَاءُ"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Periksa ujung setiap kata benda! 'دُولَابٌ' (lemari) tidak memiliki huruf ة, sehingga tidak boleh memakai warna berakhiran 'ـَاءُ'.",
+            "feedbackCorrect": "Mumtaz! Seharusnya 'دُولَابٌ أَصْفَرُ' (lemari kuning)."
+        }
+    ]
+}

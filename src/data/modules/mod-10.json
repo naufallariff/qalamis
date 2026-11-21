@@ -1,0 +1,523 @@
+{
+    "id": 10,
+    "zoneId": "zone-2",
+    "slug": "kepemilikan-kelompok",
+    "title": "Kelas Kami & Tim Mereka",
+    "canDo": "Aku bisa menyatakan kepemilikan bersama kelompok (-nā, -kum, -kunna, -hum, -hunna) untuk menyebut kelas kami, sekolah kalian, atau tim mereka.",
+    "storyHook": {
+        "title": "Kunjungan Persahabatan Antar Sekolah",
+        "setting": "Tamu dari SD Al-Hikmah berkunjung ke SD Nusantara",
+        "lines": [
+            {
+                "speaker": "Naufal",
+                "avatarRole": "boy",
+                "arabic": "أَهْلًا وَسَهْلًا فِي مَدْرَسَتِنَا! هٰذَا فَصْلُنَا الْجَدِيدُ.",
+                "transliteration": "Ah-lan wa sah-lan fī mad-ra-sa-ti-nā! Hā-dzā faṣ-lu-nal-ja-dīd.",
+                "translation": "Selamat datang di sekolah kami! Ini kelas baru kami."
+            },
+            {
+                "speaker": "Faris",
+                "avatarRole": "boy",
+                "arabic": "مَدْرَسَتُكُمْ جَمِيلَةٌ وَنَظِيفَةٌ! أَيْنَ مَكْتَبَتُكُمْ؟",
+                "transliteration": "Mad-ra-sa-tu-kum ja-mī-la-tun wa na-ẓī-fah! Ai-na mak-ta-ba-tu-kum?",
+                "translation": "Sekolah kalian (lk) indah dan bersih! Di mana perpustakaan kalian?"
+            },
+            {
+                "speaker": "Salma",
+                "avatarRole": "girl",
+                "arabic": "مَكْتَبَتُنَا أَمَامَ السَّاحَةِ. وَهٰؤُلَاءِ الضُّيُوفُ، أَيْنَ حَافِلَتُهُمْ؟",
+                "transliteration": "Mak-ta-ba-tu-nā a-mā-mas-sā-ḥah. Wa hā-u-lā-iḍ-ḍu-yūf, ai-na ḥā-fi-la-tu-hum?",
+                "translation": "Perpustakaan kami di depan halaman. Dan para tamu itu, di mana bus mereka?"
+            },
+            {
+                "speaker": "Faris",
+                "avatarRole": "boy",
+                "arabic": "حَافِلَتُهُمْ أَمَامَ بَابِ الْمَدْرَسَةِ.",
+                "transliteration": "Ḥā-fi-la-tu-hum a-mā-ma bā-bil-mad-ra-sah.",
+                "translation": "Bus mereka ada di depan gerbang sekolah."
+            }
+        ]
+    },
+    "explanation": "Setelah menguasai ekor kepemilikan untuk 1 orang, sekarang kita lengkapi ekor kepemilikan untuk KELOMPOK (Jamak)! Polanya sangat mudah diingat karena mirip sekali dengan Dhamir Jamak di Modul 7: 'Naḥnu' menjadi ekor 'ـنَا' (-nā = milik kami), 'Antum' menjadi 'ـكُمْ' (-kum = milik kalian lk), 'Antunna' menjadi 'ـكُنَّ' (-kunna = milik kalian pr), 'Hum' menjadi 'ـهُمْ' (-hum = milik mereka lk), dan 'Hunna' menjadi 'ـهُنَّ' (-hunna = milik mereka pr).",
+    "patternTable": {
+        "title": "5 Ekor Kepemilikan Kelompok (Dhamir Muttashil Jamak)",
+        "filters": [
+            "Semua",
+            "Milik Kami",
+            "Milik Kalian",
+            "Milik Mereka"
+        ],
+        "headers": [
+            "Pemilik Kelompok",
+            "Huruf Ekor",
+            "Contoh pada فَصْلٌ",
+            "Cara Baca & Arti"
+        ],
+        "rows": [
+            {
+                "id": "m10-r1",
+                "category": "Milik Kami",
+                "cells": [
+                    "نَحْنُ (Kami/Kita)",
+                    "+ ـنَا (-nā)",
+                    "فَصْلُنَا (faṣ-lu-nā)",
+                    "Kelas kami / kelas kita (putra & putri sama)"
+                ],
+                "arabicResult": "فَصْلٌ + ـنَا = فَصْلُنَا",
+                "transliteration": "faṣ-lu-nā",
+                "meaning": "Kelas kami / kelas kita",
+                "breakdown": "Ekor ـنَا (-nā) berlaku untuk kelompok putra maupun putri."
+            },
+            {
+                "id": "m10-r2",
+                "category": "Milik Kalian",
+                "cells": [
+                    "أَنْتُمْ (Kalian lk)",
+                    "+ ـكُمْ (-kum)",
+                    "فَصْلُكُمْ (faṣ-lu-kum)",
+                    "Kelas kalian (kelompok putra/campuran)"
+                ],
+                "arabicResult": "فَصْلٌ + ـكُمْ = فَصْلُكُمْ",
+                "transliteration": "faṣ-lu-kum",
+                "meaning": "Kelas kalian (lk)",
+                "breakdown": "Mirip أَنْتُمْ: huruf ت diganti ك menjadi ـكُمْ (-kum)."
+            },
+            {
+                "id": "m10-r3",
+                "category": "Milik Kalian",
+                "cells": [
+                    "أَنْتُنَّ (Kalian pr)",
+                    "+ ـكُنَّ (-kunna)",
+                    "فَصْلُكُنَّ (faṣ-lu-kun-na)",
+                    "Kelas kalian (khusus kelompok putri)"
+                ],
+                "arabicResult": "فَصْلٌ + ـكُنَّ = فَصْلُكُنَّ",
+                "transliteration": "faṣ-lu-kun-na",
+                "meaning": "Kelas kalian (pr)",
+                "breakdown": "Mirip أَنْتُنَّ: huruf ت diganti ك menjadi ـكُنَّ (-kunna)."
+            },
+            {
+                "id": "m10-r4",
+                "category": "Milik Mereka",
+                "cells": [
+                    "هُمْ (Mereka lk)",
+                    "+ ـهُمْ (-hum)",
+                    "فَصْلُهُمْ (faṣ-lu-hum)",
+                    "Kelas mereka (kelompok putra/campuran)"
+                ],
+                "arabicResult": "فَصْلٌ + ـهُمْ = فَصْلُهُمْ",
+                "transliteration": "faṣ-lu-hum",
+                "meaning": "Kelas mereka (lk)",
+                "breakdown": "Kata هُمْ langsung ditempelkan di ujung kata benda menjadi ـهُمْ!"
+            },
+            {
+                "id": "m10-r5",
+                "category": "Milik Mereka",
+                "cells": [
+                    "هُنَّ (Mereka pr)",
+                    "+ ـهُنَّ (-hunna)",
+                    "فَصْلُهُنَّ (faṣ-lu-hun-na)",
+                    "Kelas mereka (khusus kelompok putri)"
+                ],
+                "arabicResult": "فَصْلٌ + ـهُنَّ = فَصْلُهُنَّ",
+                "transliteration": "faṣ-lu-hun-na",
+                "meaning": "Kelas mereka (pr)",
+                "breakdown": "Kata هُنَّ langsung ditempelkan di ujung kata benda menjadi ـهُنَّ!"
+            }
+        ]
+    },
+    "highlightedExamples": [
+        {
+            "segments": [
+                {
+                    "text": "مَلْعَبُ",
+                    "role": "base"
+                },
+                {
+                    "text": "نَا",
+                    "role": "suffix",
+                    "label": "Milik Kami"
+                },
+                {
+                    "text": " كَبِيرٌ، وَمَلْعَبُ",
+                    "role": "base"
+                },
+                {
+                    "text": "هُمْ",
+                    "role": "suffix",
+                    "label": "Milik Mereka (lk)"
+                },
+                {
+                    "text": " وَاسِعٌ.",
+                    "role": "focus",
+                    "label": "Sifat"
+                }
+            ],
+            "transliteration": "Mal-'a-bu-nā ka-bī-run, wa mal-'a-bu-hum wā-si-'un.",
+            "translation": "Lapangan kami besar, dan lapangan mereka luas."
+        },
+        {
+            "segments": [
+                {
+                    "text": "أَيْنَ ",
+                    "role": "focus",
+                    "label": "Di mana"
+                },
+                {
+                    "text": "حَقَائِبُ",
+                    "role": "base"
+                },
+                {
+                    "text": "كُنَّ",
+                    "role": "suffix",
+                    "label": "Milik Kalian (pr)"
+                },
+                {
+                    "text": " يَا بَنَاتُ؟",
+                    "role": "base"
+                }
+            ],
+            "transliteration": "Ai-na ḥa-qā-i-bu-kun-na yā ba-nāt?",
+            "translation": "Di mana tas-tas kalian wahai anak-anak perempuan?"
+        }
+    ],
+    "quickTrick": "Sulap 'T' jadi 'K': Lihat Dhamir 'أَنْتُمْ' (An-TUM) dan 'أَنْتُنَّ' (An-TUNNA). Cukup buang 'An-' dan ubah huruf T menjadi K, jadilah ekor kepemilikan '-KUM' (ـكُمْ) dan '-KUNNA' (ـكُنَّ)!",
+    "vocabulary": [
+        {
+            "arabic": "مَكْتَبَةٌ",
+            "transliteration": "mak-ta-ba-tun",
+            "meaning": "Perpustakaan",
+            "gender": "muannats"
+        },
+        {
+            "arabic": "سَاحَةٌ",
+            "transliteration": "sā-ḥa-tun",
+            "meaning": "Halaman sekolah",
+            "gender": "muannats"
+        },
+        {
+            "arabic": "حَافِلَةٌ",
+            "transliteration": "ḥā-fi-la-tun",
+            "meaning": "Bus",
+            "gender": "muannats"
+        },
+        {
+            "arabic": "مَلْعَبٌ",
+            "transliteration": "mal-'a-bun",
+            "meaning": "Lapangan bermain",
+            "gender": "mudzakkar"
+        },
+        {
+            "arabic": "نَظِيفٌ / نَظِيفَةٌ",
+            "transliteration": "na-ẓī-fun / na-ẓī-fa-tun",
+            "meaning": "Bersih (lk / pr)"
+        },
+        {
+            "arabic": "جَمِيلٌ / جَمِيلَةٌ",
+            "transliteration": "ja-mī-lun / ja-mī-la-tun",
+            "meaning": "Indah / bagus (lk / pr)"
+        }
+    ],
+    "quizBank": [
+        {
+            "id": "m10-q01",
+            "difficulty": "medium",
+            "type": "morpheme-swap",
+            "question": "Kamu dan teman-teman sekelasmu ingin berkata 'perpustakaan kami'. Dari kata dasar 'مَكْتَبَةٌ', bentuk yang tepat adalah...",
+            "options": [
+                "مَكْتَبَتُكُمْ",
+                "مَكْتَبَتُنَا",
+                "مَكْتَبَتُهُمْ",
+                "مَكْتَبَةُنَا"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ingat dua hal: ekor untuk 'kami' adalah 'ـنَا', dan huruf ة pada 'مَكْتَبَةٌ' wajib terbuka menjadi ت biasa!",
+            "feedbackCorrect": "Mumtaz! 'Maktabatunā' (مَكْتَبَتُنَا) berarti perpustakaan kami."
+        },
+        {
+            "id": "m10-q02",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Ibu guru bertanya kepada sekelompok siswi putri: 'أَيْنَ كُتُبُ_____ يَا طَالِبَاتُ؟'. Akhiran yang tepat untuk melengkapinya adalah...",
+            "options": [
+                "كُمْ (-kum)",
+                "كُنَّ (-kunna)",
+                "هُنَّ (-hunna)",
+                "نَا (-nā)"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ibu guru berbicara LANGSUNG ('yā ṭālibātu') kepada kelompok khusus perempuan. Cek baris ke-3 tabel!",
+            "feedbackCorrect": "Ahsanta! 'Kutubukunna' (كُتُبُكُنَّ) berarti buku-buku kalian (perempuan)."
+        },
+        {
+            "id": "m10-q03",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Perhatikan kalimat berikut: 'هُنَّ طَالِبَاتٌ، وَهٰذَا فَصْلُهُمْ'. Kesalahan pada kalimat tersebut terletak pada...",
+            "options": [
+                "Ekor 'ـهُمْ' (milik mereka lk) tidak cocok dengan 'هُنَّ' (mereka pr); seharusnya 'فَصْلُهُنَّ'",
+                "Kata 'هٰذَا' seharusnya diganti 'هٰذِهِ'",
+                "Kata 'طَالِبَاتٌ' seharusnya 'طُلَّابٌ'",
+                "Tidak ada kesalahan"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Lihat subjek di awal kalimat: 'هُنَّ' (mereka perempuan). Maka ekor kepemilikan di akhir kata 'فَصْلُ' juga harus memakai Nun bertasydid!",
+            "feedbackCorrect": "Jeli sekali! Karena pemiliknya 'هُنَّ' (mereka pr), kelas mereka ditulis 'فَصْلُهُنَّ'."
+        },
+        {
+            "id": "m10-q04",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari kata 'حَافِلَتُهُمْ' yang muncul pada dialog Salma dan Faris?",
+            "options": [
+                "Bus kami",
+                "Bus kalian",
+                "Bus mereka (lk/campuran)",
+                "Busnya (1 orang)"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Kata dasarnya 'حَافِلَةٌ' (bus) ditambah ekor 'ـهُمْ' (-hum). Cek baris ke-4 tabel!",
+            "feedbackCorrect": "Tepat! 'Ḥāfilatuhum' berarti bus mereka."
+        },
+        {
+            "id": "m10-q05",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Dalam cerita pembuka, Naufal berkata: 'أَهْلًا وَسَهْلًا فِي مَدْرَسَتِنَا!'. Mengapa kata 'مَدْرَسَتِنَا' berharakat kasrah di bawah huruf Ta (-ti-nā) dan bukan dhammah (-tu-nā)?",
+            "options": [
+                "Karena didahului oleh kata depan posisi 'فِي' (di dalam)",
+                "Karena kata 'مَدْرَسَةٌ' berbentuk jamak",
+                "Karena ekor 'ـنَا' selalu mengubah harakat menjadi kasrah",
+                "Karena kalimatnya diucapkan anak laki-laki"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Ingat 'Aturan Magnet Posisi' dari Modul 5! Kata 'فِي' menarik harakat akhir kata benda setelahnya menjadi kasrah (-i).",
+            "feedbackCorrect": "Luar biasa! Kamu berhasil menghubungkan aturan Modul 5 dengan Modul 10!"
+        },
+        {
+            "id": "m10-q06",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Jika kamu melihat 2 orang teman berjalan bersama, ekor kepemilikan untuk 'milik mereka berdua' atau 'milik kalian berdua' adalah...",
+            "options": [
+                "ـهُمَا dan ـكُمَا",
+                "ـهُمْ dan ـكُمْ",
+                "ـهُنَّ dan ـكُنَّ",
+                "ـنَا dan ـِي"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Tinggal tempelkan dhamir ganda 'هُمَا' (humā) dan 'كُمَا' (kumā) di ujung kata benda!",
+            "feedbackCorrect": "Cerdas! 'Kitābuhumā' (buku mereka berdua) dan 'Kitābukumā' (buku kalian berdua)."
+        },
+        {
+            "id": "m10-q07",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Ubah kalimat 'بَيْتِي كَبِيرٌ' (Rumahku besar) menjadi 'Rumah kalian (putra) besar':",
+            "options": [
+                "بَيْتُنَا كَبِيرٌ",
+                "بَيْتُكُمْ كَبِيرٌ",
+                "بَيْتُكُنَّ كَبِيرٌ",
+                "بَيْتُهُمْ كَبِيرٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Ganti ekor 'ـِي' (milikku) dengan ekor 'ـكُمْ' (milik kalian putra)!",
+            "feedbackCorrect": "Benar! 'Baitukum kabīrun'."
+        },
+        {
+            "id": "m10-q08",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Kata 'مَلْعَبٌ' (mal-'a-bun) dalam daftar kosakata baru memiliki arti...",
+            "options": [
+                "Perpustakaan",
+                "Lapangan bermain / olahraga",
+                "Halaman rumah",
+                "Bus sekolah"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris keempat pada daftar kosakata baru!",
+            "feedbackCorrect": "Ahsanta! 'Mal'abun' berarti lapangan bermain."
+        },
+        {
+            "id": "m10-q09",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Lengkapi percakapan berikut:\nTamu: 'أَيْنَ سَاحَتُكُمْ؟'\nTuan Rumah: '_____ أَمَامَ الْفَصْلِ.'",
+            "options": [
+                "سَاحَتُكُمْ",
+                "سَاحَتُنَا",
+                "سَاحَتُهُمْ",
+                "سَاحَتِي"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Tamu bertanya 'Di mana halaman KALIAN (-kum)?', maka tuan rumah menjawab 'Halaman KAMI (-nā) di depan kelas!'",
+            "feedbackCorrect": "Logika dialog yang sangat natural! '-kum' (kalian) dijawab dengan '-nā' (kami)."
+        },
+        {
+            "id": "m10-q10",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Temukan satu frasa yang SALAH di bawah ini:",
+            "options": [
+                "فَرِيقُنَا الْقَوِيُّ (Tim kami yang kuat)",
+                "مَدْرَسَتُهُنَّ النَّظِيفَةُ (Sekolah mereka pr yang bersih)",
+                "بَيْتُكُمْ الْجَمِيلَةُ (Rumah kalian yang indah)",
+                "مَكْتَبَتُهُمْ الْكَبِيرَةُ (Perpustakaan mereka yang besar)"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Perhatikan kata dasar bendanya! Kata 'بَيْتٌ' (rumah) adalah benda mudzakkar (tanpa ة), sehingga kata sifatnya tidak boleh memakai ة.",
+            "feedbackCorrect": "Tepat sekali! Seharusnya 'بَيْتُكُمُ الْجَمِيلُ' (tanpa ة pada kata sifat)."
+        },
+        {
+            "id": "m10-q11",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Manakah kata yang berarti 'bersih' untuk menjelaskan benda perempuan (seperti 'حَقِيبَةٌ' atau 'سَاحَةٌ')?",
+            "options": [
+                "نَظِيفٌ",
+                "نَظِيفَةٌ",
+                "جَمِيلٌ",
+                "كَبِيرٌ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cek baris kelima pada daftar kosakata baru untuk bentuk muannats dari kata 'bersih'!",
+            "feedbackCorrect": "Benar! 'Naẓīfatun' (نَظِيفَةٌ)."
+        },
+        {
+            "id": "m10-q12",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Baca pernyataan ini: 'نَحْنُ طُلَّابُ الصَّفِّ السَّادِسِ. أُسْتَاذُنَا اِسْمُهُ عَبْدُ اللّٰهِ، وَمُدِيرَتُنَا اِسْمُهَا خَدِيجَةُ.'\nSiapakah nama kepala sekolah mereka?",
+            "options": [
+                "Abdullah",
+                "Khadijah",
+                "Naufal",
+                "Faris"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Cari kata 'مُدِيرَتُنَا' (kepala sekolah kami) di dalam teks dan lihat nama yang disebutkan tepat setelahnya!",
+            "feedbackCorrect": "Mumtaz! 'Mudīratunā ismuhā Khadījah' (Kepala sekolah kami namanya Khadijah)."
+        },
+        {
+            "id": "m10-q13",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Ekor kepemilikan 'ـهُنَّ' (-hunna) merujuk pada pemilik yang berjumlah...",
+            "options": [
+                "1 orang perempuan",
+                "2 orang perempuan",
+                "3 orang atau lebih perempuan",
+                "3 orang atau lebih laki-laki"
+            ],
+            "correctIndex": 2,
+            "feedbackWrong": "Ingat Nun bertasydid (ـنَّ) selalu menjadi tanda kelompok/jamak khusus perempuan!",
+            "feedbackCorrect": "Ahsanta! 'ـهُنَّ' merujuk pada mereka perempuan (3 orang atau lebih)."
+        },
+        {
+            "id": "m10-q14",
+            "difficulty": "hard",
+            "type": "morpheme-swap",
+            "question": "Jika 'قَلَمُهُ' artinya 'pulpennya (1 laki-laki)', maka 'pulpen mereka (banyak laki-laki)' adalah...",
+            "options": [
+                "قَلَمُهُمْ",
+                "قَلَمُهُمَا",
+                "قَلَمُهُنَّ",
+                "قَلَمُكُمْ"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Cukup tambahkan huruf Mim sukun (ـمْ) setelah 'قَلَمُهُ'!",
+            "feedbackCorrect": "Tepat! 'Qalamuhum' (قَلَمُهُمْ)."
+        },
+        {
+            "id": "m10-q15",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Kamu melihat 4 orang siswi sedang membaca di taman. Kamu menunjuk buku-buku milik mereka dan berkata:",
+            "options": [
+                "تِلْكَ كُتُبُهُمْ",
+                "تِلْكَ كُتُبُهُنَّ",
+                "تِلْكَ كُتُبُكُنَّ",
+                "تِلْكَ كُتُبُهَا"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Mereka 4 orang siswi (jamak perempuan) dan tidak sedang diajak bicara langsung (orang ketiga).",
+            "feedbackCorrect": "Sempurna! 'Tilka kutubuhunna' (Itu buku-buku mereka pr)."
+        },
+        {
+            "id": "m10-q16",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Bagaimana cara baca yang tepat untuk 'سَاحَتُنَا'?",
+            "options": [
+                "sā-ḥa-tu-nā",
+                "sa-ḥa-tu-na",
+                "sā-ḥa-ti-kum",
+                "sā-ḥa-tu-hum"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Perhatikan vokal panjang di suku kata pertama (sā-) dan suku kata terakhir (-nā)!",
+            "feedbackCorrect": "Akurat! 'Sā-ḥa-tu-nā'."
+        },
+        {
+            "id": "m10-q17",
+            "difficulty": "hard",
+            "type": "reading-comprehension",
+            "question": "Dalam dialog pembuka, Salma bertanya: 'أَيْنَ حَافِلَتُهُمْ؟'. Kata 'حَافِلَتُهُمْ' merujuk pada bus milik siapa?",
+            "options": [
+                "Milik Salma dan Naufal",
+                "Milik para tamu dari SD Al-Hikmah ('الضُّيُوفُ')",
+                "Milik ibu guru",
+                "Milik Faris seorang diri"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Lihat kata sebelum pertanyaan Salma: 'وَهٰؤُلَاءِ الضُّيُوفُ' (Dan para tamu itu)!",
+            "feedbackCorrect": "Mumtaz! Ekor 'ـهُمْ' merujuk kembali pada para tamu yang baru saja disebutkan."
+        },
+        {
+            "id": "m10-q18",
+            "difficulty": "medium",
+            "type": "context-choice",
+            "question": "Apa arti dari ungkapan 'فَصْلُنَا جَمِيلٌ'?",
+            "options": [
+                "Kelas kami besar",
+                "Kelas kami indah / bagus",
+                "Kelas kalian bersih",
+                "Kelas mereka baru"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "'Faṣlunā' = kelas kami, dan 'jamīlun' = indah/bagus!",
+            "feedbackCorrect": "Benar! 'Kelas kami indah'."
+        },
+        {
+            "id": "m10-q19",
+            "difficulty": "hard",
+            "type": "error-spotting",
+            "question": "Rani ingin berkata 'Kami mencintai sekolah kami'. Mana kalimat yang benar?",
+            "options": [
+                "نَحْنُ نُحِبُّ مَدْرَسَتُنَا",
+                "نَحْنُ نُحِبُّ مَدْرَسَتَنَا",
+                "نَحْنُ نُحِبُّ مَدْرَسَتُكُمْ",
+                "نَحْنُ نُحِبُّ مَدْرَسَتُهُمْ"
+            ],
+            "correctIndex": 1,
+            "feedbackWrong": "Pastikan memakai ekor kepemilikan untuk 'kami' (ـنَا)!",
+            "feedbackCorrect": "Selamat! Kamu telah menuntaskan seluruh Zona 2 dengan nilai gemilang!"
+        },
+        {
+            "id": "m10-q20",
+            "difficulty": "hard",
+            "type": "agreement-trap",
+            "question": "Susunlah 3 kata ini menjadi kalimat yang benar:\n(1) نَظِيفَةٌ  (2) مَكْتَبَتُكُمْ  (3) وَجَمِيلَةٌ",
+            "options": [
+                "2 - 1 - 3",
+                "1 - 2 - 3",
+                "3 - 1 - 2",
+                "2 - 3 - 1"
+            ],
+            "correctIndex": 0,
+            "feedbackWrong": "Letakkan kata bendanya ('Perpustakaan kalian') di paling depan, lalu diikuti kedua kata sifatnya!",
+            "feedbackCorrect": "Tepat sekali! 'Maktabatukum naẓīfatun wa jamīlatun' (Perpustakaan kalian bersih dan indah)."
+        }
+    ]
+}   
