@@ -57,12 +57,12 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({
         <div className="min-h-dvh flex flex-col justify-center px-4 py-8 sm:px-6">
             <div className="w-full max-w-md mx-auto animate-panel-enter">
                 <div className="text-center mb-6">
-                    <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/90 border border-indigo-200 text-indigo-700 text-xs font-extrabold shadow-2xs mb-3">
+                    <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs font-extrabold shadow-2xs mb-3">
                         <Sparkles className="w-3.5 h-3.5 shrink-0" />
                         <span>Petualangan Bahasa Arab Interaktif</span>
                     </div>
 
-                    <ArabicText size="lg" as="h1" className="text-indigo-900 block mb-1">
+                    <ArabicText size="lg" as="h1" className="text-emerald-800 block mb-1">
                         أَهْلًا وَسَهْلًا فِي قَلَمِيس!
                     </ArabicText>
                     <p className="text-sm text-slate-700 font-medium">
@@ -87,7 +87,7 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({
                                         onClick={() => setAvatar(item.id)}
                                         className={`tactile-btn p-3.5 rounded-2xl border-2 text-center transition-all flex flex-col items-center gap-1 cursor-pointer ${isSelected
                                                 ? item.accentClass
-                                                : 'border-slate-200 bg-white hover:border-sky-300 text-slate-700'
+                                                : 'border-slate-200 bg-white hover:border-emerald-300 text-slate-700'
                                             }`}
                                     >
                                         <span className="text-3xl leading-none mb-1" aria-hidden="true">
@@ -123,7 +123,7 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({
                             }}
                             aria-invalid={Boolean(error)}
                             aria-describedby={error ? `${inputId}-error` : undefined}
-                            className="w-full min-h-12 px-4 py-3 rounded-2xl border-2 border-slate-200 bg-slate-50/80 focus:bg-white focus:border-indigo-500 focus:outline-none text-base font-extrabold text-slate-900 placeholder:text-slate-400 transition-colors"
+                            className="w-full min-h-12 px-4 py-3 rounded-2xl border-2 border-slate-200 bg-slate-50/80 focus:bg-white focus:border-emerald-600 focus:outline-none text-base font-extrabold text-slate-900 placeholder:text-slate-400 transition-colors"
                         />
                         {error && (
                             <p
@@ -153,7 +153,7 @@ export const OnboardingScreen: React.FC<OnboardingScreenProps> = ({
 
                     <button
                         type="submit"
-                        className="tactile-btn w-full min-h-13 px-5 py-3.5 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold text-base flex items-center justify-center gap-2 shadow-[0_4px_0_#3730a3] cursor-pointer"
+                        className="tactile-btn w-full min-h-13 px-5 py-3.5 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-base flex items-center justify-center gap-2 shadow-[0_4px_0_#047857] cursor-pointer"
                     >
                         <span>Mulai Petualangan</span>
                         <ArrowRight className="w-5 h-5 shrink-0" />
