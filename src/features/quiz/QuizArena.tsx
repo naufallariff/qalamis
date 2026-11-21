@@ -1,13 +1,14 @@
-// src/features/quiz/QuizArena.tsx
 import React, { useState, useCallback, memo } from 'react';
 import {
     CheckCircle2,
     XCircle,
     ArrowRight,
+    ArrowLeft,
     RotateCcw,
     Trophy,
     BookOpen,
     Sparkles,
+    Heart,
 } from 'lucide-react';
 import { useActionGuard } from '../../hooks/useActionGuard';
 import { ProgressBar } from '../../components/ui/ProgressBar';
@@ -38,6 +39,42 @@ interface QuizArenaProps {
 }
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D'] as const;
+const MAX_HEARTS = 3;
+const QUESTIONS_PER_SESSION = 10;
+
+function shuffleArray<T>(items: ReadonlyArray<T>): T[] {
+    const copy = [...items];
+    for (let i = copy.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[j]] = [copy[j]!, copy[i]!];
+    }
+    return copy;
+}
+
+/**
+ * Mengambil maksimal 10 soal acak dari bank 20 soal sekaligus mengacak urutan pilihan A/B/C/D
+ */
+function buildRandomizedSession(
+    quizBank: ReadonlyArray<QuizQuestionItem>,
+    limit = QUESTIONS_PER_SESSION
+): QuizQuestionItem[] {
+    return shuffleArray(quizBank)
+        .slice(0, limit)
+        .map((item) => {
+            const indexedOptions = item.options.map((text, idx) => ({
+                text,
+                isCorrect: idx === item.correctIndex,
+            }));
+            const shuffledOptions = shuffleArray(indexedOptions);
+            const newCorrectIndex = shuffledOptions.findIndex((opt) => opt.isCorrect);
+
+            return {
+                ...item,
+                options: shuffledOptions.map((opt) => opt.text),
+                correctIndex: newCorrectIndex >= 0 ? newCorrectIndex : 0,
+            };
+        });
+}
 
 export const QuizArena: React.FC<QuizArenaProps> = memo(function QuizArena({
     module,
@@ -46,17 +83,21 @@ export const QuizArena: React.FC<QuizArenaProps> = memo(function QuizArena({
     onBackToLesson,
     onNextModule,
 }) {
-    const questions = module.quizBank;
+    const [questions, setQuestions] = useState<QuizQuestionItem[]>(() =>
+        buildRandomizedSession(module.quizBank)
+    );
     const [currentIndex, setCurrentIndex] = useState(0);
     const [selectedOption, setSelectedOption] = useState<number | null>(null);
     const [score, setScore] = useState(0);
+    const [hearts, setHearts] = useState(MAX_HEARTS);
     const [isFinished, setIsFinished] = useState(false);
 
-    const guardAction = useActionGuard(300);
+    const guardAction = useActionGuard(280);
     const currentQuestion = questions[currentIndex];
     const hasAnswered = selectedOption !== null;
     const isCorrect =
         hasAnswered && currentQuestion && selectedOption === currentQuestion.correctIndex;
+    const isOutOfHearts = hearts <= 0;
 
     const handleSelectOption = useCallback(
         (optionIndex: number) => {
@@ -64,6 +105,8 @@ export const QuizArena: React.FC<QuizArenaProps> = memo(function QuizArena({
             setSelectedOption(optionIndex);
             if (optionIndex === currentQuestion.correctIndex) {
                 setScore((prev) => prev + 1);
+            } else {
+                setHearts((prev) => Math.max(0, prev - 1));
             }
         },
         [hasAnswered, currentQuestion]
@@ -71,81 +114,127 @@ export const QuizArena: React.FC<QuizArenaProps> = memo(function QuizArena({
 
     const handleNextQuestion = useCallback(() => {
         if (!hasAnswered) return;
+        if (hearts <= 0) {
+            setIsFinished(true);
+            return;
+        }
         if (currentIndex + 1 < questions.length) {
             setCurrentIndex((prev) => prev + 1);
             setSelectedOption(null);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         } else {
             setIsFinished(true);
             onCompleteQuiz(score, questions.length);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
-    }, [hasAnswered, currentIndex, questions.length, onCompleteQuiz, score]);
+    }, [hasAnswered, hearts, currentIndex, questions.length, onCompleteQuiz, score]);
 
     const handleRetry = useCallback(() => {
+        setQuestions(buildRandomizedSession(module.quizBank));
         setCurrentIndex(0);
         setSelectedOption(null);
         setScore(0);
+        setHearts(MAX_HEARTS);
         setIsFinished(false);
-    }, []);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, [module.quizBank]);
 
     if (isFinished) {
+        const failedByHearts = isOutOfHearts;
         const percentage = Math.round((score / Math.max(1, questions.length)) * 100);
-        const isMastered = percentage >= 80;
+        const isMastered = !failedByHearts && percentage >= 80;
 
         return (
             <div className="tactile-card p-6 sm:p-8 text-center space-y-6 animate-panel-enter">
                 <div
-                    className={`w-20 h-20 rounded-3xl mx-auto flex items-center justify-center border-2 ${isMastered
-                            ? 'bg-reward-soft border-reward-border text-reward'
-                            : 'bg-brand-soft border-brand-border text-brand'
+                    className={`w-20 h-20 rounded-3xl mx-auto flex items-center justify-center border-2 ${failedByHearts
+                            ? 'bg-rose-50 border-rose-200 text-rose-500'
+                            : isMastered
+                                ? 'bg-amber-50 border-amber-300 text-amber-500'
+                                : 'bg-emerald-50 border-emerald-200 text-emerald-600'
                         }`}
                 >
-                    <Trophy className="w-10 h-10" />
+                    {failedByHearts ? (
+                        <Heart className="w-10 h-10" />
+                    ) : (
+                        <Trophy className="w-10 h-10" />
+                    )}
                 </div>
 
                 <div className="space-y-1.5">
-                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-extrabold bg-brand-soft text-brand border border-brand-border">
+                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-extrabold bg-indigo-50 text-indigo-700 border border-indigo-200">
                         <Sparkles className="w-3.5 h-3.5" />
-                        Module {module.id} Complete!
+                        {failedByHearts ? 'Hati Habis!' : `Pos ${module.id} Tuntas!`}
                     </span>
                     <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
-                        {isMastered ? 'Mumtāz! Great Work!' : 'Good Effort! Keep Practicing!'}
+                        {failedByHearts
+                            ? 'Jangan Menyerah, Yuk Coba Lagi!'
+                            : isMastered
+                                ? 'Mumtāz! Hebat Sekali!'
+                                : 'Bagus! Pos Berhasil Dilewati!'}
                     </h2>
                     <p className="text-sm text-slate-600 max-w-md mx-auto">
-                        You answered{' '}
-                        <strong className="text-slate-900 tabular-nums">
-                            {score} of {questions.length} questions
-                        </strong>{' '}
-                        ({percentage}%) correctly in <strong className="text-slate-900">{module.title}</strong>.
+                        {failedByHearts ? (
+                            <>
+                                3 hatimu habis di Pos {module.id}. Yuk intip lagi tabel polanya sebentar lalu taklukkan 10 soal acak baru!
+                            </>
+                        ) : (
+                            <>
+                                Kamu menjawab benar{' '}
+                                <strong className="text-slate-900 tabular-nums">
+                                    {score} dari {questions.length} soal
+                                </strong>{' '}
+                                ({percentage}%) pada materi <strong className="text-slate-900">{module.title}</strong>.
+                            </>
+                        )}
                     </p>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
                     <button
                         type="button"
-                        onClick={handleRetry}
+                        onClick={failedByHearts ? onBackToLesson : handleRetry}
                         className="tactile-btn min-h-12 px-5 py-3 rounded-2xl border-2 border-slate-200 bg-white hover:border-slate-300 text-slate-800 font-extrabold text-sm flex items-center justify-center gap-2 cursor-pointer"
                     >
-                        <RotateCcw className="w-4 h-4 shrink-0" />
-                        <span>Retry Module {module.id}</span>
+                        {failedByHearts ? (
+                            <>
+                                <BookOpen className="w-4 h-4 shrink-0" />
+                                <span>Baca Materi Dulu</span>
+                            </>
+                        ) : (
+                            <>
+                                <RotateCcw className="w-4 h-4 shrink-0" />
+                                <span>Ulangi Kuis (Soal Baru)</span>
+                            </>
+                        )}
                     </button>
 
-                    {hasNextModule ? (
+                    {failedByHearts ? (
+                        <button
+                            type="button"
+                            onClick={handleRetry}
+                            className="tactile-btn min-h-12 px-5 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold text-sm flex items-center justify-center gap-2 shadow-[0_4px_0_#3730a3] cursor-pointer"
+                        >
+                            <RotateCcw className="w-4 h-4 shrink-0" />
+                            <span>Coba Soal Acak Baru</span>
+                        </button>
+                    ) : hasNextModule ? (
                         <button
                             type="button"
                             onClick={onNextModule}
-                            className="tactile-btn min-h-12 px-5 py-3 rounded-2xl bg-brand hover:bg-brand-hover text-white font-extrabold text-sm flex items-center justify-center gap-2 shadow-[0_4px_0_#065f46] cursor-pointer"
+                            className="tactile-btn min-h-12 px-5 py-3 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-sm flex items-center justify-center gap-2 shadow-[0_4px_0_#047857] cursor-pointer"
                         >
-                            <span>Next: Module {module.id + 1}</span>
+                            <span>Lanjut ke Pos {module.id + 1}</span>
                             <ArrowRight className="w-4 h-4 shrink-0" />
                         </button>
                     ) : (
                         <button
                             type="button"
                             onClick={onBackToLesson}
-                            className="tactile-btn min-h-12 px-5 py-3 rounded-2xl bg-brand hover:bg-brand-hover text-white font-extrabold text-sm flex items-center justify-center gap-2 shadow-[0_4px_0_#065f46] cursor-pointer"
+                            className="tactile-btn min-h-12 px-5 py-3 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-sm flex items-center justify-center gap-2 shadow-[0_4px_0_#047857] cursor-pointer"
                         >
                             <BookOpen className="w-4 h-4 shrink-0" />
-                            <span>Review Lesson</span>
+                            <span>Kembali ke Materi</span>
                         </button>
                     )}
                 </div>
@@ -156,46 +245,76 @@ export const QuizArena: React.FC<QuizArenaProps> = memo(function QuizArena({
     if (!currentQuestion) return null;
 
     return (
-        <div className="space-y-5 animate-panel-enter">
-            <div className="tactile-card p-4 space-y-3">
-                <div className="flex items-center justify-between gap-2 text-xs font-extrabold">
-                    <span className="text-slate-600 tabular-nums">
-                        Question {currentIndex + 1} of {questions.length}
-                    </span>
-                    <span
-                        className={`px-2.5 py-0.5 rounded-full uppercase tracking-wider text-[11px] ${currentQuestion.difficulty === 'hard'
-                                ? 'bg-rose-100 text-rose-800'
-                                : 'bg-sky-100 text-sky-800'
-                            }`}
-                    >
-                        {currentQuestion.difficulty === 'hard' ? 'Hard' : 'Medium'}
-                    </span>
-                    <span className="text-brand tabular-nums">Score: {score}</span>
-                </div>
+        <div className="space-y-4 animate-panel-enter pb-8">
+            {/* Top Quiz Sub-bar: Kembali ke Materi & 3 Hearts */}
+            <div className="flex items-center justify-between gap-2">
+                <button
+                    type="button"
+                    onClick={onBackToLesson}
+                    className="tactile-btn min-h-10 px-3.5 py-2 rounded-xl bg-white/95 border border-blue-200 hover:border-blue-300 text-slate-700 text-xs font-extrabold flex items-center gap-1.5 shadow-2xs cursor-pointer"
+                >
+                    <ArrowLeft className="w-3.5 h-3.5 shrink-0" />
+                    <span>Kembali ke Materi 📖</span>
+                </button>
 
-                <ProgressBar
-                    current={currentIndex + (hasAnswered ? 1 : 0)}
-                    total={questions.length}
-                    label="Quiz completion progress"
-                />
+                {/* 3 Hearts Pill */}
+                <div
+                    aria-label={`Sisa ${hearts} dari ${MAX_HEARTS} hati`}
+                    className="px-3.5 py-1.5 rounded-2xl bg-white/95 border border-rose-200 flex items-center gap-1.5 shadow-2xs"
+                >
+                    {Array.from({ length: MAX_HEARTS }).map((_, idx) => {
+                        const isAlive = idx < hearts;
+                        return (
+                            <Heart
+                                key={`heart-${idx}`}
+                                className={`w-4 h-4 transition-transform ${isAlive
+                                        ? 'fill-rose-500 text-rose-500 scale-100'
+                                        : 'fill-slate-200 text-slate-300 scale-90'
+                                    }`}
+                            />
+                        );
+                    })}
+                </div>
             </div>
 
+            {/* Question Card */}
             <div
-                key={currentQuestion.id}
+                key={`${currentQuestion.id}-${currentIndex}`}
                 className={`tactile-card p-5 sm:p-6 space-y-5 ${hasAnswered && !isCorrect ? 'animate-shake-x' : 'animate-panel-enter'
                     }`}
             >
-                <p className="text-base sm:text-lg font-extrabold text-slate-900 whitespace-pre-line leading-relaxed">
-                    {currentQuestion.question}
-                </p>
+                <div className="space-y-2.5">
+                    <div className="flex items-center justify-between gap-2 text-xs font-extrabold">
+                        <span className="text-indigo-600">
+                            Tantangan Pos {module.id}: {module.title}
+                        </span>
+                        <span className="px-2.5 py-0.5 rounded-full bg-indigo-50 text-indigo-700 tabular-nums shrink-0">
+                            Soal {currentIndex + 1} / {questions.length}
+                        </span>
+                    </div>
 
-                <div className="space-y-2.5" role="radiogroup" aria-label="Answer choices">
+                    <ProgressBar
+                        current={currentIndex + (hasAnswered ? 1 : 0)}
+                        total={questions.length}
+                        label="Progres pengerjaan kuis"
+                    />
+                </div>
+
+                {/* Question Box */}
+                <div className="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200/90">
+                    <p className="text-base sm:text-lg font-extrabold text-slate-900 whitespace-pre-line leading-relaxed">
+                        {currentQuestion.question}
+                    </p>
+                </div>
+
+                {/* Options */}
+                <div className="space-y-2.5" role="radiogroup" aria-label="Pilihan jawaban">
                     {currentQuestion.options.map((optionText, idx) => {
                         const isThisSelected = selectedOption === idx;
                         const isThisCorrect = idx === currentQuestion.correctIndex;
 
                         let optionStyle =
-                            'border-slate-200 bg-white hover:border-brand/60 text-slate-800';
+                            'border-slate-200 bg-white hover:border-indigo-400 text-slate-800';
                         if (hasAnswered) {
                             if (isThisCorrect) {
                                 optionStyle = 'border-emerald-500 bg-emerald-50 text-emerald-950';
@@ -244,6 +363,7 @@ export const QuizArena: React.FC<QuizArenaProps> = memo(function QuizArena({
                     })}
                 </div>
 
+                {/* Feedback Box */}
                 {hasAnswered && (
                     <div
                         role="status"
@@ -273,24 +393,16 @@ export const QuizArena: React.FC<QuizArenaProps> = memo(function QuizArena({
                                 }`}
                         >
                             <span>
-                                {currentIndex + 1 < questions.length
-                                    ? 'Next Question'
-                                    : 'View Final Score'}
+                                {hearts <= 0
+                                    ? 'Lihat Status Hati'
+                                    : currentIndex + 1 < questions.length
+                                        ? 'Lanjut Soal Berikutnya'
+                                        : 'Lihat Hasil Akhir Pos'}
                             </span>
                             <ArrowRight className="w-4 h-4 shrink-0" />
                         </button>
                     </div>
                 )}
-            </div>
-
-            <div className="text-center">
-                <button
-                    type="button"
-                    onClick={onBackToLesson}
-                    className="text-xs font-extrabold text-slate-500 hover:text-slate-800 underline underline-offset-4 py-2 px-3 cursor-pointer"
-                >
-                    Back to Module {module.id} lesson
-                </button>
             </div>
         </div>
     );
